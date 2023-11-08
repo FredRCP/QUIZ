@@ -115,7 +115,7 @@ a:hover{
 .notification{
   font-weight: 600;
   position: absolute;
-  bottom: 65px;
+  bottom: 75px;
   left: 50px;
   width: max-content;
   padding: 15px 15px;
@@ -197,19 +197,27 @@ button:not(:disabled):hover{
 .start{
   position: fixed;
   display: flex;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   width: 6rem;
   border-radius: 3rem;
   color: green;
   background-color: whitesmoke;
-  border: solid 0.4rem green;
+  border: solid 0.3rem green;
   justify-content: center;
   align-items:center;
-  padding: 3.5rem;
+  padding: 3.6rem;
 }
 
 .start:hover{
   background-color: #302f2f7e;
+}
+
+.pontos{
+  position: fixed;
+  display: flex;
+  bottom: 25rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttonarte{
@@ -271,11 +279,189 @@ button:not(:disabled):hover{
   justify-content: center;
   align-items: center;
 }
-
 .caixaarte{
   border: solid 0.4rem #302f2f;
   color: #302f2f;
 }
+
+.bio{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixabio{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.bio{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixabio{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.bio{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixabio{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.bio{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixabio{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.cia{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixacia{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.cine{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixacine{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.gerais{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixagerais{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.geo{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixageo{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.histo{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixahisto{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.mate{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixamate{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+.tudo{
+  background-image: url('/assets/img/');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixatudo{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+
+
+
 
 
 

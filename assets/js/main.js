@@ -8,7 +8,6 @@ document.addEventListener('click', e=>{
     }
 });
 
-
 async function carregapagina(el){
 
     try{
@@ -20,11 +19,8 @@ async function carregapagina(el){
         const html= await response.text();
         carregar(html);  
 
-    } catch(e){console.log(e)};
-
-
-          
-    }
+    } catch(e){console.log(e)};    
+}
 
 function carregar(response){
     const resultado= document.querySelector('.resultado');
@@ -35,18 +31,17 @@ function resetar(){
     document.location.reload();
 }
 
-
 //Q1 ARTE E CULTURA
 
 const q1=[
-    {   question: 'Modelo',
+    {   question: 'Quem é o autor de “O Príncipe”?',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'Rousseau', correct: false},
+            {text: 'Antoine de Saint-Exupéry', correct: false},
+            {text: 'Montesquieu', correct: false},
+            {text: 'Maquiavel', correct: true},
         ]
-    }, 
+    },
     {   question: 'Qual o livro mais vendido no mundo, depois da Bíblia?',
         answers: [
             {text: 'O Senhor dos Anéis', correct: false},
@@ -76,12 +71,12 @@ const q1=[
 //Q2 BIOLOGIA
 
 const q2=[
-    {   question: 'modelo',
+    {   question: 'sim',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'aaa', correct: true},
+            {text: 'bbb', correct: false},
+            {text: 'ccc', correct: false},
+            {text: 'ddd', correct: false},
         ]
     },
 ]
@@ -187,37 +182,52 @@ const q8=[
 const todasq= [q1, q2, q3, q4, q5, q6, q7, q8]
 let pontos=0;
 
-function start(){
+//INICIAR O JOGO
+
+function start(p){
+    
+    pontos=0;
+    perguntasUsadas=[];
     const pontuacao= document.querySelector('.pontos');
     pontuacao.innerHTML=0;
     const botao=document.querySelector('.start');
-    const arte=document.querySelector('.caixaarte');
+    const caixa=document.querySelector('.generico');
     botao.style.display='none';
-    arte.classList.add('caixa');
-    proximapergunta();
+    caixa.classList.add('caixa');
+    const caixagenerica=document.querySelector('.generico');
+    caixagenerica.style.display='flex';
+    proximapergunta(p);
 }
-
 
 function sorteio(x){
     return Math.floor(Math.random()*x);
 }
 
-const perguntasUsadas = [];
-function proximapergunta(){
+let perguntasUsadas = [];
+
+function proximapergunta(p){
     
     const pergunta= document.querySelector('.pergunta');
     const respostas= document.querySelector('.respostas');
     const botaoproxima= document.querySelector('#botaoproxima');
+    const botao=document.querySelector('.start');
      
     let n1;
-    let totalPerguntas = q1.length;
+    let totalPerguntas = p.length;
     if (perguntasUsadas.length === totalPerguntas) { 
-        return alert('você respondeu a todas as perguntas deste tópico');
+        document.querySelector('.pontos').innerHTML= "Você fez "+ pontos + " pontos! Fim do QUIZ!";
+        botaoproxima.classList.remove('proxima');
+        const botao=document.querySelector('.start');
+        botao.style.display='flex';
+        botao.textContent='REINICIAR';
+        const caixagenerica=document.querySelector('#generico');
+        caixagenerica.style.display='none';
+        return console.log('você respondeu a todas as perguntas deste tópico');
     }
 
     
     do {
-        n1 = sorteio(q1.length);
+        n1 = sorteio(p.length);
     } while (perguntasUsadas.includes(n1));
 
     perguntasUsadas.push(n1);
@@ -227,8 +237,8 @@ function proximapergunta(){
     while(respostas.firstChild){
         respostas.removeChild(respostas.firstChild)
     };
-    pergunta.textContent=q1[n1].question;
-    q1[n1].answers.forEach(resposta=>{
+    pergunta.textContent=p[n1].question;
+    p[n1].answers.forEach(resposta=>{
         const botao= document.createElement('button');
         botao.classList.add('botao');
         botao.textContent= resposta.text;

@@ -1,15 +1,16 @@
-<section class="cinema">
+<section class="cine">
 
-    <div class="generico caixacinema">
+    <div class="generico caixacine">
         <span class="pergunta">Pergunta</span>
-        <div class="respostas">
-            <button onclick="a()">reposta a</button>
-            <button onclick="a()">reposta b</button>
-            <button onclick="a()">resposta c</button>
-            <button onclick="a()">resposta d</button>
+        <div id="generico" class="respostas">
+            <button class="botao" onclick="a()">reposta a</button>
+            <button class="botao" onclick="a()">reposta b</button>
+            <button class="botao" onclick="a()">resposta c</button>
+            <button class="botao" onclick="a()">resposta d</button>
         </div>
         
     </div>
-    <button onclick="start()" class="start">INICIAR</button>
-    <span></span>
+    <button onclick="start(q4)" class="start buttoncinema">INICIAR</button>
+    <button id="botaoproxima" onclick="proximapergunta(q4)" class="generico">PRÓXIMA PERGUNTA</button>
+    <span class="pontos"></span>
     </section>
