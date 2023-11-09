@@ -213,9 +213,10 @@ button:not(:disabled):hover{
 }
 
 .pontos{
+  font-size: 3rem;
   position: fixed;
   display: flex;
-  bottom: 25rem;
+  bottom: 20rem;
   align-items: center;
   justify-content: center;
 }
@@ -230,7 +231,7 @@ button:not(:disabled):hover{
   position: fixed;
   display: flex;
   padding: 1rem;
-  bottom: 35rem;
+  bottom: 30rem;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
@@ -248,18 +249,15 @@ button:not(:disabled):hover{
   flex-flow: column wrap;
   min-width: 40rem;
   max-width: 80rem;
-  border: solid 0.4rem #302f2f;
   border-radius: 1rem;
   padding: 2rem 4rem;
   gap: 2rem;
-  color: #302f2f;
   align-items: center;
   justify-content: center;
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 10rem;
 }
-
 .caixa .respostas{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -296,56 +294,8 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixabio{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
-}
-
-.bio{
-  background-image: url('/assets/img/');
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-.caixabio{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
-}
-
-.bio{
-  background-image: url('/assets/img/');
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-.caixabio{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
-}
-
-.bio{
-  background-image: url('/assets/img/');
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-.caixabio{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  border: solid 0.4rem blue;
+  color: blue;
 }
 
 .cia{
@@ -360,8 +310,8 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixacia{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  border: solid 0.4rem rgb(42, 168, 42);
+  color: rgb(42, 168, 42);
 }
 
 .cine{

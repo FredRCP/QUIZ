@@ -121,7 +121,7 @@ const q5=[
 
     {   question: 'Quem disse: "SÓ SEI QUE NADA SEI"?',
         answers: [
-            {text: 'PLatão', correct: false},
+            {text: 'Platão', correct: false},
             {text: 'Galileu Galilei', correct: false},
             {text: 'Sócrates', correct: true},
             {text: 'Aristóteles', correct: false}
@@ -177,16 +177,21 @@ const q8=[
     },
 ]
 
+const todasq= [...q1, ...q2, ...q3, ...q4, ...q5, ...q6, ...q7, ...q8]
+
 //PARTE FUNCIONAL
 
-const todasq= [q1, q2, q3, q4, q5, q6, q7, q8]
-let pontos=0;
+let pontos;
+let acertos;
+let erros;
 
 //INICIAR O JOGO
 
 function start(p){
     
     pontos=0;
+    acertos=0;
+    erros=0;
     perguntasUsadas=[];
     const pontuacao= document.querySelector('.pontos');
     pontuacao.innerHTML=0;
@@ -196,6 +201,7 @@ function start(p){
     caixa.classList.add('caixa');
     const caixagenerica=document.querySelector('.generico');
     caixagenerica.style.display='flex';
+    
     proximapergunta(p);
 }
 
@@ -213,23 +219,24 @@ function proximapergunta(p){
     const botao=document.querySelector('.start');
      
     let n1;
-    let totalPerguntas = p.length;
-    if (perguntasUsadas.length === totalPerguntas) { 
-        document.querySelector('.pontos').innerHTML= "Você fez "+ pontos + " pontos! Fim do QUIZ!";
-        botaoproxima.classList.remove('proxima');
-        const botao=document.querySelector('.start');
-        botao.style.display='flex';
-        botao.textContent='REINICIAR';
-        const caixagenerica=document.querySelector('#generico');
-        caixagenerica.style.display='none';
-        return console.log('você respondeu a todas as perguntas deste tópico');
-    }
-
+    let totalPerguntas=p.length;
     
+        
+    if (perguntasUsadas.length === totalPerguntas) { 
+                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} questões e fez ${pontos} pontos! Fim do QUIZ!`;
+                botaoproxima.classList.remove('proxima');
+                const botao=document.querySelector('.start');
+                botao.style.display='flex';
+                botao.textContent='REINICIAR';
+                const caixagenerica=document.querySelector('#generico');
+                caixagenerica.style.display='none';
+                return;
+    }
+   
     do {
         n1 = sorteio(p.length);
     } while (perguntasUsadas.includes(n1));
-
+    console.log(n1);
     perguntasUsadas.push(n1);
     
    
@@ -257,10 +264,12 @@ function selecao(e){
         alert('acertou');
         el.classList.add('acertou');
         pontos+=10;
+        acertos+=1;
         pontuacao.innerHTML=pontos;
     } else{
         alert('errou');
         el.classList.add('errou');
+        erros+=1;
         pontuacao.innerHTML=pontos; 
     }
 
