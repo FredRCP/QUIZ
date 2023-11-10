@@ -17,7 +17,7 @@ body{
 
 .resultado{
   display: flex;
-  background-image:url('/assets/img/fundodetela.png');
+  background-image:url('/assets/img/telainicial.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,19 +52,21 @@ aside{
   align-items: center ;
   justify-content:end;
   height: auto;
-  color: yellow;
   padding: 2rem;
   text-align: center;
 }
 
-a{
+a:not(.titulo){
+  display: block;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   color: whitesmoke;
   font-size: 3rem;
 }
 
 a:hover{
-  color: blue;
+  color: green;
 }
 
 .home{
@@ -94,9 +96,10 @@ a:hover{
 }
 
 .categorias div{
-  border: 0.3rem solid green;
+  border: 0.3rem solid;
   box-shadow: 7px 7px 5px rgb(0, 0, 0);
   padding: 0.5rem;
+  border: solid 0.3rem green;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -109,7 +112,7 @@ a:hover{
 .categorias div:hover{
   background-color: rgba(245, 245, 245, 0.61);
   color: whitesmoke;
-  border: 0.3rem solid blue;
+  border: 0.3rem solid whitesmoke;
 }
 
 .notification{
@@ -201,7 +204,7 @@ button:not(:disabled):hover{
   width: 6rem;
   border-radius: 3rem;
   color: green;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.500);
   border: solid 0.3rem green;
   justify-content: center;
   align-items:center;
@@ -212,20 +215,33 @@ button:not(:disabled):hover{
   background-color: #302f2f7e;
 }
 
+.pergunta{
+  color: black;
+}
+
 .pontos{
   font-size: 3rem;
-  position: fixed;
+  color: white;
+  position: absolute;
   display: flex;
-  bottom: 20rem;
   align-items: center;
   justify-content: center;
+
 }
 
-.buttonarte{
-  color: #DF0B19;
-  border: solid 0.4rem #DF0B19;
+.span{
+  display: flex;
+  position: fixed;
+  bottom: 15rem;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  background-image: url('/assets/img/placar1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
 
 .proxima{
   position: fixed;
@@ -278,11 +294,12 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixaarte{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  color: #DF0B19;
+  border: solid 0.4rem #DF0B19;
 }
 
 .bio{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -299,6 +316,7 @@ button:not(:disabled):hover{
 }
 
 .cia{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -315,6 +333,7 @@ button:not(:disabled):hover{
 }
 
 .cine{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -326,11 +345,12 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixacine{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  border: solid 0.4rem yellow;
+  color: yellow;
 }
 
-.gerais{
+.esporte{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -341,12 +361,13 @@ button:not(:disabled):hover{
   justify-content: center;
   align-items: center;
 }
-.caixagerais{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+.caixaesporte{
+  border: solid 0.4rem white;
+  color: white;
 }
 
 .geo{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -358,11 +379,12 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixageo{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  border: solid 0.4rem rgb(61, 40, 40);
+  color: rgb(61, 40, 40);
 }
 
 .histo{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -379,6 +401,7 @@ button:not(:disabled):hover{
 }
 
 .mate{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
@@ -395,6 +418,7 @@ button:not(:disabled):hover{
 }
 
 .tudo{
+  background-color: rgba(245, 245, 245, 0.500);
   background-image: url('/assets/img/');
   background-position: center;
   background-size: cover;
