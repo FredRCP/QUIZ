@@ -88,7 +88,7 @@ a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2rem;
-  gap: 1rem;
+  gap: 1.1rem;
   align-items: center;
   justify-content: center;
   margin-top: -3rem;
@@ -98,7 +98,7 @@ a:hover{
 .categorias div{
   border: 0.3rem solid;
   box-shadow: 7px 7px 5px rgb(0, 0, 0);
-  padding: 0.5rem;
+  padding: 0.5rem 0.8rem;
   border: solid 0.3rem green;
   align-items: center;
   justify-content: center;
