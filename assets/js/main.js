@@ -188,14 +188,47 @@ const q1=[
 //Q2 BIOLOGIA
 
 const q2=[
-    {   question: 'sim',
+    {   question: 'Quais destas doenças são sexualmente transmissíveis?',
         answers: [
-            {text: 'aaa', correct: true},
-            {text: 'bbb', correct: false},
-            {text: 'ccc', correct: false},
-            {text: 'ddd', correct: false},
+            {text: 'Aids, tricomoníase e ebola', correct: false},
+            {text: 'Gonorreia, clamídia e sífilis', correct: true},
+            {text: 'Botulismo, cistite e gonorreia', correct: false},
+            {text: 'Chikungunya, aids e herpes genital', correct: false},
         ]
     },
+    {   question: 'Qual tipo sanguíneo é considerado doador universal?',
+        answers: [
+            {text: 'O', correct: true},
+            {text: 'AB', correct: false},
+            {text: 'A', correct: false},
+            {text: 'B', correct: false},
+        ]
+    },
+    {   question: 'Qual cromossomo determina o sexo masculino?',
+        answers: [
+            {text: 'Y', correct: true},
+            {text: 'X', correct: false},
+            {text: 'W', correct: false},
+            {text: 'Z', correct: false},
+        ]
+    },
+    {   question: 'Como se chamam os vasos que transportam sangue do coração para a periferia do corpo?',
+        answers: [
+            {text: 'Veias', correct: false},
+            {text: 'Capilares', correct: false},
+            {text: 'Ventrículos', correct: false},
+            {text: 'Artérias', correct: true},
+        ]
+    },
+    {   question: 'Quais as maiores pandemias da história?',
+        answers: [
+            {text: 'Gripe espanhola e Câncer', correct: false},
+            {text: 'Varíola e Hipertensão Arterial', correct: false},
+            {text: 'Gripe Espanhola e Peste Negra', correct: false},
+            {text: 'Peste Negra e Covid-19', correct: true},
+        ]
+    },
+
 ]
 
 //Q3 CIÊNCIAS
@@ -495,20 +528,20 @@ const q6=[
             {text: 'Suécia', correct: true},
         ]
     },
-    {   question: '',
+    {   question: 'Qual é o rio mais largo do mundo?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Amazonas', correct: true},
+            {text: 'Nilo', correct: false},
+            {text: 'Missouri', correct: false},
+            {text: 'Ganges', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual é o rio mais longo do mundo?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Amazonas', correct: false},
+            {text: 'São Francisco', correct: false},
+            {text: 'Missouri', correct: false},
+            {text: 'Nilo', correct: true},
         ]
     },
 
@@ -527,30 +560,112 @@ const q7=[
             {text: 'Idade Média', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Quais os nomes dos três Reis Magos?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Belchior, Gaspar e Baltazar', correct: true},
+            {text: 'Gaspar, Nicolau e Natanael', correct: false},
+            {text: 'Belchior, Gaspar e Nataniel', correct: false},
+            {text: 'Melchior, Noé e Galileu', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Que líder mundial ficou conhecida como “Dama de Ferro”?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Christine Lagarde', correct: false},
+            {text: 'Margaret Thatcher', correct: true},
+            {text: 'Angela Merkel', correct: false},
+            {text: 'Hillary Clinton', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual o tema do famoso discurso Eu Tenho um Sonho, de Martin Luther King?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Intolerância religiosa', correct: false},
+            {text: 'Justiça para os menos favorecidos', correct: false},
+            {text: 'Igualdade das raças', correct: true},
+            {text: 'Luta contra o Apartheid', correct: false},
         ]
     },
+    {   question: 'Quem foi o primeiro homem a pisar na Lua? Em que ano aconteceu?',
+        answers: [
+            {text: 'Yuri Gagarin, em 1961', correct: false},
+            {text: 'Buzz Aldrin, em 1969', correct: false},
+            {text: 'Charles Duke, em 1971', correct: false},
+            {text: 'Neil Armstrong, em 1969', correct: true},
+        ]
+    },
+    {   question: 'Quem amamentou os gêmeos Rômulo e Remo?',
+        answers: [
+            {text: 'uma cabra', correct: false},
+            {text: 'uma loba', correct: true},
+            {text: 'uma vaca', correct: false},
+            {text: 'uma ovelha', correct: false},
+        ]
+    },
+    {   question: 'Quem viveu, segundo a Bíblia, 969 anos?',
+        answers: [
+            {text: 'Matusalém', correct: true},
+            {text: 'Noé', correct: false},
+            {text: 'Abel', correct: false},
+            {text: 'Benjamin', correct: false},
+        ]
+    },
+    {   question: 'Em que cidade ocorreu a Eco-92, a Conferência das Nações Unidas sobre ambiente e desenvolvimento?',
+        answers: [
+            {text: 'Rio de Janeiro', correct: true},
+            {text: 'Buenos Aires', correct: false},
+            {text: 'Montevidéu', correct: false},
+            {text: 'Caracas', correct: false},
+        ]
+    },
+    {   question: 'Em que ano e quem foi eleito o primeiro presidente do Brasil?',
+        answers: [
+            {text: '1889, Hermes da Fonseca', correct: false},
+            {text: '1890, Floriano Peixoto', correct: false},
+            {text: '1891, Deodoro da Fonseca', correct: true},
+            {text: 'Getúlio Vargas', correct: false},
+        ]
+    },
+    {   question: 'Chernobyl e Césio-137 fazem parte dos maiores acidentes nucleares da história. Em que países aconteceram?',
+        answers: [
+            {text: 'Ucrânia e Brasil', correct: true},
+            {text: 'Rússia e Espanha', correct: false},
+            {text: 'Estados Unidos e Ucrânia', correct: false},
+            {text: 'Japão e Brasil', correct: false},
+        ]
+    },
+    {   question: 'Que acontecimento importante para a história da humanidade teve lugar em 20 de julho de 1969?',
+        answers: [
+            {text: 'Lançamento das bombas atômicas em Hiroshima e Nagasaki', correct: false},
+            {text: 'Fim do Apartheid', correct: false},
+            {text: 'Chegada do homem à Lua', correct: true},
+            {text: 'Envio do primeiro e-mail da história', correct: false},
+        ]
+    },
+    {   question: 'Qual o nome do presidente do Brasil que ficou conhecido como Jango?',
+        answers: [
+            {text: 'Jânio Quadros', correct: false},
+            {text: 'Getúlio Vargas', correct: false},
+            {text: 'João Figueiredo', correct: false},
+            {text: 'João Goulart', correct: true},
+        ]
+    },
+    {   question: 'Onde foram realizados os primeiros Jogos Olímpicos modernos, em 1896?',
+        answers: [
+            {text: 'Atenas', correct: true},
+            {text: 'Esparta', correct: false},
+            {text: 'Barcelona', correct: false},
+            {text: 'Berlim', correct: false},
+        ]
+    },
+    {   question: 'Durante quantos anos Fidel Castro, um dos ditadores que esteve mais tempo no poder, esteve à frente de Cuba?',
+        answers: [
+            {text: '51 anos', correct: false},
+            {text: '20 anos', correct: false},
+            {text: '49 anos', correct: true},
+            {text: '30 anos', correct: false},
+        ]
+    },
+    
+
 ]
 
 //Q8  TEMAS DIVERSOS
@@ -564,12 +679,12 @@ const q8=[
             {text: 'd', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Quantas teclas há em um piano clássico?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: '88', correct: true},
+            {text: '99', correct: false},
+            {text: '10', correct: false},
+            {text: '25', correct: false},
         ]
     },
     {   question: '',
