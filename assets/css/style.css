@@ -115,6 +115,15 @@ a:hover{
   border: 0.3rem solid whitesmoke;
 }
 
+.logo{
+  position: fixed;
+  top: -0.4rem;
+  left: 0.1rem;
+  width: 12rem;
+  height: 12rem;
+  
+}
+
 .notification{
   font-weight: 600;
   position: absolute;
@@ -200,9 +209,9 @@ button:not(:disabled):hover{
 .start{
   position: fixed;
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   width: 6rem;
-  border-radius: 3rem;
+  border-radius: 4rem;
   color: green;
   background-color: rgba(245, 245, 245, 0.500);
   border: solid 0.3rem green;
@@ -220,24 +229,26 @@ button:not(:disabled):hover{
 }
 
 .pontos{
-  font-size: 3rem;
-  color: white;
+  font-size: 1.8rem;
+  color: black;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 70%;
+  text-align: center;
 
 }
 
 .span{
   display: flex;
   position: fixed;
-  bottom: 15rem;
+  bottom: 10rem;
   align-items: center;
   justify-content: center;
-  width: 15rem;
-  height: 15rem;
-  background-image: url('/assets/img/placar1.png');
+  width: 40rem;
+  height: 20rem;
+  background-image: url('/assets/img/PLACAR.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -443,18 +454,17 @@ button:not(:disabled):hover{
 
 
 @media(max-width: 1366px){
+  
   .categorias{
     padding: 1rem;
     margin-top: 1rem;
   }
   
   .categorias div{
-    padding: 0.1rem;
-    font-weight: 600;
-    border-radius: 1rem;
+    padding: 0.1rem 0.2rem;
   }
-  
-  a{
+
+  .categorias div a{
     font-size: 2rem;
   }
 
@@ -463,10 +473,37 @@ button:not(:disabled):hover{
   }
 
   .start{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     width: 4rem;
     border-radius: 4rem;
-    padding: 4rem;
+    padding: 3rem;
+    border: solid 0.3rem;
+  }
+
+  .span{
+    display: flex;
+    position: fixed;
+    bottom: 10rem;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+    background-image: url('/assets/img/placar1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .proxima{
+    padding: 0rem;
+    bottom: 21rem;
+    font-size: 1.2rem;
+  }
+
+  .caixa{
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    gap: 1rem;
   }
 
 }
