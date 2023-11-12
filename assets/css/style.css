@@ -224,9 +224,7 @@ button:not(:disabled):hover{
   background-color: #302f2f7e;
 }
 
-.pergunta{
-  color: black;
-}
+
 
 .pontos{
   font-size: 1.8rem;
@@ -284,6 +282,7 @@ button:not(:disabled):hover{
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 10rem;
+  background-color: rgba(245, 245, 245, 0.600);
 }
 .caixa .respostas{
   display: grid;
@@ -378,8 +377,7 @@ button:not(:disabled):hover{
 }
 
 .geo{
-  background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/geo.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -390,8 +388,8 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixageo{
-  border: solid 0.4rem rgb(61, 40, 40);
-  color: rgb(61, 40, 40);
+  border: solid 0.4rem #130647;
+  color:  #130647;
 }
 
 .histo{

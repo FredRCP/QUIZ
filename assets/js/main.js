@@ -37,10 +37,18 @@ let pontos;
 let acertos;
 let erros;
 
+
+//AUDIO
+const acerto = new Audio('/assets/sounds/acerto.mp3'); 
+const acertou = new Audio('/assets/sounds/acertou.m4a');
+const errou = new Audio('/assets/sounds/errou.m4a'); 
+const erro = new Audio('/assets/sounds/erro.mp3');
+const fim = new Audio('/assets/sounds/fim.mp3');
+const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
 //INICIAR O JOGO
 
 function start(p){
-    
+    fim.play();
     pontos=0;
     acertos=0;
     erros=0;
@@ -82,6 +90,7 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 caixagenerica.style.display='none';
+                fimvitoria.play();
                 return;
     }
    
@@ -113,13 +122,13 @@ function selecao(e){
     const pontuacao= document.querySelector('.pontos');
     const el = e.target;
     if(el.dataset.correct){
-        alert('acertou');
+        acerto.play().then(acertou.play());
         el.classList.add('acertou');
         pontos+=10;
         acertos+=1;
         pontuacao.innerHTML=pontos;
     } else{
-        alert('errou');
+        erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;
         pontuacao.innerHTML=pontos; 
@@ -137,6 +146,9 @@ function selecao(e){
     const botaoproxima= document.querySelector('#botaoproxima');
     botaoproxima.classList.add('proxima');
 }
+
+
+
 
 // BANCO DE DADOS A SEGUIR
 
