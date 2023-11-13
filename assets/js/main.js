@@ -37,6 +37,7 @@ let pontos;
 let acertos;
 let erros;
 let vidas;
+let nome;
 
 
 //AUDIO
@@ -49,6 +50,7 @@ const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
 //INICIAR O JOGO
 
 function start(p){
+    nome= prompt('Qual seu nome?');
     vidas=3;
     fim.play();
     pontos=0;
@@ -56,6 +58,8 @@ function start(p){
     erros=0;
     perguntasUsadas=[];
     const pontuacao= document.querySelector('.pontos');
+    const span= document.querySelector('.span');
+    span.style.display='flex';
     pontuacao.innerHTML=0;
     const botao=document.querySelector('.start');
     const caixa=document.querySelector('.generico');
@@ -63,7 +67,7 @@ function start(p){
     caixa.classList.add('caixa');
     const caixagenerica=document.querySelector('.generico');
     caixagenerica.style.display='flex';
-    
+    document.querySelector('.pontos').innerHTML=nome + "<br>"+ 'Pontos: ' + pontos;
     proximapergunta(p);
 }
 
@@ -84,7 +88,8 @@ function proximapergunta(p){
     let totalPerguntas=p.length;
     
     if(vidas===0){
-                document.querySelector('.pontos').innerHTML= `Você errou ${erros} questões! FIM DE JOGO!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length} Pontuação: ${pontos} pontos`;
+                document.querySelector('.pontos').innerHTML= `${nome}, você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`;
+                alert('FIM DE JOGO!');
                 botaoproxima.classList.remove('proxima');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
@@ -96,7 +101,7 @@ function proximapergunta(p){
     }    
     if (perguntasUsadas.length === totalPerguntas) { 
         console.log('aqui');
-                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${totalPerguntas.length} questões e fez ${pontos} pontos! Fim do QUIZ!`;
+                document.querySelector('.pontos').innerHTML= `${nome}, você acertou ${acertos} de ${perguntasUsadas.length} questões` + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
@@ -139,13 +144,13 @@ function selecao(e){
         el.classList.add('acertou');
         pontos+=10;
         acertos+=1;
-        pontuacao.innerHTML=pontos;
+        pontuacao.innerHTML=nome + "<br>"+ 'Pontos: ' + pontos;
     } else{
         erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;
         vidas-=1;
-        pontuacao.innerHTML=pontos; 
+        pontuacao.innerHTML=nome + "<br>"+ 'Pontos: ' + pontos;; 
     }
 
     document.querySelectorAll('.botao').forEach(button=>{

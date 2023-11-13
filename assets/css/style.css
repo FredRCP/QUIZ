@@ -117,10 +117,10 @@ a:hover{
 
 .logo{
   position: fixed;
-  top: -0.4rem;
+  top: -0.7rem;
   left: 0.1rem;
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 15rem;
   
 }
 
@@ -214,7 +214,7 @@ button:not(:disabled):hover{
   width: 6rem;
   border-radius: 4rem;
   color: green;
-  background-color: rgba(245, 245, 245, 0.500);
+  background-color: rgba(245, 245, 245, 0.700);
   border: solid 0.3rem green;
   justify-content: center;
   align-items:center;
@@ -225,28 +225,26 @@ button:not(:disabled):hover{
   background-color: #302f2f7e;
 }
 
-
-
 .pontos{
   font-size: 1.8rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 80%;
   text-align: center;
 
 }
 
 .span{
-  display: flex;
+  display: none;
   position: fixed;
   bottom: 10rem;
   align-items: center;
   justify-content: center;
   width: 28rem;
   height: 10rem;
-  border-radius: 4rem;
+  border-radius: 3rem;
   border: solid 0.2rem whitesmoke;
 }
 
@@ -272,9 +270,9 @@ button:not(:disabled):hover{
   flex-flow: column wrap;
   min-width: 40rem;
   max-width: 80rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 2rem 4rem;
-  gap: 2rem;
+  gap: 3rem;
   align-items: center;
   justify-content: center;
   font-size: 2.4rem;
@@ -307,7 +305,7 @@ button:not(:disabled):hover{
 }
 .pontoarte{
   color:#DF0B19;
-  background-color: rgba(245, 245, 245, 0.500);
+  background-color: rgba(245, 245, 245, 0.700);
 }
 
 .bio{
@@ -326,6 +324,9 @@ button:not(:disabled):hover{
   border: solid 0.4rem blue;
   color: blue;
 }
+.pontobio{
+  background-color: rgba(245, 245, 245, 0.700);
+}
 
 .cia{
   background-color: rgba(245, 245, 245, 0.500);
@@ -342,6 +343,9 @@ button:not(:disabled):hover{
 .caixacia{
   border: solid 0.4rem rgb(42, 168, 42);
   color: rgb(42, 168, 42);
+}
+.pontocia{
+  background-color: rgba(245, 245, 245, 0.700);
 }
 
 .cine{
@@ -360,6 +364,9 @@ button:not(:disabled):hover{
   border: solid 0.4rem yellow;
   color: yellow;
 }
+.pontocine{
+  background-color: rgba(245, 245, 245, 0.700);
+}
 
 .esporte{
   background-color: rgba(245, 245, 245, 0.500);
@@ -376,6 +383,9 @@ button:not(:disabled):hover{
 .caixaesporte{
   border: solid 0.4rem white;
   color: white;
+}
+.pontoesporte{
+  background-color: rgba(245, 245, 245, 0.700);
 }
 
 .geo{
@@ -394,7 +404,7 @@ button:not(:disabled):hover{
   color:  #130647;
 }
 .pontogeo{
-  background-color: rgba(245, 245, 245, 0.500);
+  background-color: rgba(245, 245, 245, 0.700);
   color:#130647;
 }
 
@@ -414,6 +424,9 @@ button:not(:disabled):hover{
   border: solid 0.4rem #302f2f;
   color: #302f2f;
 }
+.pontohisto{
+  background-color: rgba(245, 245, 245, 0.700);
+}
 
 .mate{
   background-color: rgba(245, 245, 245, 0.500);
@@ -431,6 +444,9 @@ button:not(:disabled):hover{
   border: solid 0.4rem #302f2f;
   color: #302f2f;
 }
+.pontomate{
+  background-color: rgba(245, 245, 245, 0.700);
+}
 
 .tudo{
   background-color: rgba(245, 245, 245, 0.500);
@@ -447,6 +463,9 @@ button:not(:disabled):hover{
 .caixatudo{
   border: solid 0.4rem #302f2f;
   color: #302f2f;
+}
+.pontotudo{
+  background-color: rgba(245, 245, 245, 0.700);
 }
 
 
