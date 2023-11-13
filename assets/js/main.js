@@ -36,6 +36,7 @@ function resetar(){
 let pontos;
 let acertos;
 let erros;
+let vidas;
 
 
 //AUDIO
@@ -48,6 +49,7 @@ const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
 //INICIAR O JOGO
 
 function start(p){
+    vidas=3;
     fim.play();
     pontos=0;
     acertos=0;
@@ -81,9 +83,20 @@ function proximapergunta(p){
     let n1;
     let totalPerguntas=p.length;
     
-        
+    if(vidas===0){
+                document.querySelector('.pontos').innerHTML= `Você errou ${erros} questões! FIM DE JOGO!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length} Pontuação: ${pontos} pontos`;
+                botaoproxima.classList.remove('proxima');
+                const botao=document.querySelector('.start');
+                botao.style.display='flex';
+                botao.textContent='REINICIAR';
+                const caixagenerica=document.querySelector('#generico');
+                caixagenerica.style.display='none';
+                fim.play();
+                return;
+    }    
     if (perguntasUsadas.length === totalPerguntas) { 
-                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} questões e fez ${pontos} pontos! Fim do QUIZ!`;
+        console.log('aqui');
+                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${totalPerguntas.length} questões e fez ${pontos} pontos! Fim do QUIZ!`;
                 botaoproxima.classList.remove('proxima');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
@@ -131,6 +144,7 @@ function selecao(e){
         erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;
+        vidas-=1;
         pontuacao.innerHTML=pontos; 
     }
 
@@ -146,6 +160,7 @@ function selecao(e){
     const botaoproxima= document.querySelector('#botaoproxima');
     botaoproxima.classList.add('proxima');
 }
+
 
 
 
@@ -373,12 +388,12 @@ const q4=[
 //Q5 ESPORTE
 
 const q5=[
-    {   question: 'modelo',
+    {   question: 'Qual país sediou a Copa do Mundo de 1998, onde a seleção brasileira chegou à final?',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'França', correct: true},
+            {text: 'Itália', correct: false},
+            {text: 'Alemanha', correct: false},
+            {text: 'Japão', correct: false},
         ]
     },
 
@@ -399,28 +414,28 @@ const q5=[
             {text: 'Nietzsche', correct: false}
         ]
     }, 
-    {   question: '',
+    {   question: 'Qual o esporte mais antigo do mundo?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Futebol', correct: false},
+            {text: 'Luta livre', correct: true},
+            {text: 'Corrida', correct: false},
+            {text: 'Natação', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual o esporte mais popular do mundo?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Tênis', correct: false},
+            {text: 'Corrida', correct: false},
+            {text: 'Futebol', correct: true},
+            {text: 'Basquete', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual famoso piloto brasileiro de Fórmula 1 conquistou três campeonatos mundiais durante os anos 90?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Emerson Fittipaldi', correct: false},
+            {text: 'Nelson Piquet', correct: false},
+            {text: 'Rubens Barrichello', correct: false},
+            {text: 'Ayrton Senna', correct: true},
         ]
     },
 ]
@@ -468,10 +483,10 @@ const q6=[
             {text: 'Catedral de Notre Dame', correct: false},
         ]
     },
-    {   question: 'Com que dois países faz fronteira o Equador?',
+    {   question: 'O Equador faz fronteira com quais países?',
         answers: [
             {text: 'Colômbia e Peru', correct: true},
-            {text: 'Peru e Equador', correct: false},
+            {text: 'Peru e Bolívia', correct: false},
             {text: 'Brasil e Venezuela', correct: false},
             {text: 'Uruguai e Panamá', correct: false},
         ]
@@ -516,12 +531,12 @@ const q6=[
             {text: 'Rússia', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual a capital do Brasil?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Brasília', correct: true},
+            {text: 'Rio de Janeiro', correct: false},
+            {text: 'Buenos Aires', correct: false},
+            {text: 'São Paulo', correct: false},
         ]
     },
     {   question: 'Em qual local da Ásia o português é língua oficial?',
