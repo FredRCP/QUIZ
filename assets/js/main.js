@@ -48,15 +48,18 @@ const acerto = new Audio('/assets/sounds/acerto.mp3');
 const acertou = new Audio('/assets/sounds/acertou.m4a');
 const errou = new Audio('/assets/sounds/errou.m4a'); 
 const erro = new Audio('/assets/sounds/erro.mp3');
-const fim = new Audio('/assets/sounds/fim.mp3');
+const inicio = new Audio('/assets/sounds/inicio.mp3');
 const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
+const derrota= new Audio('/assets/sounds/derrota.mp3');
+const silvio= new Audio('/assets/sounds/certasilvio.m4a');
+const palmas=new Audio('/assets/sounds/palmas.m4a');
 
 //INICIAR O JOGO
 
 function start(p){
     nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
     vidas=3;
-    fim.play();
+    inicio.play();
     pontos=0;
     acertos=0;
     erros=0;
@@ -93,14 +96,14 @@ function proximapergunta(p){
     
     if(vidas===0){
                 porcento=(acertos/perguntasUsadas.length)*100;
-                porcento=porcento.toFixed(2);
+                porcento=porcento.toFixed(1);
                 if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'}
                 if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'}
                 if(porcento>=70&&porcento<85){cumprimento='Muito bom!'}
                 if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
                 if(porcento>=30&&porcento<50){cumprimento='Você chega lá!'}
                 if(porcento<30){cumprimento='Não desista, busque o conhecimento!'}
-                document.querySelector('.pontos').innerHTML= nome +"<br>"+ `Você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
+                document.querySelector('.pontos').innerHTML= `Você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}%`+"<br>"+cumprimento;
                 alert('FIM DE JOGO!');  
                 botaoproxima.classList.remove('proxima');
@@ -109,7 +112,7 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 caixagenerica.style.display='none';
-                fim.play();
+                derrota.play();
                 return;
     }    
     if (perguntasUsadas.length === totalPerguntas) { 
@@ -120,7 +123,7 @@ function proximapergunta(p){
                 if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
                 if(porcento>=30&&porcento<50){cumprimento='Você chega lá!'}
                 if(porcento<30){cumprimento='Não desista, busque o conhecimento!'}
-                porcento=porcento.toFixed(2);
+                porcento=porcento.toFixed(1);
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+"<br>"+`Acertos: ${porcento}%`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
@@ -161,7 +164,7 @@ function selecao(e){
     const pontuacao= document.querySelector('.pontos');
     const el = e.target;
     if(el.dataset.correct){
-        acerto.play().then(acertou.play());
+        acerto.play().then(silvio.play()).then(palmas.play());
         el.classList.add('acertou');
         pontos+=10;
         acertos+=1;
@@ -250,7 +253,16 @@ const q1=[
         {text: 'Saci', correct: false},
         {text: 'Boitatá', correct: false},
         {text: 'Negrinho do Pastoreio', correct: false},
-    ]}
+    ]},
+    {   question: 'Quem pintou o teto da capela sistina?',
+        answers: [
+            {text: 'Donatello', correct: false},
+            {text: 'Leonardo da Vinci', correct: false},
+            {text: 'Sandro Botticelli', correct: false},
+            {text: 'Michelangelo', correct: true},
+        ]
+    },
+
 ]
 
 
@@ -273,6 +285,15 @@ const q2=[
             {text: 'B', correct: false},
         ]
     },
+    {   question: 'Qual o maior animal terrestre?',
+        answers: [
+            {text: 'Baleia azul', correct: false},
+            {text: 'Girafa', correct: false},
+            {text: 'Elefante africano', correct: true},
+            {text: 'Hipopótamo', correct: false},
+        ]
+    },
+
     {   question: 'Qual cromossomo determina o sexo masculino?',
         answers: [
             {text: 'Y', correct: true},
@@ -390,41 +411,50 @@ const q3=[
 
 
 
-//Q4 CINEMA
+//Q4 CINEMA E MÚSICA
 
 const q4=[
-    {   question: 'modelo',
+    {   question: 'Qual desses filmes foi baseado na obra de Shakespeare?',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'Muito Barulho por Nada (2012)', correct: true},
+            {text: 'A Revolução dos Bichos (1954)', correct: false},
+            {text: 'Excalibur (1981)', correct: false},
+            {text: 'A Dama das Camélias (1936)', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Jim Morrison era vocalista de que grupo?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Pink Floyd', correct: false},
+            {text: 'The Doors', correct: true},
+            {text: 'Nirvana', correct: false},
+            {text: 'AC/DC', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual o nome do primeiro filme da Disney, lançado em 1937?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Branca de Neve e os Sete Anões', correct: true},
+            {text: 'Pinóquio', correct: false},
+            {text: 'Dumbo', correct: false},
+            {text: 'A bela adormecida', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual o nome do primeiro filme da Pixar, lançado em 1995?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Procurando Nemo', correct: false},
+            {text: 'Monstros S.A.', correct: false},
+            {text: 'Toy Story', correct: true},
+            {text: 'Vida de Inseto', correct: false},
         ]
     },
+    {   question: 'De qual cidade vieram os Beatles?',
+        answers: [
+            {text: 'Manchester', correct: false},
+            {text: 'Londres', correct: false},
+            {text: 'Liverpool', correct: true},
+            {text: 'Oxford', correct: false},
+        ]
+    },
+
 ]
 
 //Q5 ESPORTE
@@ -595,7 +625,14 @@ const q6=[
             {text: 'Nilo', correct: true},
         ]
     },
-
+    {   question: 'Quais são construções famosas nos Estados Unidos?',
+        answers: [
+            {text: 'Estátua da Liberdade, Big Ben e The High Line', correct: false},
+            {text: 'Estátua da Liberdade, Golden Gate Bridge e Empire State Building', correct: true},
+            {text: 'Lincoln Memorial, Sidney Opera House e Burj Khalifa', correct: false},
+            {text: 'Angkor Wat, Taj Mahal e Skywalk no Grand Canyon', correct: false},
+        ]
+    },
 ]
     
 
@@ -738,20 +775,20 @@ const q8=[
             {text: '25', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual a religião monoteísta que conta com o maior número de adeptos no mundo?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Cristianismo', correct: true},
+            {text: 'Judaísmo', correct: false},
+            {text: 'Islamismo', correct: false},
+            {text: 'Hinduísmo', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual idioma tem o maior número de palavras (de acordo com dicionários)?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Inglês', correct: true},
+            {text: 'Português', correct: false},
+            {text: 'Chinês', correct: false},
+            {text: 'Latim', correct: false},
         ]
     },
 ]

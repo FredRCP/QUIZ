@@ -121,7 +121,6 @@ a:hover{
   left: 0.1rem;
   width: 15rem;
   height: 15rem;
-  
 }
 
 .notification{
@@ -254,7 +253,7 @@ button:not(:disabled):hover{
   bottom: 30rem;
   justify-content: center;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: 2rem;
   font-size: 1.4rem;
   width: 15rem;
   cursor: pointer;
@@ -306,10 +305,13 @@ button:not(:disabled):hover{
   color:#DF0B19;
   background-color: rgba(245, 245, 245, 0.700);
 }
+#pintura{
+  width: 11rem;
+}
 
 .bio{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/bio.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -320,11 +322,14 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixabio{
-  border: solid 0.4rem blue;
-  color: blue;
+  border: solid 0.4rem #55aedf;
+  color: #55aedf;
 }
 .pontobio{
   background-color: rgba(245, 245, 245, 0.700);
+}
+#celula{
+  width: 14rem;
 }
 
 .cia{
@@ -345,6 +350,9 @@ button:not(:disabled):hover{
 }
 .pontocia{
   background-color: rgba(245, 245, 245, 0.700);
+}
+#atomo{
+  width: 11rem;
 }
 
 .cine{
@@ -405,6 +413,9 @@ button:not(:disabled):hover{
 .pontogeo{
   background-color: rgba(245, 245, 245, 0.700);
   color:#130647;
+}
+#globo{
+  width: 10.7rem;
 }
 
 .histo{
@@ -479,7 +490,7 @@ button:not(:disabled):hover{
   
   .categorias{
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
   
   .categorias div{
@@ -503,14 +514,20 @@ button:not(:disabled):hover{
   }
 
   .span{
-    display: flex;
+    display: none;
     position: fixed;
     bottom: 10rem;
     align-items: center;
     justify-content: center;
     width: 20rem;
     height: 10rem;
-    
+  }
+
+  .logo{
+    top: -0.7rem;
+    left: 0.1rem;
+    width: 12rem;
+    height: 12rem;
   }
 
   .proxima{
@@ -520,9 +537,38 @@ button:not(:disabled):hover{
   }
 
   .caixa{
-    border-radius: 1rem;
-    padding: 2rem 3rem;
-    gap: 1rem;
+    border-radius: 2rem;
+    padding: 1.8rem 1.8rem;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .caixa .respostas{
+    font-size: 1.7rem;
+    gap: 2rem;
+  }
+
+  button{
+    padding: 0.5rem;
+  }
+
+  .pontos{
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .span{
+    bottom: 5rem;
+    min-width: 25rem;
+    min-height: 10rem;
+    border-radius: 3rem;
+  }
+
+  #atomo{
+    width: 9rem;
+  }
+  #globo{
+    width: 9rem;
   }
 
 }
