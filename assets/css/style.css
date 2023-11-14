@@ -231,9 +231,8 @@ button:not(:disabled):hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   text-align: center;
-
 }
 
 .span{
@@ -242,8 +241,8 @@ button:not(:disabled):hover{
   bottom: 10rem;
   align-items: center;
   justify-content: center;
-  width: 28rem;
-  height: 10rem;
+  min-width: 30rem;
+  min-height: 12rem;
   border-radius: 3rem;
   border: solid 0.2rem whitesmoke;
 }
@@ -330,7 +329,7 @@ button:not(:disabled):hover{
 
 .cia{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/ciencia.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -341,8 +340,8 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixacia{
-  border: solid 0.4rem rgb(42, 168, 42);
-  color: rgb(42, 168, 42);
+  border: solid 0.4rem darkblue;
+  color: darkblue;
 }
 .pontocia{
   background-color: rgba(245, 245, 245, 0.700);

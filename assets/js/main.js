@@ -37,7 +37,10 @@ let pontos;
 let acertos;
 let erros;
 let vidas;
+let coracao;
 let nome;
+let porcento;
+let cumprimento;
 
 
 //AUDIO
@@ -47,10 +50,11 @@ const errou = new Audio('/assets/sounds/errou.m4a');
 const erro = new Audio('/assets/sounds/erro.mp3');
 const fim = new Audio('/assets/sounds/fim.mp3');
 const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
+
 //INICIAR O JOGO
 
 function start(p){
-    nome= prompt('Qual seu nome?');
+    nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
     vidas=3;
     fim.play();
     pontos=0;
@@ -67,7 +71,7 @@ function start(p){
     caixa.classList.add('caixa');
     const caixagenerica=document.querySelector('.generico');
     caixagenerica.style.display='flex';
-    document.querySelector('.pontos').innerHTML=nome + "<br>"+ 'Pontos: ' + pontos;
+    document.querySelector('.pontos').innerHTML=nome +"<br>" +"Vidas: ❤❤❤" + "<br>"+ 'Pontos: ' + pontos;
     proximapergunta(p);
 }
 
@@ -88,8 +92,17 @@ function proximapergunta(p){
     let totalPerguntas=p.length;
     
     if(vidas===0){
-                document.querySelector('.pontos').innerHTML= `${nome}, você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`;
-                alert('FIM DE JOGO!');
+                porcento=(acertos/perguntasUsadas.length)*100;
+                porcento=porcento.toFixed(2);
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'}
+                if(porcento>=70&&porcento<85){cumprimento='Muito bom!'}
+                if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
+                if(porcento>=30&&porcento<50){cumprimento='Você chega lá!'}
+                if(porcento<30){cumprimento='Não desista, busque o conhecimento!'}
+                document.querySelector('.pontos').innerHTML= nome +"<br>"+ `Você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
+                `Acertos: ${porcento}%`+"<br>"+cumprimento;
+                alert('FIM DE JOGO!');  
                 botaoproxima.classList.remove('proxima');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
@@ -100,8 +113,16 @@ function proximapergunta(p){
                 return;
     }    
     if (perguntasUsadas.length === totalPerguntas) { 
-        console.log('aqui');
-                document.querySelector('.pontos').innerHTML= `${nome}, você acertou ${acertos} de ${perguntasUsadas.length} questões` + "<br>"+"FIM DO QUIZ!";
+                porcento=(acertos/perguntasUsadas.length)*100;
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'}
+                if(porcento>=70&&porcento<85){cumprimento='Muito bom!'}
+                if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
+                if(porcento>=30&&porcento<50){cumprimento='Você chega lá!'}
+                if(porcento<30){cumprimento='Não desista, busque o conhecimento!'}
+                porcento=porcento.toFixed(2);
+                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+"<br>"+`Acertos: ${porcento}%`
+                +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
@@ -144,13 +165,21 @@ function selecao(e){
         el.classList.add('acertou');
         pontos+=10;
         acertos+=1;
-        pontuacao.innerHTML=nome + "<br>"+ 'Pontos: ' + pontos;
+        if(vidas===3){vida=' ❤❤❤'}
+        if(vidas===2){vida=' 💔❤❤'}
+        if(vidas===1){vida=' 💔💔❤'}
+        if(vidas===0){vida=' 💔💔💔'}
+        pontuacao.innerHTML=nome+"<br>"+"Vidas: "+ vida+"<br>" + 'Pontos: ' + pontos;
     } else{
         erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;
         vidas-=1;
-        pontuacao.innerHTML=nome + "<br>"+ 'Pontos: ' + pontos;; 
+        if(vidas===3){vida=' ❤❤❤'}
+        if(vidas===2){vida=' 💔❤❤'}
+        if(vidas===1){vida=' 💔💔❤'}
+        if(vidas===0){vida=' 💔💔💔'}
+        pontuacao.innerHTML= nome+"<br>"+"Vidas: "+ vida+ "<br>"+ 'Pontos: ' + pontos;; 
     }
 
     document.querySelectorAll('.botao').forEach(button=>{
@@ -181,6 +210,14 @@ const q1=[
             {text: 'Antoine de Saint-Exupéry', correct: false},
             {text: 'Montesquieu', correct: false},
             {text: 'Maquiavel', correct: true},
+        ]
+    },
+    {   question: 'De quem é a famosa frase “Penso, logo existo”?',
+        answers: [
+            {text: 'Descartes', correct: true},
+            {text: 'Sócrates', correct: false},
+            {text: 'Platão', correct: false},
+            {text: 'Nietzsche', correct: false}
         ]
     },
     {   question: 'Qual o livro mais vendido no mundo, depois da Bíblia?',
@@ -399,24 +436,6 @@ const q5=[
             {text: 'Itália', correct: false},
             {text: 'Alemanha', correct: false},
             {text: 'Japão', correct: false},
-        ]
-    },
-
-    {   question: 'Quem disse: "SÓ SEI QUE NADA SEI"?',
-        answers: [
-            {text: 'Platão', correct: false},
-            {text: 'Galileu Galilei', correct: false},
-            {text: 'Sócrates', correct: true},
-            {text: 'Aristóteles', correct: false}
-        ]
-    },
-
-    {   question: 'De quem é a famosa frase “Penso, logo existo”?',
-        answers: [
-            {text: 'Descartes', correct: true},
-            {text: 'Sócrates', correct: false},
-            {text: 'Platão', correct: false},
-            {text: 'Nietzsche', correct: false}
         ]
     }, 
     {   question: 'Qual o esporte mais antigo do mundo?',
