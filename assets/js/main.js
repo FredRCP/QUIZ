@@ -351,12 +351,12 @@ const q3=[
             {text: '99', correct: false},
         ]
     },
-    {   question: '',
+    {   question: 'Qual o metal, presente no planeta Terra, de maior densidade?',
         answers: [
-            {text: '', correct: true},
-            {text: '', correct: false},
-            {text: '', correct: false},
-            {text: '', correct: false},
+            {text: 'Ósmio', correct: true},
+            {text: 'Chumbo', correct: false},
+            {text: 'Ferro', correct: false},
+            {text: 'Cádmio', correct: false},
         ]
     },
     {   question: 'modelo',
@@ -722,12 +722,12 @@ const q7=[
 //Q8  TEMAS DIVERSOS
 
 const q8=[
-    {   question: 'modelo',
+    {   question: 'O telégrafo foi criado em 1831. Quem foi seu criador?',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'Thomas Edison', correct: false},
+            {text: 'Nikola Tesla', correct: false},
+            {text: 'Alexander Graham Bell', correct: false},
+            {text: 'Joseph Henry', correct: true},
         ]
     },
     {   question: 'Quantas teclas há em um piano clássico?',
