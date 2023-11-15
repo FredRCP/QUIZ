@@ -277,6 +277,30 @@ const q1=[
             {text: 'Michelangelo', correct: true},
         ]
     },
+    {   question: 'Júpiter e Plutão são os correlatos romanos de quais deuses gregos?',
+        answers: [
+            {text: 'Ares e Hermes', correct: false},
+            {text: 'Dionísio e Deméter', correct: false},
+            {text: 'Zeus e Hades ', correct: true},
+            {text: 'Ares e Hermes', correct: false},
+        ]
+    },
+    {   question: 'Quem foi o criador da tragédia grega?',
+        answers: [
+            {text: 'Homero', correct: false},
+            {text: 'Ésquilo', correct: true},
+            {text: 'Sófocles', correct: false},
+            {text: 'Sócrates', correct: false},
+        ]
+    },
+    {   question: 'Em que país nasceu Clarice Lispector?',
+        answers: [
+            {text: 'Ucrânia', correct: true},
+            {text: 'Brasil', correct: false},
+            {text: 'Portugal', correct: false},
+            {text: 'França', correct: false},
+        ]
+    },
 
 ]
 
@@ -290,6 +314,14 @@ const q2=[
             {text: 'Gonorreia, clamídia e sífilis', correct: true},
             {text: 'Botulismo, cistite e gonorreia', correct: false},
             {text: 'Chikungunya, aids e herpes genital', correct: false},
+        ]
+    },
+    {   question: 'Que substância é absorvida pelas plantas e expirada por todos os seres vivos?',
+        answers: [
+            {text: 'Oxigênio', correct: false},
+            {text: 'Gás carbônico', correct: true},
+            {text: 'Nitrogênio', correct: false},
+            {text: 'Hélio', correct: false},
         ]
     },
     {   question: 'Qual tipo sanguíneo é considerado doador universal?',
@@ -331,6 +363,38 @@ const q2=[
             {text: 'Varíola e Hipertensão Arterial', correct: false},
             {text: 'Gripe Espanhola e Peste Negra', correct: false},
             {text: 'Peste Negra e Covid-19', correct: true},
+        ]
+    },
+    {   question: 'Qual das doenças a seguir não é causada por um vírus?',
+        answers: [
+            {text: 'dengue', correct: false},
+            {text: 'sarampo', correct: false},
+            {text: 'catapora', correct: false},
+            {text: 'tétano', correct: true},
+        ]
+    },
+    {   question: 'Possui formato de disco bicôncavo e seu interior encontra-se a hemoglobina, relacionada com transporte de gases:',
+        answers: [
+            {text: 'plaquetas', correct: false},
+            {text: 'hemácias', correct: true},
+            {text: 'leucócitos', correct: false},
+            {text: 'linfócitos', correct: false},
+        ]
+    },
+    {   question: 'Qual o maior osso do corpo humano?',
+        answers: [
+            {text: 'fêmur', correct: true},
+            {text: 'úmero', correct: false},
+            {text: 'tíbia', correct: false},
+            {text: 'rádio', correct: false},
+        ]
+    },
+    {   question: 'Qual a maior célula do corpo humano?',
+        answers: [
+            {text: 'macrófago', correct: true},
+            {text: 'óvulo', correct: false},
+            {text: 'hemácia', correct: false},
+            {text: 'osteócito', correct: false},
         ]
     },
 
@@ -411,19 +475,23 @@ const q3=[
             {text: '100 km quadrados', correct: false},
         ]
     },
-    {   question: 'modelo',
+    {   question: 'Qual o metal cujo símbolo químico é o Au?',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'Cobre', correct: false},
+            {text: 'Prata', correct: false},
+            {text: 'Mercúrio', correct: false},
+            {text: 'Ouro', correct: true},
         ]
     },
-    
+    {   question: 'Qual o metal cujo símbolo químico é o Pb?',
+        answers: [
+            {text: 'Chumbo', correct: true},
+            {text: 'Manganês', correct: false},
+            {text: 'Ferro', correct: false},
+            {text: 'Prata', correct: false},
+        ]
+    }, 
 ]
-
-
-
 
 
 //Q4 CINEMA E MÚSICA
@@ -469,6 +537,39 @@ const q4=[
             {text: 'Oxford', correct: false},
         ]
     },
+    {   question: 'Famosa banda brasileira de rock cujos integrantes faleceram um acidente de avião em 1995?',
+        answers: [
+            {text: 'titãs', correct: true},
+            {text: 'roupa nova', correct: false},
+            {text: 'ultraje a rigor', correct: false},
+            {text: 'mamonas assassinas', correct: false},
+        ]
+    },
+    {   question: 'Em qual país foi formada a banda Metallica',
+        answers: [
+            {text: 'Estados Unidos', correct: true},
+            {text: 'Inglaterra', correct: false},
+            {text: 'Austrália', correct: false},
+            {text: 'Alemanha', correct: false},
+        ]
+    },
+    {   question: 'John Snow e Tyrion Lannister são personagens de que famosa série de fantasia medieval?',
+        answers: [
+            {text: 'Vikings', correct: false},
+            {text: 'The Last Kingdom', correct: false},
+            {text: 'Game of Thrones', correct: true},
+            {text: 'Templários', correct: false},
+        ]
+    },
+    {   question: 'Quem dirigiu o filme Titanic?',
+        answers: [
+            {text: 'Steven Spielberg', correct: true},
+            {text: 'James Cameron', correct: false},
+            {text: 'George Lucas', correct: false},
+            {text: 'Quentin Tarantino', correct: false},
+        ]
+    },
+
 
 ]
 
@@ -505,6 +606,54 @@ const q5=[
             {text: 'Nelson Piquet', correct: false},
             {text: 'Rubens Barrichello', correct: false},
             {text: 'Ayrton Senna', correct: true},
+        ]
+    },
+    {   question: 'Qual piloto de Fórmula 1 conquistou mais vitórias até 2023?',
+        answers: [
+            {text: 'Alain Prost', correct: false},
+            {text: 'Ayrton Senna', correct: false},
+            {text: 'Michael Schumacher', correct: false},
+            {text: 'Lewis Hamilton', correct: true},
+        ]
+    },
+    {   question: 'Qual time de futebol é conhecido como “The Red Devils”?',
+        answers: [
+            {text: 'Manchester United', correct: true},
+            {text: 'Bayern de Munique', correct: false},
+            {text: 'Flamengo', correct: false},
+            {text: 'Arsenal', correct: false},
+        ]
+    },
+    {   question: 'Qual país é o maior ganhador de Copas do Mundo até hoje? (2023)',
+        answers: [
+            {text: 'Itália', correct: false},
+            {text: 'Alemanha', correct: false},
+            {text: 'França', correct: false},
+            {text: 'Brasil', correct: true},
+        ]
+    },
+    {   question: 'No futebol americano, qual é o formato da bola usada durante o jogo?',
+        answers: [
+            {text: 'Oval', correct: true},
+            {text: 'Redonda', correct: false},
+            {text: 'Triangular', correct: false},
+            {text: 'Quadrada', correct: false},
+        ]
+    },
+    {   question: 'Qual é a cor da faixa mais alta, que pode, muito dificilmente, ser adquirida no judô?',
+        answers: [
+            {text: 'Azul', correct: false},
+            {text: 'Vermelha', correct: false},
+            {text: 'Preta', correct: true},
+            {text: 'Branca', correct: false},
+        ]
+    },
+    {   question: 'No futebol, um jogador é expulso de uma partida quando recebe quais cartões?',
+        answers: [
+            {text: 'Somente 2 vermelhos', correct: false},
+            {text: '3 amarelos ou 1 vermelho', correct: false},
+            {text: 'Somente 1 vermelho', correct: false},
+            {text: '1 vermelho ou 2 amarelos', correct: true},
         ]
     },
 ]
@@ -647,7 +796,41 @@ const q6=[
             {text: 'Lincoln Memorial, Sidney Opera House e Burj Khalifa', correct: false},
             {text: 'Angkor Wat, Taj Mahal e Skywalk no Grand Canyon', correct: false},
         ]
+    },{   question: 'Qual a capital do Canadá?',
+    answers: [
+        {text: 'Toronto', correct: false},
+        {text: 'Ottawa', correct: true},
+        {text: 'Vancouver', correct: false},
+        {text: 'Montreal', correct: false},
+    ]
+},
+{   question: 'Qual é a maior (não mais alta) cadeia de montanhas do mundo?',
+        answers: [
+            {text: 'Andes', correct: true},
+            {text: 'Himalaias', correct: false},
+            {text: 'Montanhas Rochosas', correct: false},
+            {text: 'Grande Escarpa', correct: false},
+        ]
     },
+    {   question: 'Onde é o lugar natural mais profundo do planeta Terra?',
+        answers: [
+            {text: 'Fossa de Porto Rico', correct: false},
+            {text: 'Fossa de Java', correct: false},
+            {text: 'Depressão Molloy', correct: false},
+            {text: 'Fossa das Marianas', correct: true},
+        ]
+    },
+    {   question: 'modelo',
+        answers: [
+            {text: 'a', correct: true},
+            {text: 'b', correct: false},
+            {text: 'c', correct: false},
+            {text: 'd', correct: false},
+        ]
+    },
+    
+
+
 ]
     
 
@@ -806,6 +989,64 @@ const q8=[
             {text: 'Latim', correct: false},
         ]
     },
+    {   question: 'Quem foi o inventor do ar condicionado?',
+        answers: [
+            {text: 'Henry Ford', correct: false},
+            {text: 'Nikola Telsa', correct: false},
+            {text: 'Willis Carrier', correct: true},
+            {text: 'Bill Gates', correct: false},
+        ]
+    },
+    {   question: 'Qual das alternativas contém apenas invenções criadas no Brasil?',
+        answers: [
+            {text: 'Soro antiofídico e chuveiro elétrico', correct: true},
+            {text: 'Chuveiro elétrico e internet', correct: false},
+            {text: 'Telefone e urna eletrónica', correct: false},
+            {text: 'Facebook e automóvel', correct: false},
+        ]
+    },
+    {   question: 'Qual é o animal nacional da Austrália?',
+        answers: [
+            {text: 'Crocodilo', correct: false},
+            {text: 'Coala', correct: false},
+            {text: 'Canguru vermelho', correct: true},
+            {text: 'Quokka', correct: false},
+        ]
+    }, 
+    {   question: 'Qual é o animal nacional da Austrália?',
+    answers: [
+        {text: 'Crocodilo', correct: false},
+        {text: 'Coala', correct: false},
+        {text: 'Canguru vermelho', correct: true},
+        {text: 'Quokka', correct: false},
+    ]
+}, 
+{   question: 'Qual é o animal nacional da Austrália?',
+answers: [
+    {text: 'Crocodilo', correct: false},
+    {text: 'Coala', correct: false},
+    {text: 'Canguru vermelho', correct: true},
+    {text: 'Quokka', correct: false},
+]
+}, 
+{   question: 'Inicialmente chamada de Arpanet, em que ano a internet foi criada?',
+answers: [
+    {text: '1980', correct: false},
+    {text: '2001', correct: false},
+    {text: '1969', correct: true},
+    {text: '1995', correct: false},
+]
+}, 
+{   question: 'Qual a empresa criadora deste QUIZ?',
+answers: [
+    {text: 'Gamemania', correct: false},
+    {text: 'Entertainment RCP', correct: false},
+    {text: 'Games & cia', correct: false},
+    {text: 'RCP games', correct: true},
+]
+},
+
+
 ]
 
 // TODOS OS TEMAS
