@@ -37,6 +37,7 @@ let pontos;
 let acertos;
 let erros;
 let vidas;
+let ajuda=1;
 let coracao;
 let nome;
 let porcento;
@@ -394,20 +395,20 @@ const q3=[
             {text: 'Cádmio', correct: false},
         ]
     },
-    {   question: 'modelo',
+    {   question: 'Qual cientista conhecido por formular a Teoria da Relatividade',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: 'Issac Newton', correct: false},
+            {text: 'Albert Einstein', correct: true},
+            {text: 'Stephen Hawking', correct: false},
+            {text: 'Galileu Galilei', correct: false},
         ]
     },
-    {   question: 'modelo',
+    {   question: '1 hectare equivale a?',
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            {text: '100 metros quadrados', correct: false},
+            {text: '1.000 metros quadrados', correct: false},
+            {text: '10.000 metros quadrados', correct: true},
+            {text: '100 km quadrados', correct: false},
         ]
     },
     {   question: 'modelo',
