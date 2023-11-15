@@ -610,60 +610,60 @@ button:not(:disabled):hover{
 
 @media(max-width: 720px){
   .categorias{
-    padding: 1rem;
+    padding: 1.2rem;
     margin-top: -1rem;
   }
   
   .categorias div{
-    padding: 0.1rem 0.2rem;
+    padding: 0.4rem 0.2rem;
   }
 
   .categorias div a{
     font-size: 1.5rem;
   }
 
-#cerebrocerta{
-  bottom: 9rem;
-  right: -2rem;
-  width: 24rem;
-}
-#cerebroerrada{
-  bottom: 9rem;
-  right: -2rem;
-  width: 24rem;
-}
-#cerebrovitoria{
-  bottom: 9rem;
-  left: -2rem;
-  width: 13rem;
-}
-#cerebroderrota{
-  bottom: 9rem;
-  right: -2rem;
-  width: 13rem;
-}
+  #cerebrocerta{
+    bottom: 9rem;
+    right: -2rem;
+    width: 24rem;
+  }
+  #cerebroerrada{
+    bottom: 9rem;
+    right: -2rem;
+    width: 24rem;
+  }
+  #cerebrovitoria{
+    bottom: 9rem;
+    left: -2rem;
+    width: 13rem;
+  }
+  #cerebroderrota{
+    bottom: 9rem;
+    right: -2rem;
+    width: 13rem;
+  }
 
-.span{
-  bottom: 5rem;
-  width: 17rem;
-  min-height: 10rem;
-}
+  .span{
+    bottom: 5rem;
+    width: 17rem;
+    min-height: 10rem;
+  }
 
-.proxima{
-  padding: 0rem;
-  bottom: 26rem;
-  font-size: 1.2rem;
-}
+  .proxima{
+    padding: 0rem;
+    bottom: 26rem;
+    font-size: 1.2rem;
+  }
 
-.caixa{
-  min-height: 22rem;
-}
+  .caixa{
+    min-height: 22rem;
+  }
 
-.caixa .respostas{
-  font-size: 1.6rem;
-  gap: 1rem;
-  min-height: 7rem;
-}
+  .caixa .respostas{
+    font-size: 1.6rem;
+    gap: 2rem;
+    min-height: 7rem;
+  }
 }
 
 
