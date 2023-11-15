@@ -42,11 +42,16 @@ let nome;
 let porcento;
 let cumprimento;
 
+const cerebrocerta=document.querySelector('#cerebrocerta');
+const cerebroerrada=document.querySelector('#cerebroerrada');
+const cerebrovitoria=document.querySelector('#cerebrovitoria');
+const cerebroderrota=document.querySelector('#cerebroderrota');
+
 
 //AUDIO
 const acerto = new Audio('/assets/sounds/acerto.mp3'); 
-const acertou = new Audio('/assets/sounds/acertou.m4a');
-const errou = new Audio('/assets/sounds/errou.m4a'); 
+const acertou = new Audio('/assets/sounds/acertou.mp3');
+const errou = new Audio('/assets/sounds/errou.mp3'); 
 const erro = new Audio('/assets/sounds/erro.mp3');
 const inicio = new Audio('/assets/sounds/inicio.mp3');
 const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
@@ -60,6 +65,10 @@ function start(p){
     nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
     vidas=3;
     inicio.play();
+    cerebrocerta.style.display='none';
+    cerebroerrada.style.display='none';
+    cerebrovitoria.style.display='none';
+    cerebroderrota.style.display='none';
     pontos=0;
     acertos=0;
     erros=0;
@@ -85,7 +94,8 @@ function sorteio(x){
 let perguntasUsadas = [];
 
 function proximapergunta(p){
-    
+    cerebrocerta.style.display='none';
+    cerebroerrada.style.display='none';
     const pergunta= document.querySelector('.pergunta');
     const respostas= document.querySelector('.respostas');
     const botaoproxima= document.querySelector('#botaoproxima');
@@ -111,6 +121,7 @@ function proximapergunta(p){
                 botao.style.display='flex';
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
+                cerebroderrota.style.display='flex';
                 caixagenerica.style.display='none';
                 derrota.play();
                 return;
@@ -132,6 +143,7 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 caixagenerica.style.display='none';
+                cerebrovitoria.style.display='flex';
                 fimvitoria.play();
                 return;
     }
@@ -164,6 +176,7 @@ function selecao(e){
     const pontuacao= document.querySelector('.pontos');
     const el = e.target;
     if(el.dataset.correct){
+        cerebrocerta.style.display='flex';
         acerto.play().then(silvio.play()).then(palmas.play());
         el.classList.add('acertou');
         pontos+=10;
@@ -174,6 +187,7 @@ function selecao(e){
         if(vidas===0){vida=' 💔💔💔'}
         pontuacao.innerHTML=nome+"<br>"+"Vidas: "+ vida+"<br>" + 'Pontos: ' + pontos;
     } else{
+        cerebroerrada.style.display='flex';
         erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;

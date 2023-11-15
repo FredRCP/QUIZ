@@ -172,6 +172,35 @@ a:hover{
   }
 }
 
+#cerebrocerta{
+  display: none;
+  position: fixed;
+  bottom: 5rem;
+  right: 10rem;
+  width: 30rem;
+}
+#cerebroerrada{
+  display: none;
+  position: fixed;
+  bottom: 5rem;
+  right: 10rem;
+  width: 30rem;
+}
+#cerebrovitoria{
+  display: none;
+  position: fixed;
+  bottom: 5rem;
+  left: 20rem;
+  width: 20rem;
+}
+#cerebroderrota{
+  display: none;
+  position: fixed;
+  bottom: 5rem;
+  right: 20rem;
+  width: 20rem;
+}
+
 button{
   padding: 1rem;
   border-radius: 1rem;
@@ -322,8 +351,8 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixabio{
-  border: solid 0.4rem #55aedf;
-  color: #55aedf;
+  border: solid 0.4rem #156fb4;
+  color: #156fb4;
 }
 .pontobio{
   background-color: rgba(245, 245, 245, 0.700);
@@ -570,7 +599,61 @@ button:not(:disabled):hover{
   #globo{
     width: 9rem;
   }
+  #pintura{
+    width: 9rem;
+  }
+  #celula{
+    width: 11rem;
+  }
 
+}
+
+@media(max-width: 720px){
+  .categorias{
+    padding: 1rem;
+    margin-top: -1rem;
+  }
+  
+  .categorias div{
+    padding: 0.1rem 0.2rem;
+  }
+
+  .categorias div a{
+    font-size: 1.5rem;
+  }
+
+#cerebrocerta{
+  bottom: 9rem;
+  right: -2rem;
+  width: 24rem;
+}
+#cerebroerrada{
+  bottom: 9rem;
+  right: -2rem;
+  width: 24rem;
+}
+#cerebrovitoria{
+  bottom: 9rem;
+  left: -2rem;
+  width: 13rem;
+}
+#cerebroderrota{
+  bottom: 9rem;
+  right: -2rem;
+  width: 13rem;
+}
+
+.span{
+  bottom: 5rem;
+  width: 17rem;
+  height: 10rem;
+}
+
+.proxima{
+  padding: 0rem;
+  bottom: 30rem;
+  font-size: 1.2rem;
+}
 }
 
 
