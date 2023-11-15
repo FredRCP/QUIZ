@@ -655,9 +655,14 @@ button:not(:disabled):hover{
   font-size: 1.2rem;
 }
 
+.caixa{
+  min-height: 22rem;
+}
+
 .caixa .respostas{
   font-size: 1.6rem;
   gap: 1rem;
+  min-height: 7rem;
 }
 }
 
