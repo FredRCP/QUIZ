@@ -646,13 +646,18 @@ button:not(:disabled):hover{
 .span{
   bottom: 5rem;
   width: 17rem;
-  height: 10rem;
+  min-height: 10rem;
 }
 
 .proxima{
   padding: 0rem;
-  bottom: 25rem;
+  bottom: 26rem;
   font-size: 1.2rem;
+}
+
+.caixa .respostas{
+  font-size: 1.6rem;
+  gap: 1rem;
 }
 }
 
