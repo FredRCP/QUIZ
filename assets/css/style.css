@@ -175,30 +175,30 @@ a:hover{
 #cerebrocerta{
   display: none;
   position: fixed;
-  bottom: 5rem;
-  right: 10rem;
+  bottom: 40rem;
+  right: 40rem;
   width: 30rem;
 }
 #cerebroerrada{
   display: none;
   position: fixed;
-  bottom: 5rem;
-  right: 10rem;
+  bottom:40rem;
+  right: 40rem;
   width: 30rem;
 }
 #cerebrovitoria{
   display: none;
   position: fixed;
-  bottom: 5rem;
-  left: 20rem;
+  bottom: 10rem;
+  left: 45rem;
   width: 20rem;
 }
 #cerebroderrota{
   display: none;
   position: fixed;
-  bottom: 5rem;
-  right: 20rem;
-  width: 20rem;
+  bottom: 10rem;
+  right: 45rem;
+  width: 30rem;
 }
 
 button{
@@ -386,7 +386,7 @@ button:not(:disabled):hover{
 
 .cine{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/cinema.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
