@@ -561,14 +561,71 @@ const q4=[
             {text: 'Templários', correct: false},
         ]
     },
-    {   question: 'Quem dirigiu o filme Titanic?',
+    {   question: 'Em que ano foi apresentado o primeiro Oscar?',
         answers: [
-            {text: 'Steven Spielberg', correct: false},
-            {text: 'James Cameron', correct: true},
-            {text: 'George Lucas', correct: false},
-            {text: 'Quentin Tarantino', correct: false},
+            {text: '1942', correct: false},
+            {text: '1929', correct: true},
+            {text: '1950', correct: false},
+            {text: '1910', correct: false},
         ]
     },
+    {   question: 'Que filme de terror apresentou o primeiro banheiro funcionando na tela?',
+        answers: [
+            {text: 'A mão que balança o berço', correct: false},
+            {text: 'E o vento levou', correct: false},
+            {text: 'Psicose', correct: true},
+            {text: 'Ben Hur', correct: false},
+        ]
+    },
+    {   question: '"Eu vejo pessoas mortas!" é uma famosa citação de qual filme?',
+        answers: [
+            {text: 'O sexto sentido', correct: false},
+            {text: 'Os outros', correct: true},
+            {text: 'Ecos do Além', correct: false},
+            {text: 'Sobrenatural', correct: false},
+        ]
+    },
+    {   question: 'Qual foi o primeiro filme de animação a ser indicado ao Oscar de Melhor Filme?',
+        answers: [
+            {text: 'A bela e a fera', correct: true},
+            {text: 'Bambi', correct: false},
+            {text: 'Pocahontas', correct: false},
+            {text: 'A pequena sereia', correct: false},
+        ]
+    },
+    {   question: 'Julia Roberts interpreta uma prostituta no clássico de 1990 “Uma Linda Mulher”. Qual era seu nome?',
+        answers: [
+            {text: 'Jenny', correct: false},
+            {text: 'Victoria', correct: false},
+            {text: 'Violeta', correct: true},
+            {text: 'Jane', correct: false},
+        ]
+    },
+    {   question: 'Quem cantou “My Heart Will Go On” no Titanic?',
+        answers: [
+            {text: 'Mariah Carey', correct: false},
+            {text: 'Whitney Houston', correct: false},
+            {text: 'Beyoncé', correct: false},
+            {text: 'Celine Dion', correct: true},
+        ]
+    },
+    {   question: 'Qual das opções não era personagem do filme "O Mágico de Oz"',
+        answers: [
+            {text: 'Homem de lata', correct: false},
+            {text: 'Espantalho', correct: false},
+            {text: 'O leão covarde', correct: false},
+            {text: 'Coragem o cão covarde', correct: true},
+        ]
+    },{   question: 'Qual das opções não é um dos 7 anões',
+    answers: [
+        {text: 'Raivoso', correct: true},
+        {text: 'Dengoso', correct: false},
+        {text: 'Dunga', correct: false},
+        {text: 'Mestre', correct: false},
+    ]
+},
+    
+
 
 
 ]

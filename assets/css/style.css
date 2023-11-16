@@ -403,6 +403,10 @@ button:not(:disabled):hover{
 .pontocine{
   background-color: rgba(248, 192, 192, 0.7);
 }
+#cine{
+  width: 7rem;
+  border-radius: 50%;
+}
 
 .esporte{
   background-color: rgba(245, 245, 245, 0.500);
@@ -449,7 +453,7 @@ button:not(:disabled):hover{
 
 .histo{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/historia.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -460,11 +464,16 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixahisto{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  border: solid 0.4rem #023218;
+  color: #023218;
 }
 .pontohisto{
   background-color: rgba(245, 245, 245, 0.700);
+}
+#histo{
+  background-color: #6e5a44;
+  width: 7.6rem;
+  border-radius: 50%;
 }
 
 .mate{
