@@ -184,14 +184,14 @@ a:hover{
   position: fixed;
   bottom:40rem;
   right: 40rem;
-  width: 30rem;
+  width: 25rem;
 }
 #cerebrovitoria{
   display: none;
   position: fixed;
   bottom: 10rem;
-  left: 45rem;
-  width: 20rem;
+  left: 50rem;
+  width: 25rem;
 }
 #cerebroderrota{
   display: none;
@@ -385,7 +385,7 @@ button:not(:disabled):hover{
 }
 
 .cine{
-  background-color: rgba(245, 245, 245, 0.500);
+  background-color: rgba(248, 192, 192, 0.7);
   background-image: url('/assets/img/cinema.png');
   background-position: center;
   background-size: cover;
@@ -397,11 +397,11 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixacine{
-  border: solid 0.4rem yellow;
-  color: yellow;
+  border: solid 0.4rem whitesmoke;
+  color: whitesmoke;
 }
 .pontocine{
-  background-color: rgba(245, 245, 245, 0.700);
+  background-color: rgba(248, 192, 192, 0.7);
 }
 
 .esporte{

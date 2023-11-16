@@ -539,10 +539,10 @@ const q4=[
     },
     {   question: 'Famosa banda brasileira de rock cujos integrantes faleceram um acidente de avião em 1995?',
         answers: [
-            {text: 'titãs', correct: true},
+            {text: 'titãs', correct: false},
             {text: 'roupa nova', correct: false},
             {text: 'ultraje a rigor', correct: false},
-            {text: 'mamonas assassinas', correct: false},
+            {text: 'mamonas assassinas', correct: true},
         ]
     },
     {   question: 'Em qual país foi formada a banda Metallica',
@@ -563,8 +563,8 @@ const q4=[
     },
     {   question: 'Quem dirigiu o filme Titanic?',
         answers: [
-            {text: 'Steven Spielberg', correct: true},
-            {text: 'James Cameron', correct: false},
+            {text: 'Steven Spielberg', correct: false},
+            {text: 'James Cameron', correct: true},
             {text: 'George Lucas', correct: false},
             {text: 'Quentin Tarantino', correct: false},
         ]
