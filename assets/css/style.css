@@ -679,7 +679,7 @@ button:not(:disabled):hover{
   .span{
     display: none;
     position: fixed;
-    bottom: 12rem;
+    bottom: 10rem;
     align-items: center;
     justify-content: center;
     width: 20rem;

@@ -179,7 +179,7 @@ function selecao(e){
     const el = e.target;
     if(el.dataset.correct){
         cerebrocerta.style.display='flex';
-        acerto.play().then(silvio.play()).then(palmas.play());
+        acerto.play().then(acertou.play()).then(palmas.play());
         el.classList.add('acertou');
         pontos+=10;
         acertos+=1;
