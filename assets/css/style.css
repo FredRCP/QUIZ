@@ -88,7 +88,7 @@ a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2rem;
-  gap: 1.1rem;
+  gap: 1.2rem;
   align-items: center;
   justify-content: center;
   margin-top: -3rem;
@@ -397,11 +397,12 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixacine{
+  background-color: rgba(248, 148, 148, 0.8);
   border: solid 0.4rem whitesmoke;
   color: whitesmoke;
 }
 .pontocine{
-  background-color: rgba(248, 192, 192, 0.7);
+  background-color: rgba(248, 148, 148, 0.8);
 }
 #cine{
   width: 7rem;
@@ -660,18 +661,29 @@ button:not(:disabled):hover{
 
   .proxima{
     padding: 0rem;
-    bottom: 26rem;
+    bottom: 25rem;
     font-size: 1.2rem;
   }
 
   .caixa{
-    min-height: 22rem;
+    min-height: 24rem;
   }
 
-  .caixa .respostas{
-    font-size: 1.6rem;
-    gap: 2rem;
+  .respostas .botao{
+    font-size: 1.4rem;
+    gap: 1rem;
+    padding: 1rem 0.2rem;
     min-height: 7rem;
+  }
+
+  .span{
+    display: none;
+    position: fixed;
+    bottom: 12rem;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
   }
 }
 

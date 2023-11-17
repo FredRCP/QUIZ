@@ -64,6 +64,7 @@ const palmas=new Audio('/assets/sounds/palmas.m4a');
 
 function start(p){
     nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
+    nome= nome.toUpperCase();
     vidas=3;
     inicio.play();
     cerebrocerta.style.display='none';
