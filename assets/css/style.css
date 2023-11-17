@@ -411,7 +411,7 @@ button:not(:disabled):hover{
 
 .esporte{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/esporte.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -422,11 +422,15 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixaesporte{
-  border: solid 0.4rem white;
-  color: white;
+  background-color: rgba(0, 0, 255, 0.6);
+  border: solid 0.4rem #fedc03;
+  color: #fedc03;
 }
 .pontoesporte{
-  background-color: rgba(245, 245, 245, 0.700);
+  background-color: rgba(0, 0, 255, 0.6);
+}
+#esporte{
+  width: 8rem;
 }
 
 .geo{
