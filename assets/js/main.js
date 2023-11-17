@@ -579,8 +579,8 @@ const q4=[
     },
     {   question: '"Eu vejo pessoas mortas!" é uma famosa citação de qual filme?',
         answers: [
-            {text: 'O sexto sentido', correct: false},
-            {text: 'Os outros', correct: true},
+            {text: 'O sexto sentido', correct: true},
+            {text: 'Os outros', correct: false},
             {text: 'Ecos do Além', correct: false},
             {text: 'Sobrenatural', correct: false},
         ]
