@@ -431,6 +431,11 @@ button:not(:disabled):hover{
 }
 #esporte{
   width: 8rem;
+  
+}
+#esporte:hover{
+  transition: all 2000ms ease-in-out;
+  transform: rotateZ(1440deg);
 }
 
 .geo{
