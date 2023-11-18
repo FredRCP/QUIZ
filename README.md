@@ -1,2 +1,2 @@
 # QUIZ
-Aplicativo criado para testar conhecimento nos mais diversos temas.
+Aplicativo criado para testar seu conhecimento, de maneira divertida, nos mais diversos temas.
