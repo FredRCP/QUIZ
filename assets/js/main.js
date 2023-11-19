@@ -1016,7 +1016,7 @@ const q7=[
             { text: "Roma", correct: true },
             { text: "Cartago", correct: false }
         ]
-    }
+    },
     {
         question: "Em que ano ocorreu a Revolução Francesa?",
         answers: [
@@ -1025,7 +1025,7 @@ const q7=[
             { text: "1820", correct: false },
             { text: "1848", correct: false }
         ]
-    }
+    },
     {
         question: "Quem foi o primeiro presidente dos Estados Unidos?",
         answers: [
@@ -1034,7 +1034,7 @@ const q7=[
             { text: "George Washington", correct: true },
             { text: "John Adams", correct: false }
         ]
-    }
+    },
     {
         question: "Qual evento marcou o início da Primeira Guerra Mundial?",
         answers: [
@@ -1043,7 +1043,7 @@ const q7=[
             { text: "Assassinato de Franz Ferdinand", correct: true },
             { text: "Revolução Russa", correct: false }
         ]
-    }
+    },
     {
         question: "Quem foi a rainha da Inglaterra durante a Era Vitoriana?",
         answers: [
@@ -1052,7 +1052,7 @@ const q7=[
             { text: "Victoria", correct: true },
             { text: "Anne", correct: false }
         ]
-    }
+    },
     {
         question: "Qual país foi o berço da civilização asteca?",
         answers: [
@@ -1061,7 +1061,7 @@ const q7=[
             { text: "Colômbia", correct: false },
             { text: "Brasil", correct: false }
         ]
-    }
+    },
     {
         question: "Qual líder político foi fundamental para a independência da Índia em 1947?",
         answers: [
@@ -1070,7 +1070,7 @@ const q7=[
             { text: "Mahatma Gandhi", correct: true },
             { text: "Ho Chi Minh", correct: false }
         ]
-    }
+    },
     {
         question: "Quem foi o líder da Revolução Cubana em 1959?",
         answers: [
@@ -1079,7 +1079,7 @@ const q7=[
             { text: "Fidel Castro", correct: true },
             { text: "Raúl Castro", correct: false }
         ]
-    }
+    },
     {
         question: "Qual foi o evento que desencadeou a Guerra Fria?",
         answers: [
@@ -1088,7 +1088,7 @@ const q7=[
             { text: "Ataque a Pearl Harbor", correct: false },
             { text: "Conferência de Yalta", correct: true }
         ]
-    }
+    },
     {
         question: "Qual imperador romano implementou a 'Pax Romana'?",
         answers: [
@@ -1097,7 +1097,7 @@ const q7=[
             { text: "Trajano", correct: false },
             { text: "César", correct: false }
         ]
-    }
+    },
     {
         question: "Qual tratado encerrou oficialmente a Primeira Guerra Mundial e foi assinado em 1919?",
         answers: [
