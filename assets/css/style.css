@@ -411,7 +411,7 @@ button:not(:disabled):hover{
 
 .esporte{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/esporte.png');
+  background-image: url('/assets/img/esporte1.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -434,8 +434,8 @@ button:not(:disabled):hover{
   
 }
 #esporte:hover{
-  transition: all 2000ms ease-in-out;
-  transform: rotateZ(1440deg);
+  transition: all 5000ms ease-in-out;
+  transform: rotateZ(5760deg);
 }
 
 .geo{

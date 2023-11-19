@@ -1008,6 +1008,105 @@ const q7=[
             {text: '30 anos', correct: false},
         ]
     },
+    {
+        question: "Qual foi a capital do Império Romano no período do século I a.C.?",
+        answers: [
+            { text: "Atenas", correct: false },
+            { text: "Constantinopla", correct: false },
+            { text: "Roma", correct: true },
+            { text: "Cartago", correct: false }
+        ]
+    }
+    {
+        question: "Em que ano ocorreu a Revolução Francesa?",
+        answers: [
+            { text: "1776", correct: false },
+            { text: "1789", correct: true },
+            { text: "1820", correct: false },
+            { text: "1848", correct: false }
+        ]
+    }
+    {
+        question: "Quem foi o primeiro presidente dos Estados Unidos?",
+        answers: [
+            { text: "Benjamin Franklin", correct: false },
+            { text: "Thomas Jefferson", correct: false },
+            { text: "George Washington", correct: true },
+            { text: "John Adams", correct: false }
+        ]
+    }
+    {
+        question: "Qual evento marcou o início da Primeira Guerra Mundial?",
+        answers: [
+            { text: "Queda do Muro de Berlim", correct: false },
+            { text: "Ataque a Pearl Harbor", correct: false },
+            { text: "Assassinato de Franz Ferdinand", correct: true },
+            { text: "Revolução Russa", correct: false }
+        ]
+    }
+    {
+        question: "Quem foi a rainha da Inglaterra durante a Era Vitoriana?",
+        answers: [
+            { text: "Elizabeth I", correct: false },
+            { text: "Mary, Queen of Scots", correct: false },
+            { text: "Victoria", correct: true },
+            { text: "Anne", correct: false }
+        ]
+    }
+    {
+        question: "Qual país foi o berço da civilização asteca?",
+        answers: [
+            { text: "Peru", correct: false },
+            { text: "México", correct: true },
+            { text: "Colômbia", correct: false },
+            { text: "Brasil", correct: false }
+        ]
+    }
+    {
+        question: "Qual líder político foi fundamental para a independência da Índia em 1947?",
+        answers: [
+            { text: "Mao Zedong", correct: false },
+            { text: "Jawaharlal Nehru", correct: false },
+            { text: "Mahatma Gandhi", correct: true },
+            { text: "Ho Chi Minh", correct: false }
+        ]
+    }
+    {
+        question: "Quem foi o líder da Revolução Cubana em 1959?",
+        answers: [
+            { text: "Fulgencio Batista", correct: false },
+            { text: "Ernesto 'Che' Guevara", correct: false },
+            { text: "Fidel Castro", correct: true },
+            { text: "Raúl Castro", correct: false }
+        ]
+    }
+    {
+        question: "Qual foi o evento que desencadeou a Guerra Fria?",
+        answers: [
+            { text: "Tratado de Versalhes", correct: false },
+            { text: "Revolução Russa", correct: false },
+            { text: "Ataque a Pearl Harbor", correct: false },
+            { text: "Conferência de Yalta", correct: true }
+        ]
+    }
+    {
+        question: "Qual imperador romano implementou a 'Pax Romana'?",
+        answers: [
+            { text: "Nero", correct: false },
+            { text: "Augusto", correct: true },
+            { text: "Trajano", correct: false },
+            { text: "César", correct: false }
+        ]
+    }
+    {
+        question: "Qual tratado encerrou oficialmente a Primeira Guerra Mundial e foi assinado em 1919?",
+        answers: [
+            { text: "Tratado de Versalhes", correct: true },
+            { text: "Tratado de Yalta", correct: false },
+            { text: "Tratado de Tóquio", correct: false },
+            { text: "Tratado de Paris", correct: false }
+        ]
+    }
     
 
 ]
