@@ -239,14 +239,14 @@ button:not(:disabled):hover{
   position: fixed;
   display: flex;
   font-size: 1.3rem;
-  width: 6rem;
+  width: 5rem;
   border-radius: 4rem;
   color: green;
   background-color: rgba(245, 245, 245, 0.700);
   border: solid 0.3rem green;
   justify-content: center;
   align-items:center;
-  padding: 3.6rem;
+  padding: 3.4rem;
 }
 
 .start:hover{
@@ -335,7 +335,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #pintura{
-  width: 11rem;
+  width: 10rem;
 }
 
 .bio{
@@ -358,7 +358,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #celula{
-  width: 14rem;
+  width: 13.2rem;
 }
 
 .cia{
@@ -381,7 +381,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #atomo{
-  width: 11rem;
+  width: 10rem;
 }
 
 .cine{
@@ -405,13 +405,13 @@ button:not(:disabled):hover{
   background-color: rgba(248, 148, 148, 0.8);
 }
 #cine{
-  width: 7rem;
+  width: 6.6rem;
   border-radius: 50%;
 }
 
 .esporte{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/esporte1.png');
+  background-image: url('/assets/img/esporte.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -422,7 +422,7 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixaesporte{
-  background-color: rgba(0, 0, 255, 0.6);
+  background-color: rgba(73, 73, 255, 0.6);
   border: solid 0.4rem #fedc03;
   color: #fedc03;
 }
@@ -430,7 +430,7 @@ button:not(:disabled):hover{
   background-color: rgba(0, 0, 255, 0.6);
 }
 #esporte{
-  width: 8rem;
+  width: 7.6rem;
   
 }
 #esporte:hover{
@@ -458,7 +458,7 @@ button:not(:disabled):hover{
   color:#130647;
 }
 #globo{
-  width: 10.7rem;
+  width: 10.2rem;
 }
 
 .histo{
@@ -482,13 +482,13 @@ button:not(:disabled):hover{
 }
 #histo{
   background-color: #6e5a44;
-  width: 7.6rem;
+  width: 7.5rem;
   border-radius: 50%;
 }
 
-.mate{
+.diversos{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/diversos.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -498,17 +498,25 @@ button:not(:disabled):hover{
   justify-content: center;
   align-items: center;
 }
-.caixamate{
+.caixadiversos{
   border: solid 0.4rem #302f2f;
   color: #302f2f;
 }
-.pontomate{
+.pontodiversos{
   background-color: rgba(245, 245, 245, 0.700);
+}
+#lampada{
+  width: 6.8rem;
+  border-radius: 50%;
+  background-color: #302f2f;
+}
+#lampada:hover{
+  background-color: #f3f3f388;
 }
 
 .tudo{
   background-color: rgba(245, 245, 245, 0.500);
-  background-image: url('/assets/img/');
+  background-image: url('/assets/img/tudo.png');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -519,11 +527,19 @@ button:not(:disabled):hover{
   align-items: center;
 }
 .caixatudo{
-  border: solid 0.4rem #302f2f;
-  color: #302f2f;
+  border: solid 0.4rem #130647;
+  color: #130647;
 }
 .pontotudo{
   background-color: rgba(245, 245, 245, 0.700);
+}
+#tudo{
+  width: 7.0rem;
+  background-color: #130647;
+  border-radius: 50%;
+}
+#tudo:hover{
+  background-color: #f3f3f388;
 }
 
 
