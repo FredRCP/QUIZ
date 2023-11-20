@@ -392,8 +392,8 @@ const q2=[
     },
     {   question: 'Qual a maior célula do corpo humano?',
         answers: [
-            {text: 'macrófago', correct: true},
-            {text: 'óvulo', correct: false},
+            {text: 'macrófago', correct: false},
+            {text: 'óvulo', correct: true},
             {text: 'hemácia', correct: false},
             {text: 'osteócito', correct: false},
         ]
