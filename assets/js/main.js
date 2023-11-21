@@ -1586,7 +1586,7 @@ const q7=[
 
 const q8=[
     {
-        question: "Quem é conhecido como o "Homem de Ferro" nos quadrinhos da Marvel?",
+        question: "Quem é conhecido como o 'Homem de Ferro' nos quadrinhos da Marvel?",
         answers: [
             { text: "Steve Rogers", correct: false },
             { text: "Bruce Wayne", correct: false },
@@ -1658,7 +1658,7 @@ const q8=[
         ]
     },
     {
-        question: "Qual é o nome da protagonista feminina em "Tomb Raider", uma série de jogos de aventura?",
+        question: "Qual é o nome da protagonista feminina em 'Tomb Raider', uma série de jogos de aventura?",
         answers: [
             { text: "Aloy", correct: false },
             { text: "Lara Croft", correct: true },
