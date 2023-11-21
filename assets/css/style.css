@@ -431,7 +431,6 @@ button:not(:disabled):hover{
 }
 #esporte{
   width: 7.6rem;
-  
 }
 #esporte:hover{
   transition: all 5000ms ease-in-out;
@@ -569,6 +568,10 @@ button:not(:disabled):hover{
     font-size: 1.6rem;  
   }
 
+  .home{
+    width: 5.5rem;
+  }
+
   .start{
     font-size: 1.2rem;
     width: 4rem;
@@ -639,6 +642,21 @@ button:not(:disabled):hover{
   }
   #celula{
     width: 11rem;
+  }
+  #cine{
+    width: 5.8rem;
+  }
+  #esporte{
+    width: 6.5rem;
+  }
+  #histo{
+    width: 6.5rem;
+  }
+  #lampada{
+    width: 5.8rem;
+  }
+  #tudo{
+    width: 5.8rem;
   }
 
 }
