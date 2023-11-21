@@ -958,8 +958,8 @@ const q4=[
         question: "Quem interpretou o papel principal no filme 'O Poderoso Chefão'?",
         answers: [
             { text: "Robert De Niro", correct: false },
-            { text: "Al Pacino", correct: true },
-            { text: "Marlon Brando", correct: false },
+            { text: "Al Pacino", correct: false },
+            { text: "Marlon Brando", correct: true },
             { text: "Joe Pesci", correct: false }
         ]
     },
