@@ -193,7 +193,21 @@ a:hover{
   left: 50rem;
   width: 25rem;
 }
+#cerebrovitoria1{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  left: 50rem;
+  width: 25rem;
+}
 #cerebroderrota{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  right: 45rem;
+  width: 30rem;
+}
+#cerebroderrota1{
   display: none;
   position: fixed;
   bottom: 10rem;
@@ -212,6 +226,10 @@ button{
   height: 5rem;
   color: whitesmoke;
   background-color:#1436b3;
+}
+
+.respostas .botao{
+  min-height: 7rem;
 }
 
 button:not(:disabled):hover{
@@ -238,7 +256,7 @@ button:not(:disabled):hover{
 .start{
   position: fixed;
   display: flex;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   width: 5rem;
   border-radius: 4rem;
   color: green;
@@ -335,7 +353,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #pintura{
-  width: 10rem;
+  width: 9rem;
 }
 
 .bio{
@@ -358,7 +376,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #celula{
-  width: 13.2rem;
+  width: 13rem;
 }
 
 .cia{
@@ -405,7 +423,7 @@ button:not(:disabled):hover{
   background-color: rgba(248, 148, 148, 0.8);
 }
 #cine{
-  width: 6.6rem;
+  width: 6.4rem;
   border-radius: 50%;
 }
 
@@ -430,7 +448,7 @@ button:not(:disabled):hover{
   background-color: rgba(0, 0, 255, 0.6);
 }
 #esporte{
-  width: 7.6rem;
+  width: 7.5rem;
 }
 #esporte:hover{
   transition: all 5000ms ease-in-out;
@@ -505,7 +523,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #lampada{
-  width: 6.8rem;
+  width: 6.6rem;
   border-radius: 50%;
   background-color: #302f2f;
 }
@@ -533,7 +551,7 @@ button:not(:disabled):hover{
   background-color: rgba(245, 245, 245, 0.700);
 }
 #tudo{
-  width: 7.0rem;
+  width: 6.6rem;
   background-color: #130647;
   border-radius: 50%;
 }
@@ -573,7 +591,7 @@ button:not(:disabled):hover{
   }
 
   .start{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 4rem;
     border-radius: 4rem;
     padding: 3rem;
@@ -690,7 +708,17 @@ button:not(:disabled):hover{
     left: -2rem;
     width: 13rem;
   }
+  #cerebrovitoria1{
+    bottom: 9rem;
+    left: -2rem;
+    width: 13rem;
+  }
   #cerebroderrota{
+    bottom: 9rem;
+    right: -2rem;
+    width: 13rem;
+  }
+  #cerebroderrota1{
     bottom: 9rem;
     right: -2rem;
     width: 13rem;
@@ -727,6 +755,39 @@ button:not(:disabled):hover{
     justify-content: center;
     width: 20rem;
     height: 10rem;
+  }
+
+  #atomo{
+    width: 9rem;
+  }
+  #globo{
+    width: 8.8rem;
+  }
+  #pintura{
+    width: 8rem;
+  }
+  #celula{
+    width: 11rem;
+  }
+  #cine{
+    width: 5.6rem;
+  }
+  #esporte{
+    width: 6.5rem;
+  }
+  #histo{
+    width: 6.5rem;
+  }
+  #lampada{
+    width: 5.8rem;
+  }
+  #tudo{
+    width: 5.8rem;
+  }
+
+  .notification{
+    bottom: 75px;
+    left: 35px;
   }
 }
 

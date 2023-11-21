@@ -37,7 +37,8 @@ let pontos;
 let acertos;
 let erros;
 let vidas;
-let ajuda=1;
+let ajuda;
+let pular;
 let coracao;
 let nome;
 let porcento;
@@ -47,6 +48,8 @@ const cerebrocerta=document.querySelector('#cerebrocerta');
 const cerebroerrada=document.querySelector('#cerebroerrada');
 const cerebrovitoria=document.querySelector('#cerebrovitoria');
 const cerebroderrota=document.querySelector('#cerebroderrota');
+const cerebroderrota1=document.querySelector('#cerebroderrota1');
+const cerebrovitoria1=document.querySelector('#cerebrovitoria1');
 
 
 //AUDIO
@@ -66,11 +69,15 @@ function start(p){
     nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
     nome= nome.toUpperCase();
     vidas=3;
+    ajuda=1;
+    pular=1;
     inicio.play();
     cerebrocerta.style.display='none';
     cerebroerrada.style.display='none';
     cerebrovitoria.style.display='none';
+    cerebrovitoria1.style.display='none';
     cerebroderrota.style.display='none';
+    cerebroderrota1.style.display='none';
     pontos=0;
     acertos=0;
     erros=0;
@@ -85,7 +92,7 @@ function start(p){
     caixa.classList.add('caixa');
     const caixagenerica=document.querySelector('.generico');
     caixagenerica.style.display='flex';
-    document.querySelector('.pontos').innerHTML=nome +"<br>" +"Vidas: ❤❤❤" + "<br>"+ 'Pontos: ' + pontos;
+    document.querySelector('.pontos').innerHTML=nome +"<br>" +"Vidas: ❤❤❤" + "<br>"+ 'Pontos: ' + pontos + "<br>"+ 'Perguntas corretas: ' +perguntasUsadas.length;
     proximapergunta(p);
 }
 
@@ -112,9 +119,9 @@ function proximapergunta(p){
                 if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'}
                 if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'}
                 if(porcento>=70&&porcento<85){cumprimento='Muito bom!'}
-                if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
-                if(porcento>=30&&porcento<50){cumprimento='Você chega lá!'}
-                if(porcento<30){cumprimento='Não desista, busque o conhecimento!'}
+                if(porcento>50&&porcento<70){cumprimento='Bom resultado!'}
+                if(porcento>30&&porcento<=50){cumprimento='Você chega lá!'}
+                if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'}
                 document.querySelector('.pontos').innerHTML= `Você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}%`+"<br>"+cumprimento;
                 alert('FIM DE JOGO!');  
@@ -130,12 +137,12 @@ function proximapergunta(p){
     }    
     if (perguntasUsadas.length === totalPerguntas) { 
                 porcento=(acertos/perguntasUsadas.length)*100;
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'}
-                if(porcento>=70&&porcento<85){cumprimento='Muito bom!'}
-                if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
-                if(porcento>=30&&porcento<50){cumprimento='Você chega lá!'}
-                if(porcento<30){cumprimento='Não desista, busque o conhecimento!'}
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex';}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';}
+                if(porcento>=70&&porcento<85){cumprimento='Muito bom!'; cerebrovitoria.style.display='flex';}
+                if(porcento>50&&porcento<70){cumprimento='Bom resultado!'; cerebrovitoria.style.display='flex';}
+                if(porcento>30&&porcento<=50){cumprimento='Você chega lá!'; cerebrovitoria.style.display='flex';}
+                if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'; cerebroderrota1.style.display='flex';}
                 porcento=porcento.toFixed(1);
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+"<br>"+`Acertos: ${porcento}%`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
@@ -145,7 +152,6 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 caixagenerica.style.display='none';
-                cerebrovitoria.style.display='flex';
                 fimvitoria.play();
                 return;
     }
@@ -153,7 +159,6 @@ function proximapergunta(p){
     do {
         n1 = sorteio(p.length);
     } while (perguntasUsadas.includes(n1));
-    console.log(n1);
     perguntasUsadas.push(n1);
     
    
@@ -161,7 +166,7 @@ function proximapergunta(p){
     while(respostas.firstChild){
         respostas.removeChild(respostas.firstChild)
     };
-    pergunta.textContent=p[n1].question;
+    pergunta.textContent=perguntasUsadas.length+" - "+ p[n1].question;
     p[n1].answers.forEach(resposta=>{
         const botao= document.createElement('button');
         botao.classList.add('botao');
@@ -187,7 +192,7 @@ function selecao(e){
         if(vidas===2){vida=' 💔❤❤'}
         if(vidas===1){vida=' 💔💔❤'}
         if(vidas===0){vida=' 💔💔💔'}
-        pontuacao.innerHTML=nome+"<br>"+"Vidas: "+ vida+"<br>" + 'Pontos: ' + pontos;
+        pontuacao.innerHTML=nome+"<br>"+"Vidas: "+ vida+"<br>" + 'Pontos: ' + pontos+"<br>" + "Perguntas corretas: "+ acertos +"/"+perguntasUsadas.length;
     } else{
         cerebroerrada.style.display='flex';
         erro.play().then(errou.play());
@@ -198,7 +203,7 @@ function selecao(e){
         if(vidas===2){vida=' 💔❤❤'}
         if(vidas===1){vida=' 💔💔❤'}
         if(vidas===0){vida=' 💔💔💔'}
-        pontuacao.innerHTML= nome+"<br>"+"Vidas: "+ vida+ "<br>"+ 'Pontos: ' + pontos;; 
+        pontuacao.innerHTML= nome+"<br>"+"Vidas: "+ vida+ "<br>"+ 'Pontos: ' + pontos+"<br>" + "Perguntas corretas: "+ acertos +"/"+perguntasUsadas.length; 
     }
 
     document.querySelectorAll('.botao').forEach(button=>{
