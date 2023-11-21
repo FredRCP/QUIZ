@@ -223,6 +223,105 @@ function selecao(e){
 //Q1 ARTE E CULTURA
 
 const q1=[
+    {
+        question: "Quem é o autor da Mona Lisa?",
+        answers: [
+            { text: "Vincent van Gogh", correct: false },
+            { text: "Leonardo da Vinci", correct: true },
+            { text: "Pablo Picasso", correct: false },
+            { text: "Michelangelo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a peça de teatro mais famosa de William Shakespeare?",
+        answers: [
+            { text: "Hamlet", correct: true },
+            { text: "Macbeth", correct: false },
+            { text: "Romeu e Julieta", correct: false },
+            { text: "A Tempestade", correct: false }
+        ]
+    },
+    {
+        question: "Quem é conhecido como o 'Rei do Pop'?",
+        answers: [
+            { text: "Elvis Presley", correct: false },
+            { text: "Michael Jackson", correct: true },
+            { text: "Prince", correct: false },
+            { text: "David Bowie", correct: false }
+        ]
+    },
+    {
+        question: "Quem pintou 'A Noite Estrelada'?",
+        answers: [
+            { text: "Claude Monet", correct: false },
+            { text: "Vincent van Gogh", correct: true },
+            { text: "Pablo Picasso", correct: false },
+            { text: "Salvador Dalí", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o escultor da estátua 'O Pensador'?",
+        answers: [
+            { text: "Leonardo da Vinci", correct: false },
+            { text: "Auguste Rodin", correct: true },
+            { text: "Michelangelo", correct: false },
+            { text: "Pablo Picasso", correct: false }
+        ]
+    },
+    {
+        question: "Em que livro de George Orwell o governo é representado por um líder chamado Big Brother?",
+        answers: [
+            { text: "1984", correct: true },
+            { text: "A Revolução dos Bichos", correct: false },
+            { text: "O Triunfo dos Porcos", correct: false },
+            { text: "A Filha do Reverendo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o romance escrito por J.K. Rowling que introduziu o mundo ao jovem bruxo Harry Potter?",
+        answers: [
+            { text: "Harry Potter e o Prisioneiro de Azkaban", correct: false },
+            { text: "Harry Potter e o Cálice de Fogo", correct: false },
+            { text: "Harry Potter e a Pedra Filosofal", correct: true },
+            { text: "Harry Potter e as Relíquias da Morte", correct: false }
+        ]
+    },
+    {
+        question: "Quem é a autora de 'O Diário de Anne Frank'?",
+        answers: [
+            { text: "Virginia Woolf", correct: false },
+            { text: "Harper Lee", correct: false },
+            { text: "Anne Frank", correct: false },
+            { text: "A escrita é creditada a Anne Frank, mas sua morte impediu que ela revisasse ou completasse o diário.", correct: true }
+        ]
+    },
+    {
+        question: "Quem é o autor de 'O Senhor dos Anéis', uma trilogia épica de fantasia?",
+        answers: [
+            { text: "C.S. Lewis", correct: false },
+            { text: "J.K. Rowling", correct: false },
+            { text: "J.R.R. Tolkien", correct: true },
+            { text: "George R.R. Martin", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o romance de Mary Shelley que conta a história de Victor Frankenstein e sua criatura?",
+        answers: [
+            { text: "Drácula", correct: false },
+            { text: "Frankenstein ou o Prometeu Moderno", correct: true },
+            { text: "O Médico e o Monstro", correct: false },
+            { text: "O Retrato de Dorian Gray", correct: false }
+        ]
+    },
+    {
+        question: "Qual movimento artístico é caracterizado por formas geométricas abstratas e cores vibrantes?",
+        answers: [
+            { text: "Renascimento", correct: false },
+            { text: "Barroco", correct: false },
+            { text: "Cubismo", correct: true },
+            { text: "Romantismo", correct: false }
+        ]
+    },
     {   question: 'Quem é o autor de “O Príncipe”?',
         answers: [
             {text: 'Rousseau', correct: false},
@@ -309,6 +408,15 @@ const q1=[
 //Q2 BIOLOGIA
 
 const q2=[
+    {
+        question: "Quantos ossos tem um adulto humano?",
+        answers: [
+            { text: "206", correct: true },
+            { text: "180", correct: false },
+            { text: "250", correct: false },
+            { text: "300", correct: false }
+        ]
+    },
     {   question: 'Quais destas doenças são sexualmente transmissíveis?',
         answers: [
             {text: 'Aids, tricomoníase e ebola', correct: false},
@@ -398,12 +506,201 @@ const q2=[
             {text: 'osteócito', correct: false},
         ]
     },
+    {
+        question: "Qual é o ácido encontrado no estômago humano?",
+        answers: [
+            { text: "Ácido Clorídrico", correct: true },
+            { text: "Ácido Sulfúrico", correct: false },
+            { text: "Ácido Acético", correct: false },
+            { text: "Ácido Nítrico", correct: false }
+        ]
+    }, 
+    {
+        question: "Qual é a função principal dos pulmões humanos?",
+        answers: [
+            { text: "Digestão", correct: false },
+            { text: "Filtração de sangue", correct: false },
+            { text: "Respiração", correct: true },
+            { text: "Circulação", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a função do sistema circulatório?",
+        answers: [
+            { text: "Respiração", correct: false },
+            { text: "Digestão", correct: false },
+            { text: "Transporte de nutrientes e oxigênio", correct: true },
+            { text: "Excreção", correct: false }
+        ]
+    },
+    {
+        question: "O que são os ribossomos?",
+        answers: [
+            { text: "Organelas responsáveis pela síntese de lipídios", correct: false },
+            { text: "Organelas responsáveis pela síntese de proteínas", correct: true },
+            { text: "Estruturas que armazenam água e nutrientes", correct: false },
+            { text: "Estruturas de suporte da célula", correct: false }
+        ]
+    },
+    {
+        question: "O que é mitose?",
+        answers: [
+            { text: "A divisão celular que forma gametas", correct: false },
+            { text: "A duplicação do material genético", correct: false },
+            { text: "A divisão celular que forma células filhas idênticas", correct: true },
+            { text: "A troca de material genético entre cromossomos", correct: false }
+        ]
+    },
+    {
+        question: "O que é um ecossistema?",
+        answers: [
+            { text: "Um órgão do corpo humano", correct: false },
+            { text: "Um sistema de transporte público", correct: false },
+            { text: "Uma comunidade de organismos e seu ambiente físico", correct: true },
+            { text: "Um tipo de célula animal", correct: false }
+        ]
+    },
+    {
+        question: "Onde ocorre a fotossíntese nas plantas?",
+        answers: [
+            { text: "Nas raízes", correct: false },
+            { text: "No caule", correct: false },
+            { text: "Nas folhas", correct: true },
+            { text: "Nas flores", correct: false }
+        ]
+    },
+    {
+        question: "O que são os leucócitos?",
+        answers: [
+            { text: "Células musculares", correct: false },
+            { text: "Células sanguíneas brancas", correct: true },
+            { text: "Células nervosas", correct: false },
+            { text: "Células da pele", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a função dos cílios e flagelos nas células?",
+        answers: [
+            { text: "Produção de energia", correct: false },
+            { text: "Movimento celular", correct: true },
+            { text: "Digestão de nutrientes", correct: false },
+            { text: "Fotossíntese", correct: false }
+        ]
+    },
+    {
+        question: "O que é um gene?",
+        answers: [
+            { text: "Uma organela celular", correct: false },
+            { text: "Um tipo de célula", correct: false },
+            { text: "Uma unidade de herança genética", correct: true },
+            { text: "Um tipo de tecido", correct: false }
+        ]
+    },
+    {
+        question: "São algumas das funções dos rins no corpo humano?",
+        answers: [
+            { text: "Produção de hormônios", correct: false },
+            { text: "Digestão de alimentos", correct: false },
+            { text: "Filtragem do sangue para remover resíduos e excesso de água", correct: true },
+            { text: "Produção de células de defesa", correct: false }
+        ]
+    }
 
 ]
 
 //Q3 CIÊNCIAS
 
 const q3=[
+    {
+        question: "Quantos planetas fazem parte do nosso sistema solar?",
+        answers: [
+            { text: "7", correct: false },
+            { text: "9", correct: false },
+            { text: "8", correct: true },
+            { text: "10", correct: false }
+        ]
+    },    
+    {
+        question: "O que é a cadeia alimentar?",
+        answers: [
+            { text: "Um tipo de reação química", correct: false },
+            { text: "Um processo de digestão", correct: false },
+            { text: "A sequência de transferência de energia de um organismo para outro na forma de alimentos", correct: true },
+            { text: "Um tipo de reprodução assexuada", correct: false }
+        ]
+    },
+    {
+        question: "O que é a clonagem?",
+        answers: [
+            { text: "Um método de reprodução assexuada", correct: true },
+            { text: "Um tipo de mutação genética", correct: false },
+            { text: "Um processo de seleção artificial de plantas", correct: false },
+            { text: "Uma forma de reprodução por esporos", correct: false }
+        ]
+    },
+    {
+        question: "O que é a teoria do Big Bang?",
+        answers: [
+            { text: "Uma teoria sobre a origem da vida na Terra", correct: false },
+            { text: "Uma explicação para a formação de planetas", correct: false },
+            { text: "A teoria de que o universo começou como uma singularidade e expandiu rapidamente", correct: true },
+            { text: "Um modelo para a formação de estrelas", correct: false }
+        ]
+    },
+    {
+        question: "O que é um buraco negro?",
+        answers: [
+            { text: "Uma estrela em formação", correct: false },
+            { text: "Um fenômeno atmosférico", correct: false },
+            { text: "Uma região do espaço com gravidade tão intensa que nada pode escapar, nem mesmo a luz", correct: true },
+            { text: "Um tipo de galáxia", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o componente mais abundante na atmosfera terrestre?",
+        answers: [
+            { text: "Nitrogênio", correct: true },
+            { text: "Oxigênio", correct: false },
+            { text: "Dióxido de Carbono", correct: false },
+            { text: "Hidrogênio", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a unidade básica da energia no Sistema Internacional de Unidades?",
+        answers: [
+            { text: "Joule", correct: true },
+            { text: "Watt", correct: false },
+            { text: "Caloria", correct: false },
+            { text: "Quilograma", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o elemento químico mais abundante no universo?",
+        answers: [
+            { text: "Oxigênio", correct: false },
+            { text: "Hidrogênio", correct: true },
+            { text: "Carbono", correct: false },
+            { text: "Ferro", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a menor unidade de um elemento químico que ainda mantém as propriedades desse elemento?",
+        answers: [
+            { text: "Átomo", correct: true },
+            { text: "Molécula", correct: false },
+            { text: "Íon", correct: false },
+            { text: "Próton", correct: false }
+        ]
+    },
+    {
+        question: "O que estuda a astronomia?",
+        answers: [
+            { text: "Os oceanos", correct: false },
+            { text: "O corpo humano", correct: false },
+            { text: "Os astros e corpos celestes", correct: true },
+            { text: "O solo e as rochas", correct: false }
+        ]
+    },
     {   question: 'Em qual país foi criado o chuveiro elétrico?',
         answers: [
             {text: 'Brasil', correct: true},
@@ -538,12 +835,12 @@ const q4=[
             {text: 'Oxford', correct: false},
         ]
     },
-    {   question: 'Famosa banda brasileira de rock cujos integrantes faleceram um acidente de avião em 1995?',
+    {   question: 'Famosa banda brasileira de rock cujos integrantes faleceram em um acidente de avião em 1995?',
         answers: [
-            {text: 'titãs', correct: false},
-            {text: 'roupa nova', correct: false},
-            {text: 'ultraje a rigor', correct: false},
-            {text: 'mamonas assassinas', correct: true},
+            {text: 'Titãs', correct: false},
+            {text: 'Roupa Nova', correct: false},
+            {text: 'Ultraje a Rigor', correct: false},
+            {text: 'Mamonas Assassinas', correct: true},
         ]
     },
     {   question: 'Em qual país foi formada a banda Metallica',
@@ -617,14 +914,60 @@ const q4=[
             {text: 'O leão covarde', correct: false},
             {text: 'Coragem o cão covarde', correct: true},
         ]
-    },{   question: 'Qual das opções não é um dos 7 anões',
-    answers: [
+    },
+    {   question: 'Qual das opções não é um dos 7 anões',
+        answers: [
         {text: 'Raivoso', correct: true},
         {text: 'Dengoso', correct: false},
         {text: 'Dunga', correct: false},
         {text: 'Mestre', correct: false},
-    ]
-},
+        ]
+    },
+    {   question: "Quem interpretou o Coringa no filme 'Batman: O Cavaleiro das Trevas'?",
+        answers: [
+            { text: "Jack Nicholson", correct: false },
+            { text: "Jared Leto", correct: false },
+            { text: "Heath Ledger", correct: true },
+            { text: "Joquin Phoenix", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do robô em 'WALL-E', da Disney-Pixar?",
+        answers: [
+            { text: "R2-D2", correct: false },
+            { text: "EVE", correct: false },
+            { text: "WALL-E", correct: true },
+            { text: "C-3PO", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu a trilogia 'O Senhor dos Anéis'?",
+        answers: [
+            { text: "Christopher Nolan", correct: false },
+            { text: "Peter Jackson", correct: true },
+            { text: "George Lucas", correct: false },
+            { text: "Quentin Tarantino", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o papel principal no filme 'O Poderoso Chefão'?",
+        answers: [
+            { text: "Robert De Niro", correct: false },
+            { text: "Al Pacino", correct: true },
+            { text: "Marlon Brando", correct: false },
+            { text: "Joe Pesci", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu o filme 'Cidadão Kane', considerado por muitos como o melhor filme de todos os tempos?",
+        answers: [
+            { text: "Steven Spielberg", correct: false },
+            { text: "Alfred Hitchcock", correct: false },
+            { text: "Orson Welles", correct: true },
+            { text: "Martin Scorsese", correct: false }
+        ]
+    },
+    
     
 
 
@@ -714,6 +1057,78 @@ const q5=[
             {text: '1 vermelho ou 2 amarelos', correct: true},
         ]
     },
+    {
+        question: "Qual esporte é conhecido como 'esporte bretão'?",
+        answers: [
+            { text: "Críquete", correct: false },
+            { text: "Rúgbi", correct: false },
+            { text: "Golfe", correct: false },
+            { text: "Futebol", correct: true }
+        ]
+    },
+    {
+        question: "Até o ano de 2023, quem detém o recorde mundial dos 100 metros rasos no atletismo masculino? ",
+        answers: [
+            { text: "Usain Bolt", correct: true },
+            { text: "Carl Lewis", correct: false },
+            { text: "Michael Johnson", correct: false },
+            { text: "Asafa Powell", correct: false }
+        ]
+    },
+    {
+        question: "Quantos jogadores compõem uma equipe de futebol durante uma partida?",
+        answers: [
+            { text: "9", correct: false },
+            { text: "10", correct: false },
+            { text: "11", correct: true },
+            { text: "12", correct: false }
+        ]
+    },
+    {
+        question: "Qual país sediou os Jogos Olímpicos de Verão de 2016?",
+        answers: [
+            { text: "EUA", correct: false },
+            { text: "Rússia", correct: false },
+            { text: "Brasil", correct: true },
+            { text: "França", correct: false }
+        ]
+    },
+    {
+        question: "Em que país nasceu o esporte do judô?",
+        answers: [
+            { text: "Coreia do Sul", correct: false },
+            { text: "China", correct: false },
+            { text: "Japão", correct: true },
+            { text: "Brasil", correct: false }
+        ]
+    },
+    {
+        question: "Qual esporte é associado a Serena Williams?",
+        answers: [
+            { text: "Tênis", correct: true },
+            { text: "Golfe", correct: false },
+            { text: "Natação", correct: false },
+            { text: "Basquete", correct: false }
+        ]
+    },
+    {
+        question: "Qual jogador de futebol é frequentemente chamado de 'Rei'?",
+        answers: [
+            { text: "Lionel Messi", correct: false },
+            { text: "Neymar", correct: false },
+            { text: "Pelé", correct: true },
+            { text: "Cristiano Ronaldo", correct: false }
+        ]
+    },
+    {
+        question: "Qual jogador de futebol é frequentemente chamado de 'Bruxo'?",
+        answers: [
+            { text: "Lionel Messi", correct: false },
+            { text: "Neymar", correct: false },
+            { text: "Ronaldinho Gaúcho", correct: true },
+            { text: "Harry Potter", correct: false }
+        ]
+    }
 ]
 
 //Q6  GEOGRAFIA
@@ -878,14 +1293,70 @@ const q6=[
             {text: 'Fossa das Marianas', correct: true},
         ]
     },
-    {   question: 'modelo',
+    {
+        question: "Qual é o estreito que separa a Ásia da África?",
         answers: [
-            {text: 'a', correct: true},
-            {text: 'b', correct: false},
-            {text: 'c', correct: false},
-            {text: 'd', correct: false},
+            { text: "Estreito de Gibraltar", correct: false },
+            { text: "Estreito de Ormuz", correct: false },
+            { text: "Estreito de Malaca", correct: false },
+            { text: "Estreito de Bab-el-Mandeb", correct: true }
         ]
     },
+    {
+        question: "Qual é o estreito que separa a África da Europa?",
+        answers: [
+            { text: "Estreito de Gibraltar", correct: true },
+            { text: "Estreito de Ormuz", correct: false },
+            { text: "Estreito de Malaca", correct: false },
+            { text: "Estreito de Bab-el-Mandeb", correct: false }
+        ]
+    },
+    {
+        question: "Quais são os três maiores países do mundo em área territorial?",
+        answers: [
+            { text: "Rússia, Canadá, Estados Unidos", correct: true },
+            { text: "China, Brasil, Austrália", correct: false },
+            { text: "Índia, Argentina, Cazaquistão", correct: false },
+            { text: "México, França, Nigéria", correct: false }
+        ]
+    },
+    {
+        question: "Em que país está localizado o Mar Morto?",
+        answers: [
+            { text: "Israel", correct: true },
+            { text: "Turquia", correct: false },
+            { text: "Jordânia", correct: false },
+            { text: "Irã", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o ponto mais alto da Terra?",
+        answers: [
+            { text: "Monte Everest", correct: true },
+            { text: "Monte McKinley", correct: false },
+            { text: "Cordilheira dos Andes", correct: false },
+            { text: "Monte Vinson", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital mais alta do mundo?",
+        answers: [
+            { text: "Quito", correct: false },
+            { text: "La Paz", correct: true },
+            { text: "Bogotá", correct: false },
+            { text: "Lhasa", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do Japão?",
+        answers: [
+            { text: "Pequim", correct: false },
+            { text: "Seul", correct: false },
+            { text: "Tóquio", correct: true },
+            { text: "Bangcoc", correct: false }
+        ]
+    }
+    
     
 
 
@@ -1114,6 +1585,141 @@ const q7=[
 //Q8  TEMAS DIVERSOS
 
 const q8=[
+    {
+        question: "Quem é conhecido como o "Homem de Ferro" nos quadrinhos da Marvel?",
+        answers: [
+            { text: "Steve Rogers", correct: false },
+            { text: "Bruce Wayne", correct: false },
+            { text: "Tony Stark", correct: true },
+            { text: "Clark Kent", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do programa de computador que venceu os campeões mundiais em Jeopardy! em 2011?",
+        answers: [
+            { text: "Deep Blue", correct: false },
+            { text: "Watson", correct: true },
+            { text: "AlphaGo", correct: false },
+            { text: "DeepMind", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a série de jogos que apresenta o personagem Nathan Drake, um caçador de tesouros?",
+        answers: [
+            { text: "Halo", correct: false },
+            { text: "Uncharted", correct: true },
+            { text: "Assassin's Creed", correct: false },
+            { text: "The Last of Us", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a empresa por trás da série de consoles de videogame PlayStation?",
+        answers: [
+            { text: "Microsoft", correct: false },
+            { text: "Nintendo", correct: false },
+            { text: "Sony", correct: true },
+            { text: "Sega", correct: false }
+        ]
+    },
+    {
+        question: "Em qual jogo o personagem principal, conhecido como 'Link', tenta resgatar a Princesa Zelda?",
+        answers: [
+            { text: "Final Fantasy VII", correct: false },
+            { text: "The Legend of Zelda", correct: true },
+            { text: "Super Mario Bros.", correct: false },
+            { text: "Pokémon Red/Blue", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores podem construir e explorar mundos virtuais usando blocos?",
+        answers: [
+            { text: "Minecraft", correct: true },
+            { text: "Fortnite", correct: false },
+            { text: "Roblox", correct: false },
+            { text: "Terraria", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do personagem principal da série de jogos 'The Witcher', baseada nos livros de Andrzej Sapkowski?",
+        answers: [
+            { text: "Geralt of Rivia", correct: true },
+            { text: "Ezio Auditore", correct: false },
+            { text: "Joel", correct: false },
+            { text: "Master Chief", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da série de jogos que segue a jornada de Kratos, um guerreiro espartano, e seu filho?",
+        answers: [
+            { text: "Assassin's Creed", correct: false },
+            { text: "God of War", correct: true },
+            { text: "Dark Souls", correct: false },
+            { text: "Devil May Cry", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da protagonista feminina em "Tomb Raider", uma série de jogos de aventura?",
+        answers: [
+            { text: "Aloy", correct: false },
+            { text: "Lara Croft", correct: true },
+            { text: "Chell", correct: false },
+            { text: "Faith Connors", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do encanador italiano da Nintendo, conhecido por salvar a Princesa Peach?",
+        answers: [
+            { text: "Sonic", correct: false },
+            { text: "Link", correct: false },
+            { text: "Mario", correct: true },
+            { text: "Luigi", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do jogo de tabuleiro onde os jogadores competem para construir estradas, vilas e cidades em um mundo fictício?",
+        answers: [
+            { text: "Risk", correct: false },
+            { text: "Catan", correct: true },
+            { text: "Monopoly", correct: false },
+            { text: "Clue", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano foi inventada a primeira câmera fotográfica?",
+        answers: [
+            { text: "1839", correct: true },
+            { text: "1895", correct: false },
+            { text: "1768", correct: false },
+            { text: "1950", correct: false }
+        ]
+    },
+    {
+        question: "Quem é creditado como o inventor da World Wide Web (WWW)?",
+        answers: [
+            { text: "Tim Berners-Lee", correct: true },
+            { text: "Mark Zuckerberg", correct: false },
+            { text: "Larry Page", correct: false },
+            { text: "Elon Musk", correct: false }
+        ]
+    },
+    {
+        question: "Quem inventou o computador pessoal?",
+        answers: [
+            { text: "Bill Gates", correct: false },
+            { text: "Steve Jobs", correct: false },
+            { text: "Alan Turing", correct: false },
+            { text: "Edgar F. Codd", correct: true }
+        ]
+    },
+    {
+        question: "Quem inventou a penicilina, o primeiro antibiótico?",
+        answers: [
+            { text: "Marie Curie", correct: false },
+            { text: "Alexander Fleming", correct: true },
+            { text: "Louis Pasteur", correct: false },
+            { text: "Joseph Lister", correct: false }
+        ]
+    },
     {   question: 'O telégrafo foi criado em 1831. Quem foi seu criador?',
         answers: [
             {text: 'Thomas Edison', correct: false},
@@ -1211,9 +1817,19 @@ answers: [
 const todasq= [...q1, ...q2, ...q3, ...q4, ...q5, ...q6, ...q7, ...q8]
 
 
+//MODELO
 
+/*
 
-
+{   question: 'modelo',
+        answers: [
+            {text: 'a', correct: true},
+            {text: 'b', correct: false},
+            {text: 'c', correct: false},
+            {text: 'd', correct: false},
+        ]
+    },
+*/
 
 
 
