@@ -62,6 +62,10 @@ const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
 const derrota= new Audio('/assets/sounds/derrota.mp3');
 const silvio= new Audio('/assets/sounds/certasilvio.m4a');
 const palmas=new Audio('/assets/sounds/palmas.m4a');
+const ativar= new Audio('/assets/sounds/ativar1.mp3');
+ativar.volume=0.5;
+
+const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, silvio, palmas]; 
 
 //INICIAR O JOGO
 
@@ -218,6 +222,52 @@ function selecao(e){
     const botaoproxima= document.querySelector('#botaoproxima');
     botaoproxima.classList.add('proxima');
 }
+
+// OPÇÕES
+
+
+let ativado=false;
+const opcaomenu = document.querySelector('.eng');
+const opcao= document.querySelector('.opcao');
+opcaomenu.addEventListener('click', ativarmenu);
+
+function ativarmenu(){ 
+    if(ativado===false){
+            opcao.style.display='flex';
+            ativado=true;
+        }
+        else{
+            opcao.style.display='none';
+            ativado=false;
+        }  
+}
+
+const sons = document.getElementById('sons');
+sons.addEventListener('change', function() {
+    const caixadesom= document.querySelector('.caixadesom');
+    if (sons.checked) {
+        ligarTodosOsSons();
+        ativar.play();
+        caixadesom.src='/assets/img/som.png';
+    } else {
+        desligarTodosOsSons();
+        caixadesom.src='/assets/img/semsom.png';
+        
+    }
+});
+
+function desligarTodosOsSons() {
+    todosossons.forEach(a => {
+        a.volume=0;  
+    });
+}
+
+function ligarTodosOsSons() {
+    todosossons.forEach(a => {
+        a.volume=0.5;
+    });
+}
+
 
 
 
@@ -1289,6 +1339,78 @@ const q5=[
             { text: "Ronaldinho Gaúcho", correct: true },
             { text: "Harry Potter", correct: false }
         ]
+    },
+    {
+        question: "Quem é considerado o maior jogador de basquete de todos os tempos?",
+        answers: [
+            { text: "Magic Johnson", correct: false },
+            { text: "LeBron James", correct: false },
+            { text: "Michael Jordan", correct: true },
+            { text: "Kobe Bryant", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte principal no evento conhecido como 'Super Bowl'?",
+        answers: [
+            { text: "Hóquei no Gelo", correct: false },
+            { text: "Basebol", correct: false },
+            { text: "Futebol Americano", correct: true },
+            { text: "Basquete", correct: false }
+        ]
+    },
+    {
+        question: "Quem detém o recorde de mais medalhas de ouro olímpicas na história?",
+        answers: [
+            { text: "Usain Bolt", correct: false },
+            { text: "Michael Phelps", correct: true },
+            { text: "Simone Biles", correct: false },
+            { text: "Nadia Comăneci", correct: false }
+        ]
+    },
+    {
+        question: "Qual jogador de tênis detém o recorde de mais títulos de Grand Slam na história do esporte?",
+        answers: [
+            { text: "Rafael Nadal", correct: false },
+            { text: "Roger Federer", correct: true },
+            { text: "Novak Djokovic", correct: false },
+            { text: "Andre Agassi", correct: false }
+        ]
+    },
+    {
+        question: "Em que esporte os jogadores competem para fazer cestas em uma tabela suspensa a uma altura de 3,05 metros?",
+        answers: [
+            { text: "Hóquei no Gelo", correct: false },
+            { text: "Futebol Americano", correct: false },
+            { text: "Basquete", correct: true },
+            { text: "Vôlei", correct: false }
+        ]
+    },
+    {
+        question: "Qual país é conhecido por sua tradição no esporte de críquete e tem uma das ligas mais populares do mundo, a Indian Premier League (IPL)?",
+        answers: [
+            { text: "Austrália", correct: false },
+            { text: "Inglaterra", correct: false },
+            { text: "Índia", correct: true },
+            { text: "África do Sul", correct: false }
+        ]
+    },
+    {
+        question: "Em qual esporte os competidores realizam manobras e acrobacias em uma pista de obstáculos, incluindo rampas e corrimãos?",
+        answers: [
+            { text: "BMX", correct: true },
+            { text: "Skate", correct: false },
+            { text: "Snowboard", correct: false },
+            { text: "Surfe", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da maratona de ciclismo de longa distância que ocorre anualmente na França?",
+        answers: [
+            { text: "Tour de España", correct: false },
+            { text: "Giro d'Italia", correct: false },
+            { text: "Tour de France", correct: true },
+            { text: "Vuelta a Colombia", correct: false }
+        ]
     }
 ]
 
@@ -1516,10 +1638,16 @@ const q6=[
             { text: "Tóquio", correct: true },
             { text: "Bangcoc", correct: false }
         ]
-    }
+    },
+    {   question: 'Qual é o animal nacional da Austrália?',
+        answers: [
+            {text: 'Crocodilo', correct: false},
+            {text: 'Coala', correct: false},
+            {text: 'Canguru vermelho', correct: true},
+            {text: 'Quokka', correct: false},
+        ]
+    }, 
     
-    
-
 
 ]
     
@@ -1951,14 +2079,6 @@ const q8=[
             {text: '25', correct: false},
         ]
     },
-    {   question: 'Qual é o animal nacional da Austrália?',
-        answers: [
-            {text: 'Crocodilo', correct: false},
-            {text: 'Coala', correct: false},
-            {text: 'Canguru vermelho', correct: true},
-            {text: 'Quokka', correct: false},
-        ]
-    }, 
     {   question: 'Inicialmente chamada de Arpanet, em que ano a internet foi criada?',
     answers: [
         {text: '1980', correct: false},

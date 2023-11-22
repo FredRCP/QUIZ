@@ -14,10 +14,17 @@
 
   <aside>
     <div class="menu">   
-        <a class="titulo" title="Opções"><img class="home" src="./assets/img/opcao.png" alt="home"></a>
-        <a class="titulo" title="Página inicial" onclick="resetar()"><img class="home" src="./assets/img/home.png" alt="home"></a>
+        <img class="home eng" src="./assets/img/opcao.png" alt="home">
+        <div class="opcao">
+          <label for="sons"><img class="caixadesom" src="/assets/img/som.png" alt="" title="ativar/desativar sons"></label>
+          <input style="display: none;" type="checkbox" name="sons" id="sons" checked>
+          <label for="rank"><img class="rank" src="/assets/img/rank.png" alt="" title="ranking dos jogadores"></label>
+          <input style="display: none;" type="checkbox" name="rank" id="rank">
+        </div>
         
+        <a class="titulo" title="Página inicial" onclick="resetar()"><img class="home" src="./assets/img/home.png" alt="home"></a>   
     </div>
+    
   </aside>
 
   <div class="resultado">
