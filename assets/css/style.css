@@ -70,7 +70,7 @@ a:hover{
 }
 
 .home{
-  width: 7rem;
+  width: 6rem;
   transition: all 500ms ease;
   border-radius: 1.5rem;
   border: solid 0.3rem rgba(255, 255, 0, 0);

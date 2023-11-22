@@ -228,6 +228,38 @@ function selecao(e){
 //Q1 ARTE E CULTURA
 
 const q1=[
+    {   question: 'Qual a religião monoteísta que conta com o maior número de adeptos no mundo?',
+        answers: [
+            {text: 'Cristianismo', correct: true},
+            {text: 'Judaísmo', correct: false},
+            {text: 'Islamismo', correct: false},
+            {text: 'Hinduísmo', correct: false},
+        ]
+    },
+    {   question: 'Considerado o maior artista e arquiteto do período colonial brasileiro, e representante da barroco mineiro?',
+        answers: [
+            {text: 'Ernesto Neto', correct: false},
+            {text: 'Antônio Francisco Lisboa (o Aleijadinho)', correct: true},
+            {text: 'Francisco Brennand', correct: false},
+            {text: 'Claudio Manoel da Costa', correct: false},
+        ]
+    },
+    {   question: 'Mona Lisa ou também conhecida como A Gioconda, é considerada uma das maiores obras de?',
+        answers: [
+            {text: 'Michelangelo', correct: false},
+            {text: 'Leonardo da Vinci', correct: true},
+            {text: 'Juliano de Médici', correct: false},
+            {text: 'Donatello', correct: false},
+        ]
+    },
+    {   question: 'Qual idioma tem o maior número de palavras (de acordo com dicionários)?',
+        answers: [
+            {text: 'Inglês', correct: true},
+            {text: 'Português', correct: false},
+            {text: 'Chinês', correct: false},
+            {text: 'Latim', correct: false},
+        ]
+    },
     {
         question: "Quem é o autor da Mona Lisa?",
         answers: [
@@ -413,6 +445,33 @@ const q1=[
 //Q2 BIOLOGIA
 
 const q2=[
+    {
+        question: "Quantas pernas possuem os insetos?",
+        answers: [
+            { text: "8", correct: false },
+            { text: "6", correct: true },
+            { text: "10", correct: false },
+            { text: "12", correct: false }
+        ]
+    },
+    {
+        question: "Quantas pernas possuem os aracnídeos?",
+        answers: [
+            { text: "6", correct: false },
+            { text: "10", correct: false },
+            { text: "12", correct: false },
+            { text: "8", correct: true }            
+        ]
+    },
+    {
+        question: "Quem inventou a penicilina, o primeiro antibiótico?",
+        answers: [
+            { text: "Marie Curie", correct: false },
+            { text: "Alexander Fleming", correct: true },
+            { text: "Louis Pasteur", correct: false },
+            { text: "Joseph Lister", correct: false }
+        ]
+    },
     {
         question: "Quantos ossos tem um adulto humano?",
         answers: [
@@ -616,6 +675,39 @@ const q2=[
 //Q3 CIÊNCIAS
 
 const q3=[
+   
+    {   question: ' A aceleração da gravidade é a intensidade do campo gravitacional em um determinado ponto. Qual seu valor aproximado na Terra?',
+        answers: [
+            {text: '20 metros/s2', correct: false},
+            {text: '1 metro/s2', correct: false},
+            {text: '9,8 metros/s2', correct: true},
+            {text: '5 metro/s2', correct: false},
+        ]
+    },
+    {   question: 'A lei da Ação e Reação é qual Lei de Newton?',
+        answers: [
+            {text: 'Primeira', correct: false},
+            {text: 'Segunda', correct: false},
+            {text: 'Terceira', correct: true},
+            {text: 'Quarta', correct: false},
+        ]
+    },
+    {   question: '1 minuto tem quantos segundos?',
+        answers: [
+            {text: '10', correct: false},
+            {text: '30', correct: false},
+            {text: '60', correct: true},
+            {text: '100', correct: false},
+        ]
+    },
+    {   question: 'Qual das alternativas contém apenas invenções criadas no Brasil?',
+        answers: [
+            {text: 'Soro antiofídico e chuveiro elétrico', correct: true},
+            {text: 'Chuveiro elétrico e internet', correct: false},
+            {text: 'Telefone e urna eletrónica', correct: false},
+            {text: 'Facebook e automóvel', correct: false},
+        ]
+    },
     {
         question: "Quantos planetas fazem parte do nosso sistema solar?",
         answers: [
@@ -800,6 +892,70 @@ const q3=[
 //Q4 CINEMA E MÚSICA
 
 const q4=[
+    
+    {
+        question: "Em qual filme Leonardo DiCaprio finalmente ganhou um Oscar de Melhor Ator após várias indicações?",
+        answers: [
+            { text: "Titanic", correct: false },
+            { text: "Django Livre", correct: false },
+            { text: "O Lobo de Wall Street", correct: false },
+            { text: "O Regresso", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do dragão em 'Game of Thrones'?",
+        answers: [
+            { text: "Smaug", correct: false },
+            { text: "Viserion", correct: false },
+            { text: "Drogon", correct: true },
+            { text: "Toothless", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do filme dirigido por Quentin Tarantino que se passa durante a Segunda Guerra Mundial?",
+        answers: [
+            { text: "Django Livre", correct: false },
+            { text: "Kill Bill", correct: false },
+            { text: "Pulp Fiction", correct: false },
+            { text: "Bastardos Inglórios", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do agente do FBI que é o protagonista da série 'O Silêncio dos Inocentes'?",
+        answers: [
+            { text: "Jack Crawford", correct: false },
+            { text: "Fox Mulder", correct: false },
+            { text: "Clarice Starling", correct: true },
+            { text: "Hannibal Lecter", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o papel de Tony Stark, também conhecido como Homem de Ferro, no Universo Cinematográfico Marvel?",
+        answers: [
+            { text: "Chris Evans", correct: false },
+            { text: "Robert Downey Jr.", correct: true },
+            { text: "Chris Hemsworth", correct: false },
+            { text: "Mark Ruffalo", correct: false }
+        ]
+    },
+    {
+        question: "Em que filme o personagem Hannibal Lecter diz a famosa frase 'Uma boa garrafa de Chianti'?",
+        answers: [
+            { text: "O Silêncio dos Inocentes", correct: true },
+            { text: "Hannibal", correct: false },
+            { text: "Dragão Vermelho", correct: false },
+            { text: "O Silêncio dos Inocentes", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da família protagonista da série de animação 'Os Simpsons'?",
+        answers: [
+            { text: "Griffin", correct: false },
+            { text: "Hill", correct: false },
+            { text: "Smith", correct: false },
+            { text: "Simpson", correct: true }
+        ]
+    },
     {   question: 'Qual desses filmes foi baseado na obra de Shakespeare?',
         answers: [
             {text: 'Muito Barulho por Nada (2012)', correct: true},
@@ -1281,8 +1437,8 @@ const q6=[
         {text: 'Vancouver', correct: false},
         {text: 'Montreal', correct: false},
     ]
-},
-{   question: 'Qual é a maior (não mais alta) cadeia de montanhas do mundo?',
+    },
+    {   question: 'Qual é a maior (não mais alta) cadeia de montanhas do mundo?',
         answers: [
             {text: 'Andes', correct: true},
             {text: 'Himalaias', correct: false},
@@ -1587,9 +1743,72 @@ const q7=[
 
 ]
 
-//Q8  TEMAS DIVERSOS
+//Q8  GEEK
 
 const q8=[
+    {
+        question: "Qual é o nome do famoso jogo de RPG de mesa que se passa em um mundo de fantasia medieval e é conhecido por seus dados poliédricos?",
+        answers: [
+            { text: "Pathfinder", correct: false },
+            { text: "Dungeons & Dragons", correct: true },
+            { text: "Warhammer Fantasy Roleplay", correct: false },
+            { text: "Shadowrun", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo de tabuleiro os jogadores compram, vendem e negociam propriedades imobiliárias?",
+        answers: [
+            { text: "Jogo da Vida", correct: false },
+            { text: "War", correct: false },
+            { text: "Banco Imobiliário", correct: true },
+            { text: "Dixit", correct: false }
+        ]
+    },
+    {
+        question: "No universo de 'Star Wars', qual é o nome da nave espacial pilotada por Han Solo?",
+        answers: [
+            { text: "Millennium Falcon", correct: true },
+            { text: "TARDIS", correct: false },
+            { text: "Serenity", correct: false },
+            { text: "Starship Enterprise", correct: false }
+        ]
+    },
+    {
+        question: "No universo de 'Doctor Who', qual é o nome da nave espacial/temporal do Doutor?",
+        answers: [
+            { text: "Millennium Falcon", correct: false },
+            { text: "TARDIS", correct: true },
+            { text: "Serenity", correct: false },
+            { text: "Starship Enterprise", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores podem explorar um vasto universo gerado proceduralmente?",
+        answers: [
+            { text: "Elite Dangerous", correct: false },
+            { text: "No Man's Sky", correct: true },
+            { text: "Starbound", correct: false },
+            { text: "EVE Online", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do sistema operacional desenvolvido pela Valve Corporation para jogos?",
+        answers: [
+            { text: "SteamOS", correct: true },
+            { text: "GamerOS", correct: false },
+            { text: "PlayOS", correct: false },
+            { text: "GameOS", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do assistente virtual da Amazon, ativado por voz, que se tornou um sucesso de vendas?",
+        answers: [
+            { text: "Cortana", correct: false },
+            { text: "Siri", correct: false },
+            { text: "Alexa", correct: true },
+            { text: "Google Assistant", correct: false }
+        ]
+    },
     {
         question: "Quem é conhecido como o 'Homem de Ferro' nos quadrinhos da Marvel?",
         answers: [
@@ -1716,15 +1935,6 @@ const q8=[
             { text: "Edgar F. Codd", correct: true }
         ]
     },
-    {
-        question: "Quem inventou a penicilina, o primeiro antibiótico?",
-        answers: [
-            { text: "Marie Curie", correct: false },
-            { text: "Alexander Fleming", correct: true },
-            { text: "Louis Pasteur", correct: false },
-            { text: "Joseph Lister", correct: false }
-        ]
-    },
     {   question: 'O telégrafo foi criado em 1831. Quem foi seu criador?',
         answers: [
             {text: 'Thomas Edison', correct: false},
@@ -1741,38 +1951,6 @@ const q8=[
             {text: '25', correct: false},
         ]
     },
-    {   question: 'Qual a religião monoteísta que conta com o maior número de adeptos no mundo?',
-        answers: [
-            {text: 'Cristianismo', correct: true},
-            {text: 'Judaísmo', correct: false},
-            {text: 'Islamismo', correct: false},
-            {text: 'Hinduísmo', correct: false},
-        ]
-    },
-    {   question: 'Qual idioma tem o maior número de palavras (de acordo com dicionários)?',
-        answers: [
-            {text: 'Inglês', correct: true},
-            {text: 'Português', correct: false},
-            {text: 'Chinês', correct: false},
-            {text: 'Latim', correct: false},
-        ]
-    },
-    {   question: 'Quem foi o inventor do ar condicionado?',
-        answers: [
-            {text: 'Henry Ford', correct: false},
-            {text: 'Nikola Telsa', correct: false},
-            {text: 'Willis Carrier', correct: true},
-            {text: 'Bill Gates', correct: false},
-        ]
-    },
-    {   question: 'Qual das alternativas contém apenas invenções criadas no Brasil?',
-        answers: [
-            {text: 'Soro antiofídico e chuveiro elétrico', correct: true},
-            {text: 'Chuveiro elétrico e internet', correct: false},
-            {text: 'Telefone e urna eletrónica', correct: false},
-            {text: 'Facebook e automóvel', correct: false},
-        ]
-    },
     {   question: 'Qual é o animal nacional da Austrália?',
         answers: [
             {text: 'Crocodilo', correct: false},
@@ -1781,40 +1959,109 @@ const q8=[
             {text: 'Quokka', correct: false},
         ]
     }, 
-    {   question: 'Qual é o animal nacional da Austrália?',
+    {   question: 'Inicialmente chamada de Arpanet, em que ano a internet foi criada?',
     answers: [
-        {text: 'Crocodilo', correct: false},
-        {text: 'Coala', correct: false},
-        {text: 'Canguru vermelho', correct: true},
-        {text: 'Quokka', correct: false},
-    ]
-}, 
-{   question: 'Qual é o animal nacional da Austrália?',
-answers: [
-    {text: 'Crocodilo', correct: false},
-    {text: 'Coala', correct: false},
-    {text: 'Canguru vermelho', correct: true},
-    {text: 'Quokka', correct: false},
-]
-}, 
-{   question: 'Inicialmente chamada de Arpanet, em que ano a internet foi criada?',
-answers: [
-    {text: '1980', correct: false},
-    {text: '2001', correct: false},
-    {text: '1969', correct: true},
-    {text: '1995', correct: false},
-]
-}, 
-{   question: 'Qual a empresa criadora deste QUIZ?',
-answers: [
-    {text: 'Gamemania', correct: false},
-    {text: 'Entertainment RCP', correct: false},
-    {text: 'Games & cia', correct: false},
-    {text: 'RCP games', correct: true},
-]
-},
+        {text: '1980', correct: false},
+        {text: '2001', correct: false},
+        {text: '1969', correct: true},
+        {text: '1995', correct: false},
+        ]
+    }, 
+    {   question: 'Qual a empresa criadora deste QUIZ?',
+    answers: [
+        {text: 'Gamemania', correct: false},
+        {text: 'Entertainment RCP', correct: false},
+        {text: 'Games & cia', correct: false},
+        {text: 'RCP games', correct: true},
+        ]
+    },
+    {   question: 'Qual o jogo onde normalmente vence o jogador que formar 3 trincas de cartas?',
+        answers: [
+            {text: 'Truco', correct: false},
+            {text: 'Buraco', correct: false},
+            {text: 'Cacheta', correct: true},
+            {text: 'Uno', correct: false},
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores controlam um assassino que pertence à Ordem dos Assassinos?",
+        answers: [
+            { text: "The Elder Scrolls V: Skyrim", correct: false },
+            { text: "Assassin's Creed", correct: true },
+            { text: "The Witcher 3: Wild Hunt", correct: false },
+            { text: "Metal Gear Solid V: The Phantom Pain", correct: false }
+        ]
+    },
+    {
+        question: "Em qual jogo os jogadores assumem o papel de um mercenário conhecido como 'Big Boss'?",
+        answers: [
+            { text: "Metal Gear Solid V: The Phantom Pain", correct: true },
+            { text: "Final Fantasy XV", correct: false },
+            { text: "The Witcher 3: Wild Hunt", correct: false },
+            { text: "Call of Duty: Modern Warfare", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores controlam um grupo de sobreviventes em um mundo pós-apocalíptico infestado de zumbis?",
+        answers: [
+            { text: "Dead Space", correct: false },
+            { text: "Resident Evil 7: Biohazard", correct: false },
+            { text: "The Last of Us", correct: true },
+            { text: "Left 4 Dead 2", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores controlam um herói encapuzado em uma missão para deter o Espantalho de destruir Gotham City?",
+        answers: [
+            { text: "Spider-Man (PS4)", correct: false },
+            { text: "Batman: Arkham Asylum", correct: true },
+            { text: "Injustice 2", correct: false },
+            { text: "Assassin's Creed Odyssey", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do personagem principal do jogo 'Assassin's Creed - Brotherhood'?",
+        answers: [
+            { text: "Ezio Auditore", correct: true },
+            { text: "Altair Ibn-La'Ahad", correct: false },
+            { text: "Connor Kenway", correct: false },
+            { text: "Desmond Miles", correct: false }
+        ]
+    },
+    {   question: 'Trilogia de jogos, com temática medieval/fantasia, conhecido pela sua dificuldade ',
+        answers: [
+            {text: 'Call of Duty', correct: false},
+            {text: 'Halo', correct: false},
+            {text: 'Skyrim', correct: false},
+            {text: 'Dark Souls', correct: true},
+        ]
+    },
+    {   question: 'Considerado o primeiro jogo comercialmente bem-sucedido, desenvolvido pela Atari e lançado em 1972?',
+        answers: [
+            {text: 'Enduro', correct: false},
+            {text: 'Pong', correct: true},
+            {text: 'Super Mário', correct: false},
+            {text: 'Donkey Kong', correct: false},
+        ]
+    },
+    {   question: 'Em 1981 o carpinteiro Mario aparece pela 1º vez em um jogo eletrônico? Qual o nome deste jogo?',
+        answers: [ 
+            {text: 'Mario Kart', correct: false},
+            {text: 'Super Mario 1', correct: false},
+            {text: 'Donkey Kong', correct: true},
+            {text: 'Mario', correct: false},
+        ]
+    },
+    {   question: 'São consoles de videogame da geração 16bits?',
+        answers: [
+            {text: 'PS1 e Xbox', correct: false},
+            {text: 'Nintendo 64 e PS2', correct: false},
+            {text: 'Atari e Game Boy ', correct: false},
+            {text: 'Super Nintendo e Mega Drive', correct: true},
+        ]
+    },
 
-
+    
 ]
 
 // TODOS OS TEMAS
