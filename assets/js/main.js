@@ -278,6 +278,150 @@ function ligarTodosOsSons() {
 //Q1 ARTE E CULTURA
 
 const q1=[
+    {
+        question: "Quem é conhecido por suas esculturas em mármore, incluindo 'O Davi' e 'A Pietà'?",
+        answers: [
+            { text: "Michelangelo", correct: true },
+            { text: "Auguste Rodin", correct: false },
+            { text: "Donatello", correct: false },
+            { text: "Gian Lorenzo Bernini", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do movimento artístico que se concentra em representar objetos da vida cotidiana de maneira realista, como visto nas pinturas de Jean-Baptiste-Siméon Chardin?",
+        answers: [
+            { text: "Romantismo", correct: false },
+            { text: "Realismo", correct: true },
+            { text: "Surrealismo", correct: false },
+            { text: "Cubismo", correct: false }
+        ]
+    },
+    {
+    question: "Qual é o nome do famoso pintor surrealista conhecido por suas obras como 'A Persistência da Memória', apresentando relógios derretidos?",
+    answers: [
+        { text: "René Magritte", correct: false },
+        { text: "Salvador Dalí", correct: true },
+        { text: "Frida Kahlo", correct: false },
+        { text: "Joan Miró", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do estilo musical e da dança originários da Bahia, que misturam elementos africanos, indígenas e europeus?",
+        answers: [
+            { text: "Samba", correct: false },
+            { text: "Forró", correct: false },
+            { text: "Capoeira", correct: false },
+            { text: "Axé", correct: true }
+        ]
+    },
+    {
+        question: "Quem é considerado o grande ícone da Bossa Nova e compôs músicas como 'Garota de Ipanema'?",
+        answers: [
+            { text: "Gilberto Gil", correct: false },
+            { text: "Caetano Veloso", correct: false },
+            { text: "Tom Jobim", correct: true },
+            { text: "Chico Buarque", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da festa popular brasileira que ocorre antes do período da Quaresma e é marcada por desfiles de escolas de samba?",
+        answers: [
+            { text: "Carnaval", correct: true },
+            { text: "Festa Junina", correct: false },
+            { text: "Oktoberfest", correct: false },
+            { text: "Folia de Reis", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o autor de 'Grande Sertão: Veredas', uma das obras mais importantes da literatura brasileira?",
+        answers: [
+            { text: "Machado de Assis", correct: false },
+            { text: "Guimarães Rosa", correct: true },
+            { text: "Jorge Amado", correct: false },
+            { text: "Carlos Drummond de Andrade", correct: false }
+        ]
+    },
+    {
+        question: "Em qual estado brasileiro se realiza o festival de música e cultura popular conhecido como Festival de Parintins?",
+        answers: [
+            { text: "Bahia", correct: false },
+            { text: "Amazonas", correct: true },
+            { text: "Pernambuco", correct: false },
+            { text: "Rio de Janeiro", correct: false }
+        ]
+    },
+    {
+        question: "Quem foi a primeira mulher a ocupar a presidência do Brasil?",
+        answers: [
+            { text: "Dilma Rousseff", correct: true },
+            { text: "Fernanda Montenegro", correct: false },
+            { text: "Marina Silva", correct: false },
+            { text: "Carmen Miranda", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a manifestação folclórica brasileira que envolve a disputa de dois grupos, Boi Bumbá Garantido e Boi Bumbá Caprichoso, no estado do Amazonas?",
+        answers: [
+            { text: "Círio de Nazaré", correct: false },
+            { text: "Folia de Reis", correct: false },
+            { text: "Bumba Meu Boi", correct: true },
+            { text: "Festa Junina", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da dança típica do estado do Rio Grande do Sul, em que os dançarinos usam trajes tradicionais e realizam movimentos coreografados?",
+        answers: [
+            { text: "Samba", correct: false },
+            { text: "Forró", correct: false },
+            { text: "Tango", correct: false },
+            { text: "Dança Gaúcha", correct: true }
+        ]
+    },
+    {
+        question: "Quem é conhecido como o 'Poeta da República' e foi um importante escritor e político brasileiro?",
+        answers: [
+            { text: "Machado de Assis", correct: false },
+            { text: "Castro Alves", correct: true },
+            { text: "Cecília Meireles", correct: false },
+            { text: "Euclides da Cunha", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do prato típico da culinária brasileira feito com feijão-preto, carne-seca, linguiça, bacon e outros ingredientes?",
+        answers: [
+            { text: "Acarajé", correct: false },
+            { text: "Vatapá", correct: false },
+            { text: "Feijoada", correct: true },
+            { text: "Moqueca", correct: false }
+        ]
+    },
+    {
+        question: "Em que cidade brasileira ocorre o famoso festival de cinema internacional conhecido como Festival de Gramado?",
+        answers: [
+            { text: "Recife", correct: false },
+            { text: "São Paulo", correct: false },
+            { text: "Rio de Janeiro", correct: false },
+            { text: "Gramado", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do famoso escritor brasileiro que é autor de clássicos como 'Dom Casmurro' e 'Memórias Póstumas de Brás Cubas'?",
+        answers: [
+            { text: "Carlos Drummond de Andrade", correct: false },
+            { text: "Machado de Assis", correct: true },
+            { text: "Cecília Meireles", correct: false },
+            { text: "Graciliano Ramos", correct: false }
+        ]
+    },
+    {
+        question: "Quem é conhecido como o 'Pai da Aviação' no Brasil, por ter realizado o primeiro voo controlado em uma aeronave mais pesada que o ar?",
+        answers: [
+            { text: "Santos Dumont", correct: true },
+            { text: "Alberto Santos", correct: false },
+            { text: "Oswaldo Cruz", correct: false },
+            { text: "Cândido Rondon", correct: false }
+        ]
+    },
     {   question: 'Qual a religião monoteísta que conta com o maior número de adeptos no mundo?',
         answers: [
             {text: 'Cristianismo', correct: true},
@@ -495,6 +639,141 @@ const q1=[
 //Q2 BIOLOGIA
 
 const q2=[
+    {
+        question: "Qual é a unidade básica da estrutura e função dos seres vivos?",
+        answers: [
+            { text: "Célula", correct: true },
+            { text: "Átomo", correct: false },
+            { text: "Molécula", correct: false },
+            { text: "DNA", correct: false }
+        ]
+    },
+    {
+        question: "O que é a fotossíntese?",
+        answers: [
+            { text: "Respiração celular", correct: false },
+            { text: "Produção de proteínas", correct: false },
+            { text: "Processo de obtenção de energia a partir da luz solar", correct: true },
+            { text: "Digestão", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a função principal do sistema nervoso?",
+        answers: [
+            { text: "Digestão", correct: false },
+            { text: "Circulação", correct: false },
+            { text: "Controle e coordenação das atividades do corpo", correct: true },
+            { text: "Respiração", correct: false }
+        ]
+    },
+    {
+        question: "O que é a meiose?",
+        answers: [
+            { text: "Processo de divisão celular que resulta em células filhas geneticamente idênticas à célula mãe", correct: false },
+            { text: "Formação de gametas", correct: true },
+            { text: "Divisão celular que ocorre apenas em células animais", correct: false },
+            { text: "Produção de energia nas células", correct: false }
+        ]
+    },
+    {
+        question: "O que são os cromossomos?",
+        answers: [
+            { text: "Estruturas que armazenam informações genéticas", correct: true },
+            { text: "Organelas responsáveis pela produção de ATP", correct: false },
+            { text: "Elementos químicos presentes nas células", correct: false },
+            { text: "Unidades básicas da matéria viva", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a função do DNA?",
+        answers: [
+            { text: "Transporte de oxigênio no sangue", correct: false },
+            { text: "Síntese de proteínas", correct: false },
+            { text: "Armazenamento de informações genéticas", correct: true },
+            { text: "Digestão de nutrientes", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a principal característica que define um animal como pertencente ao filo dos artrópodes?",
+        answers: [
+            { text: "Presença de espinhos", correct: false },
+            { text: "Corpo segmentado e exoesqueleto de quitina", correct: true },
+            { text: "Presença de penas", correct: false },
+            { text: "Corpo alongado e escamas", correct: false }
+        ]
+    },
+    {
+        question: "Os animais pertencentes à classe dos mamíferos se caracterizam por:",
+        answers: [
+            { text: "Ter escamas e nadadeiras", correct: false },
+            { text: "Ter asas e penas", correct: false },
+            { text: "Amamentação dos filhotes com leite produzido por glândulas mamárias", correct: true },
+            { text: "Respiração por brânquias", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a principal característica dos animais anfíbios?",
+        answers: [
+            { text: "Penas para voar", correct: false },
+            { text: "Respiração por pulmões", correct: false },
+            { text: "Desenvolvimento em fase larval aquática e fase adulta terrestre", correct: true },
+            { text: "Corpo coberto por escamas", correct: false }
+        ]
+    },
+    {
+        question: "Quais são os animais que possuem um bico adaptado para se alimentar exclusivamente de néctar?",
+        answers: [
+            { text: "Carnívoros", correct: false },
+            { text: "Herbívoros", correct: false },
+            { text: "Nectarívoros", correct: true },
+            { text: "Onívoros", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a ordem à qual pertencem animais como leões, tigres, e gatos domésticos?",
+        answers: [
+            { text: "Artiodáctilos", correct: false },
+            { text: "Cetáceos", correct: false },
+            { text: "Felinos", correct: true },
+            { text: "Perissodáctilos", correct: false }
+        ]
+    },
+    {
+        question: "Os animais da classe dos répteis são caracterizados por:",
+        answers: [
+            { text: "Ter asas", correct: false },
+            { text: "Respiração por brânquias", correct: false },
+            { text: "Corpo coberto por penas", correct: false },
+            { text: "Possuir escamas e respirar por pulmões", correct: true }
+        ]
+    },
+    {
+        question: "A classe dos peixes cartilaginosos inclui animais como:",
+        answers: [
+            { text: "Tubarões e arraias", correct: true },
+            { text: "Sapos e rãs", correct: false },
+            { text: "Cavalos-marinhos", correct: false },
+            { text: "Tartarugas e crocodilos", correct: false }
+        ]
+    },
+    {
+        question: "Quais são os animais que possuem uma camada de penas que os ajuda a voar?",
+        answers: [
+            { text: "Mamíferos", correct: false },
+            { text: "Répteis", correct: false },
+            { text: "Aves", correct: true },
+            { text: "Anfíbios", correct: false }
+        ]
+    },
+    {
+        question: "A ordem dos primatas inclui:",
+        answers: [
+            { text: "Gatos e cachorros", correct: false },
+            { text: "Macacos, gorilas e humanos", correct: true },
+            { text: "Elefantes e rinocerontes", correct: false },
+            { text: "Cavalos e zebras", correct: false }
+        ]
+    },
     {
         question: "Quantas pernas possuem os insetos?",
         answers: [
@@ -725,7 +1004,123 @@ const q2=[
 //Q3 CIÊNCIAS
 
 const q3=[
-   
+    {
+        question: "O que é a tabela periódica?",
+        answers: [
+            { text: "Lista de elementos químicos ordenados por seus números atômicos", correct: true },
+            { text: "Registro de descobertas astronômicas", correct: false },
+            { text: "Catálogo de espécies animais", correct: false },
+            { text: "Classificação de minerais", correct: false }
+        ]
+    },
+    {
+        question: "O que é a energia renovável?",
+        answers: [
+            { text: "Energia proveniente de fontes não renováveis, como o petróleo", correct: false },
+            { text: "Energia produzida por processos nucleares", correct: false },
+            { text: "Energia obtida a partir de fontes naturais que se renovam constantemente", correct: true },
+            { text: "Energia gerada por combustíveis fósseis", correct: false }
+        ]
+    },
+    {
+        question: "Quais são os três estados físicos da matéria?",
+        answers: [
+            { text: "Sólido, líquido e gasoso", correct: true },
+            { text: "Líquido, gasoso e plasma", correct: false },
+            { text: "Gasoso, plasma e condensado de Bose-Einstein", correct: false },
+            { text: "Sólido, líquido e plasma", correct: false }
+        ]
+    },
+    {
+        question: "O que é a teoria da relatividade proposta por Albert Einstein?",
+        answers: [
+            { text: "Teoria que explica a origem do universo", correct: false },
+            { text: "Teoria que descreve o movimento dos corpos celestes", correct: false },
+            { text: "Teoria que relaciona o espaço, o tempo e a gravidade", correct: true },
+            { text: "Teoria que estuda a interação das partículas subatômicas", correct: false }
+        ]
+    },
+    {
+        question: "O que é a lei da conservação da energia?",
+        answers: [
+            { text: "A energia total em um sistema isolado permanece constante", correct: true },
+            { text: "A energia pode ser criada a partir do nada", correct: false },
+            { text: "A energia é destruída durante as reações químicas", correct: false },
+            { text: "A energia se transforma apenas em calor", correct: false }
+        ]
+    },
+    {
+        question: "O que é a teoria celular?",
+        answers: [
+            { text: "Teoria que explica a origem do universo", correct: false },
+            { text: "Teoria que descreve o movimento dos corpos celestes", correct: false },
+            { text: "Teoria que postula que todos os seres vivos são compostos por células", correct: true },
+            { text: "Teoria que estuda a interação das partículas subatômicas", correct: false }
+        ]
+    },
+    {
+        question: "O que é um íon?",
+        answers: [
+            { text: "Um átomo neutro", correct: false },
+            { text: "Um átomo com carga positiva", correct: false },
+            { text: "Um átomo com carga negativa ou positiva devido à perda ou ganho de elétrons", correct: true },
+            { text: "Um átomo com excesso de nêutrons", correct: false }
+        ]
+    },
+    {
+        question: "O que é a teoria da Big Bang?",
+        answers: [
+            { text: "Teoria que explica a origem da vida na Terra", correct: false },
+            { text: "Teoria que descreve a formação das galáxias e a expansão do universo a partir de um estado inicial extremamente denso e quente", correct: true },
+            { text: "Teoria que explica a origem do sistema solar", correct: false },
+            { text: "Teoria que descreve a evolução biológica", correct: false }
+        ]
+    },
+    {
+        question: "O que é a lei da gravidade?",
+        answers: [
+            { text: "Objetos leves flutuam, enquanto objetos pesados caem", correct: false },
+            { text: "Todos os objetos são atraídos gravitacionalmente uns pelos outros, sendo a força proporcional às massas e inversamente proporcional ao quadrado da distância entre elas", correct: true },
+            { text: "A gravidade é uma força repulsiva entre objetos", correct: false },
+            { text: "A gravidade só afeta objetos na Terra", correct: false }
+        ]
+    },
+    {
+        question: "O que é a clonagem?",
+        answers: [
+            { text: "Processo de reprodução sexuada", correct: false },
+            { text: "Processo de criação de organismos geneticamente idênticos a partir de uma célula ou grupo de células", correct: true },
+            { text: "Processo de modificação genética de plantas", correct: false },
+            { text: "Processo de reprodução assexuada em animais", correct: false }
+        ]
+    },
+    {
+        question: "O que é a camada de ozônio?",
+        answers: [
+            { text: "Camada de partículas sólidas na atmosfera", correct: false },
+            { text: "Camada de gases responsável pelo efeito estufa", correct: false },
+            { text: "Camada de gás oxigênio na estratosfera que absorve a maior parte da radiação ultravioleta do Sol", correct: true },
+            { text: "Camada de névoa na atmosfera", correct: false }
+        ]
+    },
+    {
+        question: "O que é a terapia genética?",
+        answers: [
+            { text: "Uso de plantas medicinais para tratamento de doenças genéticas", correct: false },
+            { text: "Uso de medicamentos para corrigir problemas genéticos", correct: false },
+            { text: "Intervenção nos genes de uma pessoa para tratar ou prevenir doenças", correct: true },
+            { text: "Tratamento de doenças utilizando radiação genética", correct: false }
+        ]
+    },
+    {
+        question: "O que é a nanotecnologia?",
+        answers: [
+            { text: "Estudo dos elementos químicos em nível atômico", correct: false },
+            { text: "Tecnologia aplicada à agricultura", correct: false },
+            { text: "Manipulação de materiais em escala molecular e atômica", correct: true },
+            { text: "Estudo da nanoterraformação de planetas", correct: false }
+        ]
+    },   
     {   question: ' A aceleração da gravidade é a intensidade do campo gravitacional em um determinado ponto. Qual seu valor aproximado na Terra?',
         answers: [
             {text: '20 metros/s2', correct: false},
@@ -1656,6 +2051,15 @@ const q6=[
 //Q7  HISTÓRIA
 
 const q7=[
+    {
+        question: "Quem foi o líder do movimento conhecido como 'Inconfidência Mineira', que buscava a independência da província de Minas Gerais do domínio português?",
+        answers: [
+            { text: "Tiradentes", correct: true },
+            { text: "Dom Pedro II", correct: false },
+            { text: "Getúlio Vargas", correct: false },
+            { text: "José Bonifácio", correct: false }
+        ]
+    },
     {   question: 'Em que período da pré-história o fogo foi descoberto?',
         answers: [
             {text: 'Neolítico', correct: false},
