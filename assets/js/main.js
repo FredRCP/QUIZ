@@ -1080,7 +1080,7 @@ const q3=[
         question: "O que é a lei da gravidade?",
         answers: [
             { text: "Objetos leves flutuam, enquanto objetos pesados caem", correct: false },
-            { text: "Todos os objetos são atraídos gravitacionalmente uns pelos outros, sendo a força proporcional às massas e inversamente proporcional ao quadrado da distância entre elas", correct: true },
+            { text: "Os objetos são atraídos uns pelos outros, sendo a força proporcional às massas e inversamente proporcional ao quadrado da distância entre elas", correct: true },
             { text: "A gravidade é uma força repulsiva entre objetos", correct: false },
             { text: "A gravidade só afeta objetos na Terra", correct: false }
         ]
@@ -1169,15 +1169,6 @@ const q3=[
             { text: "Um processo de digestão", correct: false },
             { text: "A sequência de transferência de energia de um organismo para outro na forma de alimentos", correct: true },
             { text: "Um tipo de reprodução assexuada", correct: false }
-        ]
-    },
-    {
-        question: "O que é a clonagem?",
-        answers: [
-            { text: "Um método de reprodução assexuada", correct: true },
-            { text: "Um tipo de mutação genética", correct: false },
-            { text: "Um processo de seleção artificial de plantas", correct: false },
-            { text: "Uma forma de reprodução por esporos", correct: false }
         ]
     },
     {
@@ -1329,6 +1320,14 @@ const q3=[
             {text: 'Manganês', correct: false},
             {text: 'Ferro', correct: false},
             {text: 'Prata', correct: false},
+        ]
+    }, 
+    {   question: 'Leonardo Fibonacci foi um conhecido matemático italiano. Quais números representam a sequência de Fibonacci? ',
+        answers: [
+            {text: '0 1 2 3 4 5 6 7 8 9...', correct: false},
+            {text: '0 1 1 2 3 5 8 13 21...', correct: true},
+            {text: '1 2 4 8 16 32 64 128...', correct: false},
+            {text: '1 5 10 15 30 40 50 60...', correct: false},
         ]
     }, 
 ]
@@ -1590,6 +1589,87 @@ const q5=[
             {text: 'Alemanha', correct: false},
             {text: 'Japão', correct: false},
         ]
+    },
+    {
+        question: "Qual é o esporte principal das Olimpíadas de Inverno?",
+        answers: [
+            { text: "Atletismo", correct: false },
+            { text: "Esqui", correct: true },
+            { text: "Patinação", correct: false },
+            { text: "Ginástica Artística", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a modalidade esportiva em que os atletas devem atravessar obstáculos, como barras e muros, em um percurso cronometrado?",
+        answers: [
+            { text: "Corrida de revezamento", correct: false },
+            { text: "Salto com vara", correct: false },
+            { text: "Corrida com obstáculos", correct: true },
+            { text: "Maratona", correct: false }
+        ]
+    },
+    {
+        question: "Quantas vezes o Brasil sediou os Jogos Olímpicos?",
+        answers: [
+            { text: "1", correct: true },
+            { text: "2", correct: false },
+            { text: "3", correct: false },
+            { text: "Nenhuma", correct: false }
+        ]
+    },
+    {
+        question: "Quantos anéis compõem o símbolo olímpico?",
+        answers: [
+            { text: "4", correct: false },
+            { text: "5", correct: true },
+            { text: "6", correct: false },
+            { text: "7", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome dado à competição de ciclismo que consiste em três disciplinas: mountain bike, ciclismo de estrada e ciclismo BMX?",
+        answers: [
+            { text: "Tour de France", correct: false },
+            { text: "Giro d'Italia", correct: false },
+            { text: "Triatlo", correct: true },
+            { text: "Vuelta a España", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte em que os jogadores deslizam pedras de granito polido em uma pista de gelo em direção a um alvo que é segmentado em círculos concêntricos?",
+        answers: [
+            { text: "Hóquei no Gelo", correct: false },
+            { text: "Esqui Cross-Country", correct: false },
+            { text: "Bobsleigh", correct: false },
+            { text: "Curling", correct: true }
+        ]
+    },
+    {
+        question: "O que os atletas usam para saltar sobre a barra horizontal na ginástica artística masculina?",
+        answers: [
+            { text: "Trave", correct: false },
+            { text: "Paralelas", correct: false },
+            { text: "Salto de Potro", correct: false },
+            { text: "Barra fixa", correct: true }
+        ]
+    },
+    {
+        question: "Qual é a distância da maratona, uma das provas mais tradicionais das Olimpíadas?",
+        answers: [
+            { text: "15 km", correct: false },
+            { text: "21 km", correct: false },
+            { text: "42 km", correct: true },
+            { text: "50 km", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da cerimônia de encerramento das Olimpíadas, em que a chama olímpica é apagada?",
+        answers: [
+            { text: "Abertura", correct: false },
+            { text: "Desfile das Nações", correct: false },
+            { text: "Hino Nacional", correct: false },
+            { text: "Encerramento", correct: true }
+        ]
     }, 
     {   question: 'Qual o esporte mais antigo do mundo?',
         answers: [
@@ -1661,6 +1741,15 @@ const q5=[
             {text: '3 amarelos ou 1 vermelho', correct: false},
             {text: 'Somente 1 vermelho', correct: false},
             {text: '1 vermelho ou 2 amarelos', correct: true},
+        ]
+    },
+    {
+        question: "Qual é a nação que conquistou o maior número de medalhas de ouro nas Olimpíadas ao longo da história?",
+        answers: [
+            { text: "Estados Unidos", correct: true },
+            { text: "China", correct: false },
+            { text: "Rússia", correct: false },
+            { text: "Alemanha", correct: false }
         ]
     },
     {
