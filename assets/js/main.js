@@ -2149,6 +2149,38 @@ const q7=[
             { text: "José Bonifácio", correct: false }
         ]
     },
+    {   question: 'No Brasil, em qual dia é comemorada a Proclamação da República?',
+        answers: [
+            {text: '15 de Novembro', correct: true},
+            {text: '7 de Setembro', correct: false},
+            {text: '22 de Setembro', correct: false},
+            {text: '10 de Novembro', correct: false},
+        ]
+    },
+    {   question: 'Qual famoso navegador português descobriu o Brasil?',
+            answers: [
+                {text: 'Vasco da Gama', correct: false},
+                {text: 'Pedro Álvares Cabral', correct: true},
+                {text: 'Cristóvão Colombo', correct: false},
+                {text: 'Fernão de Magalhães', correct: false},
+            ]
+    },
+    {   question: 'Em que ano foram descobertas as Américas',
+            answers: [
+                {text: '1498', correct: false},
+                {text: '1500', correct: false},
+                {text: '1492', correct: true},
+                {text: '1505', correct: false},
+            ]
+    },
+    {   question: 'Navegador português conhecido por descobrir o caminho marítimo para as Índias:',
+            answers: [
+                {text: 'Fenrão de Magalhães', correct: false},
+                {text: 'Pedro Álvares Cabral', correct: false},
+                {text: 'Américo Vespúcio', correct: false},
+                {text: 'Vasco da Gama', correct: true},
+            ]
+    },
     {   question: 'Em que período da pré-história o fogo foi descoberto?',
         answers: [
             {text: 'Neolítico', correct: false},
@@ -2359,7 +2391,168 @@ const q7=[
             { text: "Tratado de Tóquio", correct: false },
             { text: "Tratado de Paris", correct: false }
         ]
-    }
+    },
+    {   question: ' A palavra mesopotâmia é de origem grega e significa "terra entre rios". Essa região, localiza-se entre os rios:',
+        answers: [
+            {text: 'Tigre e Eufrates', correct: true},
+            {text: 'Nilo e Niger', correct: false},
+            {text: 'Eufrates e Nilo', correct: false},
+            {text: 'Tigre e Nilo', correct: false},
+        ]
+    },
+    {   question: 'Com que idade Dom Pedro II tornou-se imperador do Brasil?',
+        answers: [
+            {text: '10 anos', correct: false},
+            {text: '5 anos', correct: true},
+            {text: '22 anos', correct: false},
+            {text: '27 anos', correct: false},
+        ]
+    },
+    {   question: 'Qual é a forma de governo adotada no Brasil até os dias atuais?',
+        answers: [
+            {text: 'Parlamentarismo', correct: false},
+            {text: 'Monarquia', correct: false},
+            {text: 'República', correct: true},
+            {text: 'Monarquia Parlamentarista', correct: false},
+        ]
+    },
+    {   question: 'Nome de nossa terra atribuído por algumas tribos indígenas, no período anterior à chegada dos portugueses ao Brasil',
+        answers: [
+            {text: 'Terra de vera Cruz', correct: false},
+            {text: 'Terra do Pau Brasil', correct: false},
+            {text: 'Terra de Santa Cruz', correct: false},
+            {text: 'Pindorama', correct: true},
+        ]
+    },
+    {   question: 'Qual é a civilização mais antiga do mundo?',
+        answers: [
+            {text: 'Mesopotâmia', correct: true},
+            {text: 'Egípcios', correct: false},
+            {text: 'Chineses', correct: false},
+            {text: 'Grécia Antiga', correct: false},
+        ]
+    },
+    {   question: 'Quem é o primeiro presidente dos Estados Unidos?',
+        answers: [
+            {text: 'Thomas Jefferson', correct: false},
+            {text: 'George Washington', correct: true},
+            {text: 'Theodore Roosevelt', correct: false},
+            {text: 'John Adams', correct: false},
+        ]
+    },
+    {   question: 'A civilização asteca se originou de qual país?',
+        answers: [
+            {text: 'Peru', correct: false},
+            {text: 'Brasil', correct: false},
+            {text: 'México', correct: true},
+            {text: 'Bolívia', correct: false},
+        ]
+    },
+    {   question: 'Onde está localizada a Babilônia',
+        answers: [
+            {text: 'Grécia', correct: false},
+            {text: 'Arábia Saudita', correct: false},
+            {text: 'Egito', correct: false},
+            {text: 'Iraque', correct: true},
+        ]
+    },
+    {   question: 'Onde é o país natal de Joana d Arc?',
+        answers: [
+            {text: 'França', correct: true},
+            {text: 'Holanda', correct: false},
+            {text: 'Itália', correct: false},
+            {text: 'Inglaterra', correct: false},
+        ]
+    },
+    {   question: 'Qual é outro nome para a Grande Pirâmide do Egito? ',
+        answers: [
+            {text: 'Pirâmides Núbias', correct: false},
+            {text: 'Gizé', correct: true},
+            {text: 'Pirâmide de Kukulkán', correct: false},
+            {text: 'Pirâmide do Sol', correct: false},
+        ]
+    },
+    {   question: 'Cuzco, Machu Pichu é um lugar famoso localizado em qual país?',
+        answers: [
+            {text: 'Venezuela', correct: false},
+            {text: 'Chile', correct: false},
+            {text: 'Peru', correct: true},
+            {text: 'Bolívia', correct: false},
+        ]
+    },
+    {   question: 'Qual o continente mais afetado pela peste negra ou peste bubônica, causada pela bactéria Yersinia pestis?',
+        answers: [
+            {text: 'Ásia', correct: false},
+            {text: 'Índia', correct: false},
+            {text: 'África', correct: false},
+            {text: 'Europa', correct: true},
+        ]
+    },
+    {   question: 'Em que oceano o Titanic afundou? ',
+        answers: [
+            {text: 'Atlântico', correct: true},
+            {text: 'Pacífico', correct: false},
+            {text: 'Índico', correct: false},
+            {text: 'Antártico', correct: false},
+        ]
+    },
+    {   question: 'Quando o muro de Berlim foi derrubado?',
+        answers: [
+            {text: '1945', correct: false},
+            {text: '1989', correct: true},
+            {text: '1970', correct: false},
+            {text: '1990', correct: false},
+        ]
+    },
+    {   question: 'Fabricação de papel, bússola, pólvora e impressão forma invenções de qual país?',
+        answers: [
+            {text: 'Japão', correct: false},
+            {text: 'Alemanhã', correct: false},
+            {text: 'China', correct: true},
+            {text: 'Estados Unidos', correct: false},
+        ]
+    },
+    {   question: 'É conhecido como o “Pai da história”?',
+        answers: [
+            {text: 'Homero', correct: false},
+            {text: 'Hipócrates', correct: false},
+            {text: 'Sócrates', correct: false},
+            {text: 'Heródoto', correct: true},
+        ]
+    },
+    {   question: 'Durante a 2º Guerra Mundial, qual destas potências não pertenciam ao "Eixo"?',
+        answers: [
+            {text: 'Estados Unidos', correct: true},
+            {text: 'Japão', correct: false},
+            {text: 'Alemanha', correct: false},
+            {text: 'Itália', correct: false},
+        ]
+    },
+    {   question: 'Durante a 2º Guerra Mundial, qual destas potências não pertenciam aos "Aliados"?',
+        answers: [
+            {text: 'Estados Unidos', correct: false},
+            {text: 'Itália', correct: true},
+            {text: 'União Soviética', correct: false},
+            {text: 'Grã-Bretanha', correct: false},
+        ]
+    },
+    {   question: 'Em qual cidade o presidente dos EUA John F. Kennedy foi assassinado?',
+        answers: [
+            {text: 'Chicago', correct: false},
+            {text: 'Nova York', correct: false},
+            {text: 'Dallas', correct: true},
+            {text: 'Washington', correct: false},
+        ]
+    },
+    {   question: 'Quem teve um caso com Cleópatra e a fez rainha do Egito',
+        answers: [
+            {text: 'Alexandre - O Grande', correct: false},
+            {text: 'Aristóteles', correct: false},
+            {text: 'Napoleão Bonaparte', correct: false},
+            {text: 'Júlio César', correct: true},
+        ]
+    },
+        
     
 
 ]
@@ -2693,7 +2886,31 @@ const todasq= [...q1, ...q2, ...q3, ...q4, ...q5, ...q6, ...q7, ...q8]
             {text: 'c', correct: false},
             {text: 'd', correct: false},
         ]
-    },
+},
+{   question: 'modelo',
+        answers: [
+            {text: 'b', correct: false},
+            {text: 'a', correct: true},
+            {text: 'c', correct: false},
+            {text: 'd', correct: false},
+        ]
+},
+{   question: 'modelo',
+        answers: [
+            {text: 'b', correct: false},
+            {text: 'c', correct: false},
+            {text: 'a', correct: true},
+            {text: 'd', correct: false},
+        ]
+},
+{   question: 'modelo',
+        answers: [
+            {text: 'b', correct: false},
+            {text: 'c', correct: false},
+            {text: 'd', correct: false},
+            {text: 'a', correct: true},
+        ]
+},
 */
 
 
