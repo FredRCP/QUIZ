@@ -1448,6 +1448,150 @@ const q3=[
         ]
     },
     {
+        question: "Um pedreiro diz: 'Se eu tivesse dois tijolos a mais, o dobro deste número seria 100'. Quantos tijolos ele tem?",
+        answers: [
+            { text: "44", correct: false },
+            { text: "42", correct: false },
+            { text: "48", correct: true },
+            { text: "50", correct: false }
+        ]
+    },
+    {
+        question: "Pedro tem 6 bolas de gude a mais do que Jorge. Os dois juntos têm 54. Quanto tem cada um?",
+        answers: [
+            { text: "28 e 26", correct: false },
+            { text: "24 e 26", correct: false },
+            { text: "34 e 20", correct: false },
+            { text: "32 e 22", correct: false }
+        ]
+    },
+    {
+        question: "Se seis latas de leite custam 72 reais, qual o preço de 9 latas?",
+        answers: [
+            { text: "87 reais", correct: false },
+            { text: "100 reais", correct: false },
+            { text: "115 reais", correct: false },
+            { text: "90 reais", correct: false }
+        ]
+    },
+    {
+        question: "Num elevador que suporta 600 quilos, quantas caixas de 48 quilos, pode-se levar por vez?",
+        answers: [
+            { text: "13", correct: true },
+            { text: "10", correct: false },
+            { text: "11", correct: false },
+            { text: "15", correct: false }
+        ]
+    },
+    {
+        question: "Oito amigos se encontram e cada um cumprimenta o outro com um aperto de mão. Quantos apertos de mão se trocaram?",
+        answers: [
+            { text: "26", correct: false },
+            { text: "64", correct: false },
+            { text: "22", correct: false },
+            { text: "24", correct: false }
+        ]
+    },
+    {
+        question: "O termômetro subiu 6 graus, e isso representa a metade da temperatura de antes. A quantos graus está agora?",
+        answers: [
+            { text: "12 graus", correct: false },
+            { text: "22 graus", correct: false },
+            { text: "16 graus", correct: false },
+            { text: "24 graus", correct: false }
+        ]
+    },
+    {
+        question: "Se seis pessoas comem 6 chocolates em 6 minutos, quantas pessoas comerão 80 chocolates em 48 minutos?",
+        answers: [
+            { text: "10", correct: false },
+            { text: "14", correct: false },
+            { text: "12", correct: true },
+            { text: "8", correct: false }
+        ]
+    },
+    {
+        question: "Que número abaixo completa a sequência a seguir? 12 - 6 - 18 - 24 - ??",
+        answers: [
+            { text: "42", correct: false },
+            { text: "36", correct: false },
+            { text: "26", correct: false },
+            { text: "30", correct: true }
+        ]
+    },
+    {
+        question: 'O "QUADRO" está para a "PAREDE" assim como...',
+        answers: [
+            { text: "O teclado está para o computador", correct: false },
+            { text: "O envelope está para a carta", correct: false },
+            { text: "A régua está para o lápis", correct: false },
+            { text: "O selo está para o envelope", correct: true }
+        ]
+    },
+    {
+        question: 'Todos os grupos de vocábulos abaixo possuem alguma coisa em comum, exceto um deles.',
+        answers: [
+            { text: "Camiseta, meia, vestido", correct: false },
+            { text: "Tinta, pincel, tela", correct: false },
+            { text: "Automóvel, trem, dinheiro", correct: true },
+            { text: "Suco, cerveja, vinho", correct: false }
+        ]
+    },
+    {
+        question: 'Identifique o intruso do grupo.',
+        answers: [
+            { text: "São Paulo", correct: false },
+            { text: "Rio de Janeiro", correct: false },
+            { text: "Belo Horizonte", correct: false },
+            { text: "Uberaba", correct: true }
+        ]
+    },
+    {
+        question: 'Uma das opções não é compatível com as demais.',
+        answers: [
+            { text: "Submarino", correct: false },
+            { text: "Navio", correct: false },
+            { text: "Iate", correct: false },
+            { text: "Carro", correct: true }
+        ]
+    },
+    {
+        question: 'Uma das séries não está de acordo com o padrão das demais.',
+        answers: [
+            { text: "2, 7", correct: false },
+            { text: "4, 9", correct: false },
+            { text: "18, 23", correct: false },
+            { text: "6, 14", correct: true }
+        ]
+    },
+    {
+        question: 'Uma das opções não está de acordo com o padrão das demais.',
+        answers: [
+            { text: "Distante, Perto", correct: false },
+            { text: "Estreito, Apertado", correct: false },
+            { text: "Sujeito, Indivíduo", correct: false },
+            { text: "Fraternal, Amigo", correct: true }
+        ]
+    },
+    {
+        question: '"AMIGO" está para "INIMIGO" assim como "FRENESI" está para:',
+        answers: [
+            { text: "Êxtase", correct: false },
+            { text: "Encanto", correct: false },
+            { text: "Tranquilidade", correct: true },
+            { text: "Alvoroço", correct: false }
+        ]
+    },
+    {
+        question: 'O "LIVRO" está para o "ESCRITOR" assim como o "QUADRO" está para:',
+        answers: [
+            { text: "Tela", correct: false },
+            { text: "Pintor", correct: true },
+            { text: "Parede", correct: false },
+            { text: "Tinta", correct: false }
+        ]
+    },
+    {
         question: "Qual é o processo pelo qual a água é transformada em vapor de água na atmosfera?",
         answers: [
             { text: "Evaporação", correct: true },
