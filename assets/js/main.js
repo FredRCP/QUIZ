@@ -128,7 +128,7 @@ function proximapergunta(p){
                 if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'}
                 document.querySelector('.pontos').innerHTML= `Você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}%`+"<br>"+cumprimento;
-                alert('FIM DE JOGO!');  
+                alert('GAME OVER! Tente novamente.');  
                 botaoproxima.classList.remove('proxima');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
@@ -1572,6 +1572,78 @@ const q4=[
             { text: "Martin Scorsese", correct: false }
         ]
     },
+    {
+        question: "Quem interpretou o papel principal no filme 'O Poderoso Chefão'?",
+        answers: [
+            { text: "Robert De Niro", correct: false },
+            { text: "Al Pacino", correct: false },
+            { text: "Marlon Brando", correct: true },
+            { text: "Joe Pesci", correct: false }
+        ]
+    },
+    {
+        question: "Que cor está presente em quase todas as cenas de O Iluminado?",
+        answers: [
+            { text: "Preto", correct: false },
+            { text: "Amarelo", correct: false },
+            { text: "Vermelho", correct: true },
+            { text: "Verde", correct: false }
+        ]
+    },
+    {
+        question: "Para que ano Marty e Doc viajam em 'De Volta para o Futuro Parte II'?",
+        answers: [
+            { text: "1999", correct: false },
+            { text: "2000", correct: false },
+            { text: "2015", correct: true },
+            { text: "2020", correct: false }
+        ]
+    },
+    {
+        question: "Este Super herói é um repórter fotográfico que trabalha para um dos dos Jornais mais importantes de sua cidade",
+        answers: [
+            { text: "Batman", correct: false },
+            { text: "Homem Aranha", correct: true },
+            { text: "Super Homem", correct: false },
+            { text: "Lanterna Verde", correct: false }
+        ]
+    },
+    {
+        question: "Personagem do seriado Chaves que mora numa casa de Número 71:",
+        answers: [
+            { text: "Seu Madruga", correct: false },
+            { text: "Dona Clotilde", correct: true },
+            { text: "Dona Florinda", correct: false },
+            { text: "Seu Barriga", correct: false }
+        ]
+    },
+    {
+        question: "Nome do Gato de Filme de desenho animado onde existe um canário chamado Piu-Piu?",
+        answers: [
+            { text: "Tom", correct: false },
+            { text: "Garfield", correct: false },
+            { text: "Frajola", correct: true },
+            { text: "Jerry", correct: false }
+        ]
+    },
+    {
+        question: "Antigo Desenho animado da TV onde existia um personagem chamado Dick Vigarista que sempre andava acompanhado por um cachorro chamado Mutley?",
+        answers: [
+            { text: "Os Jetsons", correct: false },
+            { text: "Corrida Maluca", correct: true },
+            { text: "Os Flintstones", correct: false },
+            { text: "Tom e Jerry", correct: false }
+        ]
+    },
+    {
+        question: "Super Heroi infantil muito atrapalhado que usa roupa vermelha e possui anteninhas na cabeça e que usa como arma uma marreta de plástico?",
+        answers: [
+            { text: "Super Pateta", correct: false },
+            { text: "Super Homem", correct: false },
+            { text: "Homem Aranha", correct: false },
+            { text: "Chapolim Colorado", correct: true }
+        ]
+    },
     
     
 
@@ -2131,6 +2203,331 @@ const q6=[
             {text: 'Quokka', correct: false},
         ]
     }, 
+    {
+        question: "Em que continente está localizado o Deserto do Saara?",
+        answers: [
+            { text: "África", correct: true },
+            { text: "Ásia", correct: false },
+            { text: "América do Sul", correct: false },
+            { text: "Oceania", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o país mais populoso do mundo?",
+        answers: [
+            { text: "Índia", correct: false },
+            { text: "Estados Unidos", correct: false },
+            { text: "China", correct: true },
+            { text: "Brasil", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o maior oceano do mundo?",
+        answers: [
+            { text: "Oceano Atlântico", correct: false },
+            { text: "Oceano Índico", correct: false },
+            { text: "Oceano Ártico", correct: false },
+            { text: "Oceano Pacífico", correct: true }
+        ]
+    },
+    {
+        question: "Quais são os dois países mais extensos do mundo em área territorial?",
+        answers: [
+            { text: "Estados Unidos e Rússia", correct: false },
+            { text: "China e Canadá", correct: false },
+            { text: "Rússia e Canadá", correct: true },
+            { text: "Brasil e Austrália", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o menor continente do mundo?",
+        answers: [
+            { text: "América do Sul", correct: false },
+            { text: "Europa", correct: false },
+            { text: "África", correct: false },
+            { text: "Oceania", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o estreito que separa a Ásia da África?",
+        answers: [
+            { text: "Estreito de Gibraltar", correct: false },
+            { text: "Estreito de Bering", correct: false },
+            { text: "Estreito de Ormuz", correct: false },
+            { text: "Canal de Suez", correct: true }
+        ]
+    },
+    {
+        question: "Qual é a capital do Quênia?",
+        answers: [
+            { text: "Dacar", correct: false },
+            { text: "Nairobi", correct: true },
+            { text: "Lusaca", correct: false },
+            { text: "Acra", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o maior lago da África?",
+        answers: [
+            { text: "Lago Vitória", correct: true },
+            { text: "Lago Tanganica", correct: false },
+            { text: "Lago Niassa", correct: false },
+            { text: "Lago Chade", correct: false }
+        ]
+    },
+    {
+        question: "Em que continente está localizado o Polo Norte?",
+        answers: [
+            { text: "Antártica", correct: false },
+            { text: "Ásia", correct: false },
+            { text: "Europa", correct: false },
+            { text: "Ártico", correct: true }
+        ]
+    },
+    {
+        question: "Qual é a capital do México?",
+        answers: [
+            { text: "Bogotá", correct: false },
+            { text: "Lima", correct: false },
+            { text: "Cidade do México", correct: true },
+            { text: "Buenos Aires", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado do Amazonas?",
+        answers: [
+            { text: "Manaus", correct: true },
+            { text: "Belém", correct: false },
+            { text: "Porto Alegre", correct: false },
+            { text: "Recife", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o maior rio totalmente brasileiro?",
+        answers: [
+            { text: "Rio Paraná", correct: false },
+            { text: "Rio São Francisco", correct: false },
+            { text: "Rio Tocantins", correct: false },
+            { text: "Rio Araguaia", correct: true }
+        ]
+    },
+    {
+        question: "Em que estado está localizado o Pantanal, a maior área alagada do mundo?",
+        answers: [
+            { text: "Mato Grosso", correct: true },
+            { text: "Goiás", correct: false },
+            { text: "Pará", correct: false },
+            { text: "Amazonas", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado da Bahia?",
+        answers: [
+            { text: "Recife", correct: false },
+            { text: "Fortaleza", correct: false },
+            { text: "Salvador", correct: true },
+            { text: "São Luís", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a região mais populosa do Brasil?",
+        answers: [
+            { text: "Nordeste", correct: false },
+            { text: "Sudeste", correct: true },
+            { text: "Norte", correct: false },
+            { text: "Centro-Oeste", correct: false }
+        ]
+    },
+    {
+        question: "Em que estado brasileiro está localizado o Parque Nacional dos Lençóis Maranhenses?",
+        answers: [
+            { text: "Ceará", correct: false },
+            { text: "Bahia", correct: false },
+            { text: "Maranhão", correct: true },
+            { text: "Piauí", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado do Rio de Janeiro?",
+        answers: [
+            { text: "Niterói", correct: false },
+            { text: "Belo Horizonte", correct: false },
+            { text: "Rio de Janeiro", correct: true },
+            { text: "Curitiba", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da maior floresta tropical do mundo, que abrange parte do território brasileiro?",
+        answers: [
+            { text: "Mata Atlântica", correct: false },
+            { text: "Cerrado", correct: false },
+            { text: "Caatinga", correct: false },
+            { text: "Amazônia", correct: true }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado de Minas Gerais?",
+        answers: [
+            { text: "Belo Horizonte", correct: true },
+            { text: "São Paulo", correct: false },
+            { text: "Brasília", correct: false },
+            { text: "Rio de Janeiro", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a ilha brasileira conhecida como 'Ilha da Magia'?",
+        answers: [
+            { text: "Ilha do Mel", correct: false },
+            { text: "Ilhabela", correct: false },
+            { text: "Ilha Grande", correct: false },
+            { text: "Florianópolis", correct: true }
+        ]
+    },
+    {
+        question: "Em que estado está localizado o Vale do São Francisco, importante região produtora de frutas?",
+        answers: [
+            { text: "Bahia", correct: false },
+            { text: "Pernambuco", correct: true },
+            { text: "Ceará", correct: false },
+            { text: "Alagoas", correct: false }
+        ]
+    },
+    {
+        question: "Qual presidente brasileiro concluiu a transposição do rio São Francisco?",
+        answers: [
+            { text: "Dilma Rousseff", correct: false },
+            { text: "Jair Bolsonaro", correct: true },
+            { text: "Fernando Henrique Cardoso", correct: false },
+            { text: "Luiz Inácio Lula da Silva", correct: false }
+        ]
+    },
+    {
+        question: "Em que estado brasileiro está localizado o Jalapão, conhecido por suas belezas naturais?",
+        answers: [
+            { text: "Goiás", correct: false },
+            { text: "Mato Grosso", correct: false },
+            { text: "Tocantins", correct: true },
+            { text: "Bahia", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado do Paraná?",
+        answers: [
+            { text: "Curitiba", correct: true },
+            { text: "Porto Alegre", correct: false },
+            { text: "Florianópolis", correct: false },
+            { text: "Campo Grande", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado de Pernambuco?",
+        answers: [
+            { text: "Recife", correct: true },
+            { text: "Salvador", correct: false },
+            { text: "Fortaleza", correct: false },
+            { text: "João Pessoa", correct: false }
+        ]
+    },
+    {
+        question: "Em que região do Brasil está localizado o Parque Nacional de Itatiaia, o primeiro parque nacional do país?",
+        answers: [
+            { text: "Nordeste", correct: false },
+            { text: "Sudeste", correct: true },
+            { text: "Norte", correct: false },
+            { text: "Centro-Oeste", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a capital do estado do Rio Grande do Sul?",
+        answers: [
+            { text: "Porto Alegre", correct: true },
+            { text: "Florianópolis", correct: false },
+            { text: "Curitiba", correct: false },
+            { text: "São Paulo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o estado brasileiro conhecido como 'Terra do Sol Nascente'?",
+        answers: [
+            { text: "Bahia", correct: false },
+            { text: "Ceará", correct: false },
+            { text: "Rio Grande do Norte", correct: true },
+            { text: "Maranhão", correct: false }
+        ]
+    },
+    {
+        question: "Em que estado está localizado o Parque Nacional da Chapada dos Veadeiros?",
+        answers: [
+            { text: "Goiás", correct: true },
+            { text: "Mato Grosso", correct: false },
+            { text: "Bahia", correct: false },
+            { text: "Tocantins", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o rio mais importante que corta o estado de Minas Gerais?",
+        answers: [
+            { text: "Rio São Francisco", correct: true },
+            { text: "Rio Paraná", correct: false },
+            { text: "Rio Doce", correct: false },
+            { text: "Rio Grande", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da região histórica de Minas Gerais conhecida por suas cidades históricas, como Ouro Preto e Tiradentes?",
+        answers: [
+            { text: "Vale do Aço", correct: false },
+            { text: "Zona da Mata", correct: false },
+            { text: "Circuito das Águas", correct: false },
+            { text: "Circuito do Ouro", correct: true }
+        ]
+    },
+    {
+        question: "Minas Gerais é o principal produtor de qual recurso mineral no Brasil?",
+        answers: [
+            { text: "Ouro", correct: true },
+            { text: "Diamantes", correct: false },
+            { text: "Petróleo", correct: false },
+            { text: "Ferro", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da maior lagoa do estado de Minas Gerais, conhecida por suas águas termais?",
+        answers: [
+            { text: "Lagoa da Pampulha", correct: false },
+            { text: "Lagoa Feia", correct: false },
+            { text: "Lagoa Dourada", correct: false },
+            { text: "Lagoa Santa", correct: true }
+        ]
+    },
+    {
+        question: "Em que cidade de Minas Gerais está localizada a Usina Hidrelétrica de Furnas, uma das maiores do Brasil?",
+        answers: [
+            { text: "Divinópolis", correct: false },
+            { text: "Itajubá", correct: false },
+            { text: "Belo Horizonte", correct: false },
+            { text: "São José da Barra", correct: true }
+        ]
+    },
+    {
+        question: "Em que cidade de Minas Gerais está localizada a Usina Hidrelétrica de Furnas, uma das maiores do Brasil?",
+        answers: [
+            { text: "Divinópolis", correct: false },
+            { text: "Itajubá", correct: false },
+            { text: "Belo Horizonte", correct: false },
+            { text: "São José da Barra", correct: true }
+        ]
+    },
+    {
+        question: "Qual o Estado Brasileiro com maior número de municípios?",
+        answers: [
+            { text: "São Paulo", correct: false },
+            { text: "Minas Gerais", correct: true },
+            { text: "Mato Grosso", correct: false },
+            { text: "Bahia", correct: false }
+        ]
+    },
+
     
 
 ]
@@ -2544,7 +2941,7 @@ const q7=[
             {text: 'Washington', correct: false},
         ]
     },
-    {   question: 'Quem teve um caso com Cleópatra e a fez rainha do Egito',
+    {   question: 'Quem teve um caso com Cleópatra e a fez rainha do Egito?',
         answers: [
             {text: 'Alexandre - O Grande', correct: false},
             {text: 'Aristóteles', correct: false},
@@ -2552,6 +2949,7 @@ const q7=[
             {text: 'Júlio César', correct: true},
         ]
     },
+
         
     
 
