@@ -1988,6 +1988,132 @@ const q4=[
         ]
     },
     {
+        question: "Qual é o filme mais longo da trilogia 'O Senhor dos Anéis'?",
+        answers: [
+            { text: "A Sociedade do Anel", correct: false },
+            { text: "As Duas Torres", correct: false },
+            { text: "O Retorno do Rei", correct: true },
+            { text: "Nenhum, todos têm a mesma duração", correct: false }
+        ]
+    },
+    {
+        question: "Qual filme é conhecido pela frase 'A vida é como uma caixa de chocolates'?",
+        answers: [
+            { text: "Forrest Gump", correct: true },
+            { text: "Titanic", correct: false },
+            { text: "Pulp Fiction", correct: false },
+            { text: "O Poderoso Chefão", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o papel de Jack Dawson em 'Titanic'?",
+        answers: [
+            { text: "Leonardo DiCaprio", correct: true },
+            { text: "Brad Pitt", correct: false },
+            { text: "Johnny Depp", correct: false },
+            { text: "Tom Hanks", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme de animação da Disney que apresenta uma princesa chamada Elsa?",
+        answers: [
+            { text: "A Bela e a Fera", correct: false },
+            { text: "Cinderela", correct: false },
+            { text: "Frozen: Uma Aventura Congelante", correct: true },
+            { text: "Moana", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu o filme 'A Origem'?",
+        answers: [
+            { text: "Christopher Nolan", correct: true },
+            { text: "David Fincher", correct: false },
+            { text: "Quentin Tarantino", correct: false },
+            { text: "James Cameron", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme de Quentin Tarantino lançado em 1994 que se tornou um clássico cult?",
+        answers: [
+            { text: "Pulp Fiction", correct: true },
+            { text: "Cães de Aluguel", correct: false },
+            { text: "Kill Bill", correct: false },
+            { text: "Bastardos Inglórios", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme que narra a história de um adolescente com habilidades de aranha que luta contra o crime?",
+        answers: [
+            { text: "Superman", correct: false },
+            { text: "Batman: O Cavaleiro das Trevas", correct: false },
+            { text: "Homem-Aranha: De Volta ao Lar", correct: true },
+            { text: "X-Men: Dias de um Futuro Esquecido", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme que apresenta a história de um grupo de amigos que fazem uma viagem para Las Vegas antes do casamento de um deles?",
+        answers: [
+            { text: "Se Beber, Não Case!", correct: true },
+            { text: "Ted", correct: false },
+            { text: "A Ressaca", correct: false },
+            { text: "Jogando com Prazer", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o Coringa no filme de 2019?",
+        answers: [
+            { text: "Jack Nicholson", correct: false },
+            { text: "Heath Ledger", correct: false },
+            { text: "Joaquin Phoenix", correct: true },
+            { text: "Jared Leto", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme que narra a história da rainha Elsa e sua irmã Anna, ambientado no reino de Arendelle?",
+        answers: [
+            { text: "A Bela e a Fera", correct: false },
+            { text: "Cinderela", correct: false },
+            { text: "Frozen: Uma Aventura Congelante", correct: true },
+            { text: "Moana", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme de ficção científica lançado em 1982, dirigido por Ridley Scott, que se passa em um futuro distópico e apresenta replicantes?",
+        answers: [
+            { text: "Matrix", correct: false },
+            { text: "Blade Runner", correct: true },
+            { text: "Star Wars: Uma Nova Esperança", correct: false },
+            { text: "O Quinto Elemento", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o personagem principal em 'O Lobo de Wall Street'?",
+        answers: [
+            { text: "Leonardo DiCaprio", correct: true },
+            { text: "Brad Pitt", correct: false },
+            { text: "Johnny Depp", correct: false },
+            { text: "Tom Hanks", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme sobre um grupo de pessoas tentando sobreviver a um apocalipse zumbi, dirigido por Zack Snyder e lançado em 2004?",
+        answers: [
+            { text: "Guerra Mundial Z", correct: false },
+            { text: "Extermínio", correct: false },
+            { text: "Madrugada dos Mortos", correct: true },
+            { text: "Resident Evil: O Hospedeiro", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu a trilogia 'O Senhor dos Anéis'?",
+        answers: [
+            { text: "Steven Spielberg", correct: false },
+            { text: "George Lucas", correct: false },
+            { text: "Christopher Nolan", correct: false },
+            { text: "Peter Jackson", correct: true }
+        ]
+    },
+    {
         question: "Qual é o nome do dragão em 'Game of Thrones'?",
         answers: [
             { text: "Smaug", correct: false },
@@ -2012,15 +2138,6 @@ const q4=[
             { text: "Fox Mulder", correct: false },
             { text: "Clarice Starling", correct: true },
             { text: "Hannibal Lecter", correct: false }
-        ]
-    },
-    {
-        question: "Quem interpretou o papel de Tony Stark, também conhecido como Homem de Ferro, no Universo Cinematográfico Marvel?",
-        answers: [
-            { text: "Chris Evans", correct: false },
-            { text: "Robert Downey Jr.", correct: true },
-            { text: "Chris Hemsworth", correct: false },
-            { text: "Mark Ruffalo", correct: false }
         ]
     },
     {
@@ -2172,10 +2289,10 @@ const q4=[
     },
     {   question: 'Qual das opções não é um dos 7 anões',
         answers: [
-        {text: 'Raivoso', correct: true},
-        {text: 'Dengoso', correct: false},
-        {text: 'Dunga', correct: false},
-        {text: 'Mestre', correct: false},
+            {text: 'Raivoso', correct: true},
+            {text: 'Dengoso', correct: false},
+            {text: 'Dunga', correct: false},
+            {text: 'Mestre', correct: false},
         ]
     },
     {   question: "Quem interpretou o Coringa no filme 'Batman: O Cavaleiro das Trevas'?",
@@ -2184,15 +2301,6 @@ const q4=[
             { text: "Jared Leto", correct: false },
             { text: "Heath Ledger", correct: true },
             { text: "Joquin Phoenix", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do robô em 'WALL-E', da Disney-Pixar?",
-        answers: [
-            { text: "R2-D2", correct: false },
-            { text: "EVE", correct: false },
-            { text: "WALL-E", correct: true },
-            { text: "C-3PO", correct: false }
         ]
     },
     {
@@ -2294,10 +2402,195 @@ const q4=[
             { text: "Chapolim Colorado", correct: true }
         ]
     },
-    
-    
-
-
+    {
+        question: "Qual é o filme em que Leonardo DiCaprio interpreta um ladrão de ideias que invade os sonhos das pessoas?",
+        answers: [
+            { text: "A Origem", correct: true },
+            { text: "Interstellar", correct: false },
+            { text: "Efeito Borboleta", correct: false },
+            { text: "Matrix", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu o filme 'Pulp Fiction', lançado em 1994?",
+        answers: [
+            { text: "Christopher Nolan", correct: false },
+            { text: "Martin Scorsese", correct: false },
+            { text: "Quentin Tarantino", correct: true },
+            { text: "David Fincher", correct: false }
+        ]
+    },
+    {
+        question: "Em que filme os personagens Andy Dufresne e Ellis 'Red' Redding são amigos na prisão de Shawshank?",
+        answers: [
+            { text: "O Poderoso Chefão", correct: false },
+            { text: "A Lista de Schindler", correct: false },
+            { text: "Um Sonho de Liberdade", correct: true },
+            { text: "O Resgate do Soldado Ryan", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do robô amigável que ajuda a protagonista em 'Wall-E'?",
+        answers: [
+            { text: "C-3PO", correct: false },
+            { text: "Eva", correct: true },
+            { text: "R2-D2", correct: false },
+            { text: "Hal 9000", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu o filme 'O Iluminado' baseado na obra de Stephen King?",
+        answers: [
+            { text: "Alfred Hitchcock", correct: false },
+            { text: "Stanley Kubrick", correct: true },
+            { text: "John Carpenter", correct: false },
+            { text: "Steven Spielberg", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme que narra a história de um médico que se transforma em um monstro verde quando fica com raiva?",
+        answers: [
+            { text: "Hulk", correct: false },
+            { text: "Homem-Aranha", correct: false },
+            { text: "Doutor Estranho", correct: false },
+            { text: "O Incrível Hulk", correct: true }
+        ]
+    },
+    {
+        question: "Em que filme Tom Hanks interpreta um personagem que é obrigado a viver em um aeroporto?",
+        answers: [
+            { text: "Forrest Gump", correct: false },
+            { text: "Náufrago", correct: false },
+            { text: "Terminal", correct: true },
+            { text: "O Resgate do Soldado Ryan", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da protagonista feminina em 'La La Land: Cantando Estações'?",
+        answers: [
+            { text: "Mia Dolan", correct: false },
+            { text: "Emma Stone", correct: false },
+            { text: "Sebastian Wilder", correct: false },
+            { text: "Mia Dolan", correct: true }
+        ]
+    },
+    {
+        question: "Quem interpretou o Coringa no filme 'Batman: O Cavaleiro das Trevas'?",
+        answers: [
+            { text: "Joaquin Phoenix", correct: false },
+            { text: "Heath Ledger", correct: true },
+            { text: "Jack Nicholson", correct: false },
+            { text: "Jared Leto", correct: false }
+        ]
+    },
+    {
+        question: "Em que filme uma inteligência artificial chamada Skynet ameaça a humanidade?",
+        answers: [
+            { text: "Matrix", correct: false },
+            { text: "Blade Runner", correct: false },
+            { text: "O Exterminador do Futuro", correct: true },
+            { text: "Ela", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme que apresenta uma aventura em uma fábrica de chocolates liderada por Willy Wonka?",
+        answers: [
+            { text: "O Fabuloso Destino de Amélie Poulain", correct: false },
+            { text: "A Fantástica Fábrica de Chocolate", correct: true },
+            { text: "Alice no País das Maravilhas", correct: false },
+            { text: "Matilda", correct: false }
+        ]
+    },
+    {
+        question: "Quem dirigiu o filme 'E.T. - O Extraterrestre'?",
+        answers: [
+            { text: "Steven Spielberg", correct: true },
+            { text: "George Lucas", correct: false },
+            { text: "Christopher Nolan", correct: false },
+            { text: "James Cameron", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme que narra a história de um homem que passa toda a sua vida em uma sala, sem saber que está sendo observado por um reality show?",
+        answers: [
+            { text: "O Show de Truman", correct: true },
+            { text: "A Vida Secreta de Walter Mitty", correct: false },
+            { text: "A Ilha", correct: false },
+            { text: "Matrix", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o personagem Jack Dawson em 'Titanic'?",
+        answers: [
+            { text: "Brad Pitt", correct: false },
+            { text: "Johnny Depp", correct: false },
+            { text: "Tom Hanks", correct: false },
+            { text: "Leonardo DiCaprio", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o filme que apresenta uma história de amor proibido entre um vampiro e uma humana?",
+        answers: [
+            { text: "Crepúsculo", correct: true },
+            { text: "Anjos da Noite", correct: false },
+            { text: "Entrevista com o Vampiro", correct: false },
+            { text: "Drácula de Bram Stoker", correct: false }
+        ]
+    },
+    {
+        question: "Em que filme uma família de super-heróis enfrenta um vilão chamado Síndrome?",
+        answers: [
+            { text: "Os Incríveis", correct: true },
+            { text: "Vingadores: Ultimato", correct: false },
+            { text: "Homem de Ferro", correct: false },
+            { text: "Liga da Justiça", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme de ficção científica que apresenta um computador chamado HAL 9000?",
+        answers: [
+            { text: "Blade Runner", correct: false },
+            { text: "Matrix", correct: false },
+            { text: "2001: Uma Odisséia no Espaço", correct: true },
+            { text: "Ela", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o personagem Tony Stark, também conhecido como Homem de Ferro?",
+        answers: [
+            { text: "Chris Evans", correct: false },
+            { text: "Robert Downey Jr.", correct: true },
+            { text: "Chris Hemsworth", correct: false },
+            { text: "Mark Ruffalo", correct: false }
+        ]
+    },
+    {
+        question: "Em que filme o personagem principal tem a habilidade de reviver o mesmo dia várias vezes?",
+        answers: [
+            { text: "De Volta para o Futuro", correct: false },
+            { text: "Efeito Borboleta", correct: false },
+            { text: "Feitiço do Tempo", correct: true },
+            { text: "Donnie Darko", correct: false }
+        ]
+    },
+    {
+        question: "Quem interpretou o personagem Edward, um vampiro, na saga 'Crepúsculo'?",
+        answers: [
+            { text: "Taylor Lautner", correct: false },
+            { text: "Robert Pattinson", correct: true },
+            { text: "Kellan Lutz", correct: false },
+            { text: "Jackson Rathbone", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o filme em que um navio de passageiros colide com um iceberg e afunda?",
+        answers: [
+            { text: "O Resgate do Soldado Ryan", correct: false },
+            { text: "A Vida é Bela", correct: false },
+            { text: "Titanic", correct: true },
+            { text: "Pearl Harbor", correct: false }
+        ]
+    },
 
 ]
 
@@ -2310,6 +2603,159 @@ const q5=[
             {text: 'Itália', correct: false},
             {text: 'Alemanha', correct: false},
             {text: 'Japão', correct: false},
+        ]
+    },
+    {
+        question: "Qual é o esporte que tem o termo 'strike' e 'ball'?",
+        answers: [
+            { text: "Futebol", correct: false },
+            { text: "Basebol", correct: true },
+            { text: "Tênis", correct: false },
+            { text: "Golfe", correct: false }
+        ]
+    },
+    {
+        question: "Em que país o críquete é mais popular?",
+        answers: [
+            { text: "Índia", correct: true },
+            { text: "Austrália", correct: false },
+            { text: "Inglaterra", correct: false },
+            { text: "África do Sul", correct: false }
+        ]
+    },
+    {
+        question: "Quantos jogadores compõem uma equipe de polo aquático?",
+        answers: [
+            { text: "7", correct: false },
+            { text: "6", correct: false },
+            { text: "5", correct: false },
+            { text: "8", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o esporte que é jogado em um campo chamado 'pitch'?",
+        answers: [
+            { text: "Críquete", correct: false },
+            { text: "Rúgbi", correct: false },
+            { text: "Futebol Americano", correct: false },
+            { text: "Hóquei", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o esporte em que os jogadores competem para ver quem lança um disco no menor número de arremessos?",
+        answers: [
+            { text: "Golfe", correct: false },
+            { text: "Disco", correct: true },
+            { text: "Lançamento de Dardo", correct: false },
+            { text: "Ultimate Frisbee", correct: false }
+        ]
+    },
+    {
+        question: "Em que esporte você pode ganhar pontos com um 'grand slam'?",
+        answers: [
+            { text: "Tênis", correct: true },
+            { text: "Golfe", correct: false },
+            { text: "Basebol", correct: false },
+            { text: "Pólo Aquático", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que envolve uma corrida de barcos impulsionados por remos?",
+        answers: [
+            { text: "Vela", correct: false },
+            { text: "Canoagem", correct: false },
+            { text: "Remo", correct: true },
+            { text: "Surfe", correct: false }
+        ]
+    },
+    {
+        question: "Em que esporte você pode realizar um 'hat-trick'?",
+        answers: [
+            { text: "Futebol", correct: true },
+            { text: "Vôlei", correct: false },
+            { text: "Basquete", correct: false },
+            { text: "Tênis de Mesa", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que tem posições como 'quarterback', 'wide receiver' e 'cornerback'?",
+        answers: [
+            { text: "Rúgbi", correct: false },
+            { text: "Futebol Americano", correct: true },
+            { text: "Hóquei no Gelo", correct: false },
+            { text: "Basebol", correct: false }
+        ]
+    },
+    {
+        question: "Em que esporte os jogadores competem para derrubar o maior número de pinos com uma bola?",
+        answers: [
+            { text: "Críquete", correct: false },
+            { text: "Boliche", correct: true },
+            { text: "Beisebol", correct: false },
+            { text: "Tênis", correct: false }
+        ]
+    },
+    {
+        question: "Quantos jogadores compõem uma equipe de vôlei de quadra durante um jogo?",
+        answers: [
+            { text: "6", correct: true },
+            { text: "5", correct: false },
+            { text: "7", correct: false },
+            { text: "4", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que é jogado em uma quadra dividida por uma rede, e os jogadores usam uma 'birdie'?",
+        answers: [
+            { text: "Tênis", correct: false },
+            { text: "Badminton", correct: true },
+            { text: "Vôlei de Praia", correct: false },
+            { text: "Pickleball", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que é disputado em cima de um cavalo, em uma pista com obstáculos, incluindo saltos de água?",
+        answers: [
+            { text: "Ciclismo BMX", correct: false },
+            { text: "Atletismo", correct: false },
+            { text: "Hipismo", correct: true },
+            { text: "Natação Sincronizada", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte em que os atletas descem uma montanha coberta de neve usando esquis?",
+        answers: [
+            { text: "Snowboard", correct: false },
+            { text: "Esqui Cross-Country", correct: false },
+            { text: "Esqui Alpino", correct: true },
+            { text: "Biatlo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que envolve a realização de manobras acrobáticas em uma trave elevada?",
+        answers: [
+            { text: "Ginástica Artística", correct: true },
+            { text: "Salto com Vara", correct: false },
+            { text: "Trampolim", correct: false },
+            { text: "Ginástica Rítmica", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que é jogado em um campo dividido por linhas de giz, e os jogadores usam gizes coloridos?",
+        answers: [
+            { text: "Pólo Aquático", correct: false },
+            { text: "Rúgbi", correct: false },
+            { text: "Croquet", correct: true },
+            { text: "Pólo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o esporte que é jogado em um ringue com patins e os jogadores usam tacos para acertar um disco?",
+        answers: [
+            { text: "Hóquei no Gelo", correct: true },
+            { text: "Patinagem Artística", correct: false },
+            { text: "Curling", correct: false },
+            { text: "Patinagem de Velocidade", correct: false }
         ]
     },
     {
@@ -3178,11 +3624,8 @@ const q6=[
         ]
     },
 
-    
 
 ]
-    
-
 
 //Q7  HISTÓRIA
 
@@ -3627,15 +4070,6 @@ const q8=[
         ]
     },
     {
-        question: "No universo de 'Star Wars', qual é o nome da nave espacial pilotada por Han Solo?",
-        answers: [
-            { text: "Millennium Falcon", correct: true },
-            { text: "TARDIS", correct: false },
-            { text: "Serenity", correct: false },
-            { text: "Starship Enterprise", correct: false }
-        ]
-    },
-    {
         question: "No universo de 'Doctor Who', qual é o nome da nave espacial/temporal do Doutor?",
         answers: [
             { text: "Millennium Falcon", correct: false },
@@ -3914,6 +4348,240 @@ const q8=[
             {text: 'Super Nintendo e Mega Drive', correct: true},
         ]
     },
+    {
+        question: "Qual é o nome do personagem principal de 'O Senhor dos Anéis'?",
+        answers: [
+            { text: "Gandalf", correct: false },
+            { text: "Aragorn", correct: false },
+            { text: "Frodo Bolseiro", correct: true },
+            { text: "Legolas", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano foi lançado o primeiro console PlayStation da Sony?",
+        answers: [
+            { text: "1994", correct: true },
+            { text: "1996", correct: false },
+            { text: "1998", correct: false },
+            { text: "2000", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da nave espacial em 'Star Wars' pilotada por Han Solo?",
+        answers: [
+            { text: "Starship Enterprise", correct: false },
+            { text: "Millennium Falcon", correct: true },
+            { text: "X-Wing", correct: false },
+            { text: "TIE Fighter", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a principal característica do jogo de tabuleiro 'Settlers of Catan'?",
+        answers: [
+            { text: "Construção de cidades", correct: false },
+            { text: "Negociação de recursos", correct: true },
+            { text: "Batalhas épicas", correct: false },
+            { text: "Exploração espacial", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano foi lançado o primeiro episódio de 'Star Trek'?",
+        answers: [
+            { text: "1966", correct: true },
+            { text: "1972", correct: false },
+            { text: "1980", correct: false },
+            { text: "1990", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o planeta natal de Superman?",
+        answers: [
+            { text: "Terra", correct: false },
+            { text: "Krypton", correct: true },
+            { text: "Marte", correct: false },
+            { text: "Asgard", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do protagonista de 'Doctor Who'?",
+        answers: [
+            { text: "Captain Jack Harkness", correct: false },
+            { text: "The Master", correct: false },
+            { text: "The Doctor", correct: true },
+            { text: "River Song", correct: false }
+        ]
+    },
+    {
+        question: "Quem é conhecido como o 'Mago Supremo' no universo da Marvel?",
+        answers: [
+            { text: "Homem-Aranha", correct: false },
+            { text: "Doutor Estranho", correct: true },
+            { text: "Homem de Ferro", correct: false },
+            { text: "Pantera Negra", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da espada usada por Jon Snow em 'Game of Thrones'?",
+        answers: [
+            { text: "Oathkeeper", correct: false },
+            { text: "Ice", correct: false },
+            { text: "Needle", correct: false },
+            { text: "Longclaw", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o jogo de cartas colecionáveis que se tornou um fenômeno mundial?",
+        answers: [
+            { text: "Uno", correct: false },
+            { text: "Magic: The Gathering", correct: true },
+            { text: "Pokémon TCG", correct: false },
+            { text: "Yu-Gi-Oh!", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o criador da franquia 'The Legend of Zelda'?",
+        answers: [
+            { text: "Hideo Kojima", correct: false },
+            { text: "Shigeru Miyamoto", correct: true },
+            { text: "Satoru Iwata", correct: false },
+            { text: "Hidetaka Miyazaki", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da série de livros que inspirou a série de TV 'Game of Thrones'?",
+        answers: [
+            { text: "The Wheel of Time", correct: false },
+            { text: "The Malazan Book of the Fallen", correct: false },
+            { text: "A Song of Ice and Fire", correct: true },
+            { text: "The Kingkiller Chronicle", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do vilão principal em 'Harry Potter'?",
+        answers: [
+            { text: "Voldemort", correct: true },
+            { text: "Dumbledore", correct: false },
+            { text: "Draco Malfoy", correct: false },
+            { text: "Severus Snape", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do robô do personagem Tony Stark em 'Homem de Ferro'?",
+        answers: [
+            { text: "Hulkbuster", correct: false },
+            { text: "J.A.R.V.I.S.", correct: false },
+            { text: "Ultron", correct: false },
+            { text: "Dummy", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome da protagonista feminina da série 'The Witcher'?",
+        answers: [
+            { text: "Ciri", correct: true },
+            { text: "Yennefer", correct: false },
+            { text: "Triss", correct: false },
+            { text: "Fringilla Vigo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do protagonista do jogo 'Metal Gear Solid'?",
+        answers: [
+            { text: "Solid Snake", correct: true },
+            { text: "Liquid Snake", correct: false },
+            { text: "Big Boss", correct: false },
+            { text: "Raiden", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o vilão principal em 'Star Wars: O Império Contra-Ataca'?",
+        answers: [
+            { text: "Darth Maul", correct: false },
+            { text: "Darth Sidious", correct: false },
+            { text: "Darth Skywalter", correct: false },
+            { text: "Darth Vader", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do jogo de cartas colecionáveis que envolve duelos de monstros?",
+        answers: [
+            { text: "Hearthstone", correct: false },
+            { text: "Magic: The Gathering", correct: false },
+            { text: "Yu-Gi-Oh!", correct: true },
+            { text: "Pokémon TCG", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o criador da série 'The Mandalorian'?",
+        answers: [
+            { text: "Joss Whedon", correct: false },
+            { text: "George Lucas", correct: false },
+            { text: "Jon Favreau", correct: true },
+            { text: "J.J. Abrams", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do mago que orienta o protagonista em 'The Witcher'?",
+        answers: [
+            { text: "Merlin", correct: false },
+            { text: "Gandalf", correct: false },
+            { text: "Triss", correct: false },
+            { text: "Dandelion", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do protagonista da série de anime 'Death Note'?",
+        answers: [
+            { text: "L", correct: false },
+            { text: "Kira", correct: false },
+            { text: "Ryuk", correct: false },
+            { text: "Light Yagami", correct: true }
+        ]
+    },
+    {
+        question: "Quem é o criador do universo de 'Senhor dos Anéis'?",
+        answers: [
+            { text: "George R.R. Martin", correct: false },
+            { text: "J.R.R. Tolkien", correct: true },
+            { text: "C.S. Lewis", correct: false },
+            { text: "Philip K. Dick", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a principal moeda usada em 'The Witcher'?",
+        answers: [
+            { text: "Ouro", correct: false },
+            { text: "Dólar", correct: false },
+            { text: "Florim", correct: true },
+            { text: "Rublo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do planeta natal de Spock em 'Star Trek'?",
+        answers: [
+            { text: "Tatooine", correct: false },
+            { text: "Endor", correct: false },
+            { text: "Vulcan", correct: true },
+            { text: "Coruscant", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o criador do personagem Sherlock Holmes?",
+        answers: [
+            { text: "Edgar Allan Poe", correct: false },
+            { text: "Agatha Christie", correct: false },
+            { text: "Arthur Conan Doyle", correct: true },
+            { text: "Charles Dickens", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do herói cego da Marvel que é advogado durante o dia?",
+        answers: [
+            { text: "Wolverine", correct: false },
+            { text: "Homem de Ferro", correct: false },
+            { text: "Demolidor", correct: true },
+            { text: "Luke Cage", correct: false }
+        ]
+    }
 
     
 ]
