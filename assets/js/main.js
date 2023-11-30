@@ -1460,7 +1460,7 @@ const q3=[
         question: "Pedro tem 6 bolas de gude a mais do que Jorge. Os dois juntos têm 54. Quanto tem cada um?",
         answers: [
             { text: "28 e 26", correct: false },
-            { text: "24 e 26", correct: false },
+            { text: "24 e 30", correct: true },
             { text: "34 e 20", correct: false },
             { text: "32 e 22", correct: false }
         ]
@@ -1471,7 +1471,7 @@ const q3=[
             { text: "87 reais", correct: false },
             { text: "100 reais", correct: false },
             { text: "115 reais", correct: false },
-            { text: "90 reais", correct: false }
+            { text: "108 reais", correct: true }
         ]
     },
     {
@@ -1479,7 +1479,7 @@ const q3=[
         answers: [
             { text: "13", correct: true },
             { text: "10", correct: false },
-            { text: "11", correct: false },
+            { text: "12", correct: true },
             { text: "15", correct: false }
         ]
     },
@@ -1489,13 +1489,13 @@ const q3=[
             { text: "26", correct: false },
             { text: "64", correct: false },
             { text: "22", correct: false },
-            { text: "24", correct: false }
+            { text: "28", correct: true }
         ]
     },
     {
         question: "O termômetro subiu 6 graus, e isso representa a metade da temperatura de antes. A quantos graus está agora?",
         answers: [
-            { text: "12 graus", correct: false },
+            { text: "18 graus", correct: true },
             { text: "22 graus", correct: false },
             { text: "16 graus", correct: false },
             { text: "24 graus", correct: false }
@@ -1504,19 +1504,19 @@ const q3=[
     {
         question: "Se seis pessoas comem 6 chocolates em 6 minutos, quantas pessoas comerão 80 chocolates em 48 minutos?",
         answers: [
-            { text: "10", correct: false },
+            { text: "12", correct: false },
             { text: "14", correct: false },
-            { text: "12", correct: true },
+            { text: "10", correct: true },
             { text: "8", correct: false }
         ]
     },
     {
         question: "Que número abaixo completa a sequência a seguir? 12 - 6 - 18 - 24 - ??",
         answers: [
-            { text: "42", correct: false },
+            { text: "42", correct: true },
             { text: "36", correct: false },
             { text: "26", correct: false },
-            { text: "30", correct: true }
+            { text: "30", correct: false }
         ]
     },
     {
@@ -1567,10 +1567,10 @@ const q3=[
     {
         question: 'Uma das opções não está de acordo com o padrão das demais.',
         answers: [
-            { text: "Distante, Perto", correct: false },
+            { text: "Distante, Perto", correct: true },
             { text: "Estreito, Apertado", correct: false },
             { text: "Sujeito, Indivíduo", correct: false },
-            { text: "Fraternal, Amigo", correct: true }
+            { text: "Fraternal, Amigo", correct: false }
         ]
     },
     {
@@ -1589,6 +1589,60 @@ const q3=[
             { text: "Pintor", correct: true },
             { text: "Parede", correct: false },
             { text: "Tinta", correct: false }
+        ]
+    },
+    {
+        question: 'Se diminuirmos em 1 centímetro as tiras que vamos cortar, ao invés de 8 vamos ter 9 tiras. Qual era o tamanho da peça inteira?',
+        answers: [
+            { text: "77 cm", correct: false },
+            { text: "72 cm", correct: true },
+            { text: "80 cm", correct: false },
+            { text: "45 cm", correct: false }
+        ]
+    },
+    {
+        question: 'Alguém distribui bombons para 6 crianças, dando a mesma quantidade para cada uma. Ocorre que cada criança recebe um bombom a mais do que se toda caixa fosse distribuída entre 7 crianças. Quantos bombons havia na caixa?',
+        answers: [
+            { text: "42", correct: true },
+            { text: "48", correct: false },
+            { text: "36", correct: false },
+            { text: "54", correct: false }
+        ]
+    },
+    {
+        question: '12 trabalhadores têm que transportar 12 sacos de milho da roça para o mercado. Cada um só pode carregar um saco. Os 12 precisam de 1 hora para fazer isso. Em quanto tempo 6 trabalhadores farão todo o transporte?',
+        answers: [
+            { text: "3 horas", correct: true },
+            { text: "4 horas", correct: false },
+            { text: "6 horas", correct: false },
+            { text: "9 horas", correct: false }
+        ]
+    },
+    {
+        question: 'Há 24 passageiros no ônibus, entre homens e mulheres. Se 3 homens saltassem do ônibus, o número de mulheres seria o dobro do de homens. Quantos homens e quantas mulheres estavam lá dentro?',
+        answers: [
+            { text: "12 mulheres e 14 homens", correct: false },
+            { text: "14 mulheres e 10 homens", correct: true },
+            { text: "12 mulheres e 8 homens", correct: false },
+            { text: "8 mulheres e 8 homens", correct: false }
+        ]
+    },
+    {
+        question: 'Numa caixa de fósforos há 85 palitos. Depois de transferidos para duas caixas, uma delas ficou com um terço de palitos a menos que a outra. Quantos fósforos há em cada caixa?',
+        answers: [
+            { text: "34 e 51", correct: true },
+            { text: "33 e 47", correct: false },
+            { text: "33 e 52", correct: false },
+            { text: "27 e 49", correct: false }
+        ]
+    },
+    {
+        question: 'Qual das 5 opções se parece menos com as outras três?',
+        answers: [
+            { text: "Alegria", correct: false },
+            { text: "Paladar", correct: true },
+            { text: "Tristeza", correct: false },
+            { text: "Ansiedade", correct: false }
         ]
     },
     {
