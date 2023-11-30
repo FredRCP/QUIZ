@@ -1,0 +1,858 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+  font-size: 2rem;
+}
+
+.resultado{
+  display: flex;
+  background-image:url('/assets/img/telainicial.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  width: 100vw;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+}
+
+.container {
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+aside{
+  position: fixed;
+  width: 100%;
+  background-color: rgba(243, 243, 57, 0);
+  min-height: 5rem;
+  top: 0%;
+  left: 0%;
+  right: 0%;    
+}
+
+.menu{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  align-items: center ;
+  justify-content:end;
+  height: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a:not(.titulo){
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+a:hover{
+  color: green;
+}
+
+.home{
+  width: 6rem;
+  transition: all 500ms ease;
+  border-radius: 1.5rem;
+  border: solid 0.3rem rgba(255, 255, 0, 0);
+  padding: 0.5rem;
+  background-color: rgba(245, 245, 245, 0);
+  cursor: pointer;
+}
+
+.home:hover{
+  background-color: rgba(245, 245, 245, 0);
+  border: solid 0.3rem whitesmoke;
+}
+
+.opcao{
+  background-color: #302f2f85;
+  border: solid 0.3rem whitesmoke;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: none;
+  font-size: 2rem;
+  flex-flow: column wrap;
+  color: whitesmoke;
+  z-index: 2;
+  position: fixed;
+  top: 7.5rem;
+  right: 7rem;
+  transition: all 300ms ease-in-out;
+}
+
+.opcao:hover{
+  background-color: rgba(245, 245, 245, 0.3);
+}
+
+.caixadesom{
+  width: 6rem;
+  cursor: pointer;
+}
+
+.rank{
+  width: 7rem;
+  cursor: pointer;
+}
+
+.categorias{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+ 
+}
+
+.categorias div{
+  border: 0.3rem solid;
+  box-shadow: 7px 7px 5px rgb(0, 0, 0);
+  padding: 0.5rem 0.8rem;
+  border: solid 0.3rem green;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+
+.categorias div:hover{
+  background-color: rgba(245, 245, 245, 0.61);
+  color: whitesmoke;
+  border: 0.3rem solid whitesmoke;
+}
+
+.logo{
+  position: fixed;
+  top: -0.7rem;
+  left: 0.1rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.notification{
+  font-weight: 600;
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 9rem;
+  left: 50px;
+  width: max-content;
+  padding: 15px 15px;
+  border-radius: 4px;
+  background-color: rgba(87, 87, 87, 0.603);
+  color: whitesmoke;
+  box-shadow: 6px 7px 10px black;
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade-in 5s linear forwards;
+}
+
+.not-progress{
+  position: absolute;
+  color: rgba(240, 248, 255, 0);
+  left: 5px;
+  bottom: 5px;
+  width: calc(100%-10px);
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-image: linear-gradient(to right, #3791df, #1436b3);
+  border-radius: inherit;
+  animation: load 3s 0.25s linear forwards;
+}
+
+@keyframes fade-in {
+  5%{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  90%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes load {
+  to{
+    transform: scaleX(5);
+  }
+}
+
+#cerebrocerta{
+  display: none;
+  position: fixed;
+  bottom: 40rem;
+  right: 40rem;
+  width: 30rem;
+}
+#cerebroerrada{
+  display: none;
+  position: fixed;
+  bottom:40rem;
+  right: 40rem;
+  width: 25rem;
+}
+#cerebrovitoria{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  left: 50rem;
+  width: 25rem;
+}
+#cerebrovitoria1{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  left: 50rem;
+  width: 25rem;
+}
+#cerebroderrota{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  right: 45rem;
+  width: 30rem;
+}
+#cerebroderrota1{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  right: 45rem;
+  width: 30rem;
+}
+
+button{
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  width: 30rem;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  height: 5rem;
+  color: whitesmoke;
+  background-color:#1436b3;
+}
+
+.respostas .botao{
+  min-height: 7rem;
+}
+
+button:not(:disabled):hover{
+  background-color: #302f2f7e;
+}
+
+.botao:disabled{
+  cursor: not-allowed;
+}
+
+.acertou{
+  background-color: green;
+}
+
+
+.errou{
+  background-color: red;
+}
+
+.generico{
+  display:none;
+}
+
+.start{
+  position: fixed;
+  display: flex;
+  font-size: 1.2rem;
+  width: 5rem;
+  border-radius: 4rem;
+  color: green;
+  background-color: rgba(245, 245, 245, 0.700);
+  border: solid 0.3rem green;
+  justify-content: center;
+  align-items:center;
+  padding: 3.4rem;
+}
+
+.start:hover{
+  background-color: #302f2f7e;
+}
+
+.pontos{
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.span{
+  display: none;
+  position: fixed;
+  bottom: 10rem;
+  align-items: center;
+  justify-content: center;
+  min-width: 30rem;
+  min-height: 12rem;
+  border-radius: 3rem;
+  border: solid 0.2rem whitesmoke;
+}
+
+.proxima{
+  position: fixed;
+  display: flex;
+  padding: 1rem;
+  bottom: 30rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  width: 15rem;
+  cursor: pointer;
+  font-weight: 600;
+  height: 5rem;
+  color: whitesmoke;
+  background-color:#1436b3;
+}
+
+.caixa{
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 40rem;
+  max-width: 80rem;
+  border-radius: 2rem;
+  padding: 2rem 4rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 10rem;
+  background-color: rgba(245, 245, 245, 0.700);
+}
+.caixa .respostas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.arte{
+  background-image: url('/assets/img/arte.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixaarte{
+  color: #DF0B19;
+  border: solid 0.4rem #DF0B19;
+}
+.pontoarte{
+  color:#DF0B19;
+  background-color: rgba(245, 245, 245, 0.700);
+}
+#pintura{
+  width: 9rem;
+}
+
+.bio{
+  background-color: rgba(245, 245, 245, 0.500);
+  background-image: url('/assets/img/bio.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixabio{
+  border: solid 0.4rem #156fb4;
+  color: #156fb4;
+}
+.pontobio{
+  background-color: rgba(245, 245, 245, 0.700);
+}
+#celula{
+  width: 13rem;
+}
+
+.cia{
+  background-color: rgba(245, 245, 245, 0.500);
+  background-image: url('/assets/img/ciencia.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixacia{
+  border: solid 0.4rem darkblue;
+  color: darkblue;
+}
+.pontocia{
+  background-color: rgba(245, 245, 245, 0.700);
+}
+#atomo{
+  width: 10rem;
+}
+
+.cine{
+  background-color: rgba(248, 192, 192, 0.7);
+  background-image: url('/assets/img/cinema.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixacine{
+  background-color: rgba(248, 148, 148, 0.8);
+  border: solid 0.4rem whitesmoke;
+  color: whitesmoke;
+}
+.pontocine{
+  background-color: rgba(248, 148, 148, 0.8);
+}
+#cine{
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.esporte{
+  background-color: rgba(245, 245, 245, 0.500);
+  background-image: url('/assets/img/esporte.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixaesporte{
+  background-color: rgba(73, 73, 255, 0.6);
+  border: solid 0.4rem #fedc03;
+  color: #fedc03;
+}
+.pontoesporte{
+  background-color: rgba(0, 0, 255, 0.6);
+}
+#esporte{
+  width: 7.5rem;
+}
+#esporte:hover{
+  transition: all 5000ms ease-in-out;
+  transform: rotateZ(5760deg);
+}
+
+.geo{
+  background-image: url('/assets/img/geo.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixageo{
+  border: solid 0.4rem #130647;
+  color:  #130647;
+}
+.pontogeo{
+  background-color: rgba(245, 245, 245, 0.700);
+  color:#130647;
+}
+#globo{
+  width: 10.2rem;
+}
+
+.histo{
+  background-color: rgba(245, 245, 245, 0.500);
+  background-image: url('/assets/img/historia.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixahisto{
+  border: solid 0.4rem #023218;
+  color: #023218;
+}
+.pontohisto{
+  background-color: rgba(245, 245, 245, 0.700);
+}
+#histo{
+  background-color: #6e5a44;
+  width: 7.5rem;
+  border-radius: 50%;
+}
+
+.diversos{
+  background-color: rgba(245, 245, 245, 0.500);
+  background-image: url('/assets/img/diversos.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixadiversos{
+  border: solid 0.4rem #302f2f;
+  color: #302f2f;
+}
+.pontodiversos{
+  background-color: rgba(245, 245, 245, 0.700);
+}
+#lampada{
+  width: 6.6rem;
+  border-radius: 50%;
+  background-color: #302f2f;
+}
+#lampada:hover{
+  background-color: #f3f3f388;
+}
+
+.tudo{
+  background-color: rgba(245, 245, 245, 0.500);
+  background-image: url('/assets/img/tudo.png');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.caixatudo{
+  border: solid 0.4rem #130647;
+  color: #130647;
+}
+.pontotudo{
+  background-color: rgba(245, 245, 245, 0.700);
+}
+#tudo{
+  width: 6.6rem;
+  background-color: #130647;
+  border-radius: 50%;
+}
+#tudo:hover{
+  background-color: #f3f3f388;
+}
+
+
+
+
+
+@media(max-width: 1366px){
+  
+  .categorias{
+    padding: 1rem;
+    margin-top: -1rem;
+  }
+  
+  .categorias div{
+    padding: 0.1rem 0.2rem;
+  }
+
+  .categorias div a{
+    font-size: 2rem;
+  }
+
+  .notification{
+    font-size: 1.6rem;  
+  }
+
+  .home{
+    width: 5.5rem;
+  }
+
+  .start{
+    font-size: 1.1rem;
+    width: 4rem;
+    border-radius: 4rem;
+    padding: 3rem;
+    border: solid 0.3rem;
+  }
+
+  .span{
+    display: none;
+    position: fixed;
+    bottom: 8rem;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .logo{
+    top: -0.7rem;
+    left: 0.1rem;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .proxima{
+    padding: 0rem;
+    bottom: 19rem;
+    font-size: 1.2rem;
+  }
+
+  .caixa{
+    border-radius: 2rem;
+    padding: 1.8rem 1.8rem;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .caixa .respostas{
+    font-size: 1.7rem;
+    gap: 2rem;
+  }
+
+  button{
+    padding: 0.5rem;
+  }
+
+  .pontos{
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .span{
+    min-width: 25rem;
+    min-height: 10rem;
+    border-radius: 3rem;
+  }
+
+  .notification{
+    bottom: 5rem;
+  }
+
+  #atomo{
+    width: 9rem;
+  }
+  #globo{
+    width: 9rem;
+  }
+  #pintura{
+    width: 9rem;
+  }
+  #celula{
+    width: 11rem;
+  }
+  #cine{
+    width: 5.8rem;
+  }
+  #esporte{
+    width: 6.5rem;
+  }
+  #histo{
+    width: 6.5rem;
+  }
+  #lampada{
+    width: 5.8rem;
+  }
+  #tudo{
+    width: 5.8rem;
+  }
+
+  #cerebrocerta{
+    bottom: 15rem;
+    right: 5rem;
+    width: 40rem;
+  }
+  #cerebroerrada{
+    bottom: 15rem;
+    right: 5rem;
+    width: 40rem;
+  }
+  #cerebroderrota{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+  #cerebrovitoria{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+  #cerebrovitoria1{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+  #cerebroderrota1{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+
+}
+
+@media(max-width: 720px){
+  .categorias{
+    padding: 1.4rem 1.2rem;
+    margin-top: -1rem;
+  }
+  
+  .categorias div{
+    padding: 0.4rem 0.2rem;
+  }
+
+  .categorias div a{
+    font-size: 1.7rem;
+  }
+
+  #cerebrocerta{
+    bottom: 9rem;
+    right: -2rem;
+    width: 24rem;
+  }
+  #cerebroerrada{
+    bottom: 9rem;
+    right: -2rem;
+    width: 24rem;
+  }
+  #cerebrovitoria{
+    bottom: 9rem;
+    left: -2rem;
+    width: 13rem;
+  }
+  #cerebrovitoria1{
+    bottom: 9rem;
+    left: -2rem;
+    width: 13rem;
+  }
+  #cerebroderrota{
+    bottom: 9rem;
+    right: -2rem;
+    width: 13rem;
+  }
+  #cerebroderrota1{
+    bottom: 9rem;
+    right: -2rem;
+    width: 13rem;
+  }
+
+  .span{
+    bottom: 5rem;
+    width: 17rem;
+    min-height: 10rem;
+  }
+
+  .proxima{
+    padding: 0rem;
+    bottom: 25rem;
+    font-size: 1.2rem;
+  }
+
+  .caixa{
+    min-height: 24rem;
+  }
+
+  .respostas .botao{
+    font-size: 1.4rem;
+    gap: 1rem;
+    padding: 1rem 0.2rem;
+    min-height: 7rem;
+  }
+
+  .span{
+    display: none;
+    position: fixed;
+    bottom: 10rem;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  #atomo{
+    width: 9rem;
+  }
+  #globo{
+    width: 8.8rem;
+  }
+  #pintura{
+    width: 8rem;
+  }
+  #celula{
+    width: 11rem;
+  }
+  #cine{
+    width: 5.6rem;
+  }
+  #esporte{
+    width: 6.5rem;
+  }
+  #histo{
+    width: 6.5rem;
+  }
+  #lampada{
+    width: 5.8rem;
+  }
+  #tudo{
+    width: 5.8rem;
+  }
+
+  .notification{
+    bottom: 75px;
+    left: 35px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>QUIZ BR</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="shortcut icon" href="/assets/img/cubo.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <aside>
+    <div class="menu">   
+        <img class="home eng" src="./assets/img/opcao.png" alt="home">
+        <div class="opcao">
+          <label for="sons"><img class="caixadesom" src="/assets/img/som.png" alt="" title="ativar/desativar sons"></label>
+          <input style="display: none;" type="checkbox" name="sons" id="sons" checked>
+          <label for="rank"><img class="rank" src="/assets/img/rank.png" alt="" title="ranking dos jogadores"></label>
+          <input style="display: none;" type="checkbox" name="rank" id="rank">
+        </div>
+        
+        <a class="titulo" title="Página inicial" onclick="resetar()"><img class="home" src="./assets/img/home.png" alt="home"></a>   
+    </div>
+    
+  </aside>
+
+  <div class="resultado">
+      <section class="container">
+        
+        <div class="categorias">
+            <div><a href="p1.html">Arte/Cultura</a></div>
+            <div><a href="p2.html">Biologia</a></div>
+            <div><a href="p3.html">Ciências</a></div>
+            <div><a href="p4.html">Cinema/TV</a></div>
+            <div><a href="p5.html">Geek</a></div>
+            <div><a href="p6.html">Esporte</a></div>
+            <div><a href="p7.html">Geografia</a></div>
+            <div><a href="p8.html">História</a></div>
+            <div><a href="p9.html">Tudo</a></div>
+        </div>
+      </section>
+      <img class="logo" src="/assets/img/logo.gif" alt="">
+  </div>
+
+  <div class="notification">
+    <p id="popup">Bem-vindo, vamos testar seu conhecimento...</p>
+    <span class="not-progress"></span>
+  </div>
+  <div><img id="cerebrocerta" src="/assets/img/cerebrocerta.png" alt=""></div>
+  <div><img id="cerebroerrada" src="/assets/img/cerebroerrada.png" alt=""></div>
+  <div><img id="cerebrovitoria" src="/assets/img/cerebrovitoria.png" alt=""></div>
+  <div><img id="cerebrovitoria1" src="/assets/img/cerebrovitoria1.png" alt=""></div>
+  <div><img id="cerebroderrota" src="/assets/img/cerebroderrota.png" alt=""></div>
+  <div><img id="cerebroderrota1" src="/assets/img/cerebroderrota1.png" alt=""></div>
+
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

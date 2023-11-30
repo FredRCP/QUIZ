@@ -1,0 +1,79 @@
+[
+    {
+      "category": "arte",
+      "questions": [
+        {
+          "question": "Quem é o autor de “O Príncipe”?",
+          "answers": [
+            {"text": "Rousseau", "correct": false},
+            {"text": "Antoine de Saint-Exupéry", "correct": false},
+            {"text": "Montesquieu", "correct": false},
+            {"text": "Maquiavel", "correct": true}
+          ]
+        }
+    
+      ]
+    },
+    {
+      "category": "arte",
+      "questions": [
+        {
+          "question": "Qual o livro mais vendido no mundo, depois da Bíblia?",
+          "answers": [
+            {"text": "Rousseau", "correct": false},
+            {"text": "Antoine de Saint-Exupéry", "correct": false},
+            {"text": "Montesquieu", "correct": false},
+            {"text": "Maquiavel", "correct": true}
+          ]
+        }
+    
+      ]
+    },
+    {
+      "category": "arte",
+      "questions": [
+        {
+          "question": "Quem pintou 'Guernica'?",
+          "answers": [
+            {"text": "Rousseau", "correct": false},
+            {"text": "Antoine de Saint-Exupéry", "correct": false},
+            {"text": "Montesquieu", "correct": false},
+            {"text": "Maquiavel", "correct": true}
+          ]
+        }
+    
+      ]
+    },
+    {
+      "category": "arte",
+      "questions": [
+        {
+          "question": "Quais os principais autores do Barroco no Brasil?",
+          "answers": [
+            {"text": "Rousseau", "correct": false},
+            {"text": "Antoine de Saint-Exupéry", "correct": false},
+            {"text": "Montesquieu", "correct": false},
+            {"text": "Maquiavel", "correct": true}
+          ]
+        }
+    
+      ]
+    },
+    {
+      "category": "BIOLOGIA",
+      "questions": [
+        {
+          "question": "sim",
+          "answers": [
+            {"text": "aaa", "correct": true},
+            {"text": "bbb", "correct": false},
+            {"text": "ccc", "correct": false},
+            {"text": "ddd", "correct": false}
+          ]
+        }
+       
+      ]
+    }
+   
+  ]
+
