@@ -279,6 +279,195 @@ function ligarTodosOsSons() {
 
 const q1=[
     {
+        question: 'Quem é considerado o deus dos deuses na mitologia grega?',
+        answers: [
+            { text: "Zeus", correct: true },
+            { text: "Hades", correct: false },
+            { text: "Apolo", correct: false },
+            { text: "Poseidon", correct: false }
+        ]
+    },
+    {
+        question: 'Qual deusa é associada à sabedoria, estratégia de guerra e a civilização na mitologia grega?',
+        answers: [
+            { text: "Afrodite", correct: false },
+            { text: "Atena", correct: true },
+            { text: "Deméter", correct: false },
+            { text: "Hera", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o deus do submundo na mitologia grega?',
+        answers: [
+            { text: "Hades", correct: true },
+            { text: "Ares", correct: false },
+            { text: "Dionísio", correct: false },
+            { text: "Hermes", correct: false }
+        ]
+    },
+    {
+        question: 'Qual herói grego é famoso por derrotar o Minotauro no labirinto?',
+        answers: [
+            { text: "Perseu", correct: false },
+            { text: "Teseu", correct: true },
+            { text: "Aquiles", correct: false },
+            { text: "Hércules", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o deus do sol e das artes, conhecido por tocar lira?',
+        answers: [
+            { text: "Apolo", correct: true },
+            { text: "Hermes", correct: false },
+            { text: "Dionísio", correct: false },
+            { text: "Hades", correct: false }
+        ]
+    },
+    {
+        question: 'Qual deus é o irmão de Zeus e governa os mares na mitologia grega?',
+        answers: [
+            { text: "Apolo", correct: false },
+            { text: "Hermes", correct: false },
+            { text: "Poseidon", correct: true },
+            { text: "Dionísio", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é a deusa do amor e da beleza na mitologia grega?',
+        answers: [
+            { text: "Deméter", correct: false },
+            { text: "Afrodite", correct: true },
+            { text: "Atena", correct: false },
+            { text: "Hera", correct: false }
+        ]
+    },
+    {
+        question: 'Qual herói grego é conhecido por sua força excepcional e pelos 12 trabalhos?',
+        answers: [
+            { text: "Perseu", correct: false },
+            { text: "Teseu", correct: false },
+            { text: "Aquiles", correct: false },
+            { text: "Hércules", correct: true }
+        ]
+    },
+    {
+        question: 'Quem é considerado o deus do vinho, das festas e do teatro na mitologia grega?',
+        answers: [
+            { text: "Apolo", correct: false },
+            { text: "Hermes", correct: false },
+            { text: "Dionísio", correct: true },
+            { text: "Hades", correct: false }
+        ]
+    },
+    {
+        question: 'Qual criatura mitológica é metade homem e metade touro?',
+        answers: [
+            { text: "Quimera", correct: false },
+            { text: "Centauro", correct: false },
+            { text: "Minotauro", correct: true },
+            { text: "Sátiro", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é a deusa da colheita e da agricultura na mitologia grega?',
+        answers: [
+            { text: "Deméter", correct: true },
+            { text: "Afrodite", correct: false },
+            { text: "Atena", correct: false },
+            { text: "Hera", correct: false }
+        ]
+    },
+    {
+        question: 'Qual herói grego é conhecido por sua invulnerabilidade, exceto pelo calcanhar?',
+        answers: [
+            { text: "Perseu", correct: false },
+            { text: "Teseu", correct: false },
+            { text: "Aquiles", correct: true },
+            { text: "Hércules", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é a deusa do casamento e da família na mitologia grega?',
+        answers: [
+            { text: "Deméter", correct: false },
+            { text: "Afrodite", correct: false },
+            { text: "Atena", correct: false },
+            { text: "Hera", correct: true }
+        ]
+    },
+    {
+        question: 'Qual criatura mitológica é conhecida por cantar músicas encantadoras?',
+        answers: [
+            { text: "Quimera", correct: false },
+            { text: "Centauro", correct: false },
+            { text: "Sereia", correct: true },
+            { text: "Sátiro", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o titã responsável por roubar o fogo e dá-lo aos humanos na mitologia grega?',
+        answers: [
+            { text: "Prometeu", correct: true },
+            { text: "Atlas", correct: false },
+            { text: "Cronos", correct: false },
+            { text: "Epimeteu", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do cavalo alado mitológico nascido da cabeça da Medusa?',
+        answers: [
+            { text: "Pégaso", correct: true },
+            { text: "Quimera", correct: false },
+            { text: "Cérbero", correct: false },
+            { text: "Hipogrifo", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o deus mensageiro, conhecido por suas asas nos pés e seu capacete alado?',
+        answers: [
+            { text: "Apolo", correct: false },
+            { text: "Hermes", correct: true },
+            { text: "Dionísio", correct: false },
+            { text: "Hades", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da caixa que Pandora abriu, liberando males no mundo?',
+        answers: [
+            { text: "Cálice de Prata", correct: false },
+            { text: "Caixa de Pandora", correct: true },
+            { text: "Baú de Ouro", correct: false },
+            { text: "Arca de Ébano", correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o deus do amor e do desejo na mitologia grega?',
+        answers: [
+            { text: "Afrodite", correct: false },
+            { text: "Eros", correct: true },
+            { text: "Apolo", correct: false },
+            { text: "Dionísio", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da ninfa da água doce que se apaixonou por Narciso na mitologia grega?',
+        answers: [
+            { text: "Calipso", correct: false },
+            { text: "Eco", correct: true },
+            { text: "Nereida", correct: false },
+            { text: "Dafne", correct: false }
+        ]
+    },
+    {
+        question: 'Lendário gigante imortal com um só olho no meio da testa?',
+        answers: [
+            { text: "Minotauro", correct: false },
+            { text: "Ciclope", correct: true },
+            { text: "Tritão", correct: false },
+            { text: "Amazona", correct: false }
+        ]
+    },
+    {
         question: "Quem é conhecido por suas esculturas em mármore, incluindo 'O Davi' e 'A Pietà'?",
         answers: [
             { text: "Michelangelo", correct: true },
