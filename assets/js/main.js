@@ -68,7 +68,8 @@ const pularavez= new Audio('/assets/sounds/pularavez.m4a');
 const vouteajudar= new Audio('/assets/sounds/vouteajudar.m4a');
 const show= new Audio('/assets/sounds/show.mp3');
 ativar.volume=0.4;
-show.volume=0.3;
+vouteajudar.volume=1;
+show.volume=0.4;
 
 const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, silvio, palmas]; 
 
@@ -1443,7 +1444,7 @@ const q2=[
     {
         question: "São algumas das funções dos rins no corpo humano?",
         answers: [
-            { text: "Produção de hormônios", correct: false },
+            { text: "Trocas gasosas", correct: false },
             { text: "Digestão de alimentos", correct: false },
             { text: "Filtragem do sangue para remover resíduos e excesso de água", correct: true },
             { text: "Produção de células de defesa", correct: false }
@@ -1691,7 +1692,331 @@ const q2=[
             { text: "Manutenção de habitats naturais e proteção de espécies ameaçadas", correct: true },
             { text: "Aumento da urbanização em áreas naturais", correct: false }
         ]
-    }
+    },
+    {
+        question: 'Qual é o órgão responsável pela produção da insulina no corpo humano?',
+        answers: [
+            { text: "Fígado", correct: false },
+            { text: "Pâncreas", correct: true },
+            { text: "Rim", correct: false },
+            { text: "Estômago", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a pressão arterial sistólica?',
+        answers: [
+            { text: "Pressão máxima durante a contração do coração", correct: true },
+            { text: "Pressão mínima durante a contração do coração", correct: false },
+            { text: "Pressão máxima durante o relaxamento do coração", correct: false },
+            { text: "Pressão mínima durante o relaxamento do coração", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a hemoglobina?',
+        answers: [
+            { text: "Hormônio", correct: false },
+            { text: "Enzima", correct: false },
+            { text: "Proteína do sangue que transporta oxigênio", correct: true },
+            { text: "Neurotransmissor", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a endorfina?',
+        answers: [
+            { text: "Hormônio do crescimento", correct: false },
+            { text: "Neurotransmissor associado ao prazer e à redução da dor", correct: true },
+            { text: "Insulina", correct: false },
+            { text: "Adrenalina", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a cirrose hepática?',
+        answers: [
+            { text: "Inflamação do estômago", correct: false },
+            { text: "Inflamação do fígado", correct: false },
+            { text: "Crescimento anormal de células na pele", correct: false },
+            { text: "Cicatrização e enrijecimento do fígado devido a danos constantes", correct: true }
+        ]
+    },
+    {
+        question: 'Como também é conhecido o colesterol LDL?',
+        answers: [
+            { text: "Colesterol bom", correct: false },
+            { text: "Colesterol ruim", correct: true },
+            { text: "Colesterol total", correct: false },
+            { text: "Triglicerídeos", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a anemia?',
+        answers: [
+            { text: "Elevação da pressão arterial", correct: false },
+            { text: "Diminuição dos glóbulos vermelhos ou da hemoglobina no sangue", correct: true },
+            { text: "Inflamação nas articulações", correct: false },
+            { text: "Diminuição do açúcar no sangue", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a miopia?',
+        answers: [
+            { text: "Inflamação nos olhos", correct: false },
+            { text: "Dificuldade para enxergar objetos próximos", correct: false },
+            { text: "Dificuldade para enxergar objetos distantes", correct: true },
+            { text: "Alteração no paladar", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a função do sistema linfático?',
+        answers: [
+            { text: "Transporte de oxigênio", correct: false },
+            { text: "Digestão de alimentos", correct: false },
+            { text: "Defesa do corpo contra doenças e infecções", correct: true },
+            { text: "Controle da temperatura corporal", correct: false }
+        ]
+    },
+    {
+        question: 'O que é o Alzheimer?',
+        answers: [
+            { text: "Inflamação nas articulações", correct: false },
+            { text: "Doença degenerativa que afeta o cérebro, causando perda de memória e habilidades cognitivas", correct: true },
+            { text: "Problema no sistema cardiovascular", correct: false },
+            { text: "Infecção respiratória", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a insônia?',
+        answers: [
+            { text: "Inflamação no sistema nervoso", correct: false },
+            { text: "Dificuldade em respirar", correct: false },
+            { text: "Dificuldade em dormir ou permanecer dormindo", correct: true },
+            { text: "Aumento da pressão arterial durante o sono", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a glicose?',
+        answers: [
+            { text: "Vitamina essencial para a visão", correct: false },
+            { text: "Tipo de gordura encontrada em alimentos de origem animal", correct: false },
+            { text: "Açúcar no sangue e principal fonte de energia para o corpo", correct: true },
+            { text: "Proteína encontrada em carnes vermelhas", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a quimioterapia?',
+        answers: [
+            { text: "Procedimento cirúrgico para remoção de tumores", correct: false },
+            { text: "Tratamento que utiliza substâncias químicas para combater o câncer", correct: true },
+            { text: "Terapia de reposição hormonal", correct: false },
+            { text: "Procedimento para corrigir problemas de visão", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a hepatite?',
+        answers: [
+            { text: "Inflamação nos pulmões", correct: false },
+            { text: "Inflamação no fígado", correct: true },
+            { text: "Inflamação nos rins", correct: false },
+            { text: "Inflamação no estômago", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a epilepsia?',
+        answers: [
+            { text: "Inflamação nos olhos", correct: false },
+            { text: "Doença neurológica que causa convulsões", correct: true },
+            { text: "Problema cardíaco", correct: false },
+            { text: "Inflamação nas articulações", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal função dos glóbulos brancos no sistema imunológico?',
+        answers: [
+            { text: "Produção de insulina", correct: false },
+            { text: "Transporte de oxigênio", correct: false },
+            { text: "Defesa do corpo contra bactérias, vírus e outras ameaças", correct: true },
+            { text: "Filtragem do sangue", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a tuberculose?',
+        answers: [
+            { text: "Doença respiratória caracterizada pela obstrução das vias aéreas", correct: false },
+            { text: "Infecção bacteriana que afeta principalmente os pulmões", correct: true },
+            { text: "Problema cardíaco", correct: false },
+            { text: "Doença autoimune que afeta as articulações", correct: false }
+        ]
+    },
+    {
+        question: 'O que é o sistema nervoso central?',
+        answers: [
+            { text: "Conjunto de órgãos responsáveis pela digestão", correct: false },
+            { text: "Órgão responsável pela produção de insulina", correct: false },
+            { text: "Sistema formado pelo cérebro e pela medula espinhal", correct: true },
+            { text: "Conjunto de órgãos responsáveis pela visão", correct: false }
+        ]
+    },
+    {
+        question: 'O que é o vírus HIV?',
+        answers: [
+            { text: "Vírus que causa resfriado comum", correct: false },
+            { text: "Vírus que causa a gripe", correct: false },
+            { text: "Vírus da imunodeficiência humana, causador da AIDS", correct: true },
+            { text: "Vírus que causa a hepatite", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a apendicite?',
+        answers: [
+            { text: "Inflamação nas articulações", correct: false },
+            { text: "Inflamação no apêndice", correct: true },
+            { text: "Inflamação no estômago", correct: false },
+            { text: "Problema cardíaco", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a função dos cílios nas células do corpo humano?',
+        answers: [
+            { text: "Movimentar o corpo", correct: false },
+            { text: "Realizar a fotossíntese", correct: false },
+            { text: "Proporcionar locomoção de células", correct: false },
+            { text: "Promover movimento de varredura para remover partículas estranhas", correct: true }
+        ]
+    },
+    {
+        question: 'O que é a anestesia?',
+        answers: [
+            { text: "Medicamento que aumenta a dor", correct: false },
+            { text: "Procedimento cirúrgico", correct: false },
+            { text: "Técnica que induz a ausência de sensibilidade, especialmente à dor", correct: true },
+            { text: "Medicamento para aumentar a pressão arterial", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a trombose?',
+        answers: [
+            { text: "Inflamação nas veias", correct: false },
+            { text: "Formação de coágulos em vasos sanguíneos", correct: true },
+            { text: "Doença autoimune que afeta as articulações", correct: false },
+            { text: "Problema cardíaco", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a insulina?',
+        answers: [
+            { text: "Hormônio do crescimento", correct: false },
+            { text: "Enzima digestiva", correct: false },
+            { text: "Hormônio que regula o açúcar no sangue", correct: true },
+            { text: "Hormônio sexual", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a asma?',
+        answers: [
+            { text: "Doença cardíaca", correct: false },
+            { text: "Inflamação dos ossos", correct: false },
+            { text: "Inflamação das articulações", correct: false },
+            { text: "Doença respiratória que causa dificuldade em respirar", correct: true }
+        ]
+    },
+    {
+        question: 'O que é a gastrite?',
+        answers: [
+            { text: "Inflamação no fígado", correct: false },
+            { text: "Inflamação no estômago", correct: true },
+            { text: "Doença respiratória", correct: false },
+            { text: "Doença cardíaca", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a artrite?',
+        answers: [
+            { text: "Inflamação nas articulações", correct: true },
+            { text: "Inflamação no fígado", correct: false },
+            { text: "Doença respiratória", correct: false },
+            { text: "Doença cardíaca", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a meningite?',
+        answers: [
+            { text: "Inflamação no fígado", correct: false },
+            { text: "Inflamação nos pulmões", correct: false },
+            { text: "Inflamação nas meninges, membranas que envolvem o cérebro e a medula espinhal", correct: true },
+            { text: "Doença cardiovascular", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a apneia do sono?',
+        answers: [
+            { text: "Parada cardíaca", correct: false },
+            { text: "Interrupção temporária da respiração durante o sono", correct: true },
+            { text: "Inflamação nos pulmões", correct: false },
+            { text: "Doença neurológica", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a anorexia?',
+        answers: [
+            { text: "Distúrbio alimentar caracterizado por comer excessivamente", correct: false },
+            { text: "Distúrbio alimentar que leva a pessoa a ter uma visão distorcida de seu corpo, que se torna uma obsessão por seu peso e aquilo que come.", correct: true },
+            { text: "Inflamação no estômago", correct: false },
+            { text: "Doença cardiovascular", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a bulimia?',
+        answers: [
+            { text: "Distúrbio alimentar caracterizado por comer excessivamente", correct: false },
+            { text: "Perda de apetite e peso em níveis perigosos", correct: false },
+            { text: "Transtorno alimentar grave marcado por compulsão, seguido de métodos para evitar o ganho de peso.", correct: true },
+            { text: "Doença cardiovascular", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a catarata?',
+        answers: [
+            { text: "Doença neurológica", correct: false },
+            { text: "Doença respiratória", correct: false },
+            { text: "Opacificação do cristalino, levando à perda de visão", correct: true },
+            { text: "Inflamação nas articulações", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a enxaqueca?',
+        answers: [
+            { text: "Inflamação nas articulações", correct: false },
+            { text: "Um tipo de dor de cabeça intensa e pulsante", correct: true },
+            { text: "Doença respiratória", correct: false },
+            { text: "Doença neurológica", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a pneumonia?',
+        answers: [
+            { text: "Inflamação nas articulações", correct: false },
+            { text: "Infecção bacteriana, fúngica ou viral dos pulmões", correct: true },
+            { text: "Doença cardiovascular", correct: false },
+            { text: "Doença neurológica", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a esquizofrenia?',
+        answers: [
+            { text: "Doença neurológica que afeta os músculos", correct: false },
+            { text: "Transtorno mental que afeta o pensamento, a emoção e o comportamento", correct: true },
+            { text: "Doença respiratória", correct: false },
+            { text: "Doença cardiovascular", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a febre amarela?',
+        answers: [
+            { text: "Infecção bacteriana", correct: false },
+            { text: "Infecção viral transmitida por mosquitos", correct: true },
+            { text: "Doença cardiovascular", correct: false },
+            { text: "Doença neurológica", correct: false }
+        ]
+    },
     
 
 ]
