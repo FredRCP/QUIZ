@@ -155,8 +155,9 @@ a:hover{
 
 .notification{
   font-weight: 600;
+  font-size: 2.5rem;
   position: absolute;
-  bottom: 75px;
+  bottom: 9rem;
   left: 50px;
   width: max-content;
   padding: 15px 15px;
@@ -206,15 +207,15 @@ a:hover{
   display: none;
   position: fixed;
   bottom: 40rem;
-  right: 40rem;
-  width: 30rem;
+  right: 35rem;
+  width: 40rem;
 }
 #cerebroerrada{
   display: none;
   position: fixed;
   bottom:40rem;
   right: 40rem;
-  width: 25rem;
+  width: 35rem;
 }
 #cerebrovitoria{
   display: none;
@@ -274,7 +275,6 @@ button:not(:disabled):hover{
   background-color: green;
 }
 
-
 .errou{
   background-color: red;
 }
@@ -327,7 +327,7 @@ button:not(:disabled):hover{
   position: fixed;
   display: flex;
   padding: 1rem;
-  bottom: 30rem;
+  bottom: 29rem;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
@@ -338,6 +338,45 @@ button:not(:disabled):hover{
   height: 5rem;
   color: whitesmoke;
   background-color:#1436b3;
+}
+
+.ajuda{
+  position: fixed;
+  display: flex;
+  padding: 1rem;
+  bottom: 29rem;
+  left: 83rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  font-size: 3rem;
+  width: 4.8rem;
+  cursor: pointer;
+  font-weight: 600;
+  height: 4.8rem;
+  color: whitesmoke;
+  background-color:#1436b300;
+  border: 0rem;
+}
+
+.pular{
+  transform: rotateY(180deg);
+  position: fixed;
+  display: flex;
+  padding: 1rem;
+  bottom: 29rem;
+  right: 83rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  font-size: 3.4rem;
+  width: 5rem;
+  cursor: pointer;
+  font-weight: 600;
+  height: 5rem;
+  color: whitesmoke;
+  background-color:#1436b300;
+  border: 0rem;
 }
 
 .caixa{
@@ -593,10 +632,6 @@ button:not(:disabled):hover{
 
 
 
-
-
-
-
 @media(max-width: 1366px){
   
   .categorias{
@@ -631,7 +666,7 @@ button:not(:disabled):hover{
   .span{
     display: none;
     position: fixed;
-    bottom: 10rem;
+    bottom: 8rem;
     align-items: center;
     justify-content: center;
     width: 20rem;
@@ -647,8 +682,28 @@ button:not(:disabled):hover{
 
   .proxima{
     padding: 0rem;
-    bottom: 21rem;
+    bottom: 19rem;
     font-size: 1.2rem;
+  }
+  .ajuda{
+    padding: 1rem;
+    bottom: 19rem;
+    left: 85rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    width: 4.8rem;
+    height: 4.8rem;
+   
+  }
+  
+  .pular{
+    padding: 1rem;
+    bottom: 19rem;
+    right: 85rem;
+    border-radius: 2rem;
+    font-size: 3.4rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   .caixa{
@@ -673,10 +728,13 @@ button:not(:disabled):hover{
   }
   
   .span{
-    bottom: 5rem;
     min-width: 25rem;
     min-height: 10rem;
     border-radius: 3rem;
+  }
+
+  .notification{
+    bottom: 5rem;
   }
 
   #atomo{
@@ -705,6 +763,37 @@ button:not(:disabled):hover{
   }
   #tudo{
     width: 5.8rem;
+  }
+
+  #cerebrocerta{
+    bottom: 15rem;
+    right: 5rem;
+    width: 40rem;
+  }
+  #cerebroerrada{
+    bottom: 15rem;
+    right: 5rem;
+    width: 40rem;
+  }
+  #cerebroderrota{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+  #cerebrovitoria{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+  #cerebrovitoria1{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
+  }
+  #cerebroderrota1{
+    bottom: 15rem;
+    right: 20rem;
+    width: 30rem;
   }
 
 }

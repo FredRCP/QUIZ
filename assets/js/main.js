@@ -72,9 +72,9 @@ const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, 
 function start(p){
     nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
     nome= nome.toUpperCase();
-    vidas=3;
-    ajuda=1;
-    pular=1;
+    vidas=5;
+    ajuda=2;
+    pular=2;
     inicio.play();
     cerebrocerta.style.display='none';
     cerebroerrada.style.display='none';
@@ -96,7 +96,7 @@ function start(p){
     caixa.classList.add('caixa');
     const caixagenerica=document.querySelector('.generico');
     caixagenerica.style.display='flex';
-    document.querySelector('.pontos').innerHTML=nome +"<br>" +"Vidas: ❤❤❤" + "<br>"+ 'Pontos: ' + pontos + "<br>"+ 'Perguntas corretas: ' +perguntasUsadas.length;
+    document.querySelector('.pontos').innerHTML=nome +"<br>" +"Vidas: "+ "❤️❤️❤️❤️❤️"+ "<br>"+ 'Pontos: ' + pontos + "<br>"+ 'Perguntas corretas: ' +perguntasUsadas.length;
     proximapergunta(p);
 }
 
@@ -130,6 +130,8 @@ function proximapergunta(p){
                 `Acertos: ${porcento}%`+"<br>"+cumprimento;
                 alert('GAME OVER! Tente novamente.');  
                 botaoproxima.classList.remove('proxima');
+                botaopular.classList.remove('pular');
+                botaoajuda.classList.remove('ajuda');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
                 botao.textContent='REINICIAR';
@@ -151,6 +153,8 @@ function proximapergunta(p){
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+"<br>"+`Acertos: ${porcento}%`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
+                botaopular.classList.remove('pular');
+                botaoajuda.classList.remove('ajuda');
                 const botao=document.querySelector('.start');
                 botao.style.display='flex';
                 botao.textContent='REINICIAR';
@@ -167,6 +171,8 @@ function proximapergunta(p){
     
    
     botaoproxima.classList.remove('proxima');
+    botaopular.classList.remove('pular');
+    botaoajuda.classList.remove('ajuda');
     while(respostas.firstChild){
         respostas.removeChild(respostas.firstChild)
     };
@@ -192,10 +198,12 @@ function selecao(e){
         el.classList.add('acertou');
         pontos+=10;
         acertos+=1;
-        if(vidas===3){vida=' ❤❤❤'}
-        if(vidas===2){vida=' 💔❤❤'}
-        if(vidas===1){vida=' 💔💔❤'}
-        if(vidas===0){vida=' 💔💔💔'}
+        if(vidas===5){vida=' ❤️❤️❤️❤️❤️'}
+        if(vidas===4){vida=' 💔❤️❤️❤️❤️'}
+        if(vidas===3){vida=' 💔💔❤️❤️❤️'}
+        if(vidas===2){vida=' 💔💔💔❤️❤️'}
+        if(vidas===1){vida=' 💔💔💔💔❤️'}
+        if(vidas===0){vida=' 💔💔💔💔💔'}
         pontuacao.innerHTML=nome+"<br>"+"Vidas: "+ vida+"<br>" + 'Pontos: ' + pontos+"<br>" + "Perguntas corretas: "+ acertos +"/"+perguntasUsadas.length;
     } else{
         cerebroerrada.style.display='flex';
@@ -203,10 +211,12 @@ function selecao(e){
         el.classList.add('errou');
         erros+=1;
         vidas-=1;
-        if(vidas===3){vida=' ❤❤❤'}
-        if(vidas===2){vida=' 💔❤❤'}
-        if(vidas===1){vida=' 💔💔❤'}
-        if(vidas===0){vida=' 💔💔💔'}
+        if(vidas===5){vida=' ❤️❤️❤️❤️❤️'}
+        if(vidas===4){vida=' 💔❤️❤️❤️❤️'}
+        if(vidas===3){vida=' 💔💔❤️❤️❤️'}
+        if(vidas===2){vida=' 💔💔💔❤️❤️'}
+        if(vidas===1){vida=' 💔💔💔💔❤️'}
+        if(vidas===0){vida=' 💔💔💔💔💔'}
         pontuacao.innerHTML= nome+"<br>"+"Vidas: "+ vida+ "<br>"+ 'Pontos: ' + pontos+"<br>" + "Perguntas corretas: "+ acertos +"/"+perguntasUsadas.length; 
     }
 
@@ -221,6 +231,10 @@ function selecao(e){
     })  
     const botaoproxima= document.querySelector('#botaoproxima');
     botaoproxima.classList.add('proxima');
+    const botaoajuda= document.querySelector('#botaoajuda');
+    botaoajuda.classList.add('ajuda');
+    const botaopular= document.querySelector('#botaopular');
+    botaopular.classList.add('pular');
 }
 
 // OPÇÕES
