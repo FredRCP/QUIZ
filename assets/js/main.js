@@ -2017,6 +2017,61 @@ const q2=[
             { text: "Doença neurológica", correct: false }
         ]
     },
+    {
+        question: 'O que é a nefrologia?',
+        answers: [
+            { text: "Estudo dos ossos", correct: false },
+            { text: "Especialidade médica que se ocupa do diagnóstico e tratamento clínico das doenças do sistema urinário", correct: true },
+            { text: "Tratamento de doenças cardíacas", correct: false },
+            { text: "Estudo do sistema nervoso", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a insuficiência renal?',
+        answers: [
+            { text: "Aumento da função renal", correct: false },
+            { text: "Inflamação nos rins", correct: false },
+            { text: "Perda aguda ou crônica da capacidade dos rins efetuarem suas funções básicas", correct: true },
+            { text: "Produção excessiva de urina", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a diálise?',
+        answers: [
+            { text: "Procedimento cirúrgico para a remoção dos rins", correct: false },
+            { text: "Terapia que substitui parcialmente as funções dos rins", correct: true },
+            { text: "Exame de imagem dos rins", correct: false },
+            { text: "Terapia hormonal para estimular a função renal", correct: false }
+        ]
+    },
+    {
+        question: 'Quais são alguns dos principais fatores de risco para doenças renais?',
+        answers: [
+            { text: "Consumo excessivo de chocolate", correct: false },
+            { text: "Atividade física regular", correct: false },
+            { text: "Hipertensão arterial e diabetes", correct: true },
+            { text: "Dieta rica em frutas e vegetais", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a pedra nos rins?',
+        answers: [
+            { text: "Inflamação dos rins", correct: false },
+            { text: "Depósito de cristais que se formam nos rins", correct: true },
+            { text: "Doença autoimune que afeta os rins", correct: false },
+            { text: "Infecção bacteriana nos rins", correct: false }
+        ]
+    },
+    {
+        question: 'O que é a nefrite?',
+        answers: [
+            { text: "Inflamação nas articulações", correct: false },
+            { text: "Inflamação nos pulmões", correct: false },
+            { text: "Inflamação nos rins", correct: true },
+            { text: "Inflamação no estômago", correct: false }
+        ]
+    },
+    
     
 
 ]
@@ -4276,7 +4331,7 @@ const q6=[
         question: "Qual presidente brasileiro concluiu a transposição do rio São Francisco?",
         answers: [
             { text: "Dilma Rousseff", correct: false },
-            { text: "Jair Bolsonaro", correct: true },
+            { text: "Jair Messias Bolsonaro", correct: true },
             { text: "Fernando Henrique Cardoso", correct: false },
             { text: "Luiz Inácio Lula da Silva", correct: false }
         ]
