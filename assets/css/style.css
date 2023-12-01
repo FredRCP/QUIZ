@@ -122,7 +122,6 @@ a:hover{
   align-items: center;
   justify-content: center;
   margin-top: -3rem;
- 
 }
 
 .categorias div{
@@ -137,7 +136,6 @@ a:hover{
   font-weight: 600;
   border-radius: 1rem;
 }
-
 
 .categorias div:hover{
   background-color: rgba(245, 245, 245, 0.61);
@@ -271,6 +269,10 @@ button:not(:disabled):hover{
   cursor: not-allowed;
 }
 
+button:disabled{
+  cursor: not-allowed;
+}
+
 .acertou{
   background-color: green;
 }
@@ -340,12 +342,25 @@ button:not(:disabled):hover{
   background-color:#1436b3;
 }
 
-.ajuda{
+.recursos{
   position: fixed;
   display: flex;
   padding: 1rem;
   bottom: 29rem;
-  left: 83rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  width: 15rem;
+  font-weight: 600;
+  height: 5rem;
+  color: whitesmoke;
+  background-color:#1436b300;
+}
+
+.ajuda{
+  display: flex;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
@@ -361,11 +376,8 @@ button:not(:disabled):hover{
 
 .pular{
   transform: rotateY(180deg);
-  position: fixed;
   display: flex;
   padding: 1rem;
-  bottom: 29rem;
-  right: 83rem;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
@@ -682,24 +694,27 @@ button:not(:disabled):hover{
 
   .proxima{
     padding: 0rem;
-    bottom: 19rem;
+    bottom: 20rem;
     font-size: 1.2rem;
   }
+
+  .recursos{
+    padding: 1rem;
+    bottom: 20rem;
+    font-size: 1.4rem;
+    width: 8rem;
+    }
+
   .ajuda{
     padding: 1rem;
-    bottom: 19rem;
-    left: 85rem;
     border-radius: 2rem;
     font-size: 3rem;
     width: 4.8rem;
     height: 4.8rem;
-   
   }
   
   .pular{
     padding: 1rem;
-    bottom: 19rem;
-    right: 85rem;
     border-radius: 2rem;
     font-size: 3.4rem;
     width: 5rem;

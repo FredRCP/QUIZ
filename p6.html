@@ -12,8 +12,10 @@
     </div>
     <button onclick="start(q5)" class="start caixaesporte"><img id="esporte" src="/assets/img/volei.png" title="INICIAR" alt=""></button>
     <button title="Próxima pergunta"  id="botaoproxima" onclick="proximapergunta(q5)" class="generico">PRÓXIMA PERGUNTA</button>
-    <button title="Pedir ajuda" id="botaoajuda" onclick="ajuda()" class="generico">🙋</button>
-    <button title="Pular questão" id="botaopular" onclick="pular()" class="generico">🏃</button>
+    <div id="recursos" class="generico">
+        <button title="Pedir ajuda" id="botaoajuda" onclick="ajudar()" class="generico">🙋</button>
+        <button title="Pular questão" id="botaopular" onclick="pular(q5)" class="generico">🏃</button>
+    </div>
     <div class="span pontoesporte caixaesporte"><span class="pontos">0</span></div>
     </section>
 
