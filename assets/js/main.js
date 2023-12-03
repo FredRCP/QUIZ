@@ -322,10 +322,13 @@ sons.addEventListener('change', function() {
         ligarTodosOsSons();
         ativar.play();
         caixadesom.src='/assets/img/som.png';
+        ativado=false;
+        opcao.style.display='none';
     } else {
         desligarTodosOsSons();
         caixadesom.src='/assets/img/semsom.png';
-        
+        ativado=false;
+        opcao.style.display='none';
     }
 });
 
