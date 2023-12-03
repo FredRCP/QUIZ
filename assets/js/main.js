@@ -70,7 +70,7 @@ const vouteajudar= new Audio('/assets/sounds/vouteajudar.mp3');
 const show= new Audio('/assets/sounds/show.mp3');
 ativar.volume=0.4;
 vouteajudar.volume=1;
-show.volume=0.5;
+show.volume=1;
 
 const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, silvio, palmas]; 
 
