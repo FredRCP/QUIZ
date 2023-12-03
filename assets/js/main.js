@@ -2071,6 +2071,24 @@ const q2=[
             { text: "Inflamação no estômago", correct: false }
         ]
     },
+    {
+        question: 'As células do ser humano possuem quantos pares de cromossomos?',
+        answers: [
+            { text: "22", correct: false },
+            { text: "23", correct: true },
+            { text: "46", correct: false },
+            { text: "48", correct: false }
+        ]
+    },
+    {
+        question: 'Qual o tipo mais comum de cálculo ("pedra") renal no ser humano?',
+        answers: [
+            { text: "Trifosfato Magnesiano", correct: false },
+            { text: "Fosfato de cálcio", correct: false },
+            { text: "Ácido úrico", correct: false },
+            { text: "Oxalato de cálcio", correct: true }
+        ]
+    },
     
 
 ]
@@ -2088,6 +2106,33 @@ const q3=[
         ]
     },
     {
+        question: "É considerado o pai da metodologia científica?",
+        answers: [
+            { text: "John Locke", correct: false },
+            { text: "Francis Bacon", correct: true },
+            { text: "Arquimedes", correct: false },
+            { text: "Pitágoras", correct: false }
+        ]
+    },
+    {
+        question: "Em relação a um triângulo de ângulo reto, o que diz o teorema de Pitágoras? (a=hipotenusa; b/c= catetos)",
+        answers: [
+            { text: "a2 = b2 + c2", correct: true },
+            { text: "a = b + c", correct: false },
+            { text: "a x 2 = b + c", correct: false },
+            { text: "a = b - c", correct: false }
+        ]
+    },
+    {
+        question: "O que afirma o teorema de Tales?",
+        answers: [
+            { text: "Área de um círculo é Pi vezes o raio ao quadrado", correct: false },
+            { text: "O quadrado da hipotenusa é igual a soma do quadrado dos catetos", correct: false },
+            { text: "Num plano, a interseção de retas paralelas, por retas transversais, formam segmentos proporcionais", correct: true },
+            { text: "àrea de um retângulo é a altura vezes a base", correct: false }
+        ]
+    },
+    {
         question: "Um pedreiro diz: 'Se eu tivesse dois tijolos a mais, o dobro deste número seria 100'. Quantos tijolos ele tem?",
         answers: [
             { text: "44", correct: false },
@@ -2097,7 +2142,7 @@ const q3=[
         ]
     },
     {
-        question: "Pedro tem 6 bolas de gude a mais do que Jorge. Os dois juntos têm 54. Quanto tem cada um?",
+        question: "João tem 6 bolas de gude a mais do que Luiz. Os dois juntos têm 54. Quanto tem cada um?",
         answers: [
             { text: "28 e 26", correct: false },
             { text: "24 e 30", correct: true },
@@ -2106,7 +2151,16 @@ const q3=[
         ]
     },
     {
-        question: "Se seis latas de leite custam 72 reais, qual o preço de 9 latas?",
+        question: "São cores de um semáforo, exceto?",
+        answers: [
+            { text: "Amarelo", correct: false },
+            { text: "Laranja", correct: true },
+            { text: "Verde", correct: false },
+            { text: "Vermelho", correct: false }
+        ]
+    },
+    {
+        question: "Se seis latas de leite condensado custam 72 reais, qual o preço de 9 latas?",
         answers: [
             { text: "87 reais", correct: false },
             { text: "100 reais", correct: false },
