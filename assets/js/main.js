@@ -1101,12 +1101,12 @@ const q2=[
         ]
     },
     {
-        question: "O que é a fotossíntese?",
+        question: "Quanto tempo em média dura a gestação de uma cadela?",
         answers: [
-            { text: "Respiração celular", correct: false },
-            { text: "Produção de proteínas", correct: false },
-            { text: "Processo de obtenção de energia a partir da luz solar", correct: true },
-            { text: "Digestão", correct: false }
+            { text: "9 meses", correct: false },
+            { text: "10 semanas", correct: false },
+            { text: "63 dias", correct: true },
+            { text: "10 meses", correct: false }
         ]
     },
     {
@@ -2072,7 +2072,6 @@ const q2=[
         ]
     },
     
-    
 
 ]
 
@@ -2118,7 +2117,7 @@ const q3=[
     {
         question: "Num elevador que suporta 600 quilos, quantas caixas de 48 quilos, pode-se levar por vez?",
         answers: [
-            { text: "13", correct: true },
+            { text: "13", correct: false },
             { text: "10", correct: false },
             { text: "12", correct: true },
             { text: "15", correct: false }
@@ -2199,10 +2198,10 @@ const q3=[
     {
         question: 'Uma das séries não está de acordo com o padrão das demais.',
         answers: [
-            { text: "2, 7", correct: false },
-            { text: "4, 9", correct: false },
-            { text: "18, 23", correct: false },
-            { text: "6, 14", correct: true }
+            { text: "2, 7, 12", correct: false },
+            { text: "4, 9, 14", correct: false },
+            { text: "18, 23, 28", correct: false },
+            { text: "6, 14, 22", correct: true }
         ]
     },
     {
@@ -2386,12 +2385,12 @@ const q3=[
         ]
     },
     {
-        question: "O que é a tabela periódica?",
+        question: "Percebemos o raio muito antes do trovão. Qual o cálculo para sabermos a distância, em metros, entre nós e o raio?",
         answers: [
-            { text: "Lista de elementos em ordem alfabética", correct: false },
-            { text: "Lista de elementos em ordem crescente de massa atômica", correct: false },
-            { text: "Arranjo dos elementos em ordem crescente de número atômico", correct: true },
-            { text: "Lista de compostos químicos comuns", correct: false }
+            { text: "Tempo entre o raio e o trovão em segundos x 1000", correct: false },
+            { text: "Tempo entre o raio e o trovão em segundos x 1", correct: false },
+            { text: "Tempo entre o raio e o trovão em segundos x 340", correct: true },
+            { text: "Tempo entre o raio e o trovão em segundos x 500", correct: false }
         ]
     },
     {
@@ -2899,12 +2898,12 @@ const q4=[
         ]
     },
     {
-        question: "Quem interpretou o Coringa no filme de 2019?",
+        question: "Quem foi a primeira pessoa a dar voz a Mickey Mouse?",
         answers: [
-            { text: "Jack Nicholson", correct: false },
-            { text: "Heath Ledger", correct: false },
-            { text: "Joaquin Phoenix", correct: true },
-            { text: "Jared Leto", correct: false }
+            { text: "Lillian Disney", correct: false },
+            { text: "Walt Disney", correct: true },
+            { text: "Roy Disney", correct: false },
+            { text: "Ub Iwerks", correct: false }
         ]
     },
     {
@@ -2944,21 +2943,48 @@ const q4=[
         ]
     },
     {
-        question: "Quem dirigiu a trilogia 'O Senhor dos Anéis'?",
+        question: "Qual foi o primeiro personagem criado por Walt Disney?",
         answers: [
-            { text: "Steven Spielberg", correct: false },
-            { text: "George Lucas", correct: false },
-            { text: "Christopher Nolan", correct: false },
-            { text: "Peter Jackson", correct: true }
+            { text: "Mickey Mouse", correct: false },
+            { text: "Minnie", correct: false },
+            { text: "Pateta", correct: false },
+            { text: "Oswald, o Lucky Rabbit", correct: true }
         ]
     },
     {
-        question: "Qual é o nome do dragão em 'Game of Thrones'?",
+        question: "Qual é o nome da leoa que acompanha a infância e depois a vida adulta de Simba em Rei Leão?",
         answers: [
-            { text: "Smaug", correct: false },
+            { text: "Rafiki", correct: false },
+            { text: "Nala", correct: true },
+            { text: "Hannah", correct: false },
+            { text: "Kiara", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o animal que desempenha o papel de consciência de Pinóquio?",
+        answers: [
+            { text: "Gafanhoto", correct: false },
+            { text: "Grilo", correct: true },
+            { text: "Formiga", correct: false },
+            { text: "Louva-a-Deus", correct: false }
+        ]
+    },
+    {
+        question: "Como se chamam os três sobrinhos de Donald?",
+        answers: [
+            { text: "Pedrinho, Tiaguinho e Manelinho", correct: false },
+            { text: "Zezinho, Paulinho e Luisinho", correct: false },
+            { text: "Huguinho, Zezinho e Luisinho", correct: true },
+            { text: "Manelinho, Zezinho e Huguinho", correct: false }
+        ]
+    },
+    {
+        question: "São dragões de 'Game of Thrones', exceto?",
+        answers: [
+            { text: "Smaug", correct: true },
             { text: "Viserion", correct: false },
-            { text: "Drogon", correct: true },
-            { text: "Toothless", correct: false }
+            { text: "Drogon", correct: false },
+            { text: "Rhaegal", correct: false }
         ]
     },
     {
