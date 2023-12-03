@@ -3504,8 +3504,8 @@ const q4=[
     {
         question: "Qual é o filme em que um navio de passageiros colide com um iceberg e afunda?",
         answers: [
-            { text: "O Resgate do Soldado Ryan", correct: false },
-            { text: "A Vida é Bela", correct: false },
+            { text: "Velocidade Máxima 2", correct: false },
+            { text: "Navio Fantasma", correct: false },
             { text: "Titanic", correct: true },
             { text: "Pearl Harbor", correct: false }
         ]
@@ -3985,15 +3985,21 @@ const q5=[
     }
 ]
 
+
+
 //Q6  GEOGRAFIA
 
+
+
+
 const q6=[
-    {   question: 'Qual o menor país do mundo?',
+
+    {   question: 'São cidades indianas, exceto?',
         answers: [
-            {text: 'San Marino', correct: false},
-            {text: 'Mônaco', correct: false},
-            {text: 'Vaticano', correct: true},
-            {text: 'Malta', correct: false},
+            {text: 'Noiva Dheli', correct: false},
+            {text: 'BangKok', correct: true},
+            {text: 'Bombaim', correct: false},
+            {text: 'Mumbai', correct: false}
         ]
     },
     {   question: 'Quais os países que têm a maior e a menor expectativa de vida do mundo?',
