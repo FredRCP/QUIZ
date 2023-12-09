@@ -347,6 +347,7 @@ button:disabled{
   height: 5rem;
   color: whitesmoke;
   background-color:#1436b3;
+  z-index: 1;
 }
 
 .recursos{
