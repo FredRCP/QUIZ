@@ -68,12 +68,13 @@ const pularavez = new Audio('/assets/sounds/pularavez.m4a');
 const vouteajudar = new Audio('/assets/sounds/vouteajudar.mp3');
 const show = new Audio('/assets/sounds/show.mp3');
 const trilha = new Audio('/assets/sounds/trilhaquiz.mp3');
+const recuperavida = new Audio('/assets/sounds/recuperavida.mp3')
 ativar.volume = 0.4;
 trilha.volume = 0.3;
 vouteajudar.volume=1;
 show.volume=1;
 
-const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, palmas, ativar, pularavez, vouteajudar, show]; 
+const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, palmas, ativar, pularavez, vouteajudar, show, recuperavida]; 
 
 //trilha.play();
 trilha.loop = true;
@@ -319,6 +320,7 @@ function ajudar(){
 // OPÇÕES
 
 function reviver(){
+    recuperavida.play();
     const tela= document.querySelector('body');
     const reviver= document.createElement('img');
     reviver.src = '/assets/img/coracaorevivendo.gif';
