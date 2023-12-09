@@ -60,19 +60,24 @@ const acertou = new Audio('/assets/sounds/acertou.mp3');
 const errou = new Audio('/assets/sounds/errou.mp3'); 
 const erro = new Audio('/assets/sounds/erro.mp3');
 const inicio = new Audio('/assets/sounds/inicio.mp3');
-const fimvitoria= new Audio('/assets/sounds/fimvitoria.mp3');
-const derrota= new Audio('/assets/sounds/derrota.mp3');
-const silvio= new Audio('/assets/sounds/certasilvio.m4a');
-const palmas=new Audio('/assets/sounds/palmas.m4a');
-const ativar= new Audio('/assets/sounds/ativar1.mp3');
-const pularavez= new Audio('/assets/sounds/pularavez.m4a');
-const vouteajudar= new Audio('/assets/sounds/vouteajudar.mp3');
-const show= new Audio('/assets/sounds/show.mp3');
-ativar.volume=0.4;
+const fimvitoria = new Audio('/assets/sounds/fimvitoria.mp3');
+const derrota = new Audio('/assets/sounds/derrota.mp3');
+const silvio = new Audio('/assets/sounds/certasilvio.m4a');
+const palmas = new Audio('/assets/sounds/palmas.m4a');
+const ativar = new Audio('/assets/sounds/ativar1.mp3');
+const pularavez = new Audio('/assets/sounds/pularavez.m4a');
+const vouteajudar = new Audio('/assets/sounds/vouteajudar.mp3');
+const show = new Audio('/assets/sounds/show.mp3');
+const trilha = new Audio('/assets/sounds/trilhaquiz.mp3');
+ativar.volume = 0.4;
+trilha.volume = 0.3;
 vouteajudar.volume=1;
 show.volume=1;
 
-const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, silvio, palmas]; 
+const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, silvio, palmas, ativar, pularavez, vouteajudar, show]; 
+
+//trilha.play();
+trilha.loop = true;
 
 //INICIAR O JOGO
 
@@ -328,17 +333,39 @@ function ativarmenu(){
 }
 
 const sons = document.getElementById('sons');
+const trilhasonora = document.getElementById('nota');
+
+trilhasonora.addEventListener('change', function(){
+    const notamusical= document.querySelector('.notamusical');
+    if(trilhasonora.checked){
+        trilha.play();
+        notamusical.src='/assets/img/notamusical.png';
+        notamusical.title='desligar música';
+        ativado=false;
+        opcao.style.display='none';
+    }
+    else{
+        trilha.pause();
+        notamusical.src='/assets/img/notamusicaldesligada.png';
+        notamusical.title='ligar música';
+        ativado=false;
+        opcao.style.display='none';
+    }
+})
+
 sons.addEventListener('change', function() {
     const caixadesom= document.querySelector('.caixadesom');
     if (sons.checked) {
         ligarTodosOsSons();
         ativar.play();
         caixadesom.src='/assets/img/som.png';
+        caixadesom.title='Desativar sons';
         ativado=false;
         opcao.style.display='none';
     } else {
         desligarTodosOsSons();
         caixadesom.src='/assets/img/semsom.png';
+        caixadesom.title='Ativar sons';
         ativado=false;
         opcao.style.display='none';
     }
@@ -768,6 +795,15 @@ const q1=[
         ]
     },
     {
+        question: "'Iracema, a virgem dos lábios de mel, que tinha os cabelos mais negros que a asa da graúna.....', foi escrito por quem?",
+        answers: [
+            { text: "Jorge Amado", correct: false },
+            { text: "José de Alencar", correct: true },
+            { text: "Luiz de Camões", correct: false },
+            { text: "Machado de Assis", correct: false }
+        ]
+    },
+    {
         question: "Quem é o escultor da estátua 'O Pensador'?",
         answers: [
             { text: "Leonardo da Vinci", correct: false },
@@ -800,7 +836,7 @@ const q1=[
             { text: "Virginia Woolf", correct: false },
             { text: "Harper Lee", correct: false },
             { text: "Anne Frank", correct: false },
-            { text: "A escrita é creditada a Anne Frank, mas sua morte impediu que ela revisasse ou completasse o diário.", correct: true }
+            { text: "A escrita é creditada a Anne Frank, mas sua morte impediu que completasse o diário.", correct: true }
         ]
     },
     {
@@ -1614,7 +1650,7 @@ const q2=[
         question: "O que é a polinização?",
         answers: [
             { text: "Produção de pólen pelas plantas", correct: false },
-            { text: "Transferência de pólen de uma flor para o órgão reprodutor feminino de outra flor", correct: true },
+            { text: "Transferência de pólen de uma flor para o órgão reprodutor feminino de outra", correct: true },
             { text: "Produção de sementes sem a necessidade de polinizadores", correct: false },
             { text: "Emissão de fragrâncias pelas flores", correct: false }
         ]
@@ -1857,7 +1893,7 @@ const q2=[
         question: 'O que é a tuberculose?',
         answers: [
             { text: "Doença respiratória caracterizada pela obstrução das vias aéreas", correct: false },
-            { text: "Infecção bacteriana que afeta principalmente os pulmões", correct: true },
+            { text: "Doença infecciosa que afeta principalmente os pulmões", correct: true },
             { text: "Problema cardíaco", correct: false },
             { text: "Doença autoimune que afeta as articulações", correct: false }
         ]
@@ -1974,7 +2010,7 @@ const q2=[
         question: 'O que é a anorexia?',
         answers: [
             { text: "Distúrbio alimentar caracterizado por comer excessivamente", correct: false },
-            { text: "Distúrbio alimentar que leva a pessoa a ter uma visão distorcida de seu corpo, que se torna uma obsessão por seu peso e aquilo que come.", correct: true },
+            { text: "Distúrbio alimentar que leva a pessoa a ter uma visão distorcida de seu corpo, com perda de peso", correct: true },
             { text: "Inflamação no estômago", correct: false },
             { text: "Doença cardiovascular", correct: false }
         ]
@@ -1984,7 +2020,7 @@ const q2=[
         answers: [
             { text: "Distúrbio alimentar caracterizado por comer excessivamente", correct: false },
             { text: "Perda de apetite e peso em níveis perigosos", correct: false },
-            { text: "Transtorno alimentar grave marcado por compulsão, seguido de métodos para evitar o ganho de peso.", correct: true },
+            { text: "Transtorno alimentar grave marcado por compulsão, com métodos para evitar o ganho de peso.", correct: true },
             { text: "Doença cardiovascular", correct: false }
         ]
     },
@@ -2036,10 +2072,10 @@ const q2=[
     {
         question: 'O que é a nefrologia?',
         answers: [
-            { text: "Estudo dos ossos", correct: false },
-            { text: "Especialidade médica que se ocupa do diagnóstico e tratamento clínico das doenças do sistema urinário", correct: true },
-            { text: "Tratamento de doenças cardíacas", correct: false },
-            { text: "Estudo do sistema nervoso", correct: false }
+            { text: "Especilaide médica que estudo dos ossos", correct: false },
+            { text: "Especialidade médica que se ocupa do diagnóstico e tratamento das doenças do sistema urinário", correct: true },
+            { text: "especialidade que trata doenças cardíacas", correct: false },
+            { text: "Especialidade médica que estuda o sistema nervoso", correct: false }
         ]
     },
     {
@@ -2047,7 +2083,7 @@ const q2=[
         answers: [
             { text: "Aumento da função renal", correct: false },
             { text: "Inflamação nos rins", correct: false },
-            { text: "Perda aguda ou crônica da capacidade dos rins efetuarem suas funções básicas", correct: true },
+            { text: "Perda da capacidade dos rins efetuarem suas funções básicas", correct: true },
             { text: "Produção excessiva de urina", correct: false }
         ]
     },
@@ -2067,6 +2103,15 @@ const q2=[
             { text: "Atividade física regular", correct: false },
             { text: "Hipertensão arterial e diabetes", correct: true },
             { text: "Dieta rica em frutas e vegetais", correct: false }
+        ]
+    },
+    {
+        question: 'Qual a principal causa de morte no mundo?',
+        answers: [
+            { text: "Câncer", correct: false },
+            { text: "Acidente de trânsito", correct: false },
+            { text: "Doenças cardiovasculares", correct: true },
+            { text: "Infecções respiratórias", correct: false }
         ]
     },
     {
@@ -2142,7 +2187,7 @@ const q3=[
     {
         question: "O que afirma o teorema de Tales?",
         answers: [
-            { text: "Área de um círculo é Pi vezes o raio ao quadrado", correct: false },
+            { text: "Área de um círculo é Pi multiplicado pelo raio ao quadrado", correct: false },
             { text: "O quadrado da hipotenusa é igual a soma do quadrado dos catetos", correct: false },
             { text: "Num plano, a interseção de retas paralelas, por retas transversais, formam segmentos proporcionais", correct: true },
             { text: "àrea de um retângulo é a altura vezes a base", correct: false }
@@ -2338,7 +2383,7 @@ const q3=[
         ]
     },
     {
-        question: 'Numa caixa de fósforos há 85 palitos. Depois de transferidos para duas caixas, uma delas ficou com um terço de palitos a menos que a outra. Quantos fósforos há em cada caixa?',
+        question: 'Numa caixa de fósforos há 85 palitos. Depois de transferidos para duas caixas, uma delas ficou com 1/3 de palitos a menos que a outra. Quantos fósforos há em cada caixa?',
         answers: [
             { text: "34 e 51", correct: true },
             { text: "33 e 47", correct: false },
@@ -2475,7 +2520,7 @@ const q3=[
     {
         question: "O que é a lei da inércia?",
         answers: [
-            { text: "Um objeto em repouso permanece em repouso, e um objeto em movimento permanece em movimento com velocidade constante, a menos que uma força externa atue sobre ele", correct: true },
+            { text: "Um objeto em repouso permanece em repouso, e um objeto em movimento permanece em movimento, a menos que uma força externa atue sobre ele", correct: true },
             { text: "A força aplicada em um objeto é igual à massa do objeto multiplicada pela aceleração", correct: false },
             { text: "A cada ação há uma reação de igual magnitude, mas em direção oposta", correct: false },
             { text: "A energia total de um sistema isolado permanece constante ao longo do tempo", correct: false }
@@ -2484,7 +2529,7 @@ const q3=[
     {
         question: "O que é a lei da ação e reação?",
         answers: [
-            { text: "Um objeto em repouso permanece em repouso, e um objeto em movimento permanece em movimento com velocidade constante, a menos que uma força externa atue sobre ele", correct: false },
+            { text: "Um objeto em repouso permanece em repouso, e um objeto em movimento permanece em movimento com velocidade constante", correct: false },
             { text: "A força aplicada em um objeto é igual à massa do objeto multiplicada pela aceleração", correct: false },
             { text: "A cada ação há uma reação de igual magnitude, mas em direção oposta", correct: true },
             { text: "A energia total de um sistema isolado permanece constante ao longo do tempo", correct: false }
@@ -2619,8 +2664,8 @@ const q3=[
     {
         question: "O que é a teoria da Big Bang?",
         answers: [
-            { text: "Teoria que explica a origem da vida na Terra", correct: false },
-            { text: "Teoria que descreve a formação das galáxias e a expansão do universo a partir de um estado inicial extremamente denso e quente", correct: true },
+            { text: "Explica a origem da vida na Terra", correct: false },
+            { text: "Descreve a formação das galáxias e a expansão do universo a partir de um estado inicial extremamente denso e quente", correct: true },
             { text: "Teoria que explica a origem do sistema solar", correct: false },
             { text: "Teoria que descreve a evolução biológica", correct: false }
         ]
@@ -3739,7 +3784,7 @@ const q5=[
         ]
     },
     {
-        question: "Qual é o esporte em que os jogadores deslizam pedras de granito polido em uma pista de gelo em direção a um alvo que é segmentado em círculos concêntricos?",
+        question: "Qual é o esporte em que os jogadores deslizam pedras de granito polido em uma pista de gelo em direção a um alvo segmentado em círculos concêntricos?",
         answers: [
             { text: "Hóquei no Gelo", correct: false },
             { text: "Esqui Cross-Country", correct: false },
@@ -4564,6 +4609,106 @@ const q6=[
             { text: "Bahia", correct: false }
         ]
     },
+    {
+        question: "Qual a capital de Minas Gerais?",
+        answers: [
+            { text: "São Paulo", correct: false },
+            { text: "Belo Horizonte", correct: true },
+            { text: "Rio de janeiro", correct: false },
+            { text: "Vitória", correct: false }
+        ]
+    },
+    {
+        question: "Qual a capital de Pernambuco?",
+        answers: [
+            { text: "Fortaleza", correct: false },
+            { text: "Recife", correct: true },
+            { text: "Olinda", correct: false },
+            { text: "Fernando de Noronha", correct: false }
+        ]
+    },
+    {
+        question: "Qual a capital de Alagoas?",
+        answers: [
+            { text: "Fortaleza", correct: false },
+            { text: "Aracaju", correct: false },
+            { text: "Maceió", correct: true },
+            { text: "Natal", correct: false }
+        ]
+    },
+    {
+        question: "Qual a capital do Rio Grande do Norte?",
+        answers: [
+            { text: "Fortaleza", correct: false },
+            { text: "Belém", correct: false },
+            { text: "Natal", correct: true },
+            { text: "Manaus", correct: false }
+        ]
+    },
+    {
+        question: "Qual a capital do Maranhão?",
+        answers: [
+            { text: "Fortaleza", correct: false },
+            { text: "Teresina", correct: false },
+            { text: "João Pessoa", correct: false },
+            { text: "São Luiz", correct: true }
+        ]
+    },
+    {
+        question: "Qual a capital do Piauí?",
+        answers: [
+            { text: "Fortaleza", correct: false },
+            { text: "Teresina", correct: true },
+            { text: "João Pessoa", correct: false },
+            { text: "São Luiz", correct: false }
+        ]
+    },
+    {
+        question: "Qual a capital do Paraná?",
+        answers: [
+            { text: "Curitiba", correct: true },
+            { text: "Florianópolis", correct: false },
+            { text: "Porto Algre", correct: false },
+            { text: "Londrina", correct: false }
+        ]
+    },
+    {
+        question: "Além do distrito federal, quantos Estados possui o Brasil?",
+        answers: [
+            { text: "15", correct: false },
+            { text: "20", correct: false },
+            { text: "26", correct: true },
+            { text: "27", correct: false }
+        ]
+    },
+    {
+        question: "Qual o maior estado do Brasil?",
+        answers: [
+            { text: "São Paulo", correct: false },
+            { text: "Pará", correct: false },
+            { text: "Minas Gerais", correct: false },
+            { text: "Amazonas", correct: true },
+        ]
+    },
+    {
+        question: "Qual o menor estado do Brasil?",
+        answers: [
+            { text: "Roraima", correct: false },
+            { text: "Alagos", correct: false },
+            { text: "Espirito Santo", correct: false },
+            { text: "Sergipe", correct: true },
+        ]
+    },
+    {
+        question: "Além do distrito federal (distrito de Colúmbia), quantos Estados possui os Estados Unidos da América?",
+        answers: [
+            { text: "50", correct: true },
+            { text: "30", correct: false },
+            { text: "40", correct: false },
+            { text: "55", correct: false }
+        ]
+    },
+
 
 
 ]
@@ -5523,9 +5668,10 @@ const q8=[
             { text: "Luke Cage", correct: false }
         ]
     }
-
-    
+  
 ]
+
+const qcarros=[];
 
 // TODOS OS TEMAS
 

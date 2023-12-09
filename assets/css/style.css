@@ -109,6 +109,13 @@ a:hover{
   cursor: pointer;
 }
 
+.notamusical{
+  width: 4rem;
+  border: solid 0.2rem whitesmoke;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .rank{
   width: 7rem;
   cursor: pointer;
