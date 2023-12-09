@@ -62,7 +62,6 @@ const erro = new Audio('/assets/sounds/erro.mp3');
 const inicio = new Audio('/assets/sounds/inicio.mp3');
 const fimvitoria = new Audio('/assets/sounds/fimvitoria.mp3');
 const derrota = new Audio('/assets/sounds/derrota.mp3');
-const silvio = new Audio('/assets/sounds/certasilvio.m4a');
 const palmas = new Audio('/assets/sounds/palmas.m4a');
 const ativar = new Audio('/assets/sounds/ativar1.mp3');
 const pularavez = new Audio('/assets/sounds/pularavez.m4a');
@@ -74,7 +73,7 @@ trilha.volume = 0.3;
 vouteajudar.volume=1;
 show.volume=1;
 
-const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, silvio, palmas, ativar, pularavez, vouteajudar, show]; 
+const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, palmas, ativar, pularavez, vouteajudar, show]; 
 
 //trilha.play();
 trilha.loop = true;
