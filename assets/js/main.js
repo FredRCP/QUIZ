@@ -3585,6 +3585,329 @@ const q5=[
         ]
     },
     {
+        question: 'Quanto tempo dura uma partida de futebol?',
+        answers: [
+            { text: '60 minutos', correct: false },
+            { text: '90 minutos', correct: true },
+            { text: '120 minutos', correct: false },
+            { text: '45 minutos', correct: false }
+        ]
+    },
+    {
+        question: 'Quando foi realizada a primeira Copa do Mundo de futebol?',
+        answers: [
+            { text: '1928', correct: false },
+            { text: '1930', correct: true },
+            { text: '1940', correct: false },
+            { text: '1950', correct: false }
+        ]
+    },
+    {
+        question: 'Em que cidade está localizado o estádio popularmente conhecido como La Bombonera?',
+        answers: [
+            { text: 'Rio de Janeiro', correct: false },
+            { text: 'São Paulo', correct: false },
+            { text: 'Buenos Aires', correct: true },
+            { text: 'Montevidéu', correct: false }
+        ]
+    },
+    {
+        question: 'Quanto tempo dura a prorrogação em um jogo de futebol?',
+        answers: [
+            { text: '15 minutos', correct: false },
+            { text: '20 minutos', correct: false },
+            { text: '30 minutos', correct: true },
+            { text: '45 minutos', correct: false }
+        ]
+    },
+    {
+        question: 'Quem ganhou a Copa do Mundo de 2010?',
+        answers: [
+            { text: 'Alemanha', correct: false },
+            { text: 'Espanha', correct: true },
+            { text: 'Brasil', correct: false },
+            { text: 'Argentina', correct: false }
+        ]
+    }, {
+        question: 'Em que time italiano jogou Diego Maradona?',
+        answers: [
+            { text: 'Juventus', correct: false },
+            { text: 'AC Milan', correct: false },
+            { text: 'Inter de Milão', correct: false },
+            { text: 'Napoli', correct: true }
+        ]
+    },
+    {
+        question: 'De que cidade é o Chelsea Football Club?',
+        answers: [
+            { text: 'Manchester', correct: false },
+            { text: 'Liverpool', correct: false },
+            { text: 'Fulham', correct: true },
+            { text: 'Londres', correct: false }
+        ]
+    },
+    {
+        question: 'Quais são as cores da camisa do Atlético de Madrid?',
+        answers: [
+            { text: 'Azul e branco', correct: false },
+            { text: 'Preto e vermelho', correct: false },
+            { text: 'Vermelho e branco', correct: true },
+            { text: 'Verde e amarelo', correct: false }
+        ]
+    },
+    {
+        question: 'Qual time da Premier League tem mais campeonatos ganhos?',
+        answers: [
+            { text: 'Liverpool', correct: false },
+            { text: 'Arsenal', correct: false },
+            { text: 'Chelsea', correct: false },
+            { text: 'Manchester United', correct: true }
+        ]
+    },
+    {
+        question: 'Qual revista premia a chamada Bola de Ouro?',
+        answers: [
+            { text: 'ESPN', correct: false },
+            { text: 'FIFA', correct: false },
+            { text: 'BBC Sport', correct: false },
+            { text: 'France Football', correct: true }
+        ]
+    },
+    {
+        question: 'Qual o nome do estádio do Bayern de Munich?',
+        answers: [
+            { text: 'Signal Iduna Park', correct: false },
+            { text: 'Mercedes-Benz Arena', correct: false },
+            { text: 'Veltins-Arena', correct: false },
+            { text: 'Allianz Arena', correct: true }
+        ]
+    },
+    {
+        question: 'Que seleção venceu a Copa do Mundo da França, em 1998?',
+        answers: [
+            { text: 'Itália', correct: false },
+            { text: 'Brasil', correct: false },
+            { text: 'Argentina', correct: false },
+            { text: 'França', correct: true }
+        ]
+    },
+    {
+        question: 'Em que ano Pep Guardiola estreou como treinador do FC Barcelona?',
+        answers: [
+            { text: '2006', correct: false },
+            { text: '2008', correct: true },
+            { text: '2010', correct: false },
+            { text: '2012', correct: false }
+        ]
+    },
+    {
+        question: 'Qual o time mais famoso da cidade italiana de Turín?',
+        answers: [
+            { text: 'AC Milan', correct: false },
+            { text: 'Inter de Milão', correct: false },
+            { text: 'Torino', correct: false },
+            { text: 'Juventus', correct: true }
+        ]
+    },
+    {
+        question: 'Em que país foi inventado o voleibol?',
+        answers: [
+            { text: 'Estados Unidos', correct: true },
+            { text: 'Brasil', correct: false },
+            { text: 'Rússia', correct: false },
+            { text: 'China', correct: false }
+        ]
+    },
+    {
+        question: 'Que tipo de competição é o Giro d\'Italia?',
+        answers: [
+            { text: 'Ciclismo', correct: true },
+            { text: 'Esqui alpino', correct: false },
+            { text: 'Tênis', correct: false },
+            { text: 'Atletismo', correct: false }
+        ]
+    },
+    {
+        question: 'Em que país está localizado o circuito de Le Mans?',
+        answers: [
+            { text: 'Itália', correct: false },
+            { text: 'Alemanha', correct: false },
+            { text: 'França', correct: true },
+            { text: 'Espanha', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da área do gramado onde está localizado o buraco de golfe?',
+        answers: [
+            { text: 'Fairway', correct: false },
+            { text: 'Rough', correct: false },
+            { text: 'Green', correct: true },
+            { text: 'Bunker', correct: false }
+        ]
+    },
+    {
+        question: 'Quem foi o número 1 do tênis em 2008?',
+        answers: [
+            { text: 'Roger Federer', correct: false },
+            { text: 'Rafael Nadal', correct: true },
+            { text: 'Novak Djokovic', correct: false },
+            { text: 'Andy Murray', correct: false }
+        ]
+    },
+    {
+        question: 'Quanto tempo dura uma partida de handebol?',
+        answers: [
+            { text: '45 minutos', correct: false },
+            { text: '60 minutos', correct: true },
+            { text: '75 minutos', correct: false },
+            { text: '90 minutos', correct: false }
+        ]
+    },
+    {
+        question: 'Quem ganhou 4 mundiais consecutivos de Fórmula 1?',
+        answers: [
+            { text: 'Michael Schumacher', correct: false },
+            { text: 'Ayrton Senna', correct: false },
+            { text: 'Sebastián Vettel', correct: true },
+            { text: 'Lewis Hamilton', correct: false }
+        ]
+    },
+    {
+        question: 'Quanto tempo dura uma partida de basquete na NBA?',
+        answers: [
+            { text: '40 minutos', correct: false },
+            { text: '48 minutos', correct: true },
+            { text: '60 minutos', correct: false },
+            { text: '30 minutos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o recorde mundial no salto em equitação?',
+        answers: [
+            { text: '2,20 metros', correct: false },
+            { text: '2,35 metros', correct: false },
+            { text: '2,47 metros', correct: true },
+            { text: '2,10 metros', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do estilo de atletismo em que os corredores carregam um bastão?',
+        answers: [
+            { text: 'Corrida com obstáculos', correct: false },
+            { text: 'Corrida de revezamento', correct: true },
+            { text: 'Maratona', correct: false },
+            { text: 'Sprint', correct: false }
+        ]
+    },
+    {
+        question: 'O que acontece se a bolinha tocar a rede em um saque de pingue-pongue?',
+        answers: [
+            { text: 'Ponto para quem sacou', correct: false },
+            { text: 'A jogada é anulada e deve ser sacado novamente', correct: true },
+            { text: 'Ponto para o adversário', correct: false },
+            { text: 'A partida é encerrada', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome de um gol marcado no futebol americano?',
+        answers: [
+            { text: 'Touchdown', correct: true },
+            { text: 'Field goal', correct: false },
+            { text: 'Safety', correct: false },
+            { text: 'Extra point', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do local onde são realizadas as corridas de cavalos?',
+        answers: [
+            { text: 'Estádio', correct: false },
+            { text: 'Campo', correct: false },
+            { text: 'Hipódromo', correct: true },
+            { text: 'Pista', correct: false }
+        ]
+    },
+    {
+        question: 'A que esporte pertence o corner curto?',
+        answers: [
+            { text: 'Futebol', correct: false },
+            { text: 'Tênis', correct: false },
+            { text: 'Hóquei sobre grama', correct: true },
+            { text: 'Golfe', correct: false }
+        ]
+    },
+    {
+        question: 'A cada quantos anos são realizados os Jogos Olímpicos?',
+        answers: [
+            { text: '2 anos', correct: false },
+            { text: '4 anos', correct: true },
+            { text: '6 anos', correct: false },
+            { text: '8 anos', correct: false }
+        ]
+    },
+    {
+        question: 'Quem foi a primeira mulher a ganhar uma medalha olímpica?',
+        answers: [
+            { text: 'Serena Williams', correct: false },
+            { text: 'Simone Biles', correct: false },
+            { text: 'Charlotte Reinagle Cooper', correct: true },
+            { text: 'Gabby Douglas', correct: false }
+        ]
+    },
+    {
+        question: 'Que arte marcial de origem sul-americana foi criada para se parecer com uma dança?',
+        answers: [
+            { text: 'Jiu-Jitsu', correct: false },
+            { text: 'Muay Thai', correct: false },
+            { text: 'Capoeira', correct: true },
+            { text: 'Krav Maga', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos punhos existem de cada lado de um futebol de mesa (Pebolim)?',
+        answers: [
+            { text: '2', correct: false },
+            { text: '3', correct: false },
+            { text: '4', correct: true },
+            { text: '5', correct: false }
+        ]
+    },
+    {
+        question: 'Quais as cores da camisa de jogo da seleção nigeriana?',
+        answers: [
+            { text: 'Azul e amarelo', correct: false },
+            { text: 'Branco e verde', correct: true },
+            { text: 'Preto e vermelho', correct: false },
+            { text: 'Amarelo e verde', correct: false }
+        ]
+    },
+    {
+        question: 'Quanto pesa uma bola de boliche?',
+        answers: [
+            { text: '1 a 3 kg', correct: false },
+            { text: '3 a 5 kg', correct: false },
+            { text: '5 a 7 kg', correct: true },
+            { text: '7 a 9 kg', correct: false }
+        ]
+    },
+    {
+        question: 'Em que país nasceram os dardos?',
+        answers: [
+            { text: 'Escócia', correct: false },
+            { text: 'Irlanda', correct: false },
+            { text: 'Inglaterra', correct: true },
+            { text: 'País de Gales', correct: false }
+        ]
+    },
+    {
+        question: 'Qual peça de xadrez pode fazer um movimento em forma de L?',
+        answers: [
+            { text: 'Rei', correct: false },
+            { text: 'Rainha', correct: false },
+            { text: 'Cavalo', correct: true },
+            { text: 'Torre', correct: false }
+        ]
+    },
+    {
         question: "Qual é o esporte que tem o termo 'strike' e 'ball'?",
         answers: [
             { text: "Futebol", correct: false },
