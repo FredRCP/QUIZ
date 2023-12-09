@@ -292,6 +292,15 @@ button:disabled{
   display:none;
 }
 
+.coracaorevivendo{
+  width: 50rem;
+  margin: 0 auto;
+  position: fixed;
+  top: 15rem;
+  left:50rem;
+  right: 50rem;
+}
+
 .start{
   position: fixed;
   display: flex;
@@ -964,6 +973,16 @@ button:disabled{
   .rank{
     width: 5.2rem;
   }
+
+  
+.coracaorevivendo{
+  width: 20rem;
+  margin: 0 auto;
+  position: fixed;
+  top: 10rem;
+  left:5rem;
+  right: 5rem;
+}
   
 
 }
