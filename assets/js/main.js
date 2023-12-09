@@ -342,7 +342,7 @@ trilhasonora.addEventListener('change', function(){
     const notamusical= document.querySelector('.notamusical');
     if(trilhasonora.checked){
         trilha.play();
-        notamusical.src='/assets/img/notamusical.png';
+        notamusical.src='/assets/img/notamusical.gif';
         notamusical.title='desligar música';
         ativado=false;
         opcao.style.display='none';
