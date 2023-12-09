@@ -5670,7 +5670,6 @@ const q8=[
   
 ]
 
-const qcarros=[];
 
 // TODOS OS TEMAS
 
