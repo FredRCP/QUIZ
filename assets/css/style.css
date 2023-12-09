@@ -87,7 +87,7 @@ a:hover{
 .opcao{
   background-color: #302f2f85;
   border: solid 0.3rem whitesmoke;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   border-radius: 2rem;
   display: none;
   font-size: 2rem;
