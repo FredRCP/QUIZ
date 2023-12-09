@@ -231,7 +231,7 @@ function selecao(e){
         //el.classList.add('acertou');
         pontos+=100;
         acertos+=1;
-        if(acertos%5===0){if(vidas<5){vidas+=1; alert('você recuperou 1 vida')} else{pontos+=250;}};
+        if(acertos%5===0){if(vidas<5){vidas+=1; alert('você recuperou 1 vida'); reviver()} else{pontos+=250;}};
         if(acertos%10===0){if(pula<3){pula+=1; alert('você recuperou 1 "pular a vez"')} else{pontos+=500}};
         if(vidas===5){vida=' ❤️❤️❤️❤️❤️'}
         if(vidas===4){vida=' 💔❤️❤️❤️❤️'}
@@ -249,7 +249,7 @@ function selecao(e){
         el.classList.add('acertou');
         pontos+=100;
         acertos+=1;
-        if(acertos%5===0){if(vidas<5){vidas+=1; alert('você recuperou 1 vida')} else{pontos+=250;}};
+        if(acertos%5===0){if(vidas<5){vidas+=1; alert('você recuperou 1 vida'); reviver()} else{pontos+=250;}};
         if(acertos%10===0){if(pula<3){pula+=1; alert('você recuperou 1 "pular a vez"')} else{pontos+=500}};
         if(vidas===5){vida=' ❤️❤️❤️❤️❤️'}
         if(vidas===4){vida=' 💔❤️❤️❤️❤️'}
@@ -317,6 +317,17 @@ function ajudar(){
 }
 
 // OPÇÕES
+
+function reviver(){
+    const tela= document.querySelector('body');
+    const reviver= document.createElement('img');
+    reviver.src = '/assets/img/coracaorevivendo.gif';
+    reviver.classList.add('coracaorevivendo');
+    tela.appendChild(reviver);
+    setTimeout(() => {
+        reviver.style.display='none';
+    }, 4000);
+}
 
 
 let ativado=false;
