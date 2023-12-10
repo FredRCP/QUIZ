@@ -1156,7 +1156,12 @@ const q1=[
 ]
 
 
+
+
 //Q2 BIOLOGIA
+
+
+
 
 const q2=[
     {
@@ -1801,9 +1806,9 @@ const q2=[
         question: 'O que é a cirrose hepática?',
         answers: [
             { text: "Inflamação do estômago", correct: false },
-            { text: "Inflamação do fígado", correct: false },
+            { text: "Inflamação do pâncreas", correct: false },
             { text: "Crescimento anormal de células na pele", correct: false },
-            { text: "Cicatrização e enrijecimento do fígado devido a danos constantes", correct: true }
+            { text: "Cicatrização e fibrose do fígado", correct: true }
         ]
     },
     {
@@ -1846,7 +1851,7 @@ const q2=[
         question: 'O que é o Alzheimer?',
         answers: [
             { text: "Inflamação nas articulações", correct: false },
-            { text: "Doença degenerativa que afeta o cérebro, causando perda de memória e habilidades cognitivas", correct: true },
+            { text: "Doença degenerativa que afeta o cérebro, causando perda de memória e cognição", correct: true },
             { text: "Problema no sistema cardiovascular", correct: false },
             { text: "Infecção respiratória", correct: false }
         ]
@@ -2009,7 +2014,7 @@ const q2=[
         answers: [
             { text: "Inflamação no fígado", correct: false },
             { text: "Inflamação nos pulmões", correct: false },
-            { text: "Inflamação nas meninges, membranas que envolvem o cérebro e a medula espinhal", correct: true },
+            { text: "Inflamação nas meninges", correct: true },
             { text: "Doença cardiovascular", correct: false }
         ]
     },
@@ -2027,8 +2032,8 @@ const q2=[
         answers: [
             { text: "Distúrbio alimentar caracterizado por comer excessivamente", correct: false },
             { text: "Distúrbio alimentar que leva a pessoa a ter uma visão distorcida de seu corpo, com perda de peso", correct: true },
-            { text: "Inflamação no estômago", correct: false },
-            { text: "Doença cardiovascular", correct: false }
+            { text: "Inflamação no estômago com grande perda de peso", correct: false },
+            { text: "Distúrbio alimentar onde a pessoa provoca vômitos", correct: false }
         ]
     },
     {
@@ -2868,7 +2873,7 @@ const q3=[
             {text: '100.000.000 m/segundo', correct: false},
         ]
     },
-    {   question: 'Cientista que descobriu a vacina contra a raiva e para a cólera de galinhas?',
+    {   question: 'Cientista que descobriu a vacina contra a raiva, e também contra a cólera de galinhas?',
         answers: [
             {text: 'Louis Pasteurs', correct: true},
             {text: 'Antonio Lavoisier', correct: false},
@@ -4832,15 +4837,6 @@ const q6=[
         ]
     },
     {
-        question: "Qual é a capital do estado do Paraná?",
-        answers: [
-            { text: "Curitiba", correct: true },
-            { text: "Porto Alegre", correct: false },
-            { text: "Florianópolis", correct: false },
-            { text: "Campo Grande", correct: false }
-        ]
-    },
-    {
         question: "Qual é a capital do estado de Pernambuco?",
         answers: [
             { text: "Recife", correct: true },
@@ -4919,15 +4915,6 @@ const q6=[
             { text: "Lagoa Feia", correct: false },
             { text: "Lagoa Dourada", correct: false },
             { text: "Lagoa Santa", correct: true }
-        ]
-    },
-    {
-        question: "Em que cidade de Minas Gerais está localizada a Usina Hidrelétrica de Furnas, uma das maiores do Brasil?",
-        answers: [
-            { text: "Divinópolis", correct: false },
-            { text: "Itajubá", correct: false },
-            { text: "Belo Horizonte", correct: false },
-            { text: "São José da Barra", correct: true }
         ]
     },
     {
