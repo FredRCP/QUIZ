@@ -324,6 +324,7 @@ function reviver(){
     const tela= document.querySelector('body');
     const reviver= document.createElement('img');
     reviver.src = '/assets/img/coracaorevivendo.gif';
+    reviver.style.display='block';
     reviver.classList.add('coracaorevivendo');
     tela.appendChild(reviver);
     setTimeout(() => {
@@ -2175,7 +2176,13 @@ const q2=[
 
 ]
 
+
+
 //Q3 CIÊNCIAS
+
+
+
+
 
 const q3=[
     {
@@ -2948,7 +2955,14 @@ const q3=[
 ]
 
 
+
+
+
 //Q4 CINEMA E MÚSICA
+
+
+
+
 
 const q4=[
     
@@ -3595,7 +3609,15 @@ const q4=[
 
 ]
 
+
+
+
 //Q5 ESPORTE
+
+
+
+
+
 
 const q5=[
     {   question: 'Qual país sediou a Copa do Mundo de 1998, onde a seleção brasileira chegou à final?',
@@ -4405,6 +4427,51 @@ const q6=[
             {text: 'BangKok', correct: true},
             {text: 'Bombaim', correct: false},
             {text: 'Mumbai', correct: false}
+        ]
+    },
+    {
+        question: "Conhecida como a Cidade que nunca dorme?",
+        answers: [
+            { text: "Berlim", correct: false },
+            { text: "Paris", correct: false },
+            { text: "Tóquio", correct: false },
+            { text: "Nova York", correct: true },
+        ]
+    },
+    {
+        question: "Conhecida como a Cidade Maravilhosa?",
+        answers: [
+            { text: "Rio de Janeiro", correct: true },
+            { text: "Roma", correct: false },
+            { text: "Paris", correct: false },
+            { text: "Londres", correct: false }
+        ]
+    },
+    {
+        question: "Cidade referida como a 'Cidade Velha e a Cidade Nova'?",
+        answers: [
+            { text: "Berlim", correct: false },
+            { text: "São Paulo", correct: false },
+            { text: "Tóquio", correct: false },
+            { text: "Londres", correct: true },
+        ]
+    },
+    {
+        question: "Conhecida como 'Cidade Eterna', devido sua longa e significativa história como a capital de um importante Império",
+        answers: [
+            { text: "Atenas", correct: false },
+            { text: "Madrid", correct: false },
+            { text: "Londres", correct: false },
+            { text: "Roma", correct: true },
+        ]
+    },
+    {
+        question: "Cidade brasileira conhecida pelos fósseis de Dinossauro e pela Expozebu?",
+        answers: [
+            { text: "Belo Horizonte", correct: false },
+            { text: "Araxá", correct: false },
+            { text: "Uberlândia", correct: false },
+            { text: "Uberaba", correct: true }
         ]
     },
     {   question: 'Quais os países que têm a maior e a menor expectativa de vida do mundo?',
