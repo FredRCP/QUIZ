@@ -154,7 +154,7 @@ function proximapergunta(p){
                 if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
                 if(porcento>30&&porcento<50){cumprimento='Você chega lá!'}
                 if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'}
-                document.querySelector('.pontos').innerHTML= `Você errou ${erros} questões!` + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
+                document.querySelector('.pontos').innerHTML= `Você perdeu todas as vidas!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}%`+"<br>"+cumprimento;
                 alert('GAME OVER! Tente novamente.');  
                 botaoproxima.classList.remove('proxima');
@@ -179,7 +179,7 @@ function proximapergunta(p){
                 if(porcento>30&&porcento<=50){cumprimento='Você chega lá!'; cerebrovitoria.style.display='flex';}
                 if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'; cerebroderrota1.style.display='flex';}
                 porcento=porcento.toFixed(1);
-                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+"<br>"+`Acertos: ${porcento}%`
+                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}%`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
                 botaopular.classList.remove('pular');
@@ -1229,6 +1229,15 @@ const q2=[
         ]
     },
     {
+        question: 'Quem é conhecido por suas contribuições à teoria da evolução?',
+        answers: [
+            { text: 'Charles Darwin', correct: true },
+            { text: 'Gregor Mendel', correct: false },
+            { text: 'Alfred Russel Wallace', correct: false },
+            { text: 'Jean-Baptiste Lamarck', correct: false }
+            ]
+    },
+    {
         question: "Os animais pertencentes à classe dos mamíferos se caracterizam por:",
         answers: [
             { text: "Ter escamas e nadadeiras", correct: false },
@@ -2192,6 +2201,15 @@ const q3=[
             { text: "Registro de descobertas astronômicas", correct: false },
             { text: "Catálogo de espécies animais", correct: false },
             { text: "Classificação de minerais", correct: false }
+        ]
+    },
+    {
+        question: 'Quando foi lançado o primeiro carro elétrico?',
+        answers: [
+            { text: '1800', correct: false },
+            { text: '1870', correct: true },
+            { text: '1905', correct: false },
+            { text: '1925', correct: false }
         ]
     },
     {
@@ -5208,6 +5226,69 @@ const q7=[
             { text: 'Taça de cicuta', correct: true }
         ]
     },
+    {
+        question: 'Quem é o fundador do Partido Comunista?',
+        answers: [
+            { text: 'Karl Marx', correct: false },
+            { text: 'Fidel Castro', correct: false },
+            { text: 'Vladimir Lênin', correct: true },
+            { text: 'Mao Tsé-Tung', correct: false }
+        ]
+    },
+    {
+        question: 'Qual das seguintes cidades tem os monumentos históricos mais altos?',
+        answers: [
+            { text: 'Roma', correct: false },
+            { text: 'Atenas', correct: false },
+            { text: 'Cairo', correct: false },
+            { text: 'Deli', correct: true }
+        ]
+    },
+    {
+        question: 'Quem também é conhecido como o fundador do socialismo científico?',
+        answers: [
+            { text: 'Friedrich Engels', correct: false },
+            { text: 'Leon Trotsky', correct: false },
+            { text: 'Karl Marx', correct: true },
+            { text: 'Mikhail Bakunin', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como o "Homem de Sangue e Ferro"?',
+        answers: [
+            { text: 'Júlio César', correct: false },
+            { text: 'Napoleão Bonaparte', correct: false },
+            { text: 'Otto von Bismarck', correct: true },
+            { text: 'Kaiser Wilhelm II', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como o "Pai da Computação"?',
+        answers: [
+            { text: 'Alan Turing', correct: true },
+            { text: 'Bill Gates', correct: false },
+            { text: 'Steve Jobs', correct: false },
+            { text: 'Tim Berners-Lee', correct: false }
+            ]
+    },
+    {
+        question: 'Qual batalha foi um ponto de virada durante a Guerra do Pacífico na Segunda Guerra Mundial?',
+        answers: [
+            { text: 'Batalha de Stalingrado', correct: false },
+            { text: 'Batalha de Midway', correct: true },
+            { text: 'Batalha de Kursk', correct: false },
+            { text: 'Batalha de El Alamein', correct: false }
+            ]
+    },
+    {
+        question: 'Quando o Muro de Berlim foi removido?',
+        answers: [
+            { text: '1985', correct: false },
+            { text: '1987', correct: false },
+            { text: '1989', correct: true },
+            { text: '1991', correct: false }
+        ]
+    },
     {   question: 'No Brasil, em qual dia é comemorada a Proclamação da República?',
         answers: [
             {text: '15 de Novembro', correct: true},
@@ -5431,6 +5512,87 @@ const q7=[
             { text: "Revolução Russa", correct: false },
             { text: "Ataque a Pearl Harbor", correct: false },
             { text: "Conferência de Yalta", correct: true }
+        ]
+    },
+    {
+        question: 'Que tipo de aeronave foi usada para bombardear Hiroshima no Japão durante a Segunda Guerra Mundial?',
+        answers: [
+            { text: 'Caça Spitfire', correct: false },
+            { text: 'Bombardeiro B-52', correct: false },
+            { text: 'Superfortaleza B-29', correct: true },
+            { text: 'Cruzador B-17', correct: false }
+        ]
+    },
+    {
+        question: 'Onde Júlio César foi morto?',
+        answers: [
+            { text: 'No Coliseu', correct: false },
+            { text: 'No Teatro de Pompeu', correct: true },
+            { text: 'No Fórum Romano', correct: false },
+            { text: 'No Palatino', correct: false }
+        ]
+    },
+    {
+        question: 'Como os romanos chamavam a Escócia?',
+        answers: [
+            { text: 'Caledônia', correct: true },
+            { text: 'Britânia', correct: false },
+            { text: 'Gália', correct: false },
+            { text: 'Hispania', correct: false }
+        ]
+    },
+    {
+        question: 'Qual foi a fabricante de energia nuclear ucraniana que foi o local de um desastre nuclear em abril de 1986?',
+        answers: [
+            { text: 'Three Mile Island', correct: false },
+            { text: 'Fukushima Daiichi', correct: false },
+            { text: 'Chernobyl', correct: true },
+            { text: 'Sellafield', correct: false }
+        ]
+    },
+    {
+        question: 'Qual imperador construiu o Coliseu?',
+        answers: [
+            { text: 'Nero', correct: false },
+            { text: 'Trajano', correct: false },
+            { text: 'Augusto', correct: false },
+            { text: 'Vespasiano', correct: true }
+        ]
+    },
+    {
+        question: 'A guerra do ópio foi uma batalha entre quais dois países?',
+        answers: [
+            { text: 'Inglaterra e Índia', correct: false },
+            { text: 'Estados Unidos e México', correct: false },
+            { text: 'Inglaterra e China', correct: true },
+            { text: 'França e Vietnã', correct: false }
+        ]
+    },
+    {
+        question: 'Que famosa formação militar foi feita por Alexandre, o Grande?',
+        answers: [
+            { text: 'Falange', correct: true },
+            { text: 'Testudo', correct: false },
+            { text: 'Legião', correct: false },
+            { text: 'Cohorte', correct: false }
+        ]
+    },
+    {
+        question: 'Quais países lutaram na Guerra dos Cem Anos?',
+        answers: [
+            { text: 'Inglaterra e França', correct: true },
+            { text: 'Espanha e Portugal', correct: false },
+            { text: 'Rússia e Suécia', correct: false },
+            { text: 'Itália e Áustria', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano a União Soviética entrou em colapso?',
+        answers: [
+            { text: '1985', correct: false },
+            { text: '1989', correct: false },
+            { text: '1991', correct: true },
+            { text: '1995', correct: false }
         ]
     },
     {
@@ -6140,6 +6302,15 @@ const q8=[
             { text: "Agatha Christie", correct: false },
             { text: "Arthur Conan Doyle", correct: true },
             { text: "Charles Dickens", correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano o Facebook foi fundado?',
+        answers: [
+            { text: '2002', correct: false },
+            { text: '2004', correct: true },
+            { text: '2006', correct: false },
+            { text: '2008', correct: false }
         ]
     },
     {
