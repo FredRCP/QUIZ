@@ -409,7 +409,10 @@ function ligarTodosOsSons() {
 
 //Q1 ARTE E CULTURA
 
-const q1=[
+
+
+
+const qarte=[
     {
         question: 'Quem é considerado o deus dos deuses na mitologia grega?',
         answers: [
@@ -1151,6 +1154,96 @@ const q1=[
             { text: "Ukiyo-e", correct: true },
             { text: "Haiku", correct: false }
         ]
+    },
+    {
+        question: 'Quem é considerado o precursor do modernismo na pintura brasileira?',
+        answers: [
+            { text: 'Cândido Portinari', correct: false },
+            { text: 'Tarsila do Amaral', correct: false },
+            { text: 'Di Cavalcanti', correct: true },
+            { text: 'Anita Malfatti', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal característica do movimento antropofágico na arte brasileira?',
+        answers: [
+            { text: 'Influência oriental', correct: false },
+            { text: 'Incorporação de elementos europeus', correct: false },
+            { text: 'Valorização da natureza', correct: false },
+            { text: 'Consumo e apropriação da cultura estrangeira', correct: true }
+        ]
+    },
+    {
+        question: 'Quem foi o artista brasileiro conhecido por suas esculturas modernistas em bronze e suas obras monumentais?',
+        answers: [
+            { text: 'Tarsila do Amaral', correct: false },
+            { text: 'Oswaldo Goeldi', correct: false },
+            { text: 'Vik Muniz', correct: false },
+            { text: 'Victor Brecheret', correct: true }
+        ]
+    },
+    {
+        question: 'Em que período a Semana de Arte Moderna de 1922 ocorreu?',
+        answers: [
+            { text: 'Romantismo', correct: false },
+            { text: 'Barroco', correct: false },
+            { text: 'Modernismo', correct: true },
+            { text: 'Renascimento', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é considerado um dos principais representantes da arte contemporânea no Brasil e é conhecido por suas instalações e intervenções urbanas?',
+        answers: [
+            { text: 'Heitor dos Prazeres', correct: false },
+            { text: 'Caetano Dias', correct: false },
+            { text: 'Vik Muniz', correct: false },
+            { text: 'Cildo Meireles', correct: true }
+        ]
+    },
+    {
+        question: 'Qual movimento artístico brasileiro foi caracterizado pela ênfase na representação de temas nacionais e regionais, especialmente a natureza e o folclore?',
+        answers: [
+            { text: 'Modernismo', correct: false },
+            { text: 'Realismo', correct: false },
+            { text: 'Romantismo', correct: false },
+            { text: 'Regionalismo', correct: true }
+        ]
+    },
+    {
+        question: 'Quem foi a primeira artista brasileira a expor na Bienal de São Paulo?',
+        answers: [
+            { text: 'Tomie Ohtake', correct: true },
+            { text: 'Lygia Pape', correct: false },
+            { text: 'Beatriz Milhazes', correct: false },
+            { text: 'Adriana Varejão', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do artista brasileiro conhecido por suas obras abstratas, especialmente na técnica de pintura com espátula?',
+        answers: [
+            { text: 'Tarsila do Amaral', correct: false },
+            { text: 'Alfredo Volpi', correct: false },
+            { text: 'Abelardo da Hora', correct: false },
+            { text: 'Manabu Mabe', correct: true }
+        ]
+    },
+    {
+        question: 'Quem é considerado um dos principais representantes do concretismo no Brasil?',
+        answers: [
+            { text: 'Lygia Clark', correct: false },
+            { text: 'Hélio Oiticica', correct: false },
+            { text: 'Amilcar de Castro', correct: true },
+            { text: 'Candido Portinari', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o movimento artístico brasileiro que surgiu no final dos anos 1950, destacando-se por suas obras provocativas e irreverentes, muitas vezes abordando questões políticas e sociais?',
+        answers: [
+            { text: 'Concretismo', correct: false },
+            { text: 'Antropofagia', correct: false },
+            { text: 'Pop Art Brasileira', correct: true },
+            { text: 'Arte Cinética', correct: false }
+        ]
     }
 
 
@@ -1164,7 +1257,7 @@ const q1=[
 
 
 
-const q2=[
+const qbio=[
     {
         question: "Qual é a unidade básica da estrutura e função dos seres vivos?",
         answers: [
@@ -2193,7 +2286,7 @@ const q2=[
 
 
 
-const q3=[
+const qciencia=[
     {
         question: "O que é a tabela periódica?",
         answers: [
@@ -2982,7 +3075,7 @@ const q3=[
 
 
 
-const q4=[
+const qcine=[
     
     {
         question: "Em qual filme Leonardo DiCaprio finalmente ganhou um Oscar de Melhor Ator após várias indicações?",
@@ -2991,6 +3084,168 @@ const q4=[
             { text: "Django Livre", correct: false },
             { text: "O Lobo de Wall Street", correct: false },
             { text: "O Regresso", correct: true }
+        ]
+    },
+    {
+        question: 'Qual o único filme de língua portuguesa ganhou o Oscar de Melhor Filme Internacional?',
+        answers: [
+            { text: 'Central do Brasil', correct: false },
+            { text: 'Cidade de Deus', correct: false },
+            { text: 'O Pagador de Promessas', correct: false },
+            { text: 'Orfeu Negro', correct: true }
+        ]
+    },
+    {
+        question: 'Quem é o diretor de "Cidade de Deus"?',
+        answers: [
+            { text: 'Fernando Meirelles', correct: false },
+            { text: 'Walter Salles', correct: false },
+            { text: 'Glauber Rocha', correct: false },
+            { text: 'Fernando Meirelles e Kátia Lund', correct: true }
+        ]
+    },
+    {
+        question: 'Qual atriz brasileira foi indicada ao Oscar de Melhor Atriz?',
+        answers: [
+            { text: 'Fernanda Montenegro', correct: true },
+            { text: 'Sônia Braga', correct: false },
+            { text: 'Gloria Pires', correct: false },
+            { text: 'Regina Casé', correct: false }
+        ]
+    },
+    {
+        question: 'Em que cidade se passa a trama de "Cidade de Deus"?',
+        answers: [
+            { text: 'Recife', correct: false },
+            { text: 'Salvador', correct: false },
+            { text: 'Rio de Janeiro', correct: true },
+            { text: 'São Paulo', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o diretor do filme "Tropa de Elite"?',
+        answers: [
+            { text: 'José Padilha', correct: true },
+            { text: 'Walter Salles', correct: false },
+            { text: 'Fernando Meirelles', correct: false },
+            { text: 'Kátia Lund', correct: false }
+        ]
+    },
+    {
+        question: 'Qual filme brasileiro recebeu a Palma de Ouro em Cannes?',
+        answers: [
+            { text: 'Aquarius', correct: false },
+            { text: 'O Som ao Redor', correct: false },
+            { text: 'Bacurau', correct: false },
+            { text: 'O Pagador de Promessas', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o título do filme brasileiro que ficou conhecido como "O Cangaceiro"?',
+        answers: [
+            { text: 'Lampião, Rei do Cangaço', correct: false },
+            { text: 'Deus e o Diabo na Terra do Sol', correct: false },
+            { text: 'Cangaceiro', correct: true },
+            { text: 'O Baile Perfumado', correct: false }
+        ]
+    },
+    {
+        question: 'Quem dirigiu o filme "Aquarius"?',
+        answers: [
+            { text: 'Kleber Mendonça Filho', correct: true },
+            { text: 'Fernando Meirelles', correct: false },
+            { text: 'Walter Salles', correct: false },
+            { text: 'Anna Muylaert', correct: false }
+        ]
+    },
+    {
+        question: 'Qual filme brasileiro recebeu uma indicação ao Oscar de Melhor Animação?',
+        answers: [
+            { text: 'O Menino e o Mundo', correct: true },
+            { text: 'Rio', correct: false },
+            { text: 'Uma História de Amor e Fúria', correct: false },
+            { text: 'Meu Malvado Favorito', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano foi lançado o filme "Tropa de Elite"?',
+        answers: [
+            { text: '2004', correct: false },
+            { text: '2006', correct: true },
+            { text: '2008', correct: false },
+            { text: '2010', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do protagonista de "O Auto da Compadecida"?',
+        answers: [
+            { text: 'Chicó', correct: false },
+            { text: 'João Grilo', correct: true },
+            { text: 'Padeiro', correct: false },
+            { text: 'Padre Cícero', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é a diretora do filme "Que Horas Ela Volta?"?',
+        answers: [
+            { text: 'Anna Muylaert', correct: true },
+            { text: 'Fernanda Montenegro', correct: false },
+            { text: 'Fernando Meirelles', correct: false },
+            { text: 'Glauber Rocha', correct: false }
+        ]
+    },
+    {
+        question: 'Qual ator interpretou o personagem Zé Pequeno no filme "Cidade de Deus"?',
+        answers: [
+            { text: 'Seu Jorge', correct: false },
+            { text: 'Wagner Moura', correct: false },
+            { text: 'Matheus Nachtergaele', correct: false },
+            { text: 'Leandro Firmino', correct: true }
+        ]
+    },
+    {
+        question: 'Quem é o diretor do filme "O Pagador de Promessas"?',
+        answers: [
+            { text: 'Cacá Diegues', correct: false },
+            { text: 'Walter Salles', correct: false },
+            { text: 'Glauber Rocha', correct: false },
+            { text: 'Anselmo Duarte', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o nome da personagem principal de "A Hora da Estrela"?',
+        answers: [
+            { text: 'Clara', correct: false },
+            { text: 'Macabéa', correct: true },
+            { text: 'Francisca', correct: false },
+            { text: 'Ana', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o título do primeiro filme de longa-metragem de Glauber Rocha?',
+        answers: [
+            { text: 'Deus e o Diabo na Terra do Sol', correct: true },
+            { text: 'O Pagador de Promessas', correct: false },
+            { text: 'Vidas Secas', correct: false },
+            { text: 'Terra em Transe', correct: false }
+        ]
+    },
+    {
+        question: 'Qual ator brasileiro é conhecido por seus papéis em "O Quatrilho" e "Eu, Tu, Eles"?',
+        answers: [
+            { text: 'Matheus Nachtergaele', correct: false },
+            { text: 'Lázaro Ramos', correct: false },
+            { text: 'Wagner Moura', correct: false },
+            { text: 'Marco Nanini', correct: true }
+        ]
+    },
+    {
+        question: 'Qual cineasta brasileiro é considerado o precursor do Cinema Novo?',
+        answers: [
+            { text: 'Glauber Rocha', correct: true },
+            { text: 'Nelson Pereira dos Santos', correct: false },
+            { text: 'Hector Babenco', correct: false },
+            { text: 'Carlos Diegues', correct: false }
         ]
     },
     {
@@ -3629,6 +3884,1013 @@ const q4=[
 
 
 
+//Q  GEEK
+
+const qgeek=[
+    {
+        question: "Qual é o nome do famoso jogo de RPG de mesa que se passa em um mundo de fantasia medieval e é conhecido por seus dados poliédricos?",
+        answers: [
+            { text: "Pathfinder", correct: false },
+            { text: "Dungeons & Dragons", correct: true },
+            { text: "Warhammer Fantasy Roleplay", correct: false },
+            { text: "Shadowrun", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo de tabuleiro os jogadores compram, vendem e negociam propriedades imobiliárias?",
+        answers: [
+            { text: "Jogo da Vida", correct: false },
+            { text: "War", correct: false },
+            { text: "Banco Imobiliário", correct: true },
+            { text: "Dixit", correct: false }
+        ]
+    },
+    {
+        question: "No universo de 'Doctor Who', qual é o nome da nave espacial/temporal do Doutor?",
+        answers: [
+            { text: "Millennium Falcon", correct: false },
+            { text: "TARDIS", correct: true },
+            { text: "Serenity", correct: false },
+            { text: "Starship Enterprise", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores podem explorar um vasto universo gerado proceduralmente?",
+        answers: [
+            { text: "Elite Dangerous", correct: false },
+            { text: "No Man's Sky", correct: true },
+            { text: "Starbound", correct: false },
+            { text: "EVE Online", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do sistema operacional desenvolvido pela Valve Corporation para jogos?",
+        answers: [
+            { text: "SteamOS", correct: true },
+            { text: "GamerOS", correct: false },
+            { text: "PlayOS", correct: false },
+            { text: "GameOS", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do assistente virtual da Amazon, ativado por voz, que se tornou um sucesso de vendas?",
+        answers: [
+            { text: "Cortana", correct: false },
+            { text: "Siri", correct: false },
+            { text: "Alexa", correct: true },
+            { text: "Google Assistant", correct: false }
+        ]
+    },
+    {
+        question: "Quem é conhecido como o 'Homem de Ferro' nos quadrinhos da Marvel?",
+        answers: [
+            { text: "Steve Rogers", correct: false },
+            { text: "Bruce Wayne", correct: false },
+            { text: "Tony Stark", correct: true },
+            { text: "Clark Kent", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do programa de computador que venceu os campeões mundiais em Jeopardy! em 2011?",
+        answers: [
+            { text: "Deep Blue", correct: false },
+            { text: "Watson", correct: true },
+            { text: "AlphaGo", correct: false },
+            { text: "DeepMind", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a série de jogos que apresenta o personagem Nathan Drake, um caçador de tesouros?",
+        answers: [
+            { text: "Halo", correct: false },
+            { text: "Uncharted", correct: true },
+            { text: "Assassin's Creed", correct: false },
+            { text: "The Last of Us", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a empresa por trás da série de consoles de videogame PlayStation?",
+        answers: [
+            { text: "Microsoft", correct: false },
+            { text: "Nintendo", correct: false },
+            { text: "Sony", correct: true },
+            { text: "Sega", correct: false }
+        ]
+    },
+    {
+        question: "Em qual jogo o personagem principal, conhecido como 'Link', tenta resgatar a Princesa Zelda?",
+        answers: [
+            { text: "Final Fantasy VII", correct: false },
+            { text: "The Legend of Zelda", correct: true },
+            { text: "Super Mario Bros.", correct: false },
+            { text: "Pokémon Red/Blue", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores podem construir e explorar mundos virtuais usando blocos?",
+        answers: [
+            { text: "Minecraft", correct: true },
+            { text: "Fortnite", correct: false },
+            { text: "Roblox", correct: false },
+            { text: "Terraria", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do personagem principal da série de jogos 'The Witcher', baseada nos livros de Andrzej Sapkowski?",
+        answers: [
+            { text: "Geralt of Rivia", correct: true },
+            { text: "Ezio Auditore", correct: false },
+            { text: "Joel", correct: false },
+            { text: "Master Chief", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da série de jogos que segue a jornada de Kratos, um guerreiro espartano, e seu filho?",
+        answers: [
+            { text: "Assassin's Creed", correct: false },
+            { text: "God of War", correct: true },
+            { text: "Dark Souls", correct: false },
+            { text: "Devil May Cry", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da protagonista feminina em 'Tomb Raider', uma série de jogos de aventura?",
+        answers: [
+            { text: "Aloy", correct: false },
+            { text: "Lara Croft", correct: true },
+            { text: "Chell", correct: false },
+            { text: "Faith Connors", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do encanador italiano da Nintendo, conhecido por salvar a Princesa Peach?",
+        answers: [
+            { text: "Sonic", correct: false },
+            { text: "Link", correct: false },
+            { text: "Mario", correct: true },
+            { text: "Luigi", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do jogo de tabuleiro onde os jogadores competem para construir estradas, vilas e cidades em um mundo fictício?",
+        answers: [
+            { text: "Risk", correct: false },
+            { text: "Catan", correct: true },
+            { text: "Monopoly", correct: false },
+            { text: "Clue", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano foi inventada a primeira câmera fotográfica?",
+        answers: [
+            { text: "1839", correct: true },
+            { text: "1895", correct: false },
+            { text: "1768", correct: false },
+            { text: "1950", correct: false }
+        ]
+    },
+    {
+        question: "Quem é creditado como o inventor da World Wide Web (WWW)?",
+        answers: [
+            { text: "Tim Berners-Lee", correct: true },
+            { text: "Mark Zuckerberg", correct: false },
+            { text: "Larry Page", correct: false },
+            { text: "Elon Musk", correct: false }
+        ]
+    },
+    {
+        question: "Quem inventou o computador pessoal?",
+        answers: [
+            { text: "Bill Gates", correct: false },
+            { text: "Steve Jobs", correct: false },
+            { text: "Alan Turing", correct: false },
+            { text: "Edgar F. Codd", correct: true }
+        ]
+    },
+    {   question: 'O telégrafo foi criado em 1831. Quem foi seu criador?',
+        answers: [
+            {text: 'Thomas Edison', correct: false},
+            {text: 'Nikola Tesla', correct: false},
+            {text: 'Alexander Graham Bell', correct: false},
+            {text: 'Joseph Henry', correct: true},
+        ]
+    },
+    {   question: 'Quantas teclas há em um piano clássico?',
+        answers: [
+            {text: '88', correct: true},
+            {text: '99', correct: false},
+            {text: '10', correct: false},
+            {text: '25', correct: false},
+        ]
+    },
+    {   question: 'Inicialmente chamada de Arpanet, em que ano a internet foi criada?',
+    answers: [
+        {text: '1980', correct: false},
+        {text: '2001', correct: false},
+        {text: '1969', correct: true},
+        {text: '1995', correct: false},
+        ]
+    }, 
+    {   question: 'Qual a empresa criadora deste QUIZ?',
+    answers: [
+        {text: 'Gamemania', correct: false},
+        {text: 'Entertainment RCP', correct: false},
+        {text: 'Games & cia', correct: false},
+        {text: 'RCP games', correct: true},
+        ]
+    },
+    {   question: 'Qual o jogo onde normalmente vence o jogador que formar 3 trincas de cartas?',
+        answers: [
+            {text: 'Truco', correct: false},
+            {text: 'Buraco', correct: false},
+            {text: 'Cacheta', correct: true},
+            {text: 'Uno', correct: false},
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores controlam um assassino que pertence à Ordem dos Assassinos?",
+        answers: [
+            { text: "The Elder Scrolls V: Skyrim", correct: false },
+            { text: "Assassin's Creed", correct: true },
+            { text: "The Witcher 3: Wild Hunt", correct: false },
+            { text: "Metal Gear Solid V: The Phantom Pain", correct: false }
+        ]
+    },
+    {
+        question: "Em qual jogo os jogadores assumem o papel de um mercenário conhecido como 'Big Boss'?",
+        answers: [
+            { text: "Metal Gear Solid V: The Phantom Pain", correct: true },
+            { text: "Final Fantasy XV", correct: false },
+            { text: "The Witcher 3: Wild Hunt", correct: false },
+            { text: "Call of Duty: Modern Warfare", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores controlam um grupo de sobreviventes em um mundo pós-apocalíptico infestado de zumbis?",
+        answers: [
+            { text: "Dead Space", correct: false },
+            { text: "Resident Evil 7: Biohazard", correct: false },
+            { text: "The Last of Us", correct: true },
+            { text: "Left 4 Dead 2", correct: false }
+        ]
+    },
+    {
+        question: "Em que jogo os jogadores controlam um herói encapuzado em uma missão para deter o Espantalho de destruir Gotham City?",
+        answers: [
+            { text: "Spider-Man (PS4)", correct: false },
+            { text: "Batman: Arkham Asylum", correct: true },
+            { text: "Injustice 2", correct: false },
+            { text: "Assassin's Creed Odyssey", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do personagem principal do jogo 'Assassin's Creed - Brotherhood'?",
+        answers: [
+            { text: "Ezio Auditore", correct: true },
+            { text: "Altair Ibn-La'Ahad", correct: false },
+            { text: "Connor Kenway", correct: false },
+            { text: "Desmond Miles", correct: false }
+        ]
+    },
+    {   question: 'Trilogia de jogos, com temática medieval/fantasia, conhecido pela sua dificuldade ',
+        answers: [
+            {text: 'Call of Duty', correct: false},
+            {text: 'Halo', correct: false},
+            {text: 'Skyrim', correct: false},
+            {text: 'Dark Souls', correct: true},
+        ]
+    },
+    {   question: 'Considerado o primeiro jogo comercialmente bem-sucedido, desenvolvido pela Atari e lançado em 1972?',
+        answers: [
+            {text: 'Enduro', correct: false},
+            {text: 'Pong', correct: true},
+            {text: 'Super Mário', correct: false},
+            {text: 'Donkey Kong', correct: false},
+        ]
+    },
+    {   question: 'Em 1981 o carpinteiro Mario aparece pela 1º vez em um jogo eletrônico? Qual o nome deste jogo?',
+        answers: [ 
+            {text: 'Mario Kart', correct: false},
+            {text: 'Super Mario 1', correct: false},
+            {text: 'Donkey Kong', correct: true},
+            {text: 'Mario', correct: false},
+        ]
+    },
+    {   question: 'São consoles de videogame da geração 16bits?',
+        answers: [
+            {text: 'PS1 e Xbox', correct: false},
+            {text: 'Nintendo 64 e PS2', correct: false},
+            {text: 'Atari e Game Boy ', correct: false},
+            {text: 'Super Nintendo e Mega Drive', correct: true},
+        ]
+    },
+    {
+        question: "Qual é o nome do personagem principal de 'O Senhor dos Anéis'?",
+        answers: [
+            { text: "Gandalf", correct: false },
+            { text: "Aragorn", correct: false },
+            { text: "Frodo Bolseiro", correct: true },
+            { text: "Legolas", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano foi lançado o primeiro console PlayStation da Sony?",
+        answers: [
+            { text: "1994", correct: true },
+            { text: "1996", correct: false },
+            { text: "1998", correct: false },
+            { text: "2000", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da nave espacial em 'Star Wars' pilotada por Han Solo?",
+        answers: [
+            { text: "Starship Enterprise", correct: false },
+            { text: "Millennium Falcon", correct: true },
+            { text: "X-Wing", correct: false },
+            { text: "TIE Fighter", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a principal característica do jogo de tabuleiro 'Settlers of Catan'?",
+        answers: [
+            { text: "Construção de cidades", correct: false },
+            { text: "Negociação de recursos", correct: true },
+            { text: "Batalhas épicas", correct: false },
+            { text: "Exploração espacial", correct: false }
+        ]
+    },
+    {
+        question: "Em que ano foi lançado o primeiro episódio de 'Star Trek'?",
+        answers: [
+            { text: "1966", correct: true },
+            { text: "1972", correct: false },
+            { text: "1980", correct: false },
+            { text: "1990", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o planeta natal de Superman?",
+        answers: [
+            { text: "Terra", correct: false },
+            { text: "Krypton", correct: true },
+            { text: "Marte", correct: false },
+            { text: "Asgard", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do protagonista de 'Doctor Who'?",
+        answers: [
+            { text: "Captain Jack Harkness", correct: false },
+            { text: "The Master", correct: false },
+            { text: "The Doctor", correct: true },
+            { text: "River Song", correct: false }
+        ]
+    },
+    {
+        question: "Quem é conhecido como o 'Mago Supremo' no universo da Marvel?",
+        answers: [
+            { text: "Homem-Aranha", correct: false },
+            { text: "Doutor Estranho", correct: true },
+            { text: "Homem de Ferro", correct: false },
+            { text: "Pantera Negra", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da espada usada por Jon Snow em 'Game of Thrones'?",
+        answers: [
+            { text: "Oathkeeper", correct: false },
+            { text: "Ice", correct: false },
+            { text: "Needle", correct: false },
+            { text: "Longclaw", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o jogo de cartas colecionáveis que se tornou um fenômeno mundial?",
+        answers: [
+            { text: "Uno", correct: false },
+            { text: "Magic: The Gathering", correct: true },
+            { text: "Pokémon TCG", correct: false },
+            { text: "Yu-Gi-Oh!", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o criador da franquia 'The Legend of Zelda'?",
+        answers: [
+            { text: "Hideo Kojima", correct: false },
+            { text: "Shigeru Miyamoto", correct: true },
+            { text: "Satoru Iwata", correct: false },
+            { text: "Hidetaka Miyazaki", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da série de livros que inspirou a série de TV 'Game of Thrones'?",
+        answers: [
+            { text: "The Wheel of Time", correct: false },
+            { text: "The Malazan Book of the Fallen", correct: false },
+            { text: "A Song of Ice and Fire", correct: true },
+            { text: "The Kingkiller Chronicle", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do vilão principal em 'Harry Potter'?",
+        answers: [
+            { text: "Voldemort", correct: true },
+            { text: "Dumbledore", correct: false },
+            { text: "Draco Malfoy", correct: false },
+            { text: "Severus Snape", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do robô do personagem Tony Stark em 'Homem de Ferro'?",
+        answers: [
+            { text: "Hulkbuster", correct: false },
+            { text: "J.A.R.V.I.S.", correct: true },
+            { text: "Ultron", correct: false },
+            { text: "Dummy", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome da protagonista feminina da série 'The Witcher'?",
+        answers: [
+            { text: "Ciri", correct: true },
+            { text: "Yennefer", correct: false },
+            { text: "Triss", correct: false },
+            { text: "Fringilla Vigo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do protagonista do jogo 'Metal Gear Solid'?",
+        answers: [
+            { text: "Solid Snake", correct: true },
+            { text: "Liquid Snake", correct: false },
+            { text: "Big Boss", correct: false },
+            { text: "Raiden", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o vilão principal em 'Star Wars: O Império Contra-Ataca'?",
+        answers: [
+            { text: "Darth Maul", correct: false },
+            { text: "Darth Sidious", correct: false },
+            { text: "Darth Skywalter", correct: false },
+            { text: "Darth Vader", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do jogo de cartas colecionáveis que envolve duelos de monstros?",
+        answers: [
+            { text: "Hearthstone", correct: false },
+            { text: "Magic: The Gathering", correct: false },
+            { text: "Yu-Gi-Oh!", correct: true },
+            { text: "Pokémon TCG", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o criador da série 'The Mandalorian'?",
+        answers: [
+            { text: "Joss Whedon", correct: false },
+            { text: "George Lucas", correct: false },
+            { text: "Jon Favreau", correct: true },
+            { text: "J.J. Abrams", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do mago que orienta o protagonista em 'The Witcher'?",
+        answers: [
+            { text: "Merlin", correct: false },
+            { text: "Gandalf", correct: false },
+            { text: "Triss", correct: false },
+            { text: "Dandelion", correct: true }
+        ]
+    },
+    {
+        question: "Qual é o nome do protagonista da série de anime 'Death Note'?",
+        answers: [
+            { text: "L", correct: false },
+            { text: "Kira", correct: false },
+            { text: "Ryuk", correct: false },
+            { text: "Light Yagami", correct: true }
+        ]
+    },
+    {
+        question: "Quem é o criador do universo de 'Senhor dos Anéis'?",
+        answers: [
+            { text: "George R.R. Martin", correct: false },
+            { text: "J.R.R. Tolkien", correct: true },
+            { text: "C.S. Lewis", correct: false },
+            { text: "Philip K. Dick", correct: false }
+        ]
+    },
+    {
+        question: "Qual é a principal moeda usada em 'The Witcher'?",
+        answers: [
+            { text: "Ouro", correct: false },
+            { text: "Dólar", correct: false },
+            { text: "Florim", correct: true },
+            { text: "Rublo", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do planeta natal de Spock em 'Star Trek'?",
+        answers: [
+            { text: "Tatooine", correct: false },
+            { text: "Endor", correct: false },
+            { text: "Vulcan", correct: true },
+            { text: "Coruscant", correct: false }
+        ]
+    },
+    {
+        question: "Quem é o criador do personagem Sherlock Holmes?",
+        answers: [
+            { text: "Edgar Allan Poe", correct: false },
+            { text: "Agatha Christie", correct: false },
+            { text: "Arthur Conan Doyle", correct: true },
+            { text: "Charles Dickens", correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano o Facebook foi fundado?',
+        answers: [
+            { text: '2002', correct: false },
+            { text: '2004', correct: true },
+            { text: '2006', correct: false },
+            { text: '2008', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o arque-inimigo do Batman?',
+        answers: [
+            { text: 'Coringa', correct: true },
+            { text: 'Duas-Caras', correct: false },
+            { text: 'Pinguim', correct: false },
+            { text: 'Charada', correct: false }
+        ]
+    },
+    {
+        question: 'Em Star Wars, quem é o mestre Jedi de Anakin Skywalker?',
+        answers: [
+            { text: 'Yoda', correct: false },
+            { text: 'Obi-Wan Kenobi', correct: true },
+            { text: 'Mace Windu', correct: false },
+            { text: 'Qui-Gon Jinn', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome verdadeiro do Flash?',
+        answers: [
+            { text: 'Barry Allen', correct: true },
+            { text: 'Wally West', correct: false },
+            { text: 'Jay Garrick', correct: false },
+            { text: 'Bart Allen', correct: false }
+        ]
+    },
+    {
+        question: 'Qual super herói tem o lema: "Grandes poderes trazem grandes responsabilidades"?',
+        answers: [
+            { text: 'Homem-aranha', correct: true },
+            { text: 'Superman', correct: false },
+            { text: 'Capitão América', correct: false },
+            { text: 'Batman', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do planeta natal de Chewbacca?',
+        answers: [
+            { text: 'Tatooine', correct: false },
+            { text: 'Endor', correct: false },
+            { text: 'Kashyyyk', correct: true },
+            { text: 'Naboo', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o pai de Luke Skywalker?',
+        answers: [
+            { text: 'Darth Vader', correct: true },
+            { text: 'Obi-Wan Kenobi', correct: false },
+            { text: 'Han Solo', correct: false },
+            { text: 'Yoda', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a arma principal dos Sith?',
+        answers: [
+            { text: 'Blaster', correct: false },
+            { text: 'Luz de Sabre', correct: true },
+            { text: 'Lança-chamas', correct: false },
+            { text: 'Blasters duplos', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a Força?',
+        answers: [
+            { text: 'Uma arma poderosa', correct: false },
+            { text: 'Um artefato antigo', correct: false },
+            { text: 'Uma filosofia Jedi', correct: false },
+            { text: 'Uma energia mística que dá poder aos Jedi e Sith', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o nome do planeta desértico apresentado em "O Despertar da Força"?',
+        answers: [
+            { text: 'Tatooine', correct: false },
+            { text: 'Naboo', correct: false },
+            { text: 'Jakku', correct: true },
+            { text: 'Geonosis', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o líder da Primeira Ordem em "O Despertar da Força"?',
+        answers: [
+            { text: 'Imperador Palpatine', correct: false },
+            { text: 'Kylo Ren', correct: true },
+            { text: 'Darth Vader', correct: false },
+            { text: 'Snoke', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do caçador de recompensas que congela Han Solo em carbonita em "O Império Contra-Ataca"?',
+        answers: [
+            { text: 'Boba Fett', correct: true },
+            { text: 'IG-88', correct: false },
+            { text: 'Bossk', correct: false },
+            { text: 'Dengar', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do Mestre Jedi que descobre a Clones do Exército da República em "O Ataque dos Clones"?',
+        answers: [
+            { text: 'Yoda', correct: true },
+            { text: 'Obi-Wan Kenobi', correct: false },
+            { text: 'Mace Windu', correct: false },
+            { text: 'Qui-Gon Jinn', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o sobrenome verdadeiro de Darth Sidious, o líder dos Sith?',
+        answers: [
+            { text: 'Tarkin', correct: false },
+            { text: 'Plagueis', correct: false },
+            { text: 'Palpatine', correct: true },
+            { text: 'Tyranus', correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do herói cego da Marvel que é advogado durante o dia?",
+        answers: [
+            { text: "Wolverine", correct: false },
+            { text: "Homem de Ferro", correct: false },
+            { text: "Demolidor", correct: true },
+            { text: "Luke Cage", correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o jogo de computador mais vendido de todos os tempos?',
+        answers: [
+            { text: 'Minecraft', correct: true },
+            { text: 'The Sims', correct: false },
+            { text: 'World of Warcraft', correct: false },
+            { text: 'Counter-Strike: Global Offensive', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano foi lançado o jogo "The Elder Scrolls V: Skyrim"?',
+        answers: [
+            { text: '2008', correct: false },
+            { text: '2011', correct: true },
+            { text: '2014', correct: false },
+            { text: '2017', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o gênero do jogo "Overwatch"?',
+        answers: [
+            { text: 'Battle Royale', correct: false },
+            { text: 'MOBA', correct: false },
+            { text: 'FPS (First-Person Shooter)', correct: true },
+            { text: 'RPG', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do protagonista em "Half-Life"?',
+        answers: [
+            { text: 'Gordon Freeman', correct: true },
+            { text: 'Alex Vance', correct: false },
+            { text: 'Barney Calhoun', correct: false },
+            { text: 'Eli Vance', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano foi lançado o jogo "Doom"?',
+        answers: [
+            { text: '1993', correct: true },
+            { text: '1996', correct: false },
+            { text: '2001', correct: false },
+            { text: '2005', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do mundo virtual em "Second Life"?',
+        answers: [
+            { text: 'SimCity', correct: false },
+            { text: 'The Matrix', correct: false },
+            { text: 'Azeroth', correct: false },
+            { text: 'Linden Lab', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o título completo do jogo "CS:GO"?',
+        answers: [
+            { text: 'Counter-Strike: Source', correct: false },
+            { text: 'Counter-Strike: Condition Zero', correct: false },
+            { text: 'Counter-Strike: Global Offensive', correct: true },
+            { text: 'Counter-Strike: 1.6', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o desenvolvedor do jogo "Fortnite"?',
+        answers: [
+            { text: 'Blizzard Entertainment', correct: false },
+            { text: 'Epic Games', correct: true },
+            { text: 'Valve Corporation', correct: false },
+            { text: 'Ubisoft', correct: false }
+        ]
+    },
+    {
+        question: 'Qual a cor da Meta-anfetamina de Heisenberg em Breaking Bad?',
+        answers: [
+            { text: 'Transparente', correct: true },
+            { text: 'Azul', correct: false },
+            { text: 'Branca', correct: false },
+            { text: 'Amarela', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o real nome de revistas desenhadas em quadros de heróis ou personagens em geral?',
+        answers: [
+            { text: 'Manga', correct: false },
+            { text: 'HQ\'s', correct: true },
+            { text: 'Gibi', correct: false },
+            { text: 'Livrinho', correct: false }
+        ]
+    },
+    {
+        question: 'Qual o planeta natal de Spock, o ser lógico da série e saga de filmes "Star Trek"?',
+        answers: [
+            { text: 'Vulcano', correct: true },
+            { text: 'Terra', correct: false },
+            { text: 'Asgard', correct: false },
+            { text: 'Spocklândia', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual jogo do Super Nintendo você pode encontrar o vilão Bowser?',
+        answers: [
+            { text: 'Street Fighter II', correct: false },
+            { text: 'Final Fantasy VI', correct: false },
+            { text: 'Super Mario World', correct: true },
+            { text: 'Super Metroid', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da espada que Link usa no jogo "The Legend of Zelda: A Link to the Past"?',
+        answers: [
+            { text: 'Excalibur', correct: false },
+            { text: 'Master Sword', correct: true },
+            { text: 'Buster Sword', correct: false },
+            { text: 'Falchion', correct: false }
+        ]
+    },
+    {
+        question: 'Em que jogo do Super Nintendo você assume o papel de um caçador de recompensas intergaláctico chamado Samus Aran?',
+        answers: [
+            { text: 'Metroid', correct: true },
+            { text: 'Star Fox', correct: false },
+            { text: 'Earthbound', correct: false },
+            { text: 'Super Castlevania IV', correct: false }
+        ]
+    },
+    {
+        question: 'Em que jogo do Super Nintendo você pode encontrar o personagem Ryu, conhecido por seus golpes de hadouken?',
+        answers: [
+            { text: 'Mortal Kombat', correct: false },
+            { text: 'Street Fighter II', correct: true },
+            { text: 'Super Mario Kart', correct: false },
+            { text: 'F-Zero', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do planeta natal de Samus Aran em Metroid?',
+        answers: [
+            { text: 'Tatooine', correct: false },
+            { text: 'Zebes', correct: true },
+            { text: 'Aether', correct: false },
+            { text: 'SR388', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do personagem principal no jogo "Earthbound"?',
+        answers: [
+            { text: 'Ness', correct: true },
+            { text: 'Lucas', correct: false },
+            { text: 'Poo', correct: false },
+            { text: 'Paula', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do vilão principal no jogo "Final Fantasy VI"?',
+        answers: [
+            { text: 'Kefka', correct: true },
+            { text: 'Sephiroth', correct: false },
+            { text: 'Golbez', correct: false },
+            { text: 'Exdeath', correct: false }
+        ]
+    },
+    {
+        question: 'Em que jogo do Super Nintendo você controla um robô chamado Mega Man em sua luta contra o vilão Dr. Wily?',
+        answers: [
+            { text: 'Super Metroid', correct: false },
+            { text: 'Mega Man X', correct: true },
+            { text: 'Super Mario Kart', correct: false },
+            { text: 'Donkey Kong Country', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do personagem principal no jogo "Chrono Trigger"?',
+        answers: [
+            { text: 'Lucca', correct: false },
+            { text: 'Crono', correct: true },
+            { text: 'Frog', correct: false },
+            { text: 'Magus', correct: false }
+        ]
+    },
+    {
+        question: 'Em que jogo do Super Nintendo você pode encontrar o personagem Yoshi, o dinossauro amigo de Mario?',
+        answers: [
+            { text: 'Super Mario World', correct: true },
+            { text: 'The Legend of Zelda: A Link to the Past', correct: false },
+            { text: 'Super Metroid', correct: false },
+            { text: 'Earthbound', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do mascote da Nintendo que é conhecido por sua habilidade de inalar inimigos?',
+        answers: [
+            { text: 'Link', correct: false },
+            { text: 'Donkey Kong', correct: false },
+            { text: 'Kirby', correct: true },
+            { text: 'Samus Aran', correct: false }
+        ]
+    },
+    {
+        question: 'Em que jogo do Super Nintendo você pode encontrar os irmãos Mario em uma competição de kart?',
+        answers: [
+            { text: 'Super Mario World', correct: false },
+            { text: 'Super Mario Kart', correct: true },
+            { text: 'Donkey Kong Country', correct: false },
+            { text: 'Final Fantasy VI', correct: false }
+        ]
+    },
+    {
+        question: 'Em que jogo do Super Nintendo você pode encontrar o personagem Simon Belmont, caçador de vampiros?',
+        answers: [
+            { text: 'Super Metroid', correct: false },
+            { text: 'Final Fantasy VI', correct: false },
+            { text: 'Castlevania: Dracula X', correct: true },
+            { text: 'Mega Man X', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do reino em que a maior parte da ação do jogo "Super Mario RPG" se passa?',
+        answers: [
+            { text: 'Mushroom Kingdom', correct: false },
+            { text: 'Hyrule', correct: false },
+            { text: 'Beanbean Kingdom', correct: false },
+            { text: 'Bowser\'s Keep', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o nome do ouriço azul que é o mascote da Sega e protagonista de vários jogos?',
+        answers: [
+            { text: 'Knuckles', correct: false },
+            { text: 'Tails', correct: false },
+            { text: 'Sonic', correct: true },
+            { text: 'Shadow', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual jogo do Mega Drive você controla personagens como Axel Stone, Adam Hunter e Blaze Fielding?',
+        answers: [
+            { text: 'Streets of Rage', correct: true },
+            { text: 'Golden Axe', correct: false },
+            { text: 'Altered Beast', correct: false },
+            { text: 'Shinobi', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do cientista maluco que odeia Sonic?',
+        answers: [
+            { text: 'Shadow', correct: false },
+            { text: 'Silver', correct: false },
+            { text: 'Knuckles', correct: false },
+            { text: 'Dr. Robotnik', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o nome do protagonista no jogo "Golden Axe", que busca vingança pela morte de seu irmão?',
+        answers: [
+            { text: 'Axel Stone', correct: false },
+            { text: 'Tyris Flare', correct: false },
+            { text: 'Gilius Thunderhead', correct: false },
+            { text: 'Tarik', correct: true }
+        ]
+    },
+    {
+        question: 'Como Smeagol chama o anel na trilogia "O Senhor dos Anéis"?',
+        answers: [
+            { text: 'Anel de Poder', correct: false },
+            { text: 'Precioso', correct: true },
+            { text: 'Anel Mágico', correct: false },
+            { text: 'Anel do Destino', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o protagonista principal da história?',
+        answers: [
+            { text: 'Gandalf', correct: false },
+            { text: 'Aragorn', correct: false },
+            { text: 'Frodo Bolseiro', correct: true },
+            { text: 'Legolas', correct: false }
+        ]
+    },
+    {
+        question: 'Qual criatura corrompida pelo Um Anel desempenha um papel crucial na história?',
+        answers: [
+            { text: 'Balrog', correct: false },
+            { text: 'Gollum', correct: true },
+            { text: 'Nazgûl', correct: false },
+            { text: 'Ents', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a capital de Gondor?',
+        answers: [
+            { text: 'Rohan', correct: false },
+            { text: 'Valfenda', correct: false },
+            { text: 'Minas Tirith', correct: true },
+            { text: 'Mordor', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como "O Olho de Sauron"?',
+        answers: [
+            { text: 'Saruman', correct: false },
+            { text: 'Gollum', correct: false },
+            { text: 'Sauron', correct: true },
+            { text: 'Gandalf', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a espada lendária que é quebrada e depois restaurada para o rei Aragorn?',
+        answers: [
+            { text: 'Glamdring', correct: false },
+            { text: 'Narsil/Andúril', correct: true },
+            { text: 'Sting', correct: false },
+            { text: 'Orcrist', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos anéis de poder foram forjados em total?',
+        answers: [
+            { text: '9', correct: false },
+            { text: '18', correct: false },
+            { text: '20', correct: true },
+            { text: '1', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o mestre artífice que forjou o Um Anel?',
+        answers: [
+            { text: 'Celeborn', correct: false },
+            { text: 'Fëanor', correct: false },
+            { text: 'Sauron', correct: true },
+            { text: 'Aulë', correct: false }
+        ]
+    },
+    {
+        question: 'O que Frodo e Sam precisam destruir para derrotar Sauron?',
+        answers: [
+            { text: 'Cajado de Sauron', correct: false },
+            { text: 'A Pedra de Orthanc', correct: false },
+            { text: 'O Um Anel', correct: true },
+            { text: 'A Coroa de Morgoth', correct: false }
+        ]
+    },
+  
+]
+
+
+
 
 //Q5 ESPORTE
 
@@ -3637,7 +4899,7 @@ const q4=[
 
 
 
-const q5=[
+const qesporte=[
     {   question: 'Qual país sediou a Copa do Mundo de 1998, onde a seleção brasileira chegou à final?',
         answers: [
             {text: 'França', correct: true},
@@ -4437,7 +5699,7 @@ const q5=[
 
 
 
-const q6=[
+const qgeo=[
 
     {   question: 'São cidades indianas, exceto?',
         answers: [
@@ -5110,6 +6372,60 @@ const q6=[
             { text: "55", correct: false }
         ]
     },
+    {
+        question: 'Qual é o rio mais extenso do Brasil?',
+        answers: [
+            { text: 'Amazonas', correct: true },
+            { text: 'São Francisco', correct: false },
+            { text: 'Tocantins', correct: false },
+            { text: 'Paraná', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos estados compõem a região Nordeste do Brasil?',
+        answers: [
+            { text: '9', correct: true },
+            { text: '8', correct: false },
+            { text: '7', correct: false },
+            { text: '10', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual bioma brasileiro está localizado o Pantanal?',
+        answers: [
+            { text: 'Cerrado', correct: false },
+            { text: 'Caatinga', correct: false },
+            { text: 'Pantanal', correct: true },
+            { text: 'Amazônia', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a maior cidade do Brasil em população?',
+        answers: [
+            { text: 'São Paulo', correct: true },
+            { text: 'Rio de Janeiro', correct: false },
+            { text: 'Brasília', correct: false },
+            { text: 'Salvador', correct: false }
+        ]
+    },
+    {
+        question: 'Em que estado brasileiro está localizado o arquipélago de Fernando de Noronha?',
+        answers: [
+            { text: 'Pernambuco', correct: true },
+            { text: 'Bahia', correct: false },
+            { text: 'Rio de Janeiro', correct: false },
+            { text: 'Ceará', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o ponto mais oriental do Brasil?',
+        answers: [
+            { text: 'Cabo Frio', correct: false },
+            { text: 'Ponta do Seixas', correct: true },
+            { text: 'Cabo de Santo Agostinho', correct: false },
+            { text: 'Cabo de São Roque', correct: false }
+        ]
+    }
 
 
 
@@ -5117,7 +6433,7 @@ const q6=[
 
 //Q7  HISTÓRIA
 
-const q7=[
+const qhisto=[
     {
         question: "Quem foi o líder do movimento conhecido como 'Inconfidência Mineira', que buscava a independência da província de Minas Gerais do domínio português?",
         answers: [
@@ -5773,562 +7089,241 @@ const q7=[
             {text: 'Júlio César', correct: true},
         ]
     },
-
-        
-    
-
-]
-
-//Q8  GEEK
-
-const q8=[
     {
-        question: "Qual é o nome do famoso jogo de RPG de mesa que se passa em um mundo de fantasia medieval e é conhecido por seus dados poliédricos?",
+        question: 'Qual civilização construiu as pirâmides de Gizé?',
         answers: [
-            { text: "Pathfinder", correct: false },
-            { text: "Dungeons & Dragons", correct: true },
-            { text: "Warhammer Fantasy Roleplay", correct: false },
-            { text: "Shadowrun", correct: false }
+            { text: 'Sumérios', correct: false },
+            { text: 'Egípcios', correct: true },
+            { text: 'Babilônios', correct: false },
+            { text: 'Assírios', correct: false }
         ]
     },
     {
-        question: "Em que jogo de tabuleiro os jogadores compram, vendem e negociam propriedades imobiliárias?",
+        question: 'Quem foi o líder espartano na Batalha das Termópilas?',
         answers: [
-            { text: "Jogo da Vida", correct: false },
-            { text: "War", correct: false },
-            { text: "Banco Imobiliário", correct: true },
-            { text: "Dixit", correct: false }
+            { text: 'Leônidas', correct: true },
+            { text: 'Pericles', correct: false },
+            { text: 'Sócrates', correct: false },
+            { text: 'Alexandre, o Grande', correct: false }
         ]
     },
     {
-        question: "No universo de 'Doctor Who', qual é o nome da nave espacial/temporal do Doutor?",
+        question: 'Quem foi a primeira rainha do Antigo Egito?',
         answers: [
-            { text: "Millennium Falcon", correct: false },
-            { text: "TARDIS", correct: true },
-            { text: "Serenity", correct: false },
-            { text: "Starship Enterprise", correct: false }
+            { text: 'Cleópatra', correct: false },
+            { text: 'Nefertiti', correct: true },
+            { text: 'Hatshepsut', correct: false },
+            { text: 'Isis', correct: false }
         ]
     },
     {
-        question: "Em que jogo os jogadores podem explorar um vasto universo gerado proceduralmente?",
+        question: 'Qual é o código legal mais antigo conhecido?',
         answers: [
-            { text: "Elite Dangerous", correct: false },
-            { text: "No Man's Sky", correct: true },
-            { text: "Starbound", correct: false },
-            { text: "EVE Online", correct: false }
+            { text: 'Código de Hamurabi', correct: true },
+            { text: 'Código de Ur-Nammu', correct: false },
+            { text: 'Leis de Eshnunna', correct: false },
+            { text: 'Leis de Manu', correct: false }
         ]
     },
     {
-        question: "Qual é o nome do sistema operacional desenvolvido pela Valve Corporation para jogos?",
+        question: 'Quem foi o grande líder militar cartaginense durante as Guerras Púnicas?',
         answers: [
-            { text: "SteamOS", correct: true },
-            { text: "GamerOS", correct: false },
-            { text: "PlayOS", correct: false },
-            { text: "GameOS", correct: false }
+            { text: 'Aníbal', correct: true },
+            { text: 'Escipião', correct: false },
+            { text: 'Hamilcar Barca', correct: false },
+            { text: 'Cipião Africano', correct: false }
         ]
     },
     {
-        question: "Qual é o nome do assistente virtual da Amazon, ativado por voz, que se tornou um sucesso de vendas?",
+        question: 'Qual é a antiga cidade mesopotâmica conhecida por seus Jardins Suspensos?',
         answers: [
-            { text: "Cortana", correct: false },
-            { text: "Siri", correct: false },
-            { text: "Alexa", correct: true },
-            { text: "Google Assistant", correct: false }
+            { text: 'Nínive', correct: false },
+            { text: 'Ur', correct: false },
+            { text: 'Babilônia', correct: true },
+            { text: 'Ebla', correct: false }
         ]
     },
     {
-        question: "Quem é conhecido como o 'Homem de Ferro' nos quadrinhos da Marvel?",
+        question: 'Quem foi o fundador do Império Aquemênida na Pérsia?',
         answers: [
-            { text: "Steve Rogers", correct: false },
-            { text: "Bruce Wayne", correct: false },
-            { text: "Tony Stark", correct: true },
-            { text: "Clark Kent", correct: false }
+            { text: 'Dario I', correct: false },
+            { text: 'Xerxes I', correct: false },
+            { text: 'Ciro II', correct: true },
+            { text: 'Artaxerxes I', correct: false }
         ]
     },
     {
-        question: "Qual é o nome do programa de computador que venceu os campeões mundiais em Jeopardy! em 2011?",
+        question: 'Em que cidade antiga era localizado o famoso Oráculo de Delfos?',
         answers: [
-            { text: "Deep Blue", correct: false },
-            { text: "Watson", correct: true },
-            { text: "AlphaGo", correct: false },
-            { text: "DeepMind", correct: false }
+            { text: 'Roma', correct: false },
+            { text: 'Atenas', correct: false },
+            { text: 'Esparta', correct: false },
+            { text: 'Delfos', correct: true }
         ]
     },
     {
-        question: "Qual é a série de jogos que apresenta o personagem Nathan Drake, um caçador de tesouros?",
+        question: 'Qual imperador romano ficou conhecido por incendiar Roma e culpar os cristãos?',
         answers: [
-            { text: "Halo", correct: false },
-            { text: "Uncharted", correct: true },
-            { text: "Assassin's Creed", correct: false },
-            { text: "The Last of Us", correct: false }
+            { text: 'Nero', correct: true },
+            { text: 'Calígula', correct: false },
+            { text: 'Trajano', correct: false },
+            { text: 'Marco Aurélio', correct: false }
         ]
     },
     {
-        question: "Qual é a empresa por trás da série de consoles de videogame PlayStation?",
+        question: 'Qual foi a primeira dinastia do Antigo Egito?',
         answers: [
-            { text: "Microsoft", correct: false },
-            { text: "Nintendo", correct: false },
-            { text: "Sony", correct: true },
-            { text: "Sega", correct: false }
+            { text: 'Dinastia Ptolemaica', correct: false },
+            { text: 'Dinastia XXVI', correct: false },
+            { text: 'Dinastia IV', correct: false },
+            { text: 'Dinastia I', correct: true }
         ]
     },
     {
-        question: "Em qual jogo o personagem principal, conhecido como 'Link', tenta resgatar a Princesa Zelda?",
+        question: 'Quem foi o lendário rei da Mesopotâmia conhecido por seu código de leis?',
         answers: [
-            { text: "Final Fantasy VII", correct: false },
-            { text: "The Legend of Zelda", correct: true },
-            { text: "Super Mario Bros.", correct: false },
-            { text: "Pokémon Red/Blue", correct: false }
+            { text: 'Gilgamesh', correct: false },
+            { text: 'Nabucodonosor II', correct: false },
+            { text: 'Ur-Nammu', correct: false },
+            { text: 'Hammurabi', correct: true }
         ]
     },
     {
-        question: "Em que jogo os jogadores podem construir e explorar mundos virtuais usando blocos?",
+        question: 'O que os antigos egípcios usavam para escrever?',
         answers: [
-            { text: "Minecraft", correct: true },
-            { text: "Fortnite", correct: false },
-            { text: "Roblox", correct: false },
-            { text: "Terraria", correct: false }
+            { text: 'Papiro', correct: true },
+            { text: 'Couro', correct: false },
+            { text: 'PerGamon', correct: false },
+            { text: 'Argila', correct: false }
         ]
     },
     {
-        question: "Qual é o nome do personagem principal da série de jogos 'The Witcher', baseada nos livros de Andrzej Sapkowski?",
+        question: 'Qual cidade antiga era considerada uma das Sete Maravilhas do Mundo Antigo?',
         answers: [
-            { text: "Geralt of Rivia", correct: true },
-            { text: "Ezio Auditore", correct: false },
-            { text: "Joel", correct: false },
-            { text: "Master Chief", correct: false }
+            { text: 'Alexandria', correct: false },
+            { text: 'Atenas', correct: false },
+            { text: 'Babilônia', correct: true },
+            { text: 'Roma', correct: false }
         ]
     },
     {
-        question: "Qual é o nome da série de jogos que segue a jornada de Kratos, um guerreiro espartano, e seu filho?",
+        question: 'O que os sumérios chamavam de escrita em forma de cunha em tabuletas de argila?',
         answers: [
-            { text: "Assassin's Creed", correct: false },
-            { text: "God of War", correct: true },
-            { text: "Dark Souls", correct: false },
-            { text: "Devil May Cry", correct: false }
+            { text: 'Heiroglifos', correct: false },
+            { text: 'Cuneiforme', correct: true },
+            { text: 'Alfabeto', correct: false },
+            { text: 'Pictograma', correct: false }
         ]
     },
     {
-        question: "Qual é o nome da protagonista feminina em 'Tomb Raider', uma série de jogos de aventura?",
+        question: 'Quem foi o líder dos hunos que invadiu a Europa durante o século V?',
         answers: [
-            { text: "Aloy", correct: false },
-            { text: "Lara Croft", correct: true },
-            { text: "Chell", correct: false },
-            { text: "Faith Connors", correct: false }
+            { text: 'Átila', correct: true },
+            { text: 'Genghis Khan', correct: false },
+            { text: 'Ogedei Khan', correct: false },
+            { text: 'Kublai Khan', correct: false }
         ]
     },
     {
-        question: "Qual é o nome do encanador italiano da Nintendo, conhecido por salvar a Princesa Peach?",
+        question: 'Qual é o nome da famosa cidade comercial na região da Mesopotâmia?',
         answers: [
-            { text: "Sonic", correct: false },
-            { text: "Link", correct: false },
-            { text: "Mario", correct: true },
-            { text: "Luigi", correct: false }
+            { text: 'Ur', correct: false },
+            { text: 'Babilônia', correct: false },
+            { text: 'Ebla', correct: false },
+            { text: 'Carém', correct: true }
         ]
     },
     {
-        question: "Qual é o nome do jogo de tabuleiro onde os jogadores competem para construir estradas, vilas e cidades em um mundo fictício?",
+        question: 'Quem é o deus nórdico do trovão?',
         answers: [
-            { text: "Risk", correct: false },
-            { text: "Catan", correct: true },
-            { text: "Monopoly", correct: false },
-            { text: "Clue", correct: false }
+            { text: 'Odin', correct: false },
+            { text: 'Balder', correct: false },
+            { text: 'Thor', correct: true },
+            { text: 'Loki', correct: false }
         ]
     },
     {
-        question: "Em que ano foi inventada a primeira câmera fotográfica?",
+        question: 'Qual é o nome do lobo gigante na mitologia nórdica?',
         answers: [
-            { text: "1839", correct: true },
-            { text: "1895", correct: false },
-            { text: "1768", correct: false },
-            { text: "1950", correct: false }
+            { text: 'Sleipnir', correct: false },
+            { text: 'Fenrir', correct: true },
+            { text: 'Hati', correct: false },
+            { text: 'Skoll', correct: false }
         ]
     },
     {
-        question: "Quem é creditado como o inventor da World Wide Web (WWW)?",
+        question: 'Quem é a deusa da morte na mitologia nórdica?',
         answers: [
-            { text: "Tim Berners-Lee", correct: true },
-            { text: "Mark Zuckerberg", correct: false },
-            { text: "Larry Page", correct: false },
-            { text: "Elon Musk", correct: false }
+            { text: 'Frigg', correct: false },
+            { text: 'Hel', correct: true },
+            { text: 'Sif', correct: false },
+            { text: 'Freya', correct: false }
         ]
     },
     {
-        question: "Quem inventou o computador pessoal?",
+        question: 'Qual é o reino dos mortos na mitologia nórdica?',
         answers: [
-            { text: "Bill Gates", correct: false },
-            { text: "Steve Jobs", correct: false },
-            { text: "Alan Turing", correct: false },
-            { text: "Edgar F. Codd", correct: true }
-        ]
-    },
-    {   question: 'O telégrafo foi criado em 1831. Quem foi seu criador?',
-        answers: [
-            {text: 'Thomas Edison', correct: false},
-            {text: 'Nikola Tesla', correct: false},
-            {text: 'Alexander Graham Bell', correct: false},
-            {text: 'Joseph Henry', correct: true},
-        ]
-    },
-    {   question: 'Quantas teclas há em um piano clássico?',
-        answers: [
-            {text: '88', correct: true},
-            {text: '99', correct: false},
-            {text: '10', correct: false},
-            {text: '25', correct: false},
-        ]
-    },
-    {   question: 'Inicialmente chamada de Arpanet, em que ano a internet foi criada?',
-    answers: [
-        {text: '1980', correct: false},
-        {text: '2001', correct: false},
-        {text: '1969', correct: true},
-        {text: '1995', correct: false},
-        ]
-    }, 
-    {   question: 'Qual a empresa criadora deste QUIZ?',
-    answers: [
-        {text: 'Gamemania', correct: false},
-        {text: 'Entertainment RCP', correct: false},
-        {text: 'Games & cia', correct: false},
-        {text: 'RCP games', correct: true},
-        ]
-    },
-    {   question: 'Qual o jogo onde normalmente vence o jogador que formar 3 trincas de cartas?',
-        answers: [
-            {text: 'Truco', correct: false},
-            {text: 'Buraco', correct: false},
-            {text: 'Cacheta', correct: true},
-            {text: 'Uno', correct: false},
+            { text: 'Niflheim', correct: false },
+            { text: 'Asgard', correct: false },
+            { text: 'Midgard', correct: false },
+            { text: 'Helheim', correct: true }
         ]
     },
     {
-        question: "Em que jogo os jogadores controlam um assassino que pertence à Ordem dos Assassinos?",
+        question: 'Quem é o pai de todas as criaturas na mitologia nórdica?',
         answers: [
-            { text: "The Elder Scrolls V: Skyrim", correct: false },
-            { text: "Assassin's Creed", correct: true },
-            { text: "The Witcher 3: Wild Hunt", correct: false },
-            { text: "Metal Gear Solid V: The Phantom Pain", correct: false }
+            { text: 'Loki', correct: false },
+            { text: 'Odin', correct: true },
+            { text: 'Ymir', correct: false },
+            { text: 'Fenrir', correct: false }
         ]
     },
     {
-        question: "Em qual jogo os jogadores assumem o papel de um mercenário conhecido como 'Big Boss'?",
+        question: 'Qual é a árvore da vida na mitologia nórdica?',
         answers: [
-            { text: "Metal Gear Solid V: The Phantom Pain", correct: true },
-            { text: "Final Fantasy XV", correct: false },
-            { text: "The Witcher 3: Wild Hunt", correct: false },
-            { text: "Call of Duty: Modern Warfare", correct: false }
+            { text: 'Yggdrasil', correct: true },
+            { text: 'Asgard', correct: false },
+            { text: 'Fafnir', correct: false },
+            { text: 'Mjolnir', correct: false }
         ]
     },
     {
-        question: "Em que jogo os jogadores controlam um grupo de sobreviventes em um mundo pós-apocalíptico infestado de zumbis?",
+        question: 'Qual é o nome do martelo mágico de Thor?',
         answers: [
-            { text: "Dead Space", correct: false },
-            { text: "Resident Evil 7: Biohazard", correct: false },
-            { text: "The Last of Us", correct: true },
-            { text: "Left 4 Dead 2", correct: false }
+            { text: 'Gungnir', correct: false },
+            { text: 'Mjolnir', correct: true },
+            { text: 'Tyrfing', correct: false },
+            { text: 'Excalibur', correct: false }
         ]
     },
     {
-        question: "Em que jogo os jogadores controlam um herói encapuzado em uma missão para deter o Espantalho de destruir Gotham City?",
+        question: 'Quem é o deus nórdico do fogo e da forja?',
         answers: [
-            { text: "Spider-Man (PS4)", correct: false },
-            { text: "Batman: Arkham Asylum", correct: true },
-            { text: "Injustice 2", correct: false },
-            { text: "Assassin's Creed Odyssey", correct: false }
+            { text: 'Loki', correct: false },
+            { text: 'Balder', correct: false },
+            { text: 'Heimdall', correct: false },
+            { text: 'Hephaestus', correct: true }
         ]
     },
     {
-        question: "Qual é o nome do personagem principal do jogo 'Assassin's Creed - Brotherhood'?",
+        question: 'Quem é a deusa nórdica do amor, da beleza e da fertilidade?',
         answers: [
-            { text: "Ezio Auditore", correct: true },
-            { text: "Altair Ibn-La'Ahad", correct: false },
-            { text: "Connor Kenway", correct: false },
-            { text: "Desmond Miles", correct: false }
-        ]
-    },
-    {   question: 'Trilogia de jogos, com temática medieval/fantasia, conhecido pela sua dificuldade ',
-        answers: [
-            {text: 'Call of Duty', correct: false},
-            {text: 'Halo', correct: false},
-            {text: 'Skyrim', correct: false},
-            {text: 'Dark Souls', correct: true},
-        ]
-    },
-    {   question: 'Considerado o primeiro jogo comercialmente bem-sucedido, desenvolvido pela Atari e lançado em 1972?',
-        answers: [
-            {text: 'Enduro', correct: false},
-            {text: 'Pong', correct: true},
-            {text: 'Super Mário', correct: false},
-            {text: 'Donkey Kong', correct: false},
-        ]
-    },
-    {   question: 'Em 1981 o carpinteiro Mario aparece pela 1º vez em um jogo eletrônico? Qual o nome deste jogo?',
-        answers: [ 
-            {text: 'Mario Kart', correct: false},
-            {text: 'Super Mario 1', correct: false},
-            {text: 'Donkey Kong', correct: true},
-            {text: 'Mario', correct: false},
-        ]
-    },
-    {   question: 'São consoles de videogame da geração 16bits?',
-        answers: [
-            {text: 'PS1 e Xbox', correct: false},
-            {text: 'Nintendo 64 e PS2', correct: false},
-            {text: 'Atari e Game Boy ', correct: false},
-            {text: 'Super Nintendo e Mega Drive', correct: true},
-        ]
-    },
-    {
-        question: "Qual é o nome do personagem principal de 'O Senhor dos Anéis'?",
-        answers: [
-            { text: "Gandalf", correct: false },
-            { text: "Aragorn", correct: false },
-            { text: "Frodo Bolseiro", correct: true },
-            { text: "Legolas", correct: false }
-        ]
-    },
-    {
-        question: "Em que ano foi lançado o primeiro console PlayStation da Sony?",
-        answers: [
-            { text: "1994", correct: true },
-            { text: "1996", correct: false },
-            { text: "1998", correct: false },
-            { text: "2000", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome da nave espacial em 'Star Wars' pilotada por Han Solo?",
-        answers: [
-            { text: "Starship Enterprise", correct: false },
-            { text: "Millennium Falcon", correct: true },
-            { text: "X-Wing", correct: false },
-            { text: "TIE Fighter", correct: false }
-        ]
-    },
-    {
-        question: "Qual é a principal característica do jogo de tabuleiro 'Settlers of Catan'?",
-        answers: [
-            { text: "Construção de cidades", correct: false },
-            { text: "Negociação de recursos", correct: true },
-            { text: "Batalhas épicas", correct: false },
-            { text: "Exploração espacial", correct: false }
-        ]
-    },
-    {
-        question: "Em que ano foi lançado o primeiro episódio de 'Star Trek'?",
-        answers: [
-            { text: "1966", correct: true },
-            { text: "1972", correct: false },
-            { text: "1980", correct: false },
-            { text: "1990", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o planeta natal de Superman?",
-        answers: [
-            { text: "Terra", correct: false },
-            { text: "Krypton", correct: true },
-            { text: "Marte", correct: false },
-            { text: "Asgard", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do protagonista de 'Doctor Who'?",
-        answers: [
-            { text: "Captain Jack Harkness", correct: false },
-            { text: "The Master", correct: false },
-            { text: "The Doctor", correct: true },
-            { text: "River Song", correct: false }
-        ]
-    },
-    {
-        question: "Quem é conhecido como o 'Mago Supremo' no universo da Marvel?",
-        answers: [
-            { text: "Homem-Aranha", correct: false },
-            { text: "Doutor Estranho", correct: true },
-            { text: "Homem de Ferro", correct: false },
-            { text: "Pantera Negra", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome da espada usada por Jon Snow em 'Game of Thrones'?",
-        answers: [
-            { text: "Oathkeeper", correct: false },
-            { text: "Ice", correct: false },
-            { text: "Needle", correct: false },
-            { text: "Longclaw", correct: true }
-        ]
-    },
-    {
-        question: "Qual é o jogo de cartas colecionáveis que se tornou um fenômeno mundial?",
-        answers: [
-            { text: "Uno", correct: false },
-            { text: "Magic: The Gathering", correct: true },
-            { text: "Pokémon TCG", correct: false },
-            { text: "Yu-Gi-Oh!", correct: false }
-        ]
-    },
-    {
-        question: "Quem é o criador da franquia 'The Legend of Zelda'?",
-        answers: [
-            { text: "Hideo Kojima", correct: false },
-            { text: "Shigeru Miyamoto", correct: true },
-            { text: "Satoru Iwata", correct: false },
-            { text: "Hidetaka Miyazaki", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome da série de livros que inspirou a série de TV 'Game of Thrones'?",
-        answers: [
-            { text: "The Wheel of Time", correct: false },
-            { text: "The Malazan Book of the Fallen", correct: false },
-            { text: "A Song of Ice and Fire", correct: true },
-            { text: "The Kingkiller Chronicle", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do vilão principal em 'Harry Potter'?",
-        answers: [
-            { text: "Voldemort", correct: true },
-            { text: "Dumbledore", correct: false },
-            { text: "Draco Malfoy", correct: false },
-            { text: "Severus Snape", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do robô do personagem Tony Stark em 'Homem de Ferro'?",
-        answers: [
-            { text: "Hulkbuster", correct: false },
-            { text: "J.A.R.V.I.S.", correct: false },
-            { text: "Ultron", correct: false },
-            { text: "Dummy", correct: true }
-        ]
-    },
-    {
-        question: "Qual é o nome da protagonista feminina da série 'The Witcher'?",
-        answers: [
-            { text: "Ciri", correct: true },
-            { text: "Yennefer", correct: false },
-            { text: "Triss", correct: false },
-            { text: "Fringilla Vigo", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do protagonista do jogo 'Metal Gear Solid'?",
-        answers: [
-            { text: "Solid Snake", correct: true },
-            { text: "Liquid Snake", correct: false },
-            { text: "Big Boss", correct: false },
-            { text: "Raiden", correct: false }
-        ]
-    },
-    {
-        question: "Quem é o vilão principal em 'Star Wars: O Império Contra-Ataca'?",
-        answers: [
-            { text: "Darth Maul", correct: false },
-            { text: "Darth Sidious", correct: false },
-            { text: "Darth Skywalter", correct: false },
-            { text: "Darth Vader", correct: true }
-        ]
-    },
-    {
-        question: "Qual é o nome do jogo de cartas colecionáveis que envolve duelos de monstros?",
-        answers: [
-            { text: "Hearthstone", correct: false },
-            { text: "Magic: The Gathering", correct: false },
-            { text: "Yu-Gi-Oh!", correct: true },
-            { text: "Pokémon TCG", correct: false }
-        ]
-    },
-    {
-        question: "Quem é o criador da série 'The Mandalorian'?",
-        answers: [
-            { text: "Joss Whedon", correct: false },
-            { text: "George Lucas", correct: false },
-            { text: "Jon Favreau", correct: true },
-            { text: "J.J. Abrams", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do mago que orienta o protagonista em 'The Witcher'?",
-        answers: [
-            { text: "Merlin", correct: false },
-            { text: "Gandalf", correct: false },
-            { text: "Triss", correct: false },
-            { text: "Dandelion", correct: true }
-        ]
-    },
-    {
-        question: "Qual é o nome do protagonista da série de anime 'Death Note'?",
-        answers: [
-            { text: "L", correct: false },
-            { text: "Kira", correct: false },
-            { text: "Ryuk", correct: false },
-            { text: "Light Yagami", correct: true }
-        ]
-    },
-    {
-        question: "Quem é o criador do universo de 'Senhor dos Anéis'?",
-        answers: [
-            { text: "George R.R. Martin", correct: false },
-            { text: "J.R.R. Tolkien", correct: true },
-            { text: "C.S. Lewis", correct: false },
-            { text: "Philip K. Dick", correct: false }
-        ]
-    },
-    {
-        question: "Qual é a principal moeda usada em 'The Witcher'?",
-        answers: [
-            { text: "Ouro", correct: false },
-            { text: "Dólar", correct: false },
-            { text: "Florim", correct: true },
-            { text: "Rublo", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do planeta natal de Spock em 'Star Trek'?",
-        answers: [
-            { text: "Tatooine", correct: false },
-            { text: "Endor", correct: false },
-            { text: "Vulcan", correct: true },
-            { text: "Coruscant", correct: false }
-        ]
-    },
-    {
-        question: "Quem é o criador do personagem Sherlock Holmes?",
-        answers: [
-            { text: "Edgar Allan Poe", correct: false },
-            { text: "Agatha Christie", correct: false },
-            { text: "Arthur Conan Doyle", correct: true },
-            { text: "Charles Dickens", correct: false }
-        ]
-    },
-    {
-        question: 'Em que ano o Facebook foi fundado?',
-        answers: [
-            { text: '2002', correct: false },
-            { text: '2004', correct: true },
-            { text: '2006', correct: false },
-            { text: '2008', correct: false }
-        ]
-    },
-    {
-        question: "Qual é o nome do herói cego da Marvel que é advogado durante o dia?",
-        answers: [
-            { text: "Wolverine", correct: false },
-            { text: "Homem de Ferro", correct: false },
-            { text: "Demolidor", correct: true },
-            { text: "Luke Cage", correct: false }
+            { text: 'Frigg', correct: false },
+            { text: 'Freya', correct: true },
+            { text: 'Sif', correct: false },
+            { text: 'Hel', correct: false }
         ]
     }
-  
+
+        
 ]
+
+
 
 
 // TODOS OS TEMAS
 
-const todasq= [...q1, ...q2, ...q3, ...q4, ...q5, ...q6, ...q7, ...q8]
+const todasq= [...qarte, ...qbio, ...qciencia, ...qcine, ...qesporte, ...qgeek, ...qgeo, ...qhisto]
 
 
 //MODELO
