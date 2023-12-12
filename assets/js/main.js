@@ -5003,15 +5003,6 @@ const q6=[
         ]
     },
     {
-        question: "Qual a capital de Minas Gerais?",
-        answers: [
-            { text: "São Paulo", correct: false },
-            { text: "Belo Horizonte", correct: true },
-            { text: "Rio de janeiro", correct: false },
-            { text: "Vitória", correct: false }
-        ]
-    },
-    {
         question: "Qual a capital de Pernambuco?",
         answers: [
             { text: "Fortaleza", correct: false },
@@ -5116,6 +5107,105 @@ const q7=[
             { text: "Dom Pedro II", correct: false },
             { text: "Getúlio Vargas", correct: false },
             { text: "José Bonifácio", correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano John F. Kennedy foi assassinado?',
+        answers: [
+            { text: '1958', correct: false },
+            { text: '1961', correct: false },
+            { text: '1963', correct: true },
+            { text: '1966', correct: false }
+        ]
+    },
+    {
+        question: 'Qual período foi conhecido como a Idade de Ouro de Roma?',
+        answers: [
+            { text: 'República Romana', correct: false },
+            { text: 'Reinado de Nero', correct: false },
+            { text: 'Período de Constantino', correct: false },
+            { text: 'Augusto César', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é a dinastia mais antiga ainda governando?',
+        answers: [
+            { text: 'Han, China', correct: false },
+            { text: 'Tudor, Inglaterra', correct: false },
+            { text: 'Habsburgo, Áustria', correct: false },
+            { text: 'Yamato, Japão', correct: true }
+        ]
+    },
+    {
+        question: 'A civilização asteca se originou de qual país?',
+        answers: [
+            { text: 'Peru', correct: false },
+            { text: 'Colômbia', correct: false },
+            { text: 'México', correct: true },
+            { text: 'Equador', correct: false }
+        ]
+    },
+    {
+        question: 'Quem estava entre os famosos poetas romanos?',
+        answers: [
+            { text: 'Ovídio', correct: false },
+            { text: 'Sêneca', correct: false },
+            { text: 'Cícero', correct: false },
+            { text: 'Virgílio', correct: true }
+        ]
+    },
+    {
+        question: 'Quem foi o primeiro americano a ganhar um Nobel da Paz?',
+        answers: [
+            { text: 'Woodrow Wilson', correct: false },
+            { text: 'Theodore Roosevelt', correct: true },
+            { text: 'John F. Kennedy', correct: false },
+            { text: 'Franklin D. Roosevelt', correct: false }
+        ]
+    },
+    {
+        question: 'Durante qual evento, a Coréia foi separada em 2 nações?',
+        answers: [
+            { text: 'Guerra Fria', correct: false },
+            { text: 'Revolução Industrial', correct: false },
+            { text: 'Primeira Guerra Mundial', correct: false },
+            { text: 'Segunda Guerra Mundial', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é considerada a primeira tecnologia humana?',
+        answers: [
+            { text: 'Roda', correct: false },
+            { text: 'Agricultura', correct: false },
+            { text: 'Fogo', correct: true },
+            { text: 'Ferramentas de Pedra', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o inventor da luz elétrica?',
+        answers: [
+            { text: 'Nikola Tesla', correct: false },
+            { text: 'Thomas Edison', correct: true },
+            { text: 'Alexander Graham Bell', correct: false },
+            { text: 'George Westinghouse', correct: false }
+        ]
+    },
+    {
+        question: 'Júlio César nasceu em qual cidade?',
+        answers: [
+            { text: 'Atenas', correct: false },
+            { text: 'Roma', correct: true },
+            { text: 'Alexandria', correct: false },
+            { text: 'Cartago', correct: false }
+        ]
+    },
+    {
+        question: 'Sócrates foi condenado à morte pela acusação de corromper a juventudade. Como foi executado?',
+        answers: [
+            { text: 'Apedrejamento', correct: false },
+            { text: 'Decapitação', correct: false },
+            { text: 'Enforcamento', correct: false },
+            { text: 'Taça de cicuta', correct: true }
         ]
     },
     {   question: 'No Brasil, em qual dia é comemorada a Proclamação da República?',
