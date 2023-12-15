@@ -166,8 +166,8 @@ a:hover{
   left: 50px;
   width: max-content;
   padding: 15px 15px;
-  border-radius: 4px;
-  background-color: rgba(87, 87, 87, 0.603);
+  border-radius: 8px;
+  background-color: rgba(46, 46, 46, 0.8);
   color: whitesmoke;
   box-shadow: 6px 7px 10px black;
   transform: translateY(30px);
@@ -293,12 +293,25 @@ button:disabled{
 }
 
 .coracaorevivendo{
-  width: 50rem;
+  width: 20rem;
   margin: 0 auto;
   position: fixed;
-  top: 15rem;
+  top: 25rem;
   left:50rem;
   right: 50rem;
+  animation: vida 1.7s linear forwards;
+}
+
+@keyframes vida {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(2);
+  }
+  100%{
+    transform: scale(3);
+  }  
 }
 
 .start{

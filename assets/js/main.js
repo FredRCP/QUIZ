@@ -166,6 +166,9 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 cerebroderrota.style.display='flex';
+                setTimeout(() => {
+                    cerebroderrota.style.display='none';
+                }, 5000);
                 caixagenerica.style.display='none';
                 derrota.play();
                 return;
@@ -246,6 +249,9 @@ function selecao(e){
     const el = e.target;
     if(el.dataset.correct){
         cerebrocerta.style.display='flex';
+        setTimeout(() => {
+            cerebrocerta.style.display='none';
+        }, 2500);
         acerto.play().then(acertou.play()).then(palmas.play());
         el.classList.add('acertou');
         pontos+=100;
@@ -261,6 +267,9 @@ function selecao(e){
         pontuacao.innerHTML=nome+"<br>"+"Vidas: "+ vida+"<br>" + 'Pontos: ' + pontos+"<br>" + "Perguntas corretas: "+ acertos +"/"+perguntasUsadas.length;
     } else{
         cerebroerrada.style.display='flex';
+        setTimeout(() => {
+            cerebroerrada.style.display='none';
+        }, 2500);
         erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;
@@ -329,7 +338,7 @@ function reviver(){
     tela.appendChild(reviver);
     setTimeout(() => {
         reviver.style.display='none';
-    }, 4000);
+    }, 1700);
 }
 
 
@@ -413,6 +422,222 @@ function ligarTodosOsSons() {
 
 
 const qarte=[
+    {
+        question: 'Quantas línguas oficiais existem na Espanha?',
+        answers: [
+            { text: '1', correct: false },
+            { text: '2', correct: false },
+            { text: '3', correct: true },
+            { text: '4', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a moeda oficial da Espanha?',
+        answers: [
+            { text: 'Euro', correct: true },
+            { text: 'Peso', correct: false },
+            { text: 'Libra Esterlina', correct: false },
+            { text: 'Dólar Americano', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o prato italiano tradicional feito de camadas de massa, molho de carne e queijo?',
+        answers: [
+            { text: 'Pizza', correct: false },
+            { text: 'Lasanha', correct: true },
+            { text: 'Risoto', correct: false },
+            { text: 'Gelato', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a moeda oficial da Itália?',
+        answers: [
+            { text: 'Euro', correct: true },
+            { text: 'Libra Esterlina', correct: false },
+            { text: 'Franco Suíço', correct: false },
+            { text: 'Dólar Americano', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o famoso arquiteto espanhol conhecido por suas obras modernistas em Barcelona?',
+        answers: [
+            { text: 'Frank Gehry', correct: false },
+            { text: 'Antoni Gaudí', correct: true },
+            { text: 'Le Corbusier', correct: false },
+            { text: 'I. M. Pei', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a famosa corrida de touros realizada na Espanha?',
+        answers: [
+            { text: 'Fiesta de San Fermín', correct: true },
+            { text: 'La Tomatina', correct: false },
+            { text: 'Semana Santa', correct: false },
+            { text: 'Feria de Abril', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a dança tradicional espanhola frequentemente acompanhada por castanholas?',
+        answers: [
+            { text: 'Tango', correct: false },
+            { text: 'Flamenco', correct: true },
+            { text: 'Salsa', correct: false },
+            { text: 'Cha-Cha-Cha', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é um famoso pintor surrealista espanhol?',
+        answers: [
+            { text: 'Pablo Picasso', correct: true },
+            { text: 'Diego Velázquez', correct: false },
+            { text: 'Francisco Goya', correct: false },
+            { text: 'Salvador Dalí', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o prato espanhol à base de arroz e açafrão, muitas vezes incluindo frutos do mar?',
+        answers: [
+            { text: 'Paella', correct: true },
+            { text: 'Tapas', correct: false },
+            { text: 'Empanada', correct: false },
+            { text: 'Churros', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a moeda oficial da Itália?',
+        answers: [
+            { text: 'Euro', correct: true },
+            { text: 'Libra Esterlina', correct: false },
+            { text: 'Franco Suíço', correct: false },
+            { text: 'Dólar Americano', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do famoso anfiteatro romano localizado no centro de Roma?',
+        answers: [
+            { text: 'Coliseu', correct: true },
+            { text: 'Pantheon', correct: false },
+            { text: 'Arena de Verona', correct: false },
+            { text: 'Anfiteatro Flaviano', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o prato italiano tradicional feito de camadas de massa, molho de carne e queijo?',
+        answers: [
+            { text: 'Pizza', correct: false },
+            { text: 'Lasanha', correct: true },
+            { text: 'Risoto', correct: false },
+            { text: 'Gelato', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o "fado", na cultura portuguesa?',
+        answers: [
+            { text: 'Dança tradicional', correct: false },
+            { text: 'Comida típica', correct: false },
+            { text: 'Estilo musical', correct: true },
+            { text: 'Festival de Verão', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o poeta nacional de Portugal?',
+        answers: [
+            { text: 'Fernando Pessoa', correct: true },
+            { text: 'Luis de Camões', correct: false },
+            { text: 'Sophia de Mello Breyner', correct: false },
+            { text: 'Eça de Queirós', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a festa popular mais conhecida em Portugal?',
+        answers: [
+            { text: 'Festa do Avante', correct: false },
+            { text: 'Festa do São João', correct: false },
+            { text: 'Fado Festival', correct: false },
+            { text: 'Festa de São Mateus', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o prato de bacalhau mais tradicional em Portugal?',
+        answers: [
+            { text: 'Bacalhau à Brás', correct: false },
+            { text: 'Bacalhau à Gomes de Sá', correct: false },
+            { text: 'Bacalhau à Zé do Pipo', correct: false },
+            { text: 'Bacalhau à Portuguesa', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o maior festival tradicional chinês, celebrado no ano novo lunar?',
+        answers: [
+            { text: 'Festival da Primavera', correct: true },
+            { text: 'Festival do Dragão', correct: false },
+            { text: 'Festival do Meio Outono', correct: false },
+            { text: 'Festival Qingming', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o animal símbolo da China?',
+        answers: [
+            { text: 'Dragão', correct: true },
+            { text: 'Panda', correct: false },
+            { text: 'Fênix', correct: false },
+            { text: 'Leão', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da moeda oficial da China?',
+        answers: [
+            { text: 'Dólar Chinês', correct: false },
+            { text: 'Yen', correct: false },
+            { text: 'Renminbi (Yuan)', correct: true },
+            { text: 'Euro Chinês', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal religião da China?',
+        answers: [
+            { text: 'Cristianismo', correct: false },
+            { text: 'Islamismo', correct: false },
+            { text: 'Budismo', correct: true },
+            { text: 'Confucionismo', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o sistema de escrita tradicional japonês?',
+        answers: [
+            { text: 'Hiragana', correct: false },
+            { text: 'Katakana', correct: false },
+            { text: 'Kanji', correct: true },
+            { text: 'Romaji', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o Sakura Matsuri no Japão?',
+        answers: [
+            { text: 'Festival de Música', correct: false },
+            { text: 'Festival de Dança', correct: false },
+            { text: 'Festival das Cerejeiras', correct: true },
+            { text: 'Festival de Fogos de Artifício', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa "Origami" em japonês?',
+        answers: [
+            { text: 'Pintura a Óleo', correct: false },
+            { text: 'Dobradura de Papel', correct: true },
+            { text: 'Escultura em Pedra', correct: false },
+            { text: 'Tecelagem de Seda', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal religião do Japão?',
+        answers: [
+            { text: 'Budismo', correct: true },
+            { text: 'Xintoísmo', correct: false },
+            { text: 'Cristianismo', correct: false },
+            { text: 'Hinduísmo', correct: false }
+        ]
+    },
     {
         question: 'Quem é considerado o deus dos deuses na mitologia grega?',
         answers: [
@@ -4900,6 +5125,15 @@ const qgeek=[
 
 
 const qesporte=[
+    {
+        question: 'Qual é o clube de futebol mais titulado em Portugal?',
+        answers: [
+            { text: 'SL Benfica', correct: true },
+            { text: 'FC Porto', correct: false },
+            { text: 'Sporting CP', correct: false },
+            { text: 'SC Braga', correct: false }
+        ]
+    },
     {   question: 'Qual país sediou a Copa do Mundo de 1998, onde a seleção brasileira chegou à final?',
         answers: [
             {text: 'França', correct: true},
@@ -5700,7 +5934,33 @@ const qesporte=[
 
 
 const qgeo=[
-
+    {
+        question: 'Qual é a capital da Espanha?',
+        answers: [
+            { text: 'Lisboa', correct: false },
+            { text: 'Barcelona', correct: false },
+            { text: 'Madrid', correct: true },
+            { text: 'Sevilha', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a maior cidade da Espanha em termos de população?',
+        answers: [
+            { text: 'Valência', correct: false },
+            { text: 'Barcelona', correct: false },
+            { text: 'Sevilha', correct: false },
+            { text: 'Madrid', correct: true }
+        ]
+    },
+    {
+        question: 'Onde está localizada a famosa Sagrada Família?',
+        answers: [
+            { text: 'Madrid', correct: false },
+            { text: 'Barcelona', correct: true },
+            { text: 'Valência', correct: false },
+            { text: 'Sevilha', correct: false }
+        ]
+    },
     {   question: 'São cidades indianas, exceto?',
         answers: [
             {text: 'Noiva Dheli', correct: false},
@@ -6425,7 +6685,115 @@ const qgeo=[
             { text: 'Cabo de Santo Agostinho', correct: false },
             { text: 'Cabo de São Roque', correct: false }
         ]
-    }
+    },
+    {
+        question: 'Qual é o nome da montanha mais alta do Japão?',
+        answers: [
+            { text: 'Monte Fuji', correct: true },
+            { text: 'Monte Aso', correct: false },
+            { text: 'Monte Ontake', correct: false },
+            { text: 'Monte Yari', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a capital da China?',
+        answers: [
+            { text: 'Seul', correct: false },
+            { text: 'Pequim', correct: true },
+            { text: 'Xangai', correct: false },
+            { text: 'Hong Kong', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o rio mais longo da China?',
+        answers: [
+            { text: 'Rio Yangtzé', correct: true },
+            { text: 'Rio Amarelo', correct: false },
+            { text: 'Rio Mekong', correct: false },
+            { text: 'Rio Azul', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a maior muralha do mundo e onde está localizada?',
+        answers: [
+            { text: 'Muralha de Adriano, na Inglaterra', correct: false },
+            { text: 'Muralha de Berlim, na Alemanha', correct: false },
+            { text: 'Muralha da China, na China', correct: true },
+            { text: 'Muralha de Jericó, em Israel', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a capital de Portugal?',
+        answers: [
+            { text: 'Madrid', correct: false },
+            { text: 'Barcelona', correct: false },
+            { text: 'Lisboa', correct: true },
+            { text: 'Porto', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o rio que passa por Lisboa?',
+        answers: [
+            { text: 'Rio Danúbio', correct: false },
+            { text: 'Rio Tejo', correct: true },
+            { text: 'Rio Douro', correct: false },
+            { text: 'Rio Guadalquivir', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a moeda oficial de Portugal?',
+        answers: [
+            { text: 'Euro', correct: true },
+            { text: 'Libra Esterlina', correct: false },
+            { text: 'Dólar Americano', correct: false },
+            { text: 'Coroa Dinamarquesa', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas regiões autónomas existem em Portugal?',
+        answers: [
+            { text: '1', correct: false },
+            { text: '2', correct: true },
+            { text: '3', correct: false },
+            { text: '4', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o rio que passa por Roma?',
+        answers: [
+            { text: 'Rio Tâmisa', correct: false },
+            { text: 'Rio Sena', correct: false },
+            { text: 'Rio Danúbio', correct: false },
+            { text: 'Rio Tibre', correct: true }
+        ]
+    },
+    {
+        question: 'Quantas regiões a Itália possui?',
+        answers: [
+            { text: '15', correct: false },
+            { text: '20', correct: false },
+            { text: '25', correct: false },
+            { text: '20', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é a famosa ilha vulcânica localizada na Baía de Nápoles?',
+        answers: [
+            { text: 'Capri', correct: true },
+            { text: 'Sardenha', correct: false },
+            { text: 'Sicília', correct: false },
+            { text: 'Elba', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a famosa torre inclinada localizada em Pisa?',
+        answers: [
+            { text: 'Torre Eiffel', correct: false },
+            { text: 'Torre de Londres', correct: false },
+            { text: 'Torre de Pisa', correct: true },
+            { text: 'Torre de Berlim', correct: false }
+        ]
+    },
 
 
 
@@ -6434,6 +6802,15 @@ const qgeo=[
 //Q7  HISTÓRIA
 
 const qhisto=[
+    {
+        question: 'Qual é o nome do imperador do Japão em 2023?',
+        answers: [
+            { text: 'Imperador Akihito', correct: false },
+            { text: 'Imperador Naruhito', correct: true },
+            { text: 'Imperador Hirohito', correct: false },
+            { text: 'Imperador Taisho', correct: false }
+        ]
+    },
     {
         question: "Quem foi o líder do movimento conhecido como 'Inconfidência Mineira', que buscava a independência da província de Minas Gerais do domínio português?",
         answers: [
@@ -6631,7 +7008,7 @@ const qhisto=[
     },
     {   question: 'Navegador português conhecido por descobrir o caminho marítimo para as Índias:',
             answers: [
-                {text: 'Fenrão de Magalhães', correct: false},
+                {text: 'Fernão de Magalhães', correct: false},
                 {text: 'Pedro Álvares Cabral', correct: false},
                 {text: 'Américo Vespúcio', correct: false},
                 {text: 'Vasco da Gama', correct: true},
@@ -7313,7 +7690,16 @@ const qhisto=[
             { text: 'Sif', correct: false },
             { text: 'Hel', correct: false }
         ]
-    }
+    },
+    {
+        question: 'Quem foi o líder fascista italiano durante a Segunda Guerra Mundial?',
+        answers: [
+            { text: 'Benito Mussolini', correct: true },
+            { text: 'Giuseppe Garibaldi', correct: false },
+            { text: 'Silvio Berlusconi', correct: false },
+            { text: 'Giuseppe Verdi', correct: false }
+        ]
+    },
 
         
 ]
