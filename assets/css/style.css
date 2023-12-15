@@ -17,7 +17,7 @@ body{
 
 .resultado{
   display: flex;
-  background-image:url('/assets/img/telainicialnatal.gif');
+  background-image:url('/assets/img/telainicialnatal.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
