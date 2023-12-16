@@ -251,7 +251,7 @@ function selecao(e){
         cerebrocerta.style.display='flex';
         setTimeout(() => {
             cerebrocerta.style.display='none';
-        }, 2500);
+        }, 2000);
         acerto.play().then(acertou.play()).then(palmas.play());
         el.classList.add('acertou');
         pontos+=100;
@@ -269,7 +269,7 @@ function selecao(e){
         cerebroerrada.style.display='flex';
         setTimeout(() => {
             cerebroerrada.style.display='none';
-        }, 2500);
+        }, 2000);
         erro.play().then(errou.play());
         el.classList.add('errou');
         erros+=1;
