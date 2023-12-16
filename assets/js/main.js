@@ -1484,6 +1484,186 @@ const qarte=[
 
 const qbio=[
     {
+        question: 'Quem é conhecido como o fundador da anatomia?',
+        answers: [
+            { text: 'Andreas Vesalius', correct: true },
+            { text: 'Hippocrates', correct: false },
+            { text: 'Galen', correct: false },
+            { text: 'Paracelsus', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a osteoporose?',
+        answers: [
+            { text: 'Inflamação das articulações', correct: false },
+            { text: 'Doença cardíaca', correct: false },
+            { text: 'Perda de densidade óssea', correct: true },
+            { text: 'Infecção renal', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do instrumento usado para medir a pressão arterial?',
+        answers: [
+            { text: 'Termômetro', correct: false },
+            { text: 'Esfigmomanômetro', correct: true },
+            { text: 'Estetoscópio', correct: false },
+            { text: 'Oftalmoscópio', correct: false }
+        ]
+    },
+    {
+        question: 'Quem desenvolveu a primeira vacina bem-sucedida contra a varíola?',
+        answers: [
+            { text: 'Edward Jenner', correct: true },
+            { text: 'Louis Pasteur', correct: false },
+            { text: 'Robert Koch', correct: false },
+            { text: 'Jonas Salk', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o maior inseto do mundo em termos de envergadura?',
+        answers: [
+            { text: 'Joaninha', correct: false },
+            { text: 'Libélula', correct: false },
+            { text: 'Borboleta Monarca', correct: false },
+            { text: 'Mariposa Atlas', correct: true }
+        ]
+    },
+    {
+        question: 'Qual inseto é famoso por produzir teias?',
+        answers: [
+            { text: 'Abelha', correct: false },
+            { text: 'Joaninha', correct: false },
+            { text: 'Aranha', correct: true },
+            { text: 'Borboleta', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a cirurgia refrativa LASIK?',
+        answers: [
+            { text: 'Cirurgia cardíaca', correct: false },
+            { text: 'Cirurgia ocular', correct: true },
+            { text: 'Cirurgia ortopédica', correct: false },
+            { text: 'Cirurgia plástica', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é considerado o "pai da genética"?',
+        answers: [
+            { text: 'Charles Darwin', correct: false },
+            { text: 'Gregor Mendel', correct: true },
+            { text: 'Francis Crick', correct: false },
+            { text: 'Rosalind Franklin', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a cirurgia laparoscópica?',
+        answers: [
+            { text: 'Uma cirurgia realizada no cérebro', correct: false },
+            { text: 'Uma técnica cirúrgica minimamente invasiva usando pequenas incisões e uma câmera', correct: true },
+            { text: 'Uma cirurgia plástica estética', correct: false },
+            { text: 'Uma cirurgia realizada apenas em animais', correct: false }
+        ]
+    },
+    {
+        question: 'O que é uma cirurgia de emergência?',
+        answers: [
+            { text: 'Uma cirurgia realizada durante a noite', correct: false },
+            { text: 'Uma cirurgia não planejada realizada imediatamente devido a uma condição que ameaça a vida', correct: true },
+            { text: 'Uma cirurgia realizada apenas em crianças', correct: false },
+            { text: 'Uma cirurgia realizada em animais selvagens', correct: false }
+        ]
+    },
+    {
+        question: 'O que é uma laparotomia?',
+        answers: [
+            { text: 'Uma cirurgia realizada nos rins', correct: false },
+            { text: 'Uma incisão cirúrgica no abdômen', correct: true },
+            { text: 'Uma cirurgia realizada apenas em crianças', correct: false },
+            { text: 'Uma técnica cirúrgica minimamente invasiva', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas cores de cones sensíveis à luz existem na retina humana?',
+        answers: [
+            { text: 'Um', correct: false },
+            { text: 'Dois', correct: false },
+            { text: 'Três', correct: true },
+            { text: 'Quatro', correct: false }
+        ]
+    },
+    {
+        question: 'Qual parte do olho é responsável por regular a quantidade de luz que entra?',
+        answers: [
+            { text: 'Córnea', correct: false },
+            { text: 'Retina', correct: false },
+            { text: 'Pupila', correct: true },
+            { text: 'Esclera', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a parte colorida do olho chamada?',
+        answers: [
+            { text: 'Íris', correct: true },
+            { text: 'Pupila', correct: false },
+            { text: 'Retina', correct: false },
+            { text: 'Cristalino', correct: false }
+        ]
+    },
+    {
+        question: 'O que são lágrimas?',
+        answers: [
+            { text: 'Água pura', correct: false },
+            { text: 'Umidade do ar condensada nos olhos', correct: false },
+            { text: 'Um fluido que protege e lubrifica os olhos', correct: true },
+            { text: 'Sangue filtrado pelos olhos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a função do nervo óptico?',
+        answers: [
+            { text: 'Regular a quantidade de luz que entra no olho', correct: false },
+            { text: 'Transmitir impulsos visuais do olho para o cérebro', correct: true },
+            { text: 'Focar a imagem na retina', correct: false },
+            { text: 'Controlar o movimento dos olhos', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos músculos controlam o movimento de um olho humano?',
+        answers: [
+            { text: 'Quatro', correct: false },
+            { text: 'Seis', correct: true },
+            { text: 'Dois', correct: false },
+            { text: 'Oito', correct: false }
+        ]
+    },
+    {
+        question: 'O que é estrabismo?',
+        answers: [
+            { text: 'Visão normal', correct: false },
+            { text: 'Dificuldade em ver objetos à distância', correct: false },
+            { text: 'Desalinhamento dos olhos', correct: true },
+            { text: 'Perda total da visão', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal função das sobrancelhas em relação aos olhos?',
+        answers: [
+            { text: 'Aumentar a visão periférica', correct: false },
+            { text: 'Proteger os olhos da luz solar direta', correct: true },
+            { text: 'Ajudar na focalização de objetos', correct: false },
+            { text: 'Melhorar a acuidade visual', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a cegueira noturna?',
+        answers: [
+            { text: 'Incapacidade de enxergar durante o dia', correct: false },
+            { text: 'Perda total da visão', correct: false },
+            { text: 'Dificuldade em enxergar em ambientes com pouca luz', correct: true },
+            { text: 'Perda de visão periférica', correct: false }
+        ]
+    },
+    {
         question: "Qual é a unidade básica da estrutura e função dos seres vivos?",
         answers: [
             { text: "Célula", correct: true },
@@ -2513,12 +2693,256 @@ const qbio=[
 
 const qciencia=[
     {
+        question: 'O que é um pulsar, em astrofísica?',
+        answers: [
+            { text: 'Um tipo de estrela', correct: false },
+            { text: 'Uma partícula subatômica', correct: false },
+            { text: 'Um tipo de galáxia', correct: false },
+            { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é a teoria amplamente aceita sobre a formação do universo?',
+        answers: [
+            { text: 'Teoria Geocêntrica', correct: false },
+            { text: 'Teoria Heliocêntrica', correct: false },
+            { text: 'Big Bang', correct: true },
+            { text: 'Teoria do Estado Estacionário', correct: false }
+        ]
+    },
+    {
+        question: 'O que é um buraco negro?',
+        answers: [
+            { text: 'Um vórtice de vento em uma estrela', correct: false },
+            { text: 'Uma região do espaço com gravidade extremamente baixa', correct: false },
+            { text: 'Uma estrela em colapso', correct: false },
+            { text: 'Uma região do espaço com gravidade tão intensa que nada pode escapar, nem mesmo a luz', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é a principal fonte de energia do Sol?',
+        answers: [
+            { text: 'Fusão Nuclear', correct: true },
+            { text: 'Fissão Nuclear', correct: false },
+            { text: 'Queima de carvão', correct: false },
+            { text: 'Reações químicas', correct: false }
+        ]
+    },
+    {
+        question: 'O que é um quasar?',
+        answers: [
+            { text: 'Um tipo de cometa', correct: false },
+            { text: 'Um tipo de galáxia', correct: false },
+            { text: 'Um objeto celeste de brilho intenso e energia poderosa, alimentado por um buraco negro supermassivo', correct: true },
+            { text: 'Uma estrela em explosão', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da galáxia espiral mais próxima da Via Láctea?',
+        answers: [
+            { text: 'Andrômeda', correct: true },
+            { text: 'Triângulo', correct: false },
+            { text: 'Sombrero', correct: false },
+            { text: 'Bode', correct: false }
+        ]
+    },
+    {
+        question: 'O que é matéria escura?',
+        answers: [
+            { text: 'Matéria que compõe planetas e estrelas', correct: false },
+            { text: 'Matéria composta por partículas subatômicas', correct: false },
+            { text: 'Matéria que não emite luz nem energia eletromagnética, mas contribui para a gravidade', correct: true },
+            { text: 'Forma densa de gás interestelar', correct: false }
+        ]
+    },
+    {
+        question: 'O que é um exoplaneta?',
+        answers: [
+            { text: 'Um asteroide próximo à Terra', correct: false },
+            { text: 'Um planeta anão', correct: false },
+            { text: 'Um planeta fora do sistema solar', correct: true },
+            { text: 'Um planeta com anéis', correct: false }
+        ]
+    },
+    {
+        question: 'O que é cinemática?',
+        answers: [
+            { text: 'Estudo das forças', correct: false },
+            { text: 'Estudo do movimento dos corpos sem levar em conta as causas desse movimento', correct: true },
+            { text: 'Estudo da luz', correct: false },
+            { text: 'Estudo da eletricidade', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a primeira lei de Newton?',
+        answers: [
+            { text: 'Lei da gravitação universal', correct: false },
+            { text: 'Lei da ação e reação', correct: false },
+            { text: 'Lei da inércia', correct: true },
+            { text: 'Lei dos cossenos', correct: false }
+        ]
+    },
+    {
+        question: 'O que é impulso em física?',
+        answers: [
+            { text: 'Força aplicada durante um intervalo de tempo', correct: true },
+            { text: 'Força total aplicada a um objeto', correct: false },
+            { text: 'Resistência de um material ao fluxo de corrente elétrica', correct: false },
+            { text: 'Variação da velocidade de um objeto', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a segunda lei de Newton?',
+        answers: [
+            { text: 'Aceleração de um objeto é diretamente proporcional à força líquida agindo sobre ele e inversamente proporcional à sua massa', correct: true },
+            { text: 'Todo corpo permanece em repouso ou em movimento retilíneo uniforme, a menos que uma força externa aja sobre ele', correct: false },
+            { text: 'A cada ação há uma reação de igual magnitude, mas em direção oposta', correct: false },
+            { text: 'A força da gravidade entre dois corpos é diretamente proporcional ao produto de suas massas e inversamente proporcional ao quadrado da distância entre eles', correct: false }
+        ]
+    },
+    {
+        question: 'O que é trabalho em física?',
+        answers: [
+            { text: 'Energia potencial de um objeto em movimento', correct: false },
+            { text: 'Força aplicada durante um intervalo de tempo', correct: false },
+            { text: 'Produto da força aplicada sobre um objeto e do deslocamento desse objeto na direção da força', correct: true },
+            { text: 'Energia cinética de um objeto em repouso', correct: false }
+        ]
+    },
+    {
+        question: 'O que é potência em física?',
+        answers: [
+            { text: 'Energia potencial de um objeto em movimento', correct: false },
+            { text: 'Produto da força aplicada sobre um objeto e do deslocamento desse objeto na direção da força', correct: false },
+            { text: 'Quantidade de trabalho realizado por unidade de tempo', correct: true },
+            { text: 'Energia cinética de um objeto em repouso', correct: false }
+        ]
+    },
+    {
+        question: 'O que é equilíbrio estático?',
+        answers: [
+            { text: 'Estado em que a velocidade de um objeto permanece constante', correct: false },
+            { text: 'Estado em que a aceleração de um objeto é zero', correct: false },
+            { text: 'Estado em que um objeto está em repouso', correct: false },
+            { text: 'Estado em que a soma das forças que atuam em um objeto é zero e a soma dos torques é zero', correct: true }
+            
+        ]
+    },
+    {
+        question: 'O que é torque em física?',
+        answers: [
+            { text: 'Produto da força aplicada sobre um objeto e do deslocamento desse objeto na direção da força', correct: false },
+            { text: 'Quantidade de matéria em um objeto', correct: false },
+            { text: 'Quantidade de movimento de um objeto', correct: false },
+            { text: 'Força que tende a girar um objeto em torno de um eixo', correct: true }
+        ]
+    },
+    {
         question: "O que é a tabela periódica?",
         answers: [
             { text: "Lista de elementos químicos ordenados por seus números atômicos", correct: true },
             { text: "Registro de descobertas astronômicas", correct: false },
             { text: "Catálogo de espécies animais", correct: false },
             { text: "Classificação de minerais", correct: false }
+        ]
+    },
+    {
+        question: 'Qual invento foi patenteado por Alexander Graham Bell?',
+        answers: [
+            { text: 'Telefone', correct: true },
+            { text: 'Lâmpada elétrica', correct: false },
+            { text: 'Computador', correct: false },
+            { text: 'Máquina a vapor', correct: false }
+        ]
+    },
+    {
+        question: 'Qual foi a invenção de Guglielmo Marconi relacionada à comunicação?',
+        answers: [
+            { text: 'Telefone', correct: false },
+            { text: 'Rádio', correct: true },
+            { text: 'Televisão', correct: false },
+            { text: 'Máquina fotográfica', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é creditado pela invenção da máquina a vapor?',
+        answers: [
+            { text: 'Thomas Edison', correct: false },
+            { text: 'James Watt', correct: true },
+            { text: 'Nikola Tesla', correct: false },
+            { text: 'Alexander Graham Bell', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é considerado o pai da eletricidade?',
+        answers: [
+            { text: 'Thomas Edison', correct: false },
+            { text: 'Nikola Tesla', correct: false },
+            { text: 'Benjamin Franklin', correct: true },
+            { text: 'Michael Faraday', correct: false }
+        ]
+    },
+    {
+        question: 'Qual linguagem de programação é conhecida por sua facilidade de aprendizado e sintaxe simples?',
+        answers: [
+            { text: 'C++', correct: false },
+            { text: 'Python', correct: true },
+            { text: 'Java', correct: false },
+            { text: 'JavaScript', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa a sigla HTML em programação web?',
+        answers: [
+            { text: 'Hypertext Markup Language', correct: true },
+            { text: 'High-Level Text Language', correct: false },
+            { text: 'Hyperlink and Text Management Language', correct: false },
+            { text: 'Home Tool Markup Language', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o principal objetivo da linguagem de programação JavaScript?',
+        answers: [
+            { text: 'Desenvolvimento de aplicativos móveis', correct: false },
+            { text: 'Programação de servidores', correct: false },
+            { text: 'Desenvolvimento web interativo', correct: true },
+            { text: 'Análise de dados', correct: false }
+        ]
+    },
+    {
+        question: 'Em programação, o que é um "loop"?',
+        answers: [
+            { text: 'Um erro de código', correct: false },
+            { text: 'Uma estrutura condicional', correct: false },
+            { text: 'Um bloco de código que se repete', correct: true },
+            { text: 'Um comentário no código', correct: false }
+        ]
+    },
+    {
+        question: 'Qual linguagem de programação é comumente usada para o desenvolvimento de aplicativos móveis para dispositivos iOS?',
+        answers: [
+            { text: 'Java', correct: false },
+            { text: 'Swift', correct: true },
+            { text: 'Python', correct: false },
+            { text: 'C#', correct: false }
+        ]
+    },
+    {
+        question: 'O que é um banco de dados relacional?',
+        answers: [
+            { text: 'Um banco de dados que armazena apenas imagens', correct: false },
+            { text: 'Um banco de dados que armazena informações em tabelas relacionadas', correct: true },
+            { text: 'Um banco de dados que armazena apenas números', correct: false },
+            { text: 'Um banco de dados usado apenas para backup', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa API em programação?',
+        answers: [
+            { text: 'Application Programming Interface', correct: true },
+            { text: 'Advanced Programming Instruction', correct: false },
+            { text: 'Automated Program Integration', correct: false },
+            { text: 'Application Process Improvement', correct: false }
         ]
     },
     {
@@ -3294,14 +3718,409 @@ const qciencia=[
 
 
 
-//Q4 CINEMA E MÚSICA
+//Q4 ENTRETENIMENTO
 
 
 
 
 
-const qcine=[
-    
+const qentre=[
+    {
+        question: 'Qual é o nome do desenho animado em que um grupo de jovens enfrenta criaturas sobrenaturais em sua cidade?',
+        answers: [
+            { text: 'He-Man', correct: false },
+            { text: 'Transformers', correct: false },
+            { text: 'Os Caça-Fantasmas', correct: true },
+            { text: 'ThunderCats', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o desenho animado sobre uma equipe de mutantes com habilidades especiais liderada pelo Professor Xavier?',
+        answers: [
+            { text: 'She-Ra', correct: false },
+            { text: 'Os Smurfs', correct: false },
+            { text: 'Turma da Mônica', correct: false },
+            { text: 'X-Men', correct: true }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de adolescentes e um cachorro viajam em uma van chamada Máquina Mistério para resolver mistérios?',
+        answers: [
+            { text: 'Cavalo de Fogo', correct: false },
+            { text: 'Scooby-Doo', correct: true },
+            { text: 'Caverna do Dragão', correct: false },
+            { text: 'Pole Position', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do desenho animado em que um guerreiro bárbaro com uma espada mágica luta contra vilões?',
+        answers: [
+            { text: 'SilverHawks', correct: false },
+            { text: 'Bravestarr', correct: false },
+            { text: 'He-Man', correct: true },
+            { text: 'She-Ra', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o desenho animado sobre um grupo de seres pequenos e azuis que vivem em uma vila?',
+        answers: [
+            { text: 'Os Caça-Fantasmas', correct: false },
+            { text: 'Smurfs', correct: true },
+            { text: 'Cavalo de Fogo', correct: false },
+            { text: 'Punky Brewster', correct: false }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de robôs alienígenas se transforma em veículos e dispositivos eletrônicos?',
+        answers: [
+            { text: 'Transformers', correct: true },
+            { text: 'ThunderCats', correct: false },
+            { text: 'SilverHawks', correct: false },
+            { text: 'Bravestarr', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o desenho animado em que um grupo de heróis meio humanos e meio felinos protege seu reino?',
+        answers: [
+            { text: 'He-Man', correct: false },
+            { text: 'Cavalo de Fogo', correct: false },
+            { text: 'ThunderCats', correct: true },
+            { text: 'She-Ra', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o desenho animado que segue as aventuras de uma equipe de super-heróis adolescentes com habilidades únicas?',
+        answers: [
+            { text: 'Turma da Mônica', correct: false },
+            { text: 'X-Men', correct: false },
+            { text: 'Caverna do Dragão', correct: false },
+            { text: 'Teen Titans', correct: true }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de humanoides metálicos espaciais protege o universo de forças do mal?',
+        answers: [
+            { text: 'SilverHawks', correct: true },
+            { text: 'Bravestarr', correct: false },
+            { text: 'Transformers', correct: false },
+            { text: 'ThunderCats', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o desenho animado sobre um grupo de criaturas fofas e coloridas que vivem em uma terra mágica?',
+        answers: [
+            { text: 'Ursinhos carinhosos', correct: true },
+            { text: 'Rainbow Brite', correct: false },
+            { text: 'Punky - A levada da breca', correct: false },
+            { text: 'Os Snorks', correct: false }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de garotas com poderes mágicos luta contra vilões?',
+        answers: [
+            { text: 'Cavalo de Fogo', correct: false },
+            { text: 'As super poderosas', correct: true },
+            { text: 'ThunderCats', correct: false },
+            { text: 'He-Man', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do desenho animado em que os personagens tomavam um suco roxo e saiam pulando?',
+        answers: [
+            { text: 'Caverna do Dragão', correct: false },
+            { text: 'Os Ursinhos Gummi', correct: true },
+            { text: 'She-Ra', correct: false },
+            { text: 'Transformers', correct: false }
+        ]
+    },
+    {
+        question: 'Qual o filme em que um robô alienígena vem para a Terra e se transforma em um carro esportivo amarelo?',
+        answers: [
+            { text: 'SilverHawks', correct: false },
+            { text: 'Transformers', correct: true },
+            { text: 'Bravestarr', correct: false },
+            { text: 'He-Man', correct: false }
+        ]
+    },
+    {
+        question: 'Em que desenho animado adolescentes ganham poderes de um anel mágico e lutam contra forças do mal?',
+        answers: [
+            { text: 'He-Man', correct: false },
+            { text: 'ThunderCats', correct: false },
+            { text: 'Caverna do Dragão', correct: false },
+            { text: 'Capitão Planeta', correct: true }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de heróis humanoides com poderes especiais protege a Terra?',
+        answers: [
+            { text: 'ThunderCats', correct: false },
+            { text: 'He-Man', correct: false },
+            { text: 'SilverHawks', correct: false },
+            { text: 'Os Defensores da Terra', correct: true }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de crianças luta contra monstros digitais em um mundo virtual?',
+        answers: [
+            { text: 'Digimon', correct: true },
+            { text: 'Cavaleiros do Zodíaco', correct: false },
+            { text: 'Pokémon', correct: false },
+            { text: 'Yu Yu Hakusho', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do desenho animado sobre quatro tartarugas mutantes que são treinadas em artes marciais?',
+        answers: [
+            { text: 'ThunderCats', correct: false },
+            { text: 'As Tartarugas Ninja', correct: true },
+            { text: 'Os Cavaleiros do Zodíaco', correct: false },
+            { text: 'Os Jovens Titãs', correct: false }
+        ]
+    },
+    {
+        question: 'Em que desenho animado um grupo de crianças enfrenta monstros reais e paranormais?',
+        answers: [
+            { text: 'Os Castores Pirados', correct: false },
+            { text: 'Caverna do Dragão', correct: false },
+            { text: 'Goosebumps', correct: true },
+            { text: 'Animaniacs', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda/cantor lançou o álbum "Thriller" em 1982, que se tornou o álbum mais vendido de todos os tempos?',
+        answers: [
+            { text: 'Queen', correct: false },
+            { text: 'The Police', correct: false },
+            { text: 'Michael Jackson', correct: true },
+            { text: 'U2', correct: false }
+        ]
+    },
+    {
+        question: 'Qual artista ficou famoso por sua música "Like a Virgin" em 1984?',
+        answers: [
+            { text: 'Madonna', correct: true },
+            { text: 'Cyndi Lauper', correct: false },
+            { text: 'Prince', correct: false },
+            { text: 'Whitney Houston', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda britânica lançou o álbum "The Joshua Tree" em 1987?',
+        answers: [
+            { text: 'The Rolling Stones', correct: false },
+            { text: 'The Cure', correct: false },
+            { text: 'U2', correct: true },
+            { text: 'Depeche Mode', correct: false }
+        ]
+    },
+    {
+        question: 'Qual música do Queen, lançada em 1980, se tornou um hino da banda?',
+        answers: [
+            { text: 'Bohemian Rhapsody', correct: false },
+            { text: 'Under Pressure', correct: false },
+            { text: 'Radio Gaga', correct: false },
+            { text: 'Another One Bites the Dust', correct: true }
+        ]
+    },
+    {
+        question: 'Qual artista lançou a música "Billie Jean" em 1983, que se tornou um sucesso internacional?',
+        answers: [
+            { text: 'George Michael', correct: false },
+            { text: 'David Bowie', correct: false },
+            { text: 'Prince', correct: false },
+            { text: 'Michael Jackson', correct: true }
+        ]
+    },
+    {
+        question: 'Em 1985, qual supergrupo lançou a música "We Are the World" para arrecadar fundos para a África?',
+        answers: [
+            { text: 'Band Aid', correct: false },
+            { text: 'USA for Africa', correct: true },
+            { text: 'The Traveling Wilburys', correct: false },
+            { text: 'Hear n Aid', correct: false }
+        ]
+    },
+    {
+        question: 'Qual artista lançou o álbum "Purple Rain" em 1984?',
+        answers: [
+            { text: 'Prince', correct: true },
+            { text: 'Madonna', correct: false },
+            { text: 'David Bowie', correct: false },
+            { text: 'Whitney Houston', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda lançou a música "Sweet Child o\' Mine" em 1987?',
+        answers: [
+            { text: 'Guns N\' Roses', correct: true },
+            { text: 'Bon Jovi', correct: false },
+            { text: 'Def Leppard', correct: false },
+            { text: 'Aerosmith', correct: false }
+        ]
+    },
+    {
+        question: 'Qual música do Rick Astley se tornou um meme da internet conhecido como "Rickrolling"?',
+        answers: [
+            { text: 'Together Forever', correct: false },
+            { text: 'She Wants to Dance with Me', correct: false },
+            { text: 'Never Gonna Give You Up', correct: true },
+            { text: 'Take Me to Your Heart', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda lançou o álbum "Back in Black" em 1980?',
+        answers: [
+            { text: 'AC/DC', correct: true },
+            { text: 'Metallica', correct: false },
+            { text: 'Iron Maiden', correct: false },
+            { text: 'Led Zeppelin', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda britânica lançou o álbum "Brothers in Arms" em 1985?',
+        answers: [
+            { text: 'The Police', correct: false },
+            { text: 'U2', correct: false },
+            { text: 'Dire Straits', correct: true },
+            { text: 'Queen', correct: false }
+        ]
+    },
+    {
+        question: 'Qual música da banda A-ha, lançada em 1984, se tornou um grande sucesso com seu videoclipe inovador?',
+        answers: [
+            { text: 'Take On Me', correct: true },
+            { text: 'The Sun Always Shines on TV', correct: false },
+            { text: 'Hunting High and Low', correct: false },
+            { text: 'Stay on These Roads', correct: false }
+        ]
+    },
+    {
+        question: 'Em 1983, qual álbum de Michael Jackson inclui os sucessos "Beat It" e "Billie Jean"?',
+        answers: [
+            { text: 'Bad', correct: false },
+            { text: 'Dangerous', correct: false },
+            { text: 'Thriller', correct: true },
+            { text: 'Off the Wall', correct: false }
+        ]
+    },
+    {
+        question: 'Qual dupla lançou a música "I ve Had The Time of My Life" em 1987, presente na trilha sonora do filme Dirty Dancing?',
+        answers: [
+            { text: 'Daryl Hall & John Oates', correct: false },
+            { text: 'Air Supply', correct: false },
+            { text: 'Patrick Swayze & Jennifer Warnes', correct: true },
+            { text: 'Wham!', correct: false }
+        ]
+    },
+    {
+        question: 'Qual cantor britânico lançou a música "Careless Whisper" em 1984?',
+        answers: [
+            { text: 'Elton John', correct: false },
+            { text: 'David Bowie', correct: false },
+            { text: 'George Michael', correct: true },
+            { text: 'Phil Collins', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda lançou o álbum "The Final Countdown" em 1986?',
+        answers: [
+            { text: 'Europe', correct: true },
+            { text: 'Scorpions', correct: false },
+            { text: 'Bon Jovi', correct: false },
+            { text: 'Def Leppard', correct: false }
+        ]
+    },
+    {
+        question: 'Qual artista lançou a música "Every Breath You Take" em 1983?',
+        answers: [
+            { text: 'Phil Collins', correct: false },
+            { text: 'Sting', correct: true },
+            { text: 'Billy Joel', correct: false },
+            { text: 'Elton John', correct: false }
+        ]
+    },
+    {
+        question: 'Qual álbum da banda Guns N\' Roses inclui a música "Sweet Child o\' Mine"?',
+        answers: [
+            { text: 'Use Your Illusion I', correct: false },
+            { text: 'Appetite for Destruction', correct: true },
+            { text: 'Use Your Illusion II', correct: false },
+            { text: 'Chinese Democracy', correct: false }
+        ]
+    },
+    {
+        question: 'A banda de rock conhecida como "Os Fab Four" é uma homenagem a qual banda?',
+        answers: [
+            { text: 'The Rolling Stones', correct: false },
+            { text: 'Led Zeppelin', correct: false },
+            { text: 'The Who', correct: false },
+            { text: 'The Beatles', correct: true }
+        ]
+    },
+    {
+        question: 'Qual álbum é frequentemente considerado um dos melhores da história do rock e inclui faixas como "Stairway to Heaven" e "Black Dog"?',
+        answers: [
+            { text: 'The Dark Side of the Moon (Pink Floyd)', correct: false },
+            { text: 'Led Zeppelin IV', correct: true },
+            { text: 'Abbey Road (The Beatles)', correct: false },
+            { text: 'The Wall (Pink Floyd)', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como "Rei do Rock"?',
+        answers: [
+            { text: 'Mick Jagger', correct: false },
+            { text: 'Elvis Presley', correct: true },
+            { text: 'Freddie Mercury', correct: false },
+            { text: 'Bruce Springsteen', correct: false }
+        ]
+    },
+    {
+        question: 'Qual banda é famosa por seu álbum "The Wall" e seu estilo progressivo e conceitual?',
+        answers: [
+            { text: 'The Rolling Stones', correct: false },
+            { text: 'The Who', correct: false },
+            { text: 'Led Zeppelin', correct: false },
+            { text: 'Pink Floyd', correct: true }
+        ]
+    },
+    {
+        question: 'No final de qual década o movimento punk rock emergiu, trazendo bandas como Ramones e Sex Pistols?',
+        answers: [
+            { text: 'Década de 1950', correct: false },
+            { text: 'Década de 1960', correct: false },
+            { text: 'Década de 1970', correct: true },
+            { text: 'Década de 1980', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a guitarra lendária tocada por Jimi Hendrix?',
+        answers: [
+            { text: 'Fender Telecaster', correct: false },
+            { text: 'Gibson Les Paul', correct: false },
+            { text: 'Fender Stratocaster', correct: true },
+            { text: 'Gibson SG', correct: false }
+        ]
+    },
+    {
+        question: 'Qual vocalista icônico liderou a banda Queen?',
+        answers: [
+            { text: 'Robert Plant', correct: false },
+            { text: 'Mick Jagger', correct: false },
+            { text: 'Freddie Mercury', correct: true },
+            { text: 'Axl Rose', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do festival de rock histórico que ocorreu em 1969 e contou com apresentações de Jimi Hendrix, Janis Joplin e The Who?',
+        answers: [
+            { text: 'Woodstock', correct: true },
+            { text: 'Coachella', correct: false },
+            { text: 'Lollapalooza', correct: false },
+            { text: 'Monterey Pop Festival', correct: false }
+        ]
+    },
     {
         question: "Em qual filme Leonardo DiCaprio finalmente ganhou um Oscar de Melhor Ator após várias indicações?",
         answers: [
@@ -4112,6 +4931,132 @@ const qcine=[
 //Q  GEEK
 
 const qgeek=[
+    {
+        question: 'Qual é o nome do famoso cubo de cores que desafia a lógica e a paciência?',
+        answers: [
+            { text: 'Furby', correct: false },
+            { text: 'Cubo Mágico', correct: true },
+            { text: 'Tamagotchi', correct: false },
+            { text: 'Bop It', correct: false }
+        ]
+    },
+    {
+        question: 'Que brinquedo consiste em peças de plástico interconectadas que podem ser montadas e desmontadas?',
+        answers: [
+            { text: 'Lego', correct: true },
+            { text: 'Play-Doh', correct: false },
+            { text: 'Hot Wheels', correct: false },
+            { text: 'Yo-yo', correct: false }
+        ]
+    },
+    {
+        question: 'Qual brinquedo consiste em um disco de plástico que gira rapidamente na ponta de uma corda?',
+        answers: [
+            { text: 'Bola de Gude', correct: false },
+            { text: 'Pipa', correct: false },
+            { text: 'Yo-yo', correct: true },
+            { text: 'Frisbee', correct: false }
+        ]
+    },
+    {
+        question: 'Que brinquedo permite que as crianças criem imagens coloridas raspando a superfície preta para revelar as cores escondidas?',
+        answers: [
+            { text: 'Etch A Sketch', correct: false },
+            { text: 'Lite-Brite', correct: false },
+            { text: 'Spirograph', correct: false },
+            { text: 'Scratch Art', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o jogo clássico de arcade onde você controla um pássaro voando por túneis gerados aleatoriamente?',
+        answers: [
+            { text: 'Pac-Man', correct: false },
+            { text: 'Asteroids', correct: false },
+            { text: 'Pong', correct: false },
+            { text: 'Flappy Bird', correct: true }
+        ]
+    },
+    {
+        question: 'Que jogo de corrida de carros é frequentemente considerado um dos primeiros jogos de vídeo game?',
+        answers: [
+            { text: 'Space Invaders', correct: false },
+            { text: 'Missile Command', correct: false },
+            { text: 'Pong', correct: false },
+            { text: 'Out Run', correct: true }
+        ]
+    },
+    {
+        question: 'Em que jogo de Atari você controla um carro que deve evitar "obstáculos" na estrada?',
+        answers: [
+            { text: 'Asteroids', correct: false },
+            { text: 'Pong', correct: false },
+            { text: 'Space Invaders', correct: false },
+            { text: 'Enduro', correct: true }
+        ]
+    },
+    {
+        question: 'Qual jogo é conhecido por ser um dos primeiros jogos de plataforma, apresentando um personagem saltando sobre obstáculos, como buracos e jacarés?',
+        answers: [
+            { text: 'Frogger', correct: false },
+            { text: 'Space Invaders', correct: false },
+            { text: 'Pong', correct: false },
+            { text: 'Pitfall!', correct: true }
+        ]
+    },
+    {
+        question: 'Qual jogo de tiro espacial é conhecido por seu estilo de rolagem vertical e naves alienígenas que atacam?',
+        answers: [
+            { text: 'Pac-Man', correct: false },
+            { text: 'Asteroids', correct: false },
+            { text: 'Galaga', correct: true },
+            { text: 'Pong', correct: false }
+        ]
+    },
+    {
+        question: 'Que jogo simula uma partida de tênis de mesa, onde os jogadores controlam paletas que rebatem uma bola?',
+        answers: [
+            { text: 'Breakout', correct: false },
+            { text: 'Pac-Man', correct: false },
+            { text: 'Pong', correct: true },
+            { text: 'Space Invaders', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do jogo de tiro em primeira pessoa onde você deve defender a Terra de uma invasão alienígena?',
+        answers: [
+            { text: 'Defender', correct: false },
+            { text: 'Missile Command', correct: false },
+            { text: 'Space Invaders', correct: true },
+            { text: 'Asteroids', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual jogo você controla uma cobra que deve comer pontos para crescer, evitando colidir com as paredes ou com seu próprio corpo?',
+        answers: [
+            { text: 'Pong', correct: false },
+            { text: 'Asteroids', correct: false },
+            { text: 'Breakout', correct: false },
+            { text: 'Snake', correct: true }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como o criador da série de jogos "Metal Gear Solid"?',
+        answers: [
+            { text: 'Hideo Kojima', correct: true },
+            { text: 'Shigeru Miyamoto', correct: false },
+            { text: 'Gabe Newell', correct: false },
+            { text: 'Todd Howard', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do criador da série de jogos "The Elder Scrolls"?',
+        answers: [
+            { text: 'Hideo Kojima', correct: false },
+            { text: 'Todd Howard', correct: true },
+            { text: 'Shigeru Miyamoto', correct: false },
+            { text: 'Gabe Newell', correct: false }
+        ]
+    },
     {
         question: "Qual é o nome do famoso jogo de RPG de mesa que se passa em um mundo de fantasia medieval e é conhecido por seus dados poliédricos?",
         answers: [
@@ -5134,6 +6079,321 @@ const qesporte=[
             { text: 'SC Braga', correct: false }
         ]
     },
+    {
+        question: 'Qual era o nome do antigo esporte praticado pelos gregos, que envolvia corrida, salto, arremesso e luta?',
+        answers: [
+            { text: 'Futebol', correct: false },
+            { text: 'Atletismo', correct: false },
+            { text: 'Pentatlo', correct: true },
+            { text: 'Luta Livre', correct: false }
+        ]
+    },
+    {
+        question: 'Qual esporte, originado na Índia antiga, envolve posturas corporais e meditação?',
+        answers: [
+            { text: 'Ginástica Rítmica', correct: false },
+            { text: 'Ioga', correct: true },
+            { text: 'Sumô', correct: false },
+            { text: 'Halterofilismo', correct: false }
+        ]
+    },
+    {
+        question: 'Em que país antigo os gladiadores participavam de combates em arenas?',
+        answers: [
+            { text: 'Egito', correct: false },
+            { text: 'Grécia', correct: false },
+            { text: 'Roma', correct: true },
+            { text: 'Babilônia', correct: false }
+        ]
+    },
+    {
+        question: 'Qual era o esporte favorito dos astecas, que usava uma bola de borracha e exigia habilidade nos quadris?',
+        answers: [
+            { text: 'Futebol', correct: false },
+            { text: 'Polo Aquático', correct: false },
+            { text: 'Tênis', correct: false },
+            { text: 'Jogo de Pelota', correct: true }
+        ]
+    },
+    {
+        question: 'Em que civilização antiga se originou o boxe?',
+        answers: [
+            { text: 'Roma', correct: false },
+            { text: 'Grécia', correct: true },
+            { text: 'Egito', correct: false },
+            { text: 'Persa', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do antigo esporte de luta praticado na Roma Antiga?',
+        answers: [
+            { text: 'Sumô', correct: false },
+            { text: 'Gladiadorismo', correct: true },
+            { text: 'Judô', correct: false },
+            { text: 'Luta Livre', correct: false }
+        ]
+    },
+    {
+        question: 'Que esporte antigo, semelhante ao hóquei, era praticado pelos egípcios?',
+        answers: [
+            { text: 'Hóquei', correct: false },
+            { text: 'Pólo Aquático', correct: false },
+            { text: 'Jogo de Bola', correct: false },
+            { text: 'Senet', correct: true }
+        ]
+    },
+    {
+        question: 'O que os romanos antigos chamavam de "ludus duodecim scriptorum"?',
+        answers: [
+            { text: 'Xadrez', correct: false },
+            { text: 'Damas', correct: false },
+            { text: 'Luta de Gladiadores', correct: true },
+            { text: 'Corrida de Carroças', correct: false }
+        ]
+    },
+    {
+        question: 'Qual esporte antigo, praticado por diversas culturas, envolve lançamento de um disco metálico?',
+        answers: [
+            { text: 'Disco', correct: false },
+            { text: 'Lançamento de Dardo', correct: false },
+            { text: 'Arremesso de Peso', correct: false },
+            { text: 'Disco de Pedra', correct: true }
+        ]
+    },
+    {
+        question: 'Qual equipe ganhou mais títulos na Liga dos Campeões da UEFA? (até 2023)',
+        answers: [
+            { text: 'Real Madrid', correct: true },
+            { text: 'Barcelona', correct: false },
+            { text: 'Bayern de Munique', correct: false },
+            { text: 'Manchester United', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o artilheiro histórico da Liga dos Campeões da UEFA? (até 2023)',
+        answers: [
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Cristiano Ronaldo', correct: true },
+            { text: 'Robert Lewandowski', correct: false },
+            { text: 'Raúl González', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas equipes avançam da fase de grupos para as oitavas de final na Liga dos Campeões?',
+        answers: [
+            { text: '12', correct: false },
+            { text: '16', correct: true },
+            { text: '8', correct: false },
+            { text: '24', correct: false }
+        ]
+    },
+    {
+        question: 'Em que temporada a Liga dos Campeões foi inaugurada?',
+        answers: [
+            { text: '1950-1951', correct: false },
+            { text: '1960-1961', correct: true },
+            { text: '1970-1971', correct: false },
+            { text: '1980-1981', correct: false }
+        ]
+    },
+    {
+        question: 'Qual país sediou a primeira final da Liga dos Campeões?',
+        answers: [
+            { text: 'Inglaterra', correct: false },
+            { text: 'Espanha', correct: false },
+            { text: 'Suíça', correct: true },
+            { text: 'Itália', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogador marcou o gol mais rápido (10,12 segundos) na história da Liga dos Campeões, em 2007?',
+        answers: [
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Roy Makaay', correct: true },
+            { text: 'Cristiano Ronaldo', correct: false },
+            { text: 'Neymar', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como o "Rei da Liga dos Campeões"?',
+        answers: [
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Cristiano Ronaldo', correct: true },
+            { text: 'Neymar', correct: false },
+            { text: 'Robert Lewandowski', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como o "Fenômeno"?',
+        answers: [
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Cristiano Ronaldo', correct: false },
+            { text: 'Neymar', correct: false },
+            { text: 'Ronaldo Nazário', correct: true }
+        ]
+    },
+    {
+        question: 'Quem foi apelidado de "O Imperador"?',
+        answers: [
+            { text: 'Adriano', correct: true },
+            { text: 'Romário', correct: false },
+            { text: 'Kaká', correct: false },
+            { text: 'Zico', correct: false }
+        ]
+    },
+    {
+        question: 'Qual desses jogadores argentinos é conhecido como "La Pulga"?',
+        answers: [
+            { text: 'Diego Maradona', correct: false },
+            { text: 'Sergio Agüero', correct: false },
+            { text: 'Lionel Messi', correct: true },
+            { text: 'Gabriel Batistuta', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o goleiro brasileiro conhecido como "São Marcos"?',
+        answers: [
+            { text: 'Julio Cesar', correct: false },
+            { text: 'Dida', correct: false },
+            { text: 'Marcos Reis', correct: true },
+            { text: 'Alisson Becker', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogador é chamado de "Zizou"?',
+        answers: [
+            { text: 'Zinedine Zidane', correct: true },
+            { text: 'Zico', correct: false },
+            { text: 'Zlatan Ibrahimović', correct: false },
+            { text: 'Zico', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogador italiano é chamado de "Il Capitano"?',
+        answers: [
+            { text: 'Andrea Pirlo', correct: false },
+            { text: 'Paolo Maldini', correct: false },
+            { text: 'Francesco Totti', correct: true },
+            { text: 'Alessandro Del Piero', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é considerado o "Maestro"?',
+        answers: [
+            { text: 'Xavi Hernández', correct: false },
+            { text: 'Andrés Iniesta', correct: false },
+            { text: 'Andrea Pirlo', correct: false },
+            { text: 'Zinedine Zidane', correct: true }
+        ]
+    },
+    {
+        question: 'Qual jogador é conhecido como "Kun"?',
+        answers: [
+            { text: 'Sergio Ramos', correct: false },
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Neymar', correct: false },
+            { text: 'Sergio Agüero', correct: true }
+        ]
+    },
+    {
+        question: 'Quem é apelidado de "Baleia"?',
+        answers: [
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Cristiano Ronaldo', correct: false },
+            { text: 'Wayne Rooney', correct: true },
+            { text: 'Luis Suárez', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogador é chamado de "CR7"?',
+        answers: [
+            { text: 'Cristiano Ronaldo', correct: true },
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Neymar', correct: false },
+            { text: 'Kylian Mbappé', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como "Ibracadabra"?',
+        answers: [
+            { text: 'Robert Lewandowski', correct: false },
+            { text: 'Zlatan Ibrahimović', correct: true },
+            { text: 'Sergio Agüero', correct: false },
+            { text: 'Harry Kane', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogador é chamado de "El Pibe"?',
+        answers: [
+            { text: 'Pelé', correct: false },
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Diego Maradona', correct: true },
+            { text: 'Ronaldinho Gaúcho', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como "Ney"?',
+        answers: [
+            { text: 'Neymar', correct: true },
+            { text: 'Lionel Messi', correct: false },
+            { text: 'Cristiano Ronaldo', correct: false },
+            { text: 'Kylian Mbappé', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogador é chamado de "Gigante"?',
+        answers: [
+            { text: 'Peter Crouch', correct: false },
+            { text: 'Didier Drogba', correct: false },
+            { text: 'Zlatan Ibrahimović', correct: false },
+            { text: 'Romelu Lukaku', correct: true }
+        ]
+    },
+    {
+        question: 'Qual goleiro é conhecido como "O Muralha"?',
+        answers: [
+            { text: 'Keylor Navas', correct: false },
+            { text: 'Thibaut Courtois', correct: false },
+            { text: 'Diego Alves', correct: true },
+            { text: 'Alisson Becker', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é frequentemente chamado de "São Victor"?',
+        answers: [
+            { text: 'David De Gea', correct: false },
+            { text: 'Hugo Lloris', correct: false },
+            { text: 'Victor Valdés', correct: false },
+            { text: 'Victor Fernández', correct: true }
+        ]
+    },
+    {
+        question: 'Qual goleiro é conhecido por suas habilidades com os pés e é chamado de "O Dibrujo"?',
+        answers: [
+            { text: 'Ederson', correct: true },
+            { text: 'Manuel Neuer', correct: false },
+            { text: 'Marc-André ter Stegen', correct: false },
+            { text: 'Keylor Navas', correct: false }
+        ]
+    },
+    {
+        question: 'Qual goleiro é conhecido por sua longa carreira no Juventus e é chamado de "Super Gigi"?',
+        answers: [
+            { text: 'Hugo Lloris', correct: false },
+            { text: 'Iker Casillas', correct: false },
+            { text: 'Gianluigi Buffon', correct: true },
+            { text: 'Petr Čech', correct: false }
+        ]
+    },
+    {
+        question: 'Qual goleiro brasileiro é conhecido como "Zetti"?',
+        answers: [
+            { text: 'Taffarel', correct: false },
+            { text: 'Dida', correct: false },
+            { text: 'Gilmar dos Santos Neves', correct: false },
+            { text: 'Zetti', correct: true }
+        ]
+    },
     {   question: 'Qual país sediou a Copa do Mundo de 1998, onde a seleção brasileira chegou à final?',
         answers: [
             {text: 'França', correct: true},
@@ -5935,12 +7195,165 @@ const qesporte=[
 
 const qgeo=[
     {
-        question: 'Qual é a capital da Espanha?',
+        question: 'Quais são os Alpes franceses?',
         answers: [
-            { text: 'Lisboa', correct: false },
+            { text: 'Uma cordilheira na França', correct: true },
+            { text: 'Um rio na França', correct: false },
+            { text: 'Um deserto na França', correct: false },
+            { text: 'Uma cidade na França', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a Côte d\'Azur?',
+        answers: [
+            { text: 'Um tipo de queijo francês', correct: false },
+            { text: 'Uma região vinícola na França', correct: false },
+            { text: 'Uma costa no sul da França', correct: true },
+            { text: 'Uma montanha na França', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o rio principal que passa por Paris?',
+        answers: [
+            { text: 'Rio Tâmisa', correct: false },
+            { text: 'Rio Sena', correct: true },
+            { text: 'Rio Danúbio', correct: false },
+            { text: 'Rio Ródano', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o Mont Saint-Michel?',
+        answers: [
+            { text: 'Uma montanha nos Alpes', correct: false },
+            { text: 'Um vulcão na França', correct: false },
+            { text: 'Uma ilha fortificada na costa da Normandia', correct: true },
+            { text: 'Um desfiladeiro na França', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o Monte Fuji?',
+        answers: [
+            { text: 'Um rio no Japão', correct: false },
+            { text: 'Uma cidade japonesa', correct: false },
+            { text: 'Uma montanha vulcânica', correct: true },
+            { text: 'Um deserto japonês', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome tradicional da vestimenta japonesa?',
+        answers: [
+            { text: 'Qipao', correct: false },
+            { text: 'Hanbok', correct: false },
+            { text: 'Kimono', correct: true },
+            { text: 'Ao dai', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal religião do Japão?',
+        answers: [
+            { text: 'Hinduísmo', correct: false },
+            { text: 'Budismo', correct: true },
+            { text: 'Cristianismo', correct: false },
+            { text: 'Islamismo', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o rio mais longo da Espanha?',
+        answers: [
+            { text: 'Rio Tâmega', correct: false },
+            { text: 'Rio Douro', correct: false },
+            { text: 'Rio Tejo', correct: false },
+            { text: 'Rio Ebro', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é a cidade autônoma espanhola localizada na costa norte da África?',
+        answers: [
+            { text: 'Ceuta', correct: true },
+            { text: 'Melilla', correct: false },
             { text: 'Barcelona', correct: false },
-            { text: 'Madrid', correct: true },
-            { text: 'Sevilha', correct: false }
+            { text: 'Valência', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o ponto mais alto da Espanha?',
+        answers: [
+            { text: 'Pico Aneto', correct: true },
+            { text: 'Pico Mulhacén', correct: false },
+            { text: 'Pico Teide', correct: false },
+            { text: 'Pico Veleta', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o rio mais longo que passa pela Alemanha?',
+        answers: [
+            { text: 'Rio Danúbio', correct: false },
+            { text: 'Rio Reno', correct: true },
+            { text: 'Rio Elba', correct: false },
+            { text: 'Rio Spree', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a camada mais externa da Terra?',
+        answers: [
+            { text: 'Núcleo', correct: false },
+            { text: 'Manto', correct: false },
+            { text: 'Crosta', correct: true },
+            { text: 'Astenosfera', correct: false }
+        ]
+    },
+    {
+        question: 'O que são placas tectônicas?',
+        answers: [
+            { text: 'Formações rochosas', correct: false },
+            { text: 'Pequenos continentes', correct: false },
+            { text: 'Blocos que compõem a crosta terrestre', correct: true },
+            { text: 'Rios subterrâneos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o tipo mais comum de rocha na crosta terrestre?',
+        answers: [
+            { text: 'Metamórfica', correct: false },
+            { text: 'Sedimentar', correct: true },
+            { text: 'Ígnea', correct: false },
+            { text: 'Magmática', correct: false }
+        ]
+    },
+    {
+        question: 'O que é um vulcão?',
+        answers: [
+            { text: 'Rio subterrâneo', correct: false },
+            { text: 'Montanha formada por placas tectônicas', correct: false },
+            { text: 'Abertura na crosta terrestre por onde o magma é expelido', correct: true },
+            { text: 'Planalto elevado', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a escala usada para medir a intensidade dos terremotos?',
+        answers: [
+            { text: 'Escala Richter', correct: true },
+            { text: 'Escala Celsius', correct: false },
+            { text: 'Escala de Beaufort', correct: false },
+            { text: 'Escala Kelvin', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o processo de transformação de rochas pré-existentes por meio de calor e pressão?',
+        answers: [
+            { text: 'Sedimentação', correct: false },
+            { text: 'Fusão', correct: false },
+            { text: 'Metamorfismo', correct: true },
+            { text: 'Solidificação', correct: false }
+        ]
+    },
+    {
+        question: 'O que é um lençol freático?',
+        answers: [
+            { text: 'Camada de gelo na superfície terrestre', correct: false },
+            { text: 'Reservatório subterrâneo de água', correct: true },
+            { text: 'Formação rochosa ígnea', correct: false },
+            { text: 'Área elevada com vegetação densa', correct: false }
         ]
     },
     {
@@ -6801,7 +8214,138 @@ const qgeo=[
 
 //Q7  HISTÓRIA
 
+
+
+
+
+
 const qhisto=[
+    {
+        question: 'Quem foi o líder militar cartaginês que desafiou Roma durante as Guerras Púnicas?',
+        answers: [
+            { text: 'Alexandre, o Grande', correct: false },
+            { text: 'Aníbal Barca', correct: true },
+            { text: 'Júlio César', correct: false },
+            { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        question: 'Qual filósofo grego é conhecido por suas contribuições à ética e foi mestre de Alexandre, o Grande?',
+        answers: [
+            { text: 'Sócrates', correct: false },
+            { text: 'Aristóteles', correct: true },
+            { text: 'Platão', correct: false },
+            { text: 'Heródoto', correct: false }
+        ]
+    },
+    {
+        question: 'Qual cidade foi destruída e posteriormente "reconstruída" por Alexandre, o Grande, que nomeou a nova cidade com seu próprio nome?',
+        answers: [
+            { text: 'Babilônia', correct: false },
+            { text: 'Atenas', correct: false },
+            { text: 'Roma', correct: false },
+            { text: 'Alexandria', correct: true }
+        ]
+    },
+    {
+        question: 'Quem foi o líder militar espartano que comandou as forças gregas na Batalha das Termópilas durante as Guerras Greco-Persas?',
+        answers: [
+            { text: 'Pericles', correct: false },
+            { text: 'Leônidas I', correct: true },
+            { text: 'Achilles', correct: false },
+            { text: 'Agamenon', correct: false }
+        ]
+    },
+    {
+        question: 'Qual foi o evento que marcou o início da Idade Média e a queda do Império Romano do Ocidente?',
+        answers: [
+            { text: 'Guerras Púnicas', correct: false },
+            { text: 'Revolução Francesa', correct: false },
+            { text: 'Queda de Constantinopla', correct: false },
+            { text: 'Saque de Roma pelos bárbaros', correct: true }
+        ]
+    },
+    {
+        question: 'Quem era o deus principal na mitologia romana?',
+        answers: [
+            { text: 'Zeus', correct: false },
+            { text: 'Hades', correct: false },
+            { text: 'Júpiter', correct: true },
+            { text: 'Apolo', correct: false }
+        ]
+    },
+    {
+        question: 'Quem foi o líder militar e político romano conhecido por suas reformas, incluindo a Lei Agrária?',
+        answers: [
+            { text: 'Cícero', correct: false },
+            { text: 'Graco', correct: true },
+            { text: 'César Augusto', correct: false },
+            { text: 'Bruto', correct: false }
+        ]
+    },
+    {
+        question: 'Qual filósofo grego é conhecido por seus diálogos, nos quais frequentemente utilizava a ironia socrática?',
+        answers: [
+            { text: 'Platão', correct: true },
+            { text: 'Aristóteles', correct: false },
+            { text: 'Sócrates', correct: false },
+            { text: 'Heródoto', correct: false }
+        ]
+    },
+    {
+        question: 'Qual era o nome do navio longo usado pelos vikings em suas viagens e incursões?',
+        answers: [
+            { text: 'Nau', correct: false },
+            { text: 'Galé', correct: false },
+            { text: 'Dracar', correct: true },
+            { text: 'Cog', correct: false }
+        ]
+    },
+    {
+        question: 'O que era um "thing" na sociedade viking?',
+        answers: [
+            { text: 'Festa comunitária', correct: false },
+            { text: 'Navio de guerra', correct: false },
+            { text: 'Assembleia pública', correct: true },
+            { text: 'Festival religioso', correct: false }
+        ]
+    },
+    {
+        question: 'O que os vikings usavam como moeda?',
+        answers: [
+            { text: 'Ouro e prata', correct: true },
+            { text: 'Conchas', correct: false },
+            { text: 'Pedras preciosas', correct: false },
+            { text: 'Barras de ferro', correct: false }
+        ]
+    },
+    {
+        question: 'Qual era o nome da famosa espada lendária dos vikings?',
+        answers: [
+            { text: 'Excalibur', correct: false },
+            { text: 'Gram', correct: false },
+            { text: 'Skofnung', correct: true },
+            { text: 'Durandal', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da antiga língua escrita dos vikings?',
+        answers: [
+            { text: 'Futhark', correct: true },
+            { text: 'Glagolítico', correct: false },
+            { text: 'Cuneiforme', correct: false },
+            { text: 'Ogham', correct: false }
+        ]
+    },
+    {
+        question: 'O que os vikings chamavam de "Valhalla"?',
+        answers: [
+            { text: 'Cidade principal', correct: false },
+            { text: 'Salão dos mortos', correct: false },
+            { text: 'Paraíso dos guerreiros', correct: true },
+            { text: 'Montanha sagrada', correct: false }
+        ]
+    },
     {
         question: 'Qual é o nome do imperador do Japão em 2023?',
         answers: [
@@ -7700,8 +9244,189 @@ const qhisto=[
             { text: 'Giuseppe Verdi', correct: false }
         ]
     },
+       
+]
 
-        
+
+
+//CARROS
+
+
+
+
+
+const qcarros= [
+    {
+        question: 'Qual é a montadora de automóveis mais antiga do mundo?',
+        answers: [
+            { text: 'Ford', correct: false },
+            { text: 'Toyota', correct: false },
+            { text: 'Mercedes-Benz', correct: true },
+            { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Em que país a Lamborghini foi fundada?',
+        answers: [
+            { text: 'Itália', correct: true },
+            { text: 'Alemanha', correct: false },
+            { text: 'França', correct: false },
+            { text: 'Estados Unidos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o carro mais vendido de todos os tempos?',
+        answers: [
+            { text: 'Volkswagen Golf', correct: false },
+            { text: 'Toyota Corolla', correct: true },
+            { text: 'Ford F-Series', correct: false },
+            { text: 'Honda Civic', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano foi lançado o primeiro carro produzido em série?',
+        answers: [
+            { text: '1900', correct: false },
+            { text: '1910', correct: false },
+            { text: '1920', correct: false },
+            { text: '1908', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o nome do carro esportivo da Ferrari mais icônico?',
+        answers: [
+            { text: 'Enzo', correct: false },
+            { text: 'California', correct: false },
+            { text: 'Testarossa', correct: false },
+            { text: 'Ferrari 458 Italia', correct: true }
+        ]
+    },
+    {
+        question: 'Quem é conhecido como o fundador da indústria automobilística?',
+        answers: [
+            { text: 'Henry Ford', correct: true },
+            { text: 'Elon Musk', correct: false },
+            { text: 'Karl Benz', correct: false },
+            { text: 'Enzo Ferrari', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de carro mais produzido pela Ford?',
+        answers: [
+            { text: 'Mustang', correct: false },
+            { text: 'Focus', correct: false },
+            { text: 'Fiesta', correct: true },
+            { text: 'Explorer', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o primeiro carro híbrido produzido em massa?',
+        answers: [
+            { text: 'Tesla Model S', correct: false },
+            { text: 'Toyota Prius', correct: true },
+            { text: 'Chevrolet Volt', correct: false },
+            { text: 'Nissan Leaf', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a marca de carro conhecida por seus veículos off-road?',
+        answers: [
+            { text: 'BMW', correct: false },
+            { text: 'Jeep', correct: true },
+            { text: 'Land Rover', correct: false },
+            { text: 'Audi', correct: false }
+        ]
+    },
+    {
+        question: 'Em que país a Hyundai foi fundada?',
+        answers: [
+            { text: 'Coreia do Sul', correct: true },
+            { text: 'Japão', correct: false },
+            { text: 'China', correct: false },
+            { text: 'Alemanha', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a montadora de carros mais antiga dos Estados Unidos?',
+        answers: [
+            { text: 'General Motors', correct: false },
+            { text: 'Ford', correct: false },
+            { text: 'Chrysler', correct: true },
+            { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o SUV mais vendido do mundo?',
+        answers: [
+            { text: 'Toyota RAV4', correct: true },
+            { text: 'Honda CR-V', correct: false },
+            { text: 'Ford Escape', correct: false },
+            { text: 'Chevrolet Equinox', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a marca de carros conhecida por seus veículos de luxo?',
+        answers: [
+            { text: 'Toyota', correct: false },
+            { text: 'Audi', correct: true },
+            { text: 'Honda', correct: false },
+            { text: 'Ford', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de carro mais antigo ainda em produção?',
+        answers: [
+            { text: 'Ford Mustang', correct: false },
+            { text: 'Chevrolet Corvette', correct: false },
+            { text: 'Volkswagen Beetle', correct: true },
+            { text: 'Porsche 911', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o primeiro carro elétrico produzido em massa?',
+        answers: [
+            { text: 'Nissan Leaf', correct: false },
+            { text: 'Chevrolet Bolt', correct: false },
+            { text: 'Tesla Model S', correct: true },
+            { text: 'BMW i3', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a marca de carros conhecida por seus veículos esportivos?',
+        answers: [
+            { text: 'Toyota', correct: false },
+            { text: 'Ferrari', correct: true },
+            { text: 'Honda', correct: false },
+            { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de carro mais vendido no Brasil?',
+        answers: [
+            { text: 'Chevrolet Onix', correct: true },
+            { text: 'Volkswagen Gol', correct: false },
+            { text: 'Fiat Strada', correct: false },
+            { text: 'Toyota Corolla', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de carro mais rápido do mundo em termos de velocidade máxima? (até 2023)',
+        answers: [
+            { text: 'Bugatti Veyron', correct: false },
+            { text: 'Koenigsegg Jesko Absolut', correct: true },
+            { text: 'Hennessey Venom F5', correct: false },
+            { text: 'McLaren Speedtail', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o SUV mais luxuoso do mercado?',
+        answers: [
+            { text: 'Audi Q7', correct: false },
+            { text: 'Range Rover Velar', correct: false },
+            { text: 'Mercedes-Benz GLS', correct: true },
+            { text: 'BMW X5', correct: false }
+        ]
+    }
 ]
 
 
@@ -7709,7 +9434,7 @@ const qhisto=[
 
 // TODOS OS TEMAS
 
-const todasq= [...qarte, ...qbio, ...qciencia, ...qcine, ...qesporte, ...qgeek, ...qgeo, ...qhisto]
+const todasq= [...qarte, ...qbio, ...qciencia, ...qentre, ...qesporte, ...qgeek, ...qgeo, ...qhisto, ...qcarros]
 
 
 //MODELO
