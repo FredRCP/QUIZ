@@ -338,7 +338,7 @@ function reviver(){
     tela.appendChild(reviver);
     setTimeout(() => {
         reviver.style.display='none';
-    }, 1700);
+    }, 1600);
 }
 
 
@@ -2117,7 +2117,7 @@ const qbio=[
         answers: [
             { text: "Borboleta", correct: false },
             { text: "Joaninha", correct: false },
-            { text: "Vaga-lume", correct: true },
+            { text: "Vagalume", correct: true },
             { text: "Formiga", correct: false }
         ]
     },
