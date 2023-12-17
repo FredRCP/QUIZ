@@ -293,13 +293,13 @@ button:disabled{
 }
 
 .coracaorevivendo{
-  width: 20rem;
+  width: 15rem;
   margin: 0 auto;
   position: fixed;
   top: 25rem;
   left:50rem;
   right: 50rem;
-  animation: vida 1.7s linear forwards;
+  animation: vida 1.6s linear forwards;
 }
 
 @keyframes vida {
@@ -307,10 +307,10 @@ button:disabled{
     transform: scale(1);
   }
   50%{
-    transform: scale(2);
+    transform: scale(1.5);
   }
   100%{
-    transform: scale(3);
+    transform: scale(2);
   }  
 }
 
