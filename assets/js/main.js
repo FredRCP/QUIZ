@@ -6080,6 +6080,15 @@ const qesporte=[
         ]
     },
     {
+        question: 'No volei, este jogador não pode atacar, bloquear ou sacar, possui apenas função defensiva:',
+        answers: [
+            { text: 'Pivô', correct: false },
+            { text: 'Ponteiro', correct: false },
+            { text: 'Líbero', correct: true },
+            { text: 'Levantador', correct: false }
+        ]
+    },
+    {
         question: 'Qual era o nome do antigo esporte praticado pelos gregos, que envolvia corrida, salto, arremesso e luta?',
         answers: [
             { text: 'Futebol', correct: false },
@@ -8183,8 +8192,8 @@ const qgeo=[
     {
         question: 'Quantas regiões a Itália possui?',
         answers: [
+            { text: '5', correct: false },
             { text: '15', correct: false },
-            { text: '20', correct: false },
             { text: '25', correct: false },
             { text: '20', correct: true }
         ]

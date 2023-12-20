@@ -70,10 +70,10 @@ a:hover{
 }
 
 .home{
-  width: 6rem;
+  width: 4rem;
   transition: all 500ms ease;
-  border-radius: 1.5rem;
-  border: solid 0.3rem rgba(255, 255, 0, 0);
+  border-radius: 50%;
+  border: solid 0.3rem rgba(230, 230, 230, 0);
   padding: 0.3rem;
   background-color: rgba(245, 245, 245, 0);
   cursor: pointer;
@@ -266,6 +266,7 @@ button{
 
 .respostas .botao{
   min-height: 7rem;
+  min-width: 10rem;
 }
 
 button:not(:disabled):hover{
@@ -293,12 +294,13 @@ button:disabled{
 }
 
 .coracaorevivendo{
-  width: 15rem;
+  width: 18rem;
   margin: 0 auto;
   position: fixed;
   top: 25rem;
   left:50rem;
   right: 50rem;
+  z-index: 3;
   animation: vida 1.6s linear forwards;
 }
 
