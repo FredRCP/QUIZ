@@ -75,9 +75,28 @@ a:hover{
   border-radius: 50%;
   border: solid 0.3rem rgba(230, 230, 230, 0);
   padding: 0.3rem;
-  background-color: rgba(245, 245, 245, 0);
+  background-color: rgba(102, 58, 58, 0);
   cursor: pointer;
+  animation-name: gira; 
+  animation-duration: 8.0s; 
+  animation-timing-function: linear; 
+  animation-direction: alternate; 
+  animation-iteration-count: infinite; 
+  animation-play-state: running; 
 }
+
+@keyframes gira {
+  0% { 
+    transform: scale(0.8); 
+} 
+
+100% { 
+    transform: scale(1.0); 
+   
+} 
+}
+
+
 
 .home:hover{
   background-color: rgba(245, 245, 245, 0);
