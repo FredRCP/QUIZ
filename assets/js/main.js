@@ -7571,7 +7571,7 @@ const qgeo=[
         {text: 'Montreal', correct: false},
     ]
     },
-    {   question: 'Qual é a maior (não mais alta) cadeia de montanhas do mundo?',
+    {   question: 'Qual é a mais extensa cadeia de montanhas do mundo?',
         answers: [
             {text: 'Andes', correct: true},
             {text: 'Himalaias', correct: false},
@@ -7897,7 +7897,7 @@ const qgeo=[
         answers: [
             { text: "Bahia", correct: false },
             { text: "Ceará", correct: false },
-            { text: "Rio Grande do Norte", correct: true },
+            { text: "Paraíba", correct: true },
             { text: "Maranhão", correct: false }
         ]
     },
@@ -7933,7 +7933,7 @@ const qgeo=[
         answers: [
             { text: "Ouro", correct: true },
             { text: "Diamantes", correct: false },
-            { text: "Petróleo", correct: false },
+            { text: "Pão de queijo", correct: false },
             { text: "Ferro", correct: false }
         ]
     },
