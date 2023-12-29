@@ -5789,8 +5789,8 @@ const qgeek=[
     {
         question: 'Qual a cor da Meta-anfetamina de Heisenberg em Breaking Bad?',
         answers: [
-            { text: 'Transparente', correct: true },
-            { text: 'Azul', correct: false },
+            { text: 'Transparente', correct: false },
+            { text: 'Azul', correct: true },
             { text: 'Branca', correct: false },
             { text: 'Amarela', correct: false }
         ]
@@ -8527,12 +8527,12 @@ const qhisto=[
             ]
     },
     {
-        question: 'Quando o Muro de Berlim foi removido?',
+        question: 'Quais estados brasileiros tiveram representantes na chamada Política do Café com Leite??',
         answers: [
-            { text: '1985', correct: false },
-            { text: '1987', correct: false },
-            { text: '1989', correct: true },
-            { text: '1991', correct: false }
+            { text: 'BA e PE', correct: false },
+            { text: 'MG e BA', correct: false },
+            { text: 'SP e MG', correct: true },
+            { text: 'SP e RJ', correct: false }
         ]
     },
     {   question: 'No Brasil, em qual dia é comemorada a Proclamação da República?',
