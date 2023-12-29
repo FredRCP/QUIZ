@@ -17,7 +17,7 @@ body{
 
 .resultado{
   display: flex;
-  background-image:url('/assets/img/telainicialnatal.png');
+  background-image:url('/assets/img/telainicial.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -70,9 +70,9 @@ a:hover{
 }
 
 .home{
-  width: 4rem;
+  width: 5rem;
   transition: all 500ms ease;
-  border-radius: 50%;
+  border-radius: 1rem;
   border: solid 0.3rem rgba(230, 230, 230, 0);
   padding: 0.3rem;
   background-color: rgba(102, 58, 58, 0);
