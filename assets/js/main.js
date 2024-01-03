@@ -79,6 +79,18 @@ const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, 
 //trilha.play();
 trilha.loop = true;
 
+//JOGADOR
+class Jogador {
+    constructor(nome, pontos, acertos, erros, porcento, tema){
+        this.nome= nome;
+        this.pontos=pontos;
+        this.acertos=acertos;
+        this.erros=erros;
+        this.porcento=porcento;
+        this.tema=tema;
+    }
+}
+
 //INICIAR O JOGO
 
 function start(p){
@@ -112,8 +124,7 @@ function start(p){
     caixagenerica.style.display='flex';
     document.querySelector('.pontos').innerHTML=nome +"<br>" +"Vidas: "+ "❤️❤️❤️❤️❤️"+ "<br>"+ 'Pontos: ' + pontos + "<br>"+ 'Perguntas corretas: ' +perguntasUsadas.length;
     iniciou=true;
-    proximapergunta(p);
-    
+    proximapergunta(p); 
 }
 
 function sorteio(x){
@@ -128,18 +139,17 @@ function proximapergunta(p){
     
 
     function criartudo(){
-
-    cerebrocerta.style.display='none';
-    cerebroerrada.style.display='none';
-    const pergunta= document.querySelector('.pergunta');
-    const respostas= document.querySelector('.respostas');
-    const botaoproxima= document.querySelector('#botaoproxima');
-    const botaoajuda= document.querySelector('#botaoajuda');
-    const botaopular= document.querySelector('#botaopular');
-    const recursos= document.querySelector('#recursos');
-    botaopular.classList.add('pular');
-    botaoajuda.classList.add('ajuda');
-    recursos.classList.add('recursos');
+        cerebrocerta.style.display='none';
+        cerebroerrada.style.display='none';
+        const pergunta= document.querySelector('.pergunta');
+        const respostas= document.querySelector('.respostas');
+        const botaoproxima= document.querySelector('#botaoproxima');
+        const botaoajuda= document.querySelector('#botaoajuda');
+        const botaopular= document.querySelector('#botaopular');
+        const recursos= document.querySelector('#recursos');
+        botaopular.classList.add('pular');
+        botaoajuda.classList.add('ajuda');
+        recursos.classList.add('recursos');
     
     //const botao=document.querySelector('.start');
     let n1;
@@ -148,15 +158,16 @@ function proximapergunta(p){
     if(vidas===0){
                 porcento=(acertos/perguntasUsadas.length)*100;
                 porcento=porcento.toFixed(1);
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'}
-                if(porcento>=70&&porcento<85){cumprimento='Muito bom!'}
-                if(porcento>=50&&porcento<70){cumprimento='Bom resultado!'}
-                if(porcento>30&&porcento<50){cumprimento='Você chega lá!'}
-                if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'}
-                document.querySelector('.pontos').innerHTML= `Você perdeu todas as vidas!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
+                // COLOCAR IMAGENS
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex';}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';}
+                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex';}
+                if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';}
+                if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebrovitoria.style.display='flex'}
+                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota1.style.display='flex';}
+                document.querySelector('.pontos').innerHTML= `FIM DE JOGO!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}%`+"<br>"+cumprimento;
-                alert('GAME OVER! Tente novamente.');  
+                alert('FIM DE JOGO! Tente outra vez!');  
                 botaoproxima.classList.remove('proxima');
                 botaopular.classList.remove('pular');
                 botaoajuda.classList.remove('ajuda');
@@ -165,22 +176,18 @@ function proximapergunta(p){
                 botao.style.display='flex';
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
-                cerebroderrota.style.display='flex';
-                setTimeout(() => {
-                    cerebroderrota.style.display='none';
-                }, 5000);
                 caixagenerica.style.display='none';
                 derrota.play();
                 return;
     }    
     if (perguntasUsadas.length === totalPerguntas) { 
                 porcento=(acertos/perguntasUsadas.length)*100;
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex';}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';}
-                if(porcento>=70&&porcento<85){cumprimento='Muito bom!'; cerebrovitoria.style.display='flex';}
-                if(porcento>50&&porcento<70){cumprimento='Bom resultado!'; cerebrovitoria.style.display='flex';}
-                if(porcento>30&&porcento<=50){cumprimento='Você chega lá!'; cerebrovitoria.style.display='flex';}
-                if(porcento<=30){cumprimento='Não desista, busque o conhecimento!'; cerebroderrota1.style.display='flex';}
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex'}
+                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex'}
+                if(porcento>50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex'}
+                if(porcento>30&&porcento<=50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebrovitoria.style.display='flex'}
+                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota1.style.display='flex'}
                 porcento=porcento.toFixed(1);
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}%`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
@@ -8208,7 +8215,7 @@ const qgeo=[
         ]
     },
     {
-        question: 'Qual é a famosa torre inclinada localizada em Pisa?',
+        question: 'Qual é a famosa torre inclinada localizada na Itália?',
         answers: [
             { text: 'Torre Eiffel', correct: false },
             { text: 'Torre de Londres', correct: false },
@@ -8236,6 +8243,15 @@ const qhisto=[
             { text: 'Aníbal Barca', correct: true },
             { text: 'Júlio César', correct: false },
             { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        question: 'Qual o nome da agência espacial russa?',
+        answers: [
+            { text: 'Roscosmos', correct: true },
+            { text: 'Sputnik', correct: false },
+            { text: 'KGB', correct: false },
+            { text: 'NASA', correct: false }
         ]
     },
     {
