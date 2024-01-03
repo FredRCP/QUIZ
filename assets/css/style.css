@@ -320,15 +320,12 @@ button:disabled{
   left:50rem;
   right: 50rem;
   z-index: 3;
-  animation: vida 1.6s linear forwards;
+  animation: vida 2.4s linear forwards;
 }
 
 @keyframes vida {
   0%{
-    transform: scale(1);
-  }
-  50%{
-    transform: scale(1.5);
+    transform: scale(0.25);
   }
   100%{
     transform: scale(2);

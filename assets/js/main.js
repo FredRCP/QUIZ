@@ -332,13 +332,13 @@ function reviver(){
     recuperavida.play();
     const tela= document.querySelector('body');
     const reviver= document.createElement('img');
-    reviver.src = '/assets/img/coracaorevivendo.gif';
+    reviver.src = '/assets/img/coracaorevivendo.png';
     reviver.style.display='block';
     reviver.classList.add('coracaorevivendo');
     tela.appendChild(reviver);
     setTimeout(() => {
         reviver.style.display='none';
-    }, 1600);
+    }, 2400);
 }
 
 
