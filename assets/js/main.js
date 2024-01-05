@@ -94,6 +94,7 @@ class Jogador {
 //INICIAR O JOGO
 
 function start(p){
+    document.querySelector('.span').classList.remove('spanfinal');
     nome= prompt('Qual seu nome?') || "Pessoa sem nome 😧";
     nome= nome.toUpperCase();
     vidas=5;
@@ -134,10 +135,10 @@ function sorteio(x){
 let perguntasUsadas = [];
 
 function proximapergunta(p){
+    
     if(!iniciou) {show.play(); setTimeout(criartudo, 1000);} else{ criartudo()}
     iniciou=false;
     
-
     function criartudo(){
         cerebrocerta.style.display='none';
         cerebroerrada.style.display='none';
@@ -150,7 +151,7 @@ function proximapergunta(p){
         botaopular.classList.add('pular');
         botaoajuda.classList.add('ajuda');
         recursos.classList.add('recursos');
-    
+        
     //const botao=document.querySelector('.start');
     let n1;
     let totalPerguntas=p.length;
@@ -177,6 +178,7 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 caixagenerica.style.display='none';
+                document.querySelector('.span').classList.add('spanfinal');
                 derrota.play();
                 return;
     }    
@@ -200,6 +202,7 @@ function proximapergunta(p){
                 botao.textContent='REINICIAR';
                 const caixagenerica=document.querySelector('#generico');
                 caixagenerica.style.display='none';
+                document.querySelector('.span').classList.add('spanfinal');
                 fimvitoria.play();
                 return;
     }
@@ -227,7 +230,9 @@ function proximapergunta(p){
         respostas.appendChild(botao);
         botao.addEventListener('click', selecao);
         
-    });  }    
+    });
+    
+  }    
 }
 
 let ajudacerta;
@@ -9426,7 +9431,7 @@ const qcarros= [
         ]
     },
     {
-        question: 'Qual é o modelo de carro mais vendido no Brasil?',
+        question: 'Qual é o modelo de carro mais vendido no Brasil? (até 2023)',
         answers: [
             { text: 'Chevrolet Onix', correct: true },
             { text: 'Volkswagen Gol', correct: false },
@@ -9444,7 +9449,7 @@ const qcarros= [
         ]
     },
     {
-        question: 'Qual é o SUV mais luxuoso do mercado?',
+        question: 'Qual é o SUV mais luxuoso do mercado? (até 2023)',
         answers: [
             { text: 'Audi Q7', correct: false },
             { text: 'Range Rover Velar', correct: false },
