@@ -733,11 +733,19 @@ button:disabled{
   .span{
     display: none;
     position: fixed;
-    bottom: 8rem;
+    bottom: 5rem;
     align-items: center;
     justify-content: center;
-    width: 20rem;
-    height: 10rem;
+    width: 22rem;
+    height: 12rem;
+    min-width: 25rem;
+    min-height: 10rem;
+    border-radius: 3rem;
+  }
+
+  .spanfinal{
+    width: 32rem;
+    height: 14rem;
   }
 
   .logo{
@@ -795,12 +803,6 @@ button:disabled{
   .pontos{
     font-size: 1.6rem;
     font-weight: 600;
-  }
-  
-  .span{
-    min-width: 25rem;
-    min-height: 10rem;
-    border-radius: 3rem;
   }
 
   .notification{
