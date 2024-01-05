@@ -372,6 +372,13 @@ button:disabled{
   border: solid 0.2rem whitesmoke;
 }
 
+.spanfinal{
+  min-width: 48rem;
+  min-height: 18rem;
+  border-radius: 3rem;
+  border: solid 0.2rem whitesmoke;
+}
+
 .proxima{
   position: fixed;
   display: flex;
@@ -944,6 +951,12 @@ button:disabled{
     justify-content: center;
     width: 20rem;
     height: 10rem;
+  }
+
+  .spanfinal{
+    width: 32rem;
+    height: 14rem;
+    z-index: 2;
   }
 
   #atomo{
