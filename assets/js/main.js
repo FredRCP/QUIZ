@@ -167,7 +167,7 @@ function proximapergunta(p){
                 if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebrovitoria.style.display='flex'}
                 if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota1.style.display='flex';}
                 document.querySelector('.pontos').innerHTML= `FIM DE JOGO!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
-                `Acertos: ${porcento}%`+"<br>"+cumprimento;
+                `Acertos: ${porcento}% 🎯`+"<br>"+cumprimento;
                 alert('FIM DE JOGO! Tente outra vez!');  
                 botaoproxima.classList.remove('proxima');
                 botaopular.classList.remove('pular');
@@ -191,7 +191,7 @@ function proximapergunta(p){
                 if(porcento>30&&porcento<=50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebrovitoria.style.display='flex'}
                 if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota1.style.display='flex'}
                 porcento=porcento.toFixed(1);
-                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}%`
+                document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}% 🎯`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
                 botaopular.classList.remove('pular');
