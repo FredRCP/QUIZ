@@ -135,6 +135,7 @@ function sorteio(x){
 let perguntasUsadas = [];
 
 function proximapergunta(p){
+    tempo();
     
     if(!iniciou) {show.play(); setTimeout(criartudo, 1000);} else{ criartudo()}
     iniciou=false;
@@ -160,12 +161,12 @@ function proximapergunta(p){
                 porcento=(acertos/perguntasUsadas.length)*100;
                 porcento=porcento.toFixed(1);
                 // COLOCAR IMAGENS
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex';}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';}
-                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex';}
-                if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';}
-                if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebrovitoria.style.display='flex'}
-                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota1.style.display='flex';}
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
+                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
+                if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
+                if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebroderrota1.style.display='flex';setTimeout(()=>{cerebroderrota1.style.display='none'}, 6000)}
+                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex';setTimeout(()=>{cerebroderrota.style.display='none'}, 6000)}
                 document.querySelector('.pontos').innerHTML= `FIM DE JOGO!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}% 🎯`+"<br>"+cumprimento;
                 alert('FIM DE JOGO! Tente outra vez!');  
@@ -184,13 +185,13 @@ function proximapergunta(p){
     }    
     if (perguntasUsadas.length === totalPerguntas) { 
                 porcento=(acertos/perguntasUsadas.length)*100;
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex'}
-                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex'}
-                if(porcento>50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex'}
-                if(porcento>30&&porcento<=50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebrovitoria.style.display='flex'}
-                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota1.style.display='flex'}
                 porcento=porcento.toFixed(1);
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
+                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
+                if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
+                if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebroderrota1.style.display='flex';setTimeout(()=>{cerebroderrota1.style.display='none'}, 6000)}
+                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex';setTimeout(()=>{cerebroderrota.style.display='none'}, 6000)}
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}% 🎯`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
@@ -338,20 +339,40 @@ function ajudar(){
     vouteajudar.play();   
 }
 
-// OPÇÕES
+
+// TIME
+
+function tempo(){
+    setTimeout(() => {
+        const toque = document.querySelector('.toque');
+        toque.style.display='block';
+        console.log('eiiii');
+    }, 5000);
+}
+
+document.addEventListener('mousemove', stopAnimation);
+
+function stopAnimation(){
+    const toque = document.querySelector('.toque');
+    toque.style.display='none';
+}
+
+// REVIVER
 
 function reviver(){
     recuperavida.play();
     const tela= document.querySelector('body');
     const reviver= document.createElement('img');
-    reviver.src = '/assets/img/coracaorevivendo.png';
+    reviver.src = '/assets/img/tesouro.gif';
     reviver.style.display='block';
     reviver.classList.add('coracaorevivendo');
     tela.appendChild(reviver);
     setTimeout(() => {
         reviver.style.display='none';
-    }, 2400);
+    }, 4000);
 }
+
+// OPÇÕES
 
 
 let ativado=false;
@@ -500,7 +521,7 @@ const qarte=[
     {
         question: 'Quem é um famoso pintor surrealista espanhol?',
         answers: [
-            { text: 'Pablo Picasso', correct: true },
+            { text: 'Pablo Picasso', correct: false },
             { text: 'Diego Velázquez', correct: false },
             { text: 'Francisco Goya', correct: false },
             { text: 'Salvador Dalí', correct: true }
