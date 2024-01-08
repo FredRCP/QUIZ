@@ -312,20 +312,32 @@ button:disabled{
   display:none;
 }
 
+.toque{
+  display: none;
+  z-index: 10;
+  position: fixed;
+  width: 60rem;
+  height: 60rem;
+  top: 25rem;
+  left:50rem;
+  right: 50rem;
+  margin: 0 auto;
+}
+
 .coracaorevivendo{
-  width: 18rem;
+  width: 20rem;
   margin: 0 auto;
   position: fixed;
   top: 25rem;
   left:50rem;
   right: 50rem;
   z-index: 3;
-  animation: vida 2.4s linear forwards;
+  animation: vida 4s linear forwards;
 }
 
 @keyframes vida {
   0%{
-    transform: scale(0.25);
+    transform: scale(1);
   }
   100%{
     transform: scale(2);
