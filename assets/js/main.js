@@ -347,7 +347,7 @@ function tempo(){
         const toque = document.querySelector('.toque');
         toque.style.display='block';
         console.log('eiiii');
-    }, 5000);
+    }, 120000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
