@@ -96,8 +96,6 @@ a:hover{
 } 
 }
 
-
-
 .home:hover{
   background-color: rgba(245, 245, 245, 0);
   border: solid 0.3rem whitesmoke;
@@ -316,12 +314,11 @@ button:disabled{
   display: none;
   z-index: 10;
   position: fixed;
-  width: 60rem;
-  height: 60rem;
-  top: 25rem;
-  left:50rem;
-  right: 50rem;
-  margin: 0 auto;
+  width: 50rem;
+  height: 50rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .coracaorevivendo{
@@ -709,8 +706,6 @@ button:disabled{
 
 
 
-
-
 @media(max-width: 1366px){
   
   .categorias{
@@ -819,6 +814,11 @@ button:disabled{
 
   .notification{
     bottom: 5rem;
+  }
+
+  .toque{
+    width: 35rem;
+    height: 35rem;
   }
 
   #atomo{
@@ -971,6 +971,11 @@ button:disabled{
     width: 32rem;
     height: 14rem;
     z-index: 2;
+  }
+
+  .toque{
+    width: 25rem;
+    height: 25rem;
   }
 
   #atomo{
