@@ -68,13 +68,18 @@ const pularavez = new Audio('/assets/sounds/pularavez.m4a');
 const vouteajudar = new Audio('/assets/sounds/vouteajudar.mp3');
 const show = new Audio('/assets/sounds/show.mp3');
 const trilha = new Audio('/assets/sounds/trilhaquiz.mp3');
-const recuperavida = new Audio('/assets/sounds/recuperavida.mp3')
+const recuperavida = new Audio('/assets/sounds/recuperavida.mp3');
+const vamosaplaudir = new Audio('/assets/sounds/vamosaplaudir.mp3');
+const umavergonha = new Audio('/assets/sounds/umavergonha.mp3');
+const xaropinho = new Audio('/assets/sounds/xaropinho.mp3');
+
+
 ativar.volume = 0.4;
 trilha.volume = 0.3;
 vouteajudar.volume=1;
 show.volume=1;
 
-const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, palmas, ativar, pularavez, vouteajudar, show, recuperavida]; 
+const todosossons = [acerto, acertou, errou, erro, inicio, fimvitoria, derrota, palmas, ativar, pularavez, vouteajudar, show, recuperavida, vamosaplaudir, umavergonha, xaropinho]; 
 
 //trilha.play();
 trilha.loop = true;
@@ -135,6 +140,7 @@ function sorteio(x){
 let perguntasUsadas = [];
 
 function proximapergunta(p){
+    stopAnimation();
     tempo();
     
     if(!iniciou) {show.play(); setTimeout(criartudo, 1000);} else{ criartudo()}
@@ -161,12 +167,14 @@ function proximapergunta(p){
                 porcento=(acertos/perguntasUsadas.length)*100;
                 porcento=porcento.toFixed(1);
                 // COLOCAR IMAGENS
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
-                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'; vamosaplaudir.play();}, 5000)}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'; vamosaplaudir.play();}, 5000)}
+                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex'; setTimeout(()=>{cerebrovitoria.style.display='none'; vamosaplaudir.play();}, 5000)}
                 if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
                 if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebroderrota1.style.display='flex';setTimeout(()=>{cerebroderrota1.style.display='none'}, 6000)}
-                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex';setTimeout(()=>{cerebroderrota.style.display='none'}, 6000)}
+                if(porcento<=30&&porcento>15){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; xaropinho.play();}, 5000)}
+                if(porcento<=15){cumprimento='Você não foi bem, mas não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; umavergonha.play();}, 5000)}
+
                 document.querySelector('.pontos').innerHTML= `FIM DE JOGO!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}% 🎯`+"<br>"+cumprimento;
                 alert('FIM DE JOGO! Tente outra vez!');  
@@ -186,12 +194,13 @@ function proximapergunta(p){
     if (perguntasUsadas.length === totalPerguntas) { 
                 porcento=(acertos/perguntasUsadas.length)*100;
                 porcento=porcento.toFixed(1);
-                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
-                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex';setTimeout(()=>{cerebrovitoria1.style.display='none'}, 6000)}
-                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
+                if(porcento===100){cumprimento='Parabéns! Você é uma enciclopédia ambulante!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'; vamosaplaudir.play();}, 5000)}
+                if(porcento>=85&&porcento<100){cumprimento='Parabéns! Você tem muito conhecimento!'; cerebrovitoria1.style.display='flex'; setTimeout(()=>{cerebrovitoria1.style.display='none'; vamosaplaudir.play();}, 5000)}
+                if(porcento>=70&&porcento<85){cumprimento='Você foi muito bem! Continue assim!'; cerebrovitoria.style.display='flex'; setTimeout(()=>{cerebrovitoria.style.display='none'; vamosaplaudir.play();}, 5000)}
                 if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
                 if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebroderrota1.style.display='flex';setTimeout(()=>{cerebroderrota1.style.display='none'}, 6000)}
-                if(porcento<=30){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex';setTimeout(()=>{cerebroderrota.style.display='none'}, 6000)}
+                if(porcento<=30&&porcento>15){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; xaropinho.play();}, 5000)}
+                if(porcento<=15){cumprimento='Você não foi bem, mas não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; umavergonha.play();}, 5000)}
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}% 🎯`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
@@ -339,21 +348,23 @@ function ajudar(){
     vouteajudar.play();   
 }
 
-
 // TIME
 
-function tempo(){
+const toque = document.querySelector('.toque');
+function tempo(callback) {
     setTimeout(() => {
         const toque = document.querySelector('.toque');
-        toque.style.display='block';
+        toque.style.display = 'block';
         console.log('eiiii');
+        if (callback) {
+            callback();
+        }
     }, 120000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
 
 function stopAnimation(){
-    const toque = document.querySelector('.toque');
     toque.style.display='none';
 }
 
