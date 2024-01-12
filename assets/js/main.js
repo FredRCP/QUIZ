@@ -140,6 +140,7 @@ function sorteio(x){
 let perguntasUsadas = [];
 
 function proximapergunta(p){
+    if(tempo) {clearTimeout(tempo); console.log('tempou')}
     stopAnimation();
     tempo();
     
@@ -359,7 +360,7 @@ function tempo(callback) {
         if (callback) {
             callback();
         }
-    }, 120000);
+    }, 10000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
@@ -6100,6 +6101,52 @@ const qgeek=[
             { text: 'A Coroa de Morgoth', correct: false }
         ]
     },
+    {
+        question: 'Quantas cartas compõem um baralho tradicional de pôquer?',
+        answers: [
+            { text: '40 cartas', correct: false },
+            { text: '52 cartas', correct: true },
+            { text: '48 cartas', correct: false },
+            { text: '56 cartas', correct: false }
+        ]
+    },
+    {
+        question: 'Qual naipe é representado por um trevo em um baralho padrão?',
+        answers: [
+            { text: 'Paus', correct: true },
+            { text: 'Copas', correct: false },
+            { text: 'Espadas', correct: false },
+            { text: 'Ouros', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas cartas são distribuídas a cada jogador no início de uma partida de pôquer Texas Hold\'em?',
+        answers: [
+            { text: '2 cartas', correct: true },
+            { text: '3 cartas', correct: false },
+            { text: '4 cartas', correct: false },
+            { text: '5 cartas', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual jogo de cartas o objetivo é alcançar 21 pontos sem ultrapassar este valor?',
+        answers: [
+            { text: 'Pife', correct: false },
+            { text: 'Buraco', correct: false },
+            { text: 'Truco', correct: false },
+            { text: 'Blackjack', correct: true }
+        ]
+    },
+    {
+        question: 'Qual desses jogos de cartas é conhecido por ter um curinga?',
+        answers: [
+            { text: 'Truco', correct: false },
+            { text: 'Buraco', correct: true },
+            { text: 'Poker', correct: false },
+            { text: 'Cacheta', correct: false }
+        ]
+    }
+    
   
 ]
 
@@ -9488,7 +9535,61 @@ const qcarros= [
             { text: 'Mercedes-Benz GLS', correct: true },
             { text: 'BMW X5', correct: false }
         ]
-    }
+    },
+    {
+        question: 'Qual é a velocidade máxima permitida em áreas urbanas?',
+        answers: [
+            { text: '40 km/h', correct: false },
+            { text: '50 km/h', correct: true },
+            { text: '60 km/h', correct: false },
+            { text: '70 km/h', correct: false }
+        ]
+    },
+    {
+        question: 'O que a sinalização de pare indica?',
+        answers: [
+            { text: 'Diminuir a velocidade', correct: false },
+            { text: 'Parar o veículo', correct: true },
+            { text: 'Acelerar o veículo', correct: false },
+            { text: 'Curva acentuada à direita', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa uma faixa contínua no meio da pista?',
+        answers: [
+            { text: 'Pode ultrapassar', correct: false },
+            { text: 'Proibido ultrapassar', correct: true },
+            { text: 'Apenas ultrapassagem permitida', correct: false },
+            { text: 'Caminhão na pista', correct: false }
+        ]
+    },
+    {
+        question: 'O que é uma rotatória?',
+        answers: [
+            { text: 'Cruzamento sem sinalização', correct: false },
+            { text: 'Trevo de acesso a uma cidade', correct: false },
+            { text: 'Interseção em forma circular', correct: true },
+            { text: 'Ponto de parada obrigatória', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa uma placa de "Pare e Siga" em semáforos?',
+        answers: [
+            { text: 'Apenas pare', correct: false },
+            { text: 'Pare e aguarde autorização para seguir', correct: true },
+            { text: 'Siga sem parar', correct: false },
+            { text: 'Apenas siga', correct: false }
+        ]
+    },
+    {
+        question: 'O que é uma faixa de pedestres?',
+        answers: [
+            { text: 'Local de estacionamento de pedestres', correct: false },
+            { text: 'Área exclusiva para bicicletas', correct: false },
+            { text: 'Área demarcada para a travessia de pedestres', correct: true },
+            { text: 'Faixa para corrida de pedestres', correct: false }
+        ]
+    },
 ]
 
 
