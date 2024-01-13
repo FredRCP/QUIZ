@@ -365,7 +365,7 @@ function tempo(callback) {
         if (callback) {
             callback();
         }
-    }, 2000);
+    },120000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
