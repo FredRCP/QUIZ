@@ -360,7 +360,7 @@ function tempo(callback) {
         if (callback) {
             callback();
         }
-    }, 600000);
+    }, 10000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
@@ -5067,7 +5067,7 @@ const qgeek=[
         ]
     },
     {
-        question: 'Qual é o nome do jogo de tiro em primeira pessoa onde você deve defender a Terra de uma invasão alienígena?',
+        question: 'Qual é o nome do jogo de tiro onde você deve defender a Terra de ondas de naves de uma invasão alienígena?',
         answers: [
             { text: 'Defender', correct: false },
             { text: 'Missile Command', correct: false },
@@ -5733,7 +5733,7 @@ const qgeek=[
         ]
     },
     {
-        question: 'Qual é o nome do Mestre Jedi que descobre a Clones do Exército da República em "O Ataque dos Clones"?',
+        question: 'Em "Ataque dos Clones" é conhecido como um ex-Mestre Jedi que abandonou a Ordem Jedi após perder a fé na República que os Jedi serviam',
         answers: [
             { text: 'Yoda', correct: true },
             { text: 'Obi-Wan Kenobi', correct: false },
@@ -6144,6 +6144,33 @@ const qgeek=[
             { text: 'Buraco', correct: true },
             { text: 'Poker', correct: false },
             { text: 'Cacheta', correct: false }
+        ]
+    },
+    {
+        question: 'No jogo de cartas conhecido como "Mau-Mau", qual carta inverte a ordem de jogo?',
+        answers: [
+            { text: 'Ás', correct: false },
+            { text: 'Rei', correct: false },
+            { text: 'Dama', correct: true },
+            { text: 'Valete', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do jogo de cartas em que o objetivo é formar sequências de cartas do mesmo naipe?',
+        answers: [
+            { text: 'Buraco', correct: false },
+            { text: 'Poker', correct: false },
+            { text: 'Cacheta', correct: false },
+            { text: 'Canastra', correct: true }
+        ]
+    },
+    {
+        question: 'Em que jogo de cartas você pode fazer um "truco"?',
+        answers: [
+            { text: 'Buraco', correct: false },
+            { text: 'Truco', correct: true },
+            { text: 'Cacheta', correct: false },
+            { text: 'Poker', correct: false }
         ]
     }
     
