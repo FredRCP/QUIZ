@@ -72,6 +72,9 @@ const recuperavida = new Audio('/assets/sounds/recuperavida.mp3');
 const vamosaplaudir = new Audio('/assets/sounds/vamosaplaudir.mp3');
 const umavergonha = new Audio('/assets/sounds/umavergonha.mp3');
 const xaropinho = new Audio('/assets/sounds/xaropinho.mp3');
+const hey = new Audio('/assets/sounds/hey.mp3');
+hey.loop = true;
+
 
 
 ativar.volume = 0.4;
@@ -357,18 +360,23 @@ function tempo(callback) {
         const toque = document.querySelector('.toque');
         toque.style.display = 'block';
         //musica
+        hey.play();
+        
         if (callback) {
             callback();
         }
-    }, 120000);
+    }, 2000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
 document.addEventListener('keypress', stopAnimation);
+document.addEventListener('touchmove', stopAnimation);
+document.addEventListener('touchend', stopAnimation);
 
 function stopAnimation(){
     clearTimeout(inatividade)
     toque.style.display='none';
+    hey.pause();
 }
 
 // REVIVER
