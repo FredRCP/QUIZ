@@ -138,9 +138,9 @@ function sorteio(x){
 }
 
 let perguntasUsadas = [];
-
+let inatividade;
 function proximapergunta(p){
-    if(tempo) {clearTimeout(tempo); console.log('tempou')}
+    if(tempo) {clearTimeout(inatividade)}
     stopAnimation();
     tempo();
     
@@ -353,19 +353,21 @@ function ajudar(){
 
 const toque = document.querySelector('.toque');
 function tempo(callback) {
-    setTimeout(() => {
+        inatividade = setTimeout(() => {
         const toque = document.querySelector('.toque');
         toque.style.display = 'block';
-        console.log('eiiii');
+        //musica
         if (callback) {
             callback();
         }
-    }, 10000);
+    }, 120000);
 }
 
 document.addEventListener('mousemove', stopAnimation);
+document.addEventListener('keypress', stopAnimation);
 
 function stopAnimation(){
+    clearTimeout(inatividade)
     toque.style.display='none';
 }
 
