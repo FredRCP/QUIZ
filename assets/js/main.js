@@ -9412,6 +9412,15 @@ const qcarros= [
         ]
     },
     {
+        question: 'Em 1896 Walter Amold foi a primeira pessoa a ser multada por excesso de velocidade. Qual era sua velocidade?',
+        answers: [
+            { text: '110km/h', correct: false },
+            { text: '60km/h', correct: false },
+            { text: '13km/h', correct: true },
+            { text: '5km/h', correct: false }
+        ]
+    },
+    {
         question: 'Em que país a Lamborghini foi fundada?',
         answers: [
             { text: 'Itália', correct: true },
