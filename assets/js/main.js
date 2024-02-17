@@ -177,7 +177,7 @@ function proximapergunta(p){
                 if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
                 if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebroderrota1.style.display='flex';setTimeout(()=>{cerebroderrota1.style.display='none'}, 6000)}
                 if(porcento<=30&&porcento>15){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; xaropinho.play();}, 5000)}
-                if(porcento<=15){cumprimento='Você não foi bem, mas não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; umavergonha.play();}, 5000)}
+                if(porcento<=15){cumprimento='Você não foi nada bem, mas não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; umavergonha.play();}, 5000)}
 
                 document.querySelector('.pontos').innerHTML= `FIM DE JOGO!` + "<br>"+ "Pontos: " + pontos + "<br>"+ `Questões corretas: ${acertos}/${perguntasUsadas.length}`+"<br>"+
                 `Acertos: ${porcento}% 🎯`+"<br>"+cumprimento;
@@ -204,7 +204,7 @@ function proximapergunta(p){
                 if(porcento>=50&&porcento<70){cumprimento='Você obteve um bom resultado!'; cerebrovitoria.style.display='flex';setTimeout(()=>{cerebrovitoria.style.display='none'}, 6000)}
                 if(porcento>30&&porcento<50){cumprimento='Resultado razoável! Não desanime, você ainda chega lá!'; cerebroderrota1.style.display='flex';setTimeout(()=>{cerebroderrota1.style.display='none'}, 6000)}
                 if(porcento<=30&&porcento>15){cumprimento='Não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; xaropinho.play();}, 5000)}
-                if(porcento<=15){cumprimento='Você não foi bem, mas não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; umavergonha.play();}, 5000)}
+                if(porcento<=15){cumprimento='Você não foi nada bem, mas não desista, busque o conhecimento! Você é capaz!'; cerebroderrota.style.display='flex'; setTimeout(()=>{cerebroderrota.style.display='none'; umavergonha.play();}, 5000)}
                 document.querySelector('.pontos').innerHTML= `Você acertou ${acertos} de ${perguntasUsadas.length} questões`+ "<br>"+ "Pontos: " + pontos +"<br>"+`Acertos: ${porcento}% 🎯`
                 +"<br>"+cumprimento + "<br>"+"FIM DO QUIZ!";
                 botaoproxima.classList.remove('proxima');
@@ -2754,6 +2754,16 @@ const qciencia=[
             { text: 'Uma partícula subatômica', correct: false },
             { text: 'Um tipo de galáxia', correct: false },
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
+        ]
+    },
+    
+    {
+        question: 'A geração de energia nas usinas nucleares acontece por meio da fissão nuclear controlada. Qual o combústível geralmente utilizado?',
+        answers: [
+            { text: 'Polônio', correct: false },
+            { text: 'Césio', correct: false },
+            { text: 'Radônio', correct: false },
+            { text: 'Urânio', correct: true }
         ]
     },
     {
@@ -9409,6 +9419,15 @@ const qcarros= [
             { text: 'Toyota', correct: false },
             { text: 'Mercedes-Benz', correct: true },
             { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Qual o verdadeiro nome do "olho de gato/tartaruga", tipo de sinalização presente em ruas e rodovias?',
+        answers: [
+            { text: 'Catadióptrico', correct: true },
+            { text: 'Prisma', correct: false },
+            { text: 'Refletor rodoviário', correct: false },
+            { text: 'Sinalizador viário', correct: false }
         ]
     },
     {
