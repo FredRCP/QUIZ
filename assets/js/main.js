@@ -8354,6 +8354,14 @@ const qgeo=[
             { text: 'Torre de Berlim', correct: false }
         ]
     },
+    {   question: 'Este pais tem uma das culinárias mais características do mundo. Seu povo, latino, tem preferência por alimentos apimentados e muito bem temperados?',
+        answers: [
+            {text: 'Peru', correct: false},
+            {text: 'Brasil', correct: false},
+            {text: 'México', correct: true},
+            {text: 'Bolívia', correct: false},
+        ]
+    },
 
 
 
@@ -8548,12 +8556,12 @@ const qhisto=[
         ]
     },
     {
-        question: 'A civilização asteca se originou de qual país?',
+        question: 'Qual foi o presidente do Brasil que menos tempo ficou no cargo(O mandato dele durou apenas três dias)?',
         answers: [
-            { text: 'Peru', correct: false },
-            { text: 'Colômbia', correct: false },
-            { text: 'México', correct: true },
-            { text: 'Equador', correct: false }
+            { text: 'Jânio Quadros', correct: false },
+            { text: 'João Goulart', correct: false },
+            { text: 'Carlos Luz', correct: true },
+            { text: 'Rodrigues Alves', correct: false }
         ]
     },
     {
@@ -9054,14 +9062,15 @@ const qhisto=[
             {text: 'John Adams', correct: false},
         ]
     },
-    {   question: 'A civilização asteca se originou de qual país?',
+    {   question: 'O meteoro que matou os dinossauros atingiu qual país',
         answers: [
-            {text: 'Peru', correct: false},
-            {text: 'Brasil', correct: false},
+            {text: 'Rússia', correct: false},
+            {text: 'China', correct: false},
             {text: 'México', correct: true},
-            {text: 'Bolívia', correct: false},
+            {text: 'Canadá', correct: false},
         ]
     },
+    
     {   question: 'Onde está localizada a Babilônia',
         answers: [
             {text: 'Grécia', correct: false},
