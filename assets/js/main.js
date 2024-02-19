@@ -355,16 +355,12 @@ function ajudar(){
 // TIME
 
 const toque = document.querySelector('.toque');
-function tempo(callback) {
+function tempo() {
         inatividade = setTimeout(() => {
         const toque = document.querySelector('.toque');
         toque.style.display = 'block';
         //musica
-        hey.play();
-        
-        if (callback) {
-            callback();
-        }
+        hey.play(); 
     },90000);
 }
 
@@ -5403,7 +5399,7 @@ const qgeek=[
             {text: 'Donkey Kong', correct: false},
         ]
     },
-    {   question: 'Em 1981 o carpinteiro Mario aparece pela 1º vez em um jogo eletrônico? Qual o nome deste jogo?',
+    {   question: 'Em 1981 o encanador Mario aparece pela 1º vez em um jogo eletrônico? Qual o nome deste jogo?',
         answers: [ 
             {text: 'Mario Kart', correct: false},
             {text: 'Super Mario 1', correct: false},
