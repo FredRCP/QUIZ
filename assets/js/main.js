@@ -7580,7 +7580,7 @@ const qgeo=[
     },
     {   question: 'Qual a montanha mais alta do Brasil?',
         answers: [
-            {text: 'Pica do Bandeira', correct: false},
+            {text: 'Pico do Bandeira', correct: false},
             {text: 'Pico do Paraná', correct: false},
             {text: 'Pico Maior de Friburgo', correct: false},
             {text: 'Pico da Neblina', correct: true},
