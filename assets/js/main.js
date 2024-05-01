@@ -483,6 +483,24 @@ const qarte=[
         ]
     },
     {
+        question: 'Em que país se originou o sushi?',
+        answers: [
+            { text: 'China', correct: false },
+            { text: 'Japão', correct: true },
+            { text: 'Coreia', correct: false },
+            { text: 'Tailândia', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a 4ª letra do alfabeto grego?',
+        answers: [
+            { text: 'Gamma', correct: false },
+            { text: 'Beta', correct: false },
+            { text: 'Delta', correct: true },
+            { text: 'Epsilon', correct: false }
+        ]
+    },
+    {
         question: 'Qual é a moeda oficial da Espanha?',
         answers: [
             { text: 'Euro', correct: true },
@@ -525,6 +543,24 @@ const qarte=[
             { text: 'La Tomatina', correct: false },
             { text: 'Semana Santa', correct: false },
             { text: 'Feria de Abril', correct: false }
+        ]
+    },
+    {
+        question: 'O guitarrista do Queen, Brian May, também é especialista em que área científica?',
+        answers: [
+            { text: 'Física Nuclear', correct: false },
+            { text: 'Biologia Marinha', correct: false },
+            { text: 'Astrofísica', correct: true },
+            { text: 'Psicologia', correct: false }
+        ]
+    },
+    {
+        question: 'Que personagem Robert Downey Jr. e Benedict Cumberbatch interpretaram?',
+        answers: [
+            { text: 'Sherlock Holmes', correct: true },
+            { text: 'James Bond', correct: false },
+            { text: 'John Watson', correct: false },
+            { text: 'Dr. Jekyll / Mr. Hyde', correct: false }
         ]
     },
     {
@@ -1541,6 +1577,24 @@ const qbio=[
             { text: 'Hippocrates', correct: false },
             { text: 'Galen', correct: false },
             { text: 'Paracelsus', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o pássaro mais rápido do mundo?',
+        answers: [
+            { text: 'Águia', correct: false },
+            { text: 'Gavião', correct: false },
+            { text: 'Condor', correct: false },
+            { text: 'Falcão-peregrino', correct: true }
+        ]
+    },
+    {
+        question: 'Qual doença era comum em marinheiros no século 18, devido deficiência de vitamina C?',
+        answers: [
+            { text: 'Marasmo', correct: false },
+            { text: 'Peste Negra', correct: false },
+            { text: 'Escorbuto', correct: true },
+            { text: 'Anemia', correct: false }
         ]
     },
     {
@@ -2752,7 +2806,15 @@ const qciencia=[
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
         ]
     },
-    
+    {
+        question: 'Qual é o planeta mais quente do Sistema Solar?',
+        answers: [
+            { text: 'Júpiter', correct: false },
+            { text: 'Vênus', correct: true },
+            { text: 'Marte', correct: false },
+            { text: 'Mercúrio', correct: false }
+        ]
+    },    
     {
         question: 'A geração de energia nas usinas nucleares acontece por meio da fissão nuclear controlada. Qual o combústível geralmente utilizado?',
         answers: [
@@ -3793,6 +3855,24 @@ const qentre=[
             { text: 'Transformers', correct: false },
             { text: 'Os Caça-Fantasmas', correct: true },
             { text: 'ThunderCats', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a cor dos sapatos do Mickey Mouse?',
+        answers: [
+            { text: 'Vermelho', correct: true },
+            { text: 'Azul', correct: false },
+            { text: 'Amarelo', correct: false },
+            { text: 'Preto', correct: false }
+        ]
+    },
+    {
+        question: 'O personagem Sabidão estrela em qual filme?',
+        answers: [
+            { text: 'A Pequena Sereia', correct: false },
+            { text: 'O Rei Leão', correct: false },
+            { text: 'Aladdin', correct: true },
+            { text: 'Mulan', correct: false }
         ]
     },
     {
@@ -5002,12 +5082,66 @@ const qgeek=[
         ]
     },
     {
+        question: 'Qual empresa de software tem a sede em Redmond, Washington?',
+        answers: [
+            { text: 'Apple', correct: false },
+            { text: 'Google', correct: false },
+            { text: 'Microsoft', correct: true },
+            { text: 'IBM', correct: false }
+        ]
+    },
+    {
+        question: 'Qual empresa foi originalmente chamada de "Cadabra"?',
+        answers: [
+            { text: 'Amazon', correct: true },
+            { text: 'Alibaba', correct: false },
+            { text: 'eBay', correct: false },
+            { text: 'Google', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas faces tem um Dodecaedro?',
+        answers: [
+            { text: '12', correct: true },
+            { text: '10', correct: false },
+            { text: '8', correct: false },
+            { text: '6', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos fantasmas perseguem o Pac-Man no início de cada jogo?',
+        answers: [
+            { text: '3', correct: false },
+            { text: '4', correct: true },
+            { text: '5', correct: false },
+            { text: '6', correct: false }
+        ]
+    },
+    {
+        question: 'Qual estúdio de jogos faz a série Red Dead Redemption?',
+        answers: [
+            { text: 'Ubisoft', correct: false },
+            { text: 'Bethesda Game Studios', correct: false },
+            { text: 'Rockstar Games', correct: true },
+            { text: 'Naughty Dog', correct: false }
+        ]
+    },
+    {
         question: 'Que brinquedo consiste em peças de plástico interconectadas que podem ser montadas e desmontadas?',
         answers: [
             { text: 'Lego', correct: true },
             { text: 'Play-Doh', correct: false },
             { text: 'Hot Wheels', correct: false },
             { text: 'Yo-yo', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos minutos tem uma semana inteira?',
+        answers: [
+            { text: '10.080', correct: true },
+            { text: '14.400', correct: false },
+            { text: '8.640', correct: false },
+            { text: '7.200', correct: false }
         ]
     },
     {
@@ -6214,6 +6348,60 @@ const qesporte=[
         ]
     },
     {
+        question: 'Em que cidade está localizado o Hall da Fama da NFL?',
+        answers: [
+            { text: 'Canton, Ohio', correct: true },
+            { text: 'New York City, New York', correct: false },
+            { text: 'Los Angeles, Califórnia', correct: false },
+            { text: 'Dallas, Texas', correct: false }
+        ]
+    },
+    {
+        question: 'Simone Biles é famosa por sua habilidade em que esporte?',
+        answers: [
+            { text: 'Natação', correct: false },
+            { text: 'Atletismo', correct: false },
+            { text: 'Ginástica', correct: true },
+            { text: 'Tênis', correct: false }
+        ]
+    },
+    {
+        question: 'Onde termina o Tour de France a cada ano?',
+        answers: [
+            { text: 'Monte Carlo, Mônaco', correct: false },
+            { text: 'Londres, Reino Unido', correct: false },
+            { text: 'Barcelona, Espanha', correct: false },
+            { text: 'Avenida Champs-Élysées em Paris', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é o primeiro nome da estrela do futebol argentino Maradona?',
+        answers: [
+            { text: 'Juan', correct: false },
+            { text: 'Lionel', correct: false },
+            { text: 'Diego', correct: true },
+            { text: 'Ricardo', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o esporte nacional do Japão?',
+        answers: [
+            { text: 'Basebol', correct: false },
+            { text: 'Sumô', correct: true },
+            { text: 'Kendo', correct: false },
+            { text: 'Judô', correct: false }
+        ]
+    },
+    {
+        question: 'Vestir-se totalmente de branco é obrigatório em qual Grand Slam?',
+        answers: [
+            { text: 'Wimbledon', correct: true },
+            { text: 'US Open', correct: false },
+            { text: 'Australian Open', correct: false },
+            { text: 'French Open', correct: false }
+        ]
+    },
+    {
         question: 'No volei, este jogador não pode atacar, bloquear ou sacar, possui apenas função defensiva:',
         answers: [
             { text: 'Pivô', correct: false },
@@ -7347,6 +7535,132 @@ const qgeo=[
         ]
     },
     {
+        question: 'Qual é o único continente com terra nos quatro hemisférios?',
+        answers: [
+            { text: 'África', correct: true },
+            { text: 'Ásia', correct: false },
+            { text: 'Europa', correct: false },
+            { text: 'América', correct: false }
+        ]
+    },
+    {
+        question: 'Em que país se encontra o Salto Ángel, a maior cachoeira do mundo?',
+        answers: [
+            { text: 'Brasil', correct: false },
+            { text: 'Argentina', correct: false },
+            { text: 'Venezuela', correct: true },
+            { text: 'Colômbia', correct: false }
+        ]
+    },
+    {
+        question: 'Em que continente se encontra o maior deserto do mundo?',
+        answers: [
+            { text: 'África', correct: false },
+            { text: 'Antártica', correct: true },
+            { text: 'Ásia', correct: false },
+            { text: 'América do Norte', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a capital da Irlanda?',
+        answers: [
+            { text: 'Belfast', correct: false },
+            { text: 'Dublin', correct: true },
+            { text: 'Cork', correct: false },
+            { text: 'Galway', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o tipo de árvore mais alta?',
+        answers: [
+            { text: 'Eucalipto', correct: false },
+            { text: 'Sequoioideae', correct: true },
+            { text: 'Bordo', correct: false },
+            { text: 'Cedro', correct: false }
+        ]
+    },
+    {
+        question: 'Na capital de qual país se encontra a estátua da Pequena Sereia?',
+        answers: [
+            { text: 'Suécia', correct: false },
+            { text: 'Noruega', correct: false },
+            { text: 'Dinamarca', correct: true },
+            { text: 'Finlândia', correct: false }
+        ]
+    },
+    {
+        question: 'Em que continente se encontra a cidade de Baku?',
+        answers: [
+            { text: 'Europa', correct: false },
+            { text: 'Ásia', correct: true },
+            { text: 'África', correct: false },
+            { text: 'Oceania', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o único país cuja bandeira não tem quatro lados?',
+        answers: [
+            { text: 'Nepal', correct: true },
+            { text: 'Bhutan', correct: false },
+            { text: 'Suíça', correct: false },
+            { text: 'Japão', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas estrelas há na bandeira da China?',
+        answers: [
+            { text: '4', correct: false },
+            { text: '5', correct: true },
+            { text: '6', correct: false },
+            { text: '7', correct: false }
+        ]
+    },
+    {
+        question: 'Qual país tem a imagem de um naufrágio na sua bandeira nacional?',
+        answers: [
+            { text: 'Bermudas', correct: true },
+            { text: 'Jamaica', correct: false },
+            { text: 'Bahamas', correct: false },
+            { text: 'Trinidad e Tobago', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a maior cidade de língua espanhola do mundo?',
+        answers: [
+            { text: 'Buenos Aires', correct: false },
+            { text: 'Madrid', correct: false },
+            { text: 'Cidade do México', correct: true },
+            { text: 'Barcelona', correct: false }
+        ]
+    },
+    {
+        question: 'Qual país tem o maior consumo de café per capita?',
+        answers: [
+            { text: 'Finlândia', correct: true },
+            { text: 'Brasil', correct: false },
+            { text: 'Itália', correct: false },
+            { text: 'Estados Unidos', correct: false }
+        ]
+    },
+    {
+        question: 'Em que cidade você estaria se estivesse nas Escadarias da Praça da Espanha?',
+        answers: [
+            { text: 'Roma', correct: true },
+            { text: 'Madri', correct: false },
+            { text: 'Barcelona', correct: false },
+            { text: 'Sevilha', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o sobrenome mais comum nos Estados Unidos?',
+        answers: [
+            { text: 'Smith', correct: true },
+            { text: 'Johnson', correct: false },
+            { text: 'Williams', correct: false },
+            { text: 'Brown', correct: false }
+        ]
+    },
+    {
         question: 'O que é a Côte d\'Azur?',
         answers: [
             { text: 'Um tipo de queijo francês', correct: false },
@@ -8378,6 +8692,33 @@ const qhisto=[
             { text: 'Aníbal Barca', correct: true },
             { text: 'Júlio César', correct: false },
             { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        question: 'Quem ficou conhecido por cruzar os Alpes com elefantes a caminho da guerra com os romanos?',
+        answers: [
+            { text: 'Júlio César', correct: false },
+            { text: 'Alexandre, o Grande', correct: false },
+            { text: 'Napoleão Bonaparte', correct: false },
+            { text: 'Hannibal', correct: true }
+        ]
+    },
+    {
+        question: 'Roald Amundsen foi o primeiro homem a chegar ao Polo Sul. De que país ele era?',
+        answers: [
+            { text: 'Noruega', correct: true },
+            { text: 'Suécia', correct: false },
+            { text: 'Dinamarca', correct: false },
+            { text: 'Finlândia', correct: false }
+        ]
+    },
+    {
+        question: 'Qual era o nome do chefe do crime que liderava a Chicago Outfit (Máfia de Chicago)?',
+        answers: [
+            { text: 'John Gotti', correct: false },
+            { text: 'Lucky Luciano', correct: false },
+            { text: 'Al Capone', correct: true },
+            { text: 'Bugsy Siegel', correct: false }
         ]
     },
     {
@@ -9424,6 +9765,15 @@ const qcarros= [
             { text: 'Toyota', correct: false },
             { text: 'Mercedes-Benz', correct: true },
             { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Qual empresa de carros esportivos fabrica o 911?',
+        answers: [
+            { text: 'Ferrari', correct: false },
+            { text: 'Lamborghini', correct: false },
+            { text: 'Porsche', correct: true },
+            { text: 'Audi', correct: false }
         ]
     },
     {
