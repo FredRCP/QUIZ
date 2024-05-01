@@ -483,6 +483,42 @@ const qarte=[
         ]
     },
     {
+        question: 'Qual artista pintou o famoso quadro O Grito?',
+        answers: [
+            { text: 'Vincent van Gogh', correct: false },
+            { text: 'Pablo Picasso', correct: false },
+            { text: 'Edvard Munch', correct: true },
+            { text: 'Leonardo da Vinci', correct: false }
+        ]
+    },
+    {
+        question: 'Onde se passa a história do livro Romeu e Julieta, escrito por William Shakespeare?',
+        answers: [
+            { text: 'Verona, Itália', correct: true },
+            { text: 'Paris, França', correct: false },
+            { text: 'Atenas, Grécia', correct: false },
+            { text: 'Londres, Inglaterra', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a cor das famosas cabines telefônicas de Londres?',
+        answers: [
+            { text: 'Azul', correct: false },
+            { text: 'Verde', correct: false },
+            { text: 'Vermelha', correct: true },
+            { text: 'Amarela', correct: false }
+        ]
+    },
+    {
+        question: 'Nos contos de fadas, qual animal que, quando é beijado, vira um príncipe?',
+        answers: [
+            { text: 'Sapo', correct: true },
+            { text: 'Coelho', correct: false },
+            { text: 'Cavalo', correct: false },
+            { text: 'Gato', correct: false }
+        ]
+    },
+    {
         question: 'Em que país se originou o sushi?',
         answers: [
             { text: 'China', correct: false },
@@ -1577,6 +1613,96 @@ const qbio=[
             { text: 'Hippocrates', correct: false },
             { text: 'Galen', correct: false },
             { text: 'Paracelsus', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas valvas ("válvulas") tem o coração?',
+        answers: [
+            { text: '2', correct: false },
+            { text: '3', correct: false },
+            { text: '4', correct: true },
+            { text: '5', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual temperatura a água ferve?',
+        answers: [
+            { text: '100°C', correct: true },
+            { text: '0°C', correct: false },
+            { text: '50°C', correct: false },
+            { text: '200°C', correct: false }
+        ]
+    },
+    {
+        question: 'Em geral, quantos dentes tem uma pessoa adulta?',
+        answers: [
+            { text: '28', correct: false },
+            { text: '30', correct: false },
+            { text: '32', correct: true },
+            { text: '36', correct: false }
+        ]
+    },
+    {
+        question: 'Como é o nome da luz emitida por aparelhos eletrônicos que, de acordo com estudiosos, causa o mesmo efeito que a cafeína ao cérebro?',
+        answers: [
+            { text: 'Luz azul', correct: true },
+            { text: 'Luz vermelha', correct: false },
+            { text: 'Luz verde', correct: false },
+            { text: 'Luz amarela', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos corações tem um polvo?',
+        answers: [
+            { text: '1', correct: false },
+            { text: '2', correct: false },
+            { text: '3', correct: true },
+            { text: '4', correct: false }
+        ]
+    },
+    {
+        question: 'Quantos litros de sangue uma pessoa adulta tem, em média?',
+        answers: [
+            { text: '4-6 litros', correct: true },
+            { text: '2-3 litros', correct: false },
+            { text: '6-7 litros', correct: false },
+            { text: '8-9 litros', correct: false }
+        ]
+    },
+    {
+        question: 'Onde está localizado o menor osso do corpo humano?',
+        answers: [
+            { text: 'Mão', correct: false },
+            { text: 'Pé', correct: false },
+            { text: 'Ouvido', correct: true },
+            { text: 'Nariz', correct: false }
+        ]
+    },
+    {
+        question: 'Quantas patas tem uma aranha?',
+        answers: [
+            { text: '6', correct: false },
+            { text: '8', correct: true },
+            { text: '10', correct: false },
+            { text: '12', correct: false }
+        ]
+    },
+    {
+        question: 'Qual parte da planta é responsável pela fotossíntese?',
+        answers: [
+            { text: 'Raiz', correct: false },
+            { text: 'Folha', correct: true },
+            { text: 'Caule', correct: false },
+            { text: 'Flor', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o único mamífero que voa?',
+        answers: [
+            { text: 'Morcego', correct: true },
+            { text: 'Pássaro', correct: false },
+            { text: 'Borboleta', correct: false },
+            { text: 'Esquilo', correct: false }
         ]
     },
     {
@@ -3855,6 +3981,60 @@ const qentre=[
             { text: 'Transformers', correct: false },
             { text: 'Os Caça-Fantasmas', correct: true },
             { text: 'ThunderCats', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o número da plataforma em que os alunos pegam o trem para a escola de Hogwarts na saga Harry Potter?',
+        answers: [
+            { text: '8 3/4', correct: false },
+            { text: '9 3/4', correct: true },
+            { text: '10 1/2', correct: false },
+            { text: '7 1/2', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual filme, a protagonista é humilhada com um balde de sangue derrubado sobre sua cabeça durante o baile da escola?',
+        answers: [
+            { text: 'Meninas Malvadas', correct: false },
+            { text: 'Carrie, A Estranha', correct: true },
+            { text: 'De Repente 30', correct: false },
+            { text: 'A Mentira', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome agente secreto da ficção conhecido pelo número 007?',
+        answers: [
+            { text: 'Jason Bourne', correct: false },
+            { text: 'Ethan Hunt', correct: false },
+            { text: 'James Bond', correct: true },
+            { text: 'Jack Ryan', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano estreou o filme Titanic, estrelado por Leonardo DiCaprio e Kate Winslet?',
+        answers: [
+            { text: '1997', correct: true },
+            { text: '1995', correct: false },
+            { text: '1999', correct: false },
+            { text: '1996', correct: false }
+        ]
+    },
+    {
+        question: 'Qual fruta envenenada comeu a Branca de Neve?',
+        answers: [
+            { text: 'Maçã', correct: true },
+            { text: 'Cereja', correct: false },
+            { text: 'Pêssego', correct: false },
+            { text: 'Uva', correct: false }
+        ]
+    },
+    {
+        question: 'Como se chamam os dois melhores amigos do personagem Harry Potter?',
+        answers: [
+            { text: 'Ron Weasley e Hermione Granger', correct: true },
+            { text: 'Draco Malfoy e Luna Lovegood', correct: false },
+            { text: 'Neville Longbottom e Ginny Weasley', correct: false },
+            { text: 'Fred Weasley e George Weasley', correct: false }
         ]
     },
     {
@@ -6348,6 +6528,78 @@ const qesporte=[
         ]
     },
     {
+        question: 'Em que ano o tenista brasileiro Gustavo Kuerten foi campeão pela primeira vez do Grand Slam de Roland Garros?',
+        answers: [
+            { text: '1997', correct: true },
+            { text: '1999', correct: false },
+            { text: '2001', correct: false },
+            { text: '2003', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual cidade de Portugal é realizado o campeonato de surf de ondas gigantes?',
+        answers: [
+            { text: 'Porto', correct: false },
+            { text: 'Figueira da Foz', correct: false },
+            { text: 'Nazaré', correct: true },
+            { text: 'Lisboa', correct: false }
+        ]
+    },
+    {
+        question: 'Quem foi o primeiro brasileiro a conquistar um cinturão no UFC?',
+        answers: [
+            { text: 'Anderson Silva', correct: false },
+            { text: 'José Aldo', correct: false },
+            { text: 'Murilo Bustamante', correct: true },
+            { text: 'Vitor Belfort', correct: false }
+        ]
+    },
+    {
+        question: 'No basquete, quantos pontos vale a cesta quando a bola é arremessada de fora do garrafão?',
+        answers: [
+            { text: '2 pontos', correct: true },
+            { text: '3 pontos', correct: false },
+            { text: '1 ponto', correct: false },
+            { text: '4 pontos', correct: false }
+        ]
+    },
+    {
+        question: 'A ex-atleta Daiane do Santos ficou mundialmente conhecida praticando qual esporte?',
+        answers: [
+            { text: 'Futebol', correct: false },
+            { text: 'Atletismo', correct: false },
+            { text: 'Ginástica Artística', correct: true },
+            { text: 'Natação', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual esporte são usadas as mãos para fazer gol?',
+        answers: [
+            { text: 'Handebol', correct: true },
+            { text: 'Basquete', correct: false },
+            { text: 'Hóquei', correct: false },
+            { text: 'Rugby', correct: false }
+        ]
+    },
+    {
+        question: 'Para quem o Brasil perdeu a final da Copa do Mundo de 1950, em pleno Maracanã?',
+        answers: [
+            { text: 'Uruguai', correct: true },
+            { text: 'Argentina', correct: false },
+            { text: 'Itália', correct: false },
+            { text: 'Alemanha', correct: false }
+        ]
+    },
+    {
+        question: 'Quais são as modalidades esportivas praticadas por um triatleta?',
+        answers: [
+            { text: 'Natação, Ciclismo e Corrida', correct: true },
+            { text: 'Tênis, Vôlei e Corrida', correct: false },
+            { text: 'Ciclismo, Corrida e Saltos Ornamentais', correct: false },
+            { text: 'Ginástica, Corrida e Natação', correct: false }
+        ]
+    },
+    {
         question: 'Em que cidade está localizado o Hall da Fama da NFL?',
         answers: [
             { text: 'Canton, Ohio', correct: true },
@@ -7535,6 +7787,24 @@ const qgeo=[
         ]
     },
     {
+        question: 'Qual país tem a maior linha costeira do mundo?',
+        answers: [
+            { text: 'Canadá', correct: true },
+            { text: 'Rússia', correct: false },
+            { text: 'Brasil', correct: false },
+            { text: 'Austrália', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a capital da Austrália?',
+        answers: [
+            { text: 'Sydney', correct: false },
+            { text: 'Melbourne', correct: false },
+            { text: 'Canberra', correct: true },
+            { text: 'Perth', correct: false }
+        ]
+    },
+    {
         question: 'Qual é o único continente com terra nos quatro hemisférios?',
         answers: [
             { text: 'África', correct: true },
@@ -8695,6 +8965,96 @@ const qhisto=[
         ]
     },
     {
+        question: 'Qual é o sobrenome da Rainha Elizabeth II?',
+        answers: [
+            { text: 'Mountbatten-Windsor', correct: true },
+            { text: 'Stuart', correct: false },
+            { text: 'Tudor', correct: false },
+            { text: 'Hanover', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano foi implementado o Plano Real no Brasil?',
+        answers: [
+            { text: '1994', correct: true },
+            { text: '1985', correct: false },
+            { text: '2000', correct: false },
+            { text: '1990', correct: false }
+        ]
+    },
+    {
+        question: 'Qual foi o primeiro país a permitir o voto feminino?',
+        answers: [
+            { text: 'Estados Unidos', correct: false },
+            { text: 'Nova Zelândia', correct: true },
+            { text: 'Reino Unido', correct: false },
+            { text: 'França', correct: false }
+        ]
+    },
+    {
+        question: 'Qual presidente do Brasil foi derrubado no incío do Regime Militar em 1964?',
+        answers: [
+            { text: 'Juscelino Kubitschek', correct: false },
+            { text: 'Getúlio Vargas', correct: false },
+            { text: 'João Goulart', correct: true },
+            { text: 'Fernando Henrique Cardoso', correct: false }
+        ]
+    },
+    {
+        question: 'Em que ano as mulheres ganharam o direito ao voto no Brasil?',
+        answers: [
+            { text: '1932', correct: true },
+            { text: '1945', correct: false },
+            { text: '1955', correct: false },
+            { text: '1964', correct: false }
+        ]
+    },
+    {
+        question: 'Como era chamado o regime de segregação racial adotado na África do Sul entre os anos de 1948 e 1994?',
+        answers: [
+            { text: 'Apartheid', correct: true },
+            { text: 'Segregação Racial', correct: false },
+            { text: 'Separatismo', correct: false },
+            { text: 'Racismo Institucional', correct: false }
+        ]
+    },
+    {
+        question: 'Como se chama a lei, implementada em 1871, que concedeu a liberdade a filhos de escravos nascidos no Brasil?',
+        answers: [
+            { text: 'Lei Áurea', correct: false },
+            { text: 'Lei do Ventre Livre', correct: true },
+            { text: 'Lei dos Sexagenários', correct: false },
+            { text: 'Lei do Sexagenário', correct: false }
+        ]
+    },
+    {
+        question: 'Como foi chamado o assassinato em massa cometido pelos nazistas durante a Segunda Guerra Mundial?',
+        answers: [
+            { text: 'Genocídio', correct: true },
+            { text: 'Massacre', correct: false },
+            { text: 'Guerra Química', correct: false },
+            { text: 'Holocausto', correct: true }
+        ]
+    },
+    {
+        question: 'Quais países disputavam a Guerra Fria, que durou entre 1947 e 1991?',
+        answers: [
+            { text: 'Estados Unidos e Japão', correct: false },
+            { text: 'Estados Unidos e União Soviética', correct: true },
+            { text: 'Reino Unido e Alemanha', correct: false },
+            { text: 'Alemanha e Japão', correct: false }
+        ]
+    },
+    {
+        question: 'Quais cidades japonesas foram atingidas pelas bombas atômicas lançadas pelos Estados Unidos em 1945?',
+        answers: [
+            { text: 'Hiroshima e Nagasaki', correct: true },
+            { text: 'Tóquio e Nagasaki', correct: false },
+            { text: 'Osaka e Tóquio', correct: false },
+            { text: 'Hiroshima e Fukuoka', correct: false }
+        ]
+    },
+    {
         question: 'Quem ficou conhecido por cruzar os Alpes com elefantes a caminho da guerra com os romanos?',
         answers: [
             { text: 'Júlio César', correct: false },
@@ -9764,6 +10124,204 @@ const qcarros= [
             { text: 'Ford', correct: false },
             { text: 'Toyota', correct: false },
             { text: 'Mercedes-Benz', correct: true },
+            { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do modelo de muscle car lançado pela Chevrolet em 1967, famoso pelo seu motor V8 de grande potência?',
+        answers: [
+            { text: 'Thunderbird', correct: false },
+            { text: 'Camaro', correct: true },
+            { text: 'Pontiac GTO', correct: false },
+            { text: 'Dodge Challenger', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de muscle car lançado pela Dodge em 1970, conhecido por suas diversas opções de cores vibrantes?',
+        answers: [
+            { text: 'Ford Mustang', correct: false },
+            { text: 'Chevrolet Chevelle', correct: false },
+            { text: 'Dodge Challenger', correct: true },
+            { text: 'Plymouth Road Runner', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do lendário muscle car da Pontiac lançado em 1964?',
+        answers: [
+            { text: 'Pontiac Firebird', correct: true },
+            { text: 'Corvette', correct: false },
+            { text: 'Dodge Charger', correct: false },
+            { text: 'Ford Torino', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o sistema de freios ABS em um carro?',
+        answers: [
+            { text: 'Sistema de direção assistida', correct: false },
+            { text: 'Sistema de controle de tração', correct: false },
+            { text: 'Sistema de freios anti-bloqueio', correct: true },
+            { text: 'Sistema de suspensão adaptativa', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a função do alternador em um carro?',
+        answers: [
+            { text: 'Recarregar a bateria', correct: true },
+            { text: 'Controlar a temperatura do motor', correct: false },
+            { text: 'Converter o ar em combustível', correct: false },
+            { text: 'Gerar combustível para o motor', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa a sigla "CVT" em transmissões de carros?',
+        answers: [
+            { text: 'Corrente de Ventilação Técnica', correct: false },
+            { text: 'Câmbio Variável de Torque', correct: true },
+            { text: 'Comando de Válvulas Temporizado', correct: false },
+            { text: 'Controle de Velocidade de Transmissão', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o sistema de injeção eletrônica em um carro?',
+        answers: [
+            { text: 'Sistema de refrigeração do motor', correct: false },
+            { text: 'Sistema de ignição do motor', correct: false },
+            { text: 'Sistema de alimentação de combustível', correct: true },
+            { text: 'Sistema de segurança passiva', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a função do filtro de óleo em um carro?',
+        answers: [
+            { text: 'Filtrar o ar que entra no motor', correct: false },
+            { text: 'Filtrar o óleo que lubrifica o motor', correct: true },
+            { text: 'Filtrar o combustível antes de entrar no motor', correct: false },
+            { text: 'Filtrar os gases de escape do motor', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o sistema de suspensão independente em um carro?',
+        answers: [
+            { text: 'Um sistema que permite ajustar a altura do veículo', correct: false },
+            { text: 'Um sistema que conecta as rodas do mesmo eixo', correct: false },
+            { text: 'Um sistema que permite que cada roda se mova independentemente das outras', correct: true },
+            { text: 'Um sistema que controla a tração nas quatro rodas', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a função do radiador em um carro?',
+        answers: [
+            { text: 'Ajudar a controlar a pressão dos pneus', correct: false },
+            { text: 'Manter a temperatura do motor dentro de limites seguros', correct: true },
+            { text: 'Melhorar a aerodinâmica do veículo', correct: false },
+            { text: 'Filtrar as impurezas do combustível', correct: false }
+        ]
+    },
+    {
+        question: 'O que significa a sigla "RPM" em um carro?',
+        answers: [
+            { text: 'Regulador de Pressão Máxima', correct: false },
+            { text: 'Rotações Por Minuto', correct: true },
+            { text: 'Ruído do Motor Potencializado', correct: false },
+            { text: 'Refrigeração Para o Motor', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o diferencial em um carro?',
+        answers: [
+            { text: 'Um dispositivo que controla a pressão dos pneus', correct: false },
+            { text: 'Um sistema que regula o fluxo de ar para o motor', correct: false },
+            { text: 'Um conjunto de engrenagens que distribui a potência do motor para as rodas', correct: true },
+            { text: 'Um componente que filtra o óleo do motor', correct: false }
+        ]
+    },
+    {
+        question: 'O que é o sistema de direção hidráulica em um carro?',
+        answers: [
+            { text: 'Um sistema que utiliza água para refrigerar o motor', correct: false },
+            { text: 'Um sistema que utiliza óleo para lubrificar o motor', correct: false },
+            { text: 'Um sistema que utiliza pressão hidráulica para auxiliar o motorista a girar o volante', correct: true },
+            { text: 'Um sistema que utiliza ar para inflar os pneus', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de muscle car lançado pela Plymouth em 1968, conhecido por sua pintura em duas cores?',
+        answers: [
+            { text: 'Dodge Charger', correct: false },
+            { text: 'Plymouth Barracuda', correct: true },
+            { text: 'Chevrolet Camaro', correct: false },
+            { text: 'Ford Mustang', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o modelo de carro mais vendido nos Estados Unidos?',
+        answers: [
+            { text: 'Ford F-Series', correct: true },
+            { text: 'Chevrolet Silverado', correct: false },
+            { text: 'Toyota Camry', correct: false },
+            { text: 'Honda Civic', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a marca de carro conhecida por produzir o modelo Golf?',
+        answers: [
+            { text: 'Toyota', correct: false },
+            { text: 'Ford', correct: false },
+            { text: 'Volkswagen', correct: true },
+            { text: 'Chevrolet', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do modelo de carro que ficou famoso por aparecer na série de filmes "De Volta para o Futuro"?',
+        answers: [
+            { text: 'DeLorean DMC-12', correct: true },
+            { text: 'Chevrolet Camaro', correct: false },
+            { text: 'Ford Mustang', correct: false },
+            { text: 'Ferrari Testarossa', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a montadora de carros que produz o modelo Civic?',
+        answers: [
+            { text: 'Toyota', correct: false },
+            { text: 'Honda', correct: true },
+            { text: 'Chevrolet', correct: false },
+            { text: 'Ford', correct: false }
+        ]
+    },
+    {
+        question: 'Qual montadora de automóveis produziu o lendário modelo Mustang?',
+        answers: [
+            { text: 'Ford', correct: true },
+            { text: 'Chevrolet', correct: false },
+            { text: 'Toyota', correct: false },
+            { text: 'Honda', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o carro mais vendido de todos os tempos?',
+        answers: [
+            { text: 'Volkswagen Golf', correct: false },
+            { text: 'Toyota Corolla', correct: true },
+            { text: 'Ford Fiesta', correct: false },
+            { text: 'Honda Civic', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o país de origem da marca de carros BMW?',
+        answers: [
+            { text: 'Itália', correct: false },
+            { text: 'Alemanha', correct: true },
+            { text: 'França', correct: false },
+            { text: 'Japão', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a marca do primeiro carro produzido em escala no mundo?',
+        answers: [
+            { text: 'Ford', correct: true },
+            { text: 'Toyota', correct: false },
+            { text: 'Mercedes-Benz', correct: false },
             { text: 'Chevrolet', correct: false }
         ]
     },
