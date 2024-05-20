@@ -78,7 +78,7 @@ hey.loop = true;
 
 
 ativar.volume = 0.4;
-trilha.volume = 0.3;
+trilha.volume = 0.4;
 vouteajudar.volume=1;
 show.volume=1;
 
@@ -1616,6 +1616,132 @@ const qbio=[
         ]
     },
     {
+        question: 'Qual é a teoria mais aceita sobre a origem da vida na Terra?',
+        answers: [
+            { text: 'Criacionismo', correct: false },
+            { text: 'Teoria da Evolução Espontânea', correct: false },
+            { text: 'Teoria da Abiogênese', correct: true },
+            { text: 'Teoria do Catastrofismo', correct: false }
+        ]
+    },
+    {
+        question: 'Qual cientista realizou o experimento de sopa primordial para testar a origem da vida?',
+        answers: [
+            { text: 'Charles Darwin', correct: false },
+            { text: 'Louis Pasteur', correct: false },
+            { text: 'Stanley Miller', correct: true },
+            { text: 'Gregor Mendel', correct: false }
+        ]
+    },
+    {
+        question: 'O que é panspermia?',
+        answers: [
+            { text: 'Uma teoria que sugere que a vida se originou de moléculas inorgânicas', correct: false },
+            { text: 'Uma teoria que sugere que a vida na Terra veio do espaço', correct: true },
+            { text: 'Uma teoria que sugere que a vida se originou de vulcões submarinos', correct: false },
+            { text: 'Uma teoria que sugere que a vida foi criada por uma entidade superior', correct: false }
+        ]
+    },
+    {
+        question: 'Quais são os blocos de construção fundamentais da vida?',
+        answers: [
+            { text: 'Vitaminas', correct: false },
+            { text: 'Ácidos nucleicos', correct: false },
+            { text: 'Aminoácidos', correct: true },
+            { text: 'Lipídios', correct: false }
+        ]
+    },
+    {
+        question: 'Qual era a principal composição da atmosfera primitiva da Terra?',
+        answers: [
+            { text: 'Oxigênio e nitrogênio', correct: false },
+            { text: 'Metano, amônia, hidrogênio e vapor de água', correct: true },
+            { text: 'Dióxido de carbono e ozônio', correct: false },
+            { text: 'Hélio e argônio', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal função das fibras na dieta?',
+        answers: [
+            { text: 'Fornecer energia', correct: false },
+            { text: 'Auxiliar na digestão e promover a saúde intestinal', correct: true },
+            { text: 'Construir e reparar tecidos', correct: false },
+            { text: 'Regular os níveis de açúcar no sangue', correct: false }
+        ]
+    },
+    {
+        question: 'Qual tipo de gordura é considerado mais saudável para o coração?',
+        answers: [
+            { text: 'Gordura trans', correct: false },
+            { text: 'Gordura saturada', correct: false },
+            { text: 'Gordura insaturada', correct: true },
+            { text: 'Gordura hidrogenada', correct: false }
+        ]
+    },
+    {
+        question: 'Quais são os nutrientes essenciais encontrados nas frutas e vegetais?',
+        answers: [
+            { text: 'Proteínas e gorduras', correct: false },
+            { text: 'Vitaminas e minerais', correct: true },
+            { text: 'Carboidratos e lipídios', correct: false },
+            { text: 'Ácidos graxos e aminoácidos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual destas é uma ótima fonte de proteína completa de origem vegetal?',
+        answers: [
+            { text: 'Feijão', correct: false },
+            { text: 'Quinoa', correct: true },
+            { text: 'Arroz', correct: false },
+            { text: 'Batata', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é a principal função biológica do sexo?',
+        answers: [
+            { text: 'Proporcionar prazer', correct: false },
+            { text: 'Fortalecer laços emocionais', correct: false },
+            { text: 'Reprodução e perpetuação da espécie', correct: true },
+            { text: 'Melhorar a saúde física', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o método contraceptivo que também protege contra doenças sexualmente transmissíveis (DSTs)?',
+        answers: [
+            { text: 'Pílula anticoncepcional', correct: false },
+            { text: 'Dispositivo intrauterino (DIU)', correct: false },
+            { text: 'Preservativo (camisinha)', correct: true },
+            { text: 'Diafragma', correct: false }
+        ]
+    },
+    {
+        question: 'O que é a libido?',
+        answers: [
+            { text: 'Um hormônio sexual masculino', correct: false },
+            { text: 'O desejo ou impulso sexual', correct: true },
+            { text: 'Um tipo de contraceptivo', correct: false },
+            { text: 'Uma infecção sexualmente transmissível', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o principal hormônio sexual feminino?',
+        answers: [
+            { text: 'Testosterona', correct: false },
+            { text: 'Progesterona', correct: false },
+            { text: 'Estrogênio', correct: true },
+            { text: 'Cortisol', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do processo pelo qual o esperma é liberado do corpo masculino?',
+        answers: [
+            { text: 'Ovulação', correct: false },
+            { text: 'Ejaculação', correct: true },
+            { text: 'Menstruação', correct: false },
+            { text: 'Fertilização', correct: false }
+        ]
+    },
+    {
         question: 'Quantas valvas ("válvulas") tem o coração?',
         answers: [
             { text: '2', correct: false },
@@ -2930,6 +3056,24 @@ const qciencia=[
             { text: 'Uma partícula subatômica', correct: false },
             { text: 'Um tipo de galáxia', correct: false },
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
+        ]
+    },
+    {
+        question: 'Qual é a medida de uma jarda?',
+        answers: [
+            { text: '0,5 metro', correct: false },
+            { text: '91,4cm', correct: true },
+            { text: '1 metro', correct: false },
+            { text: '1,2 metros', correct: false }
+        ]
+    },
+        {
+        question: 'Qual é o símbolo usado para representar uma jarda?',
+        answers: [
+            { text: 'yd', correct: true },
+            { text: 'y', correct: false },
+            { text: 'jr', correct: false },
+            { text: 'yds', correct: false }
         ]
     },
     {
@@ -7787,6 +7931,24 @@ const qgeo=[
         ]
     },
     {
+        question: 'O prédio mais alto do mundo (até 2024), tem 828m e 163 andares. Qual é o seu nome?',
+        answers: [
+            { text: 'Empire State Building', correct: false },
+            { text: 'Shanghai Tower', correct: false },
+            { text: 'Burj Khalifa', correct: true },
+            { text: 'Willis Tower', correct: false }
+        ]
+    },
+    {
+        question: 'Em que cidade está localizado o famoso prédio Burj Khalifa?',
+        answers: [
+            { text: 'Nova York', correct: false },
+            { text: 'Dubai', correct: true },
+            { text: 'Xangai', correct: false },
+            { text: 'Londres', correct: false }
+        ]
+    },   
+    {
         question: 'Qual país tem a maior linha costeira do mundo?',
         answers: [
             { text: 'Canadá', correct: true },
@@ -10615,11 +10777,3 @@ const todasq= [...qarte, ...qbio, ...qciencia, ...qentre, ...qesporte, ...qgeek,
         ]
 },
 */
-
-
-
-
-
-
-
-
