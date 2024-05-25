@@ -483,6 +483,150 @@ const qarte=[
         ]
     },
     {
+        "question": "Qual foi o papel de Moisés na narrativa bíblica do Êxodo?",
+        "answers": [
+            {"text": "Ele foi o rei de Israel", "correct": false},
+            {"text": "Ele liderou os israelitas na fuga do Egito", "correct": true},
+            {"text": "Ele construiu o Templo de Jerusalém", "correct": false},
+            {"text": "Ele foi o profeta principal do Antigo Testamento", "correct": false}
+        ]
+    },
+    {
+        "question": "Onde, de acordo com a Bíblia, Moisés recebeu os Dez Mandamentos?",
+        "answers": [
+            {"text": "Monte Sinai", "correct": true},
+            {"text": "Monte Carmelo", "correct": false},
+            {"text": "Monte Horebe", "correct": false},
+            {"text": "Monte das Oliveiras", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem era o irmão de Moisés que o acompanhou durante o Êxodo?",
+        "answers": [
+            {"text": "Aarão", "correct": true},
+            {"text": "Josué", "correct": false},
+            {"text": "Elias", "correct": false},
+            {"text": "Calebe", "correct": false}
+        ]
+    },
+    {
+        "question": "Como Moisés separou as águas para permitir a passagem dos israelitas durante o Êxodo?",
+        "answers": [
+            {"text": "Com seu cajado", "correct": true},
+            {"text": "Com suas mãos", "correct": false},
+            {"text": "Com uma palavra de poder", "correct": false},
+            {"text": "Com uma oração especial", "correct": false}
+        ]
+    },
+    {
+        "question": "Por quanto tempo os israelitas vagaram pelo deserto sob a liderança de Moisés?",
+        "answers": [
+            {"text": "40 anos", "correct": true},
+            {"text": "20 anos", "correct": false},
+            {"text": "10 anos", "correct": false},
+            {"text": "50 anos", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual obra de Platão é narrado o julgamento e a morte de Sócrates?",
+        "answers": [
+            {"text": "República", "correct": false},
+            {"text": "Fédon", "correct": true},
+            {"text": "Banquete", "correct": false},
+            {"text": "Timeu", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo é conhecido por ser irmão de Pedro?",
+        "answers": [
+            {"text": "Tiago", "correct": false},
+            {"text": "André", "correct": true},
+            {"text": "João", "correct": false},
+            {"text": "Filipe", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo é conhecido por ter escrito cinco livros do Novo Testamento, incluindo um Evangelho e o Apocalipse?",
+        "answers": [
+            {"text": "João", "correct": true},
+            {"text": "Paulo", "correct": false},
+            {"text": "Pedro", "correct": false},
+            {"text": "Lucas", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo foi chamado por Jesus enquanto estava sentado debaixo de uma figueira?",
+        "answers": [
+            {"text": "Natanael (Bartolomeu)", "correct": true},
+            {"text": "Mateus", "correct": false},
+            {"text": "Tiago", "correct": false},
+            {"text": "Simão, o Zelote", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo era conhecido como 'o Zelote'?",
+        "answers": [
+            {"text": "Simão", "correct": true},
+            {"text": "Tomé", "correct": false},
+            {"text": "Tiago, filho de Alfeu", "correct": false},
+            {"text": "Filipe", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo foi escolhido para substituir Judas Iscariotes após sua traição e morte?",
+        "answers": [
+            {"text": "Matias", "correct": true},
+            {"text": "Barnabé", "correct": false},
+            {"text": "Paulo", "correct": false},
+            {"text": "Silas", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o apóstolo que traiu Jesus por 30 moedas de prata?",
+        "answers": [
+            {"text": "Pedro", "correct": false},
+            {"text": "Judas Iscariotes", "correct": true},
+            {"text": "Judas Tadeu", "correct": false},
+            {"text": "Tiago", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo negou Jesus três vezes antes do canto do galo?",
+        "answers": [
+            {"text": "Tiago", "correct": false},
+            {"text": "João", "correct": false},
+            {"text": "Pedro", "correct": true},
+            {"text": "André", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo era conhecido por ser um cobrador de impostos antes de seguir Jesus?",
+        "answers": [
+            {"text": "Mateus", "correct": true},
+            {"text": "Simão", "correct": false},
+            {"text": "Judas Tadeu", "correct": false},
+            {"text": "Felipe", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo é tradicionalmente conhecido por duvidar da ressurreição de Jesus até ver as marcas dos pregos?",
+        "answers": [
+            {"text": "Tomé", "correct": true},
+            {"text": "Bartolomeu", "correct": false},
+            {"text": "Tiago", "correct": false},
+            {"text": "Judas Iscariotes", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual apóstolo é muitas vezes identificado como o 'discípulo amado'?",
+        "answers": [
+            {"text": "João", "correct": true},
+            {"text": "Pedro", "correct": false},
+            {"text": "Tiago", "correct": false},
+            {"text": "André", "correct": false}
+        ]
+    },
+    {
         "question": "Qual prato francês tradicionalmente feito com ovos é conhecido por ser um tipo de omelete enrolada?",
         "answers": [
             {"text": "Quiche", "correct": false},
@@ -11325,6 +11469,7 @@ const qcarros= [
             { text: 'Faixa para corrida de pedestres', correct: false }
         ]
     },
+    
 ]
 
 
