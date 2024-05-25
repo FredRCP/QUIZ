@@ -483,6 +483,96 @@ const qarte=[
         ]
     },
     {
+        "question": "Qual prato francês tradicionalmente feito com ovos é conhecido por ser um tipo de omelete enrolada?",
+        "answers": [
+            {"text": "Quiche", "correct": false},
+            {"text": "Soufflé", "correct": false},
+            {"text": "Frittata", "correct": false},
+            {"text": "Omelette", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual sobremesa italiana feita com gemas de ovos, açúcar e vinho Marsala é frequentemente servida quente?",
+        "answers": [
+            {"text": "Tiramisu", "correct": false},
+            {"text": "Zabaglione", "correct": true},
+            {"text": "Panna Cotta", "correct": false},
+            {"text": "Cannoli", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual prato tradicional mexicano, que inclui ovos cozidos em molho de tomate e pimenta, é normalmente servido no café da manhã?",
+        "answers": [
+            {"text": "Chilaquiles", "correct": false},
+            {"text": "Huevos Rancheros", "correct": true},
+            {"text": "Enchiladas", "correct": false},
+            {"text": "Tacos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual prato de café da manhã americano é feito com ovos mexidos, presunto, queijo e às vezes vegetais, tudo enrolado em uma tortilla?",
+        "answers": [
+            {"text": "Egg Benedict", "correct": false},
+            {"text": "Breakfast Burrito", "correct": true},
+            {"text": "Frittata", "correct": false},
+            {"text": "Hash Browns", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual receita de sobremesa, popular na França e na Espanha, é feita com ovos, leite, açúcar e frequentemente aromatizada com baunilha, sendo cozida em banho-maria?",
+        "answers": [
+            {"text": "Crème Brûlée", "correct": false},
+            {"text": "Flan", "correct": true},
+            {"text": "Mousse", "correct": false},
+            {"text": "Clafoutis", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do submarino fictício que aparece no romance '20.000 Léguas Submarinas' de Jules Verne?",
+        "answers": [
+            {"text": "USS Enterprise", "correct": false},
+            {"text": "Red October", "correct": false},
+            {"text": "Nautilus", "correct": true},
+            {"text": "Seaview", "correct": false}
+        ]
+    },
+    {
+        question: 'Qual é o nome da famosa casa de ópera em Sydney, conhecida por sua arquitetura única?',
+        answers: [
+            { text: 'Opera House', correct: true },
+            { text: 'Royal Albert Hall', correct: false },
+            { text: 'Palais Garnier', correct: false },
+            { text: 'Teatro Colón', correct: false }
+        ]
+    },
+    {
+        question: 'Quem é o arquiteto responsável pelo projeto do Museu Guggenheim em Nova York?',
+        answers: [
+            { text: 'Frank Gehry', correct: true },
+            { text: 'Zaha Hadid', correct: false },
+            { text: 'Ieoh Ming Pei', correct: false },
+            { text: 'Renzo Piano', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome da famosa catedral gótica localizada em Paris?',
+        answers: [
+            { text: 'Catedral de São Basílio', correct: false },
+            { text: 'Catedral de Notre-Dame', correct: true },
+            { text: 'Catedral de Santa Maria del Fiore', correct: false },
+            { text: 'Catedral de Chartres', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o estilo arquitetônico caracterizado pelo uso de arcos, abóbadas e grandes janelas de vitral?',
+        answers: [
+            { text: 'Barroco', correct: false },
+            { text: 'Renascimento', correct: false },
+            { text: 'Gótico', correct: true },
+            { text: 'Neoclássico', correct: false }
+        ]
+    },
+    {
         question: 'Qual artista pintou o famoso quadro O Grito?',
         answers: [
             { text: 'Vincent van Gogh', correct: false },
@@ -3058,6 +3148,160 @@ const qciencia=[
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
         ]
     },
+    
+    {
+        "question": "Qual é a principal função dos submarinos de ataque rápido (SSN) na marinha?",
+        "answers": [
+            {"text": "Lançar mísseis balísticos", "correct": false},
+            {"text": "Realizar patrulhas de longo alcance e caçar submarinos inimigos", "correct": true},
+            {"text": "Transportar tropas de elite", "correct": false},
+            {"text": "Destruir minas navais", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a profundidade operacional máxima estimada dos submarinos de classe Seawolf, utilizados pela Marinha dos Estados Unidos?",
+        "answers": [
+            {"text": "200 metros", "correct": false},
+            {"text": "500 metros", "correct": false},
+            {"text": "700 metros", "correct": true},
+            {"text": "1.000 metros", "correct": false}
+        ]
+    },
+    {
+        "question": "O que são ligas metálicas?",
+        "answers": [
+            {"text": "Materiais compostos por diferentes tipos de metal", "correct": true},
+            {"text": "Metais puros encontrados na natureza", "correct": false},
+            {"text": "Minerais utilizados na fabricação de joias", "correct": false},
+            {"text": "Elementos não metálicos combinados com metais", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal razão para criar ligas metálicas?",
+        "answers": [
+            {"text": "Aumentar a densidade", "correct": false},
+            {"text": "Reduzir a resistência à corrosão", "correct": false},
+            {"text": "Melhorar as propriedades físicas e mecânicas", "correct": true},
+            {"text": "Diminuir a condutividade térmica", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual das seguintes ligas é frequentemente utilizada na indústria aeronáutica devido à sua resistência e leveza?",
+        "answers": [
+            {"text": "Aço inoxidável", "correct": false},
+            {"text": "Latão", "correct": false},
+            {"text": "Alumínio-lítio", "correct": true},
+            {"text": "Bronze", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual das seguintes ligas é uma combinação de ferro e carbono, sendo comumente usada na fabricação de ferramentas e estruturas metálicas?",
+        "answers": [
+            {"text": "Alumínio-lítio", "correct": false},
+            {"text": "Aço", "correct": true},
+            {"text": "Cobre berílio", "correct": false},
+            {"text": "Magnésio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da liga metálica composta principalmente de cobre e zinco, comumente usada em tubos e instrumentos musicais?",
+        "answers": [
+            {"text": "Aço inoxidável", "correct": false},
+            {"text": "Latão", "correct": true},
+            {"text": "Bronze", "correct": false},
+            {"text": "Alumínio", "correct": false}
+        ]
+    },
+    {
+        "question": "O que é uma liga de titânio?",
+        "answers": [
+            {"text": "Uma liga composta de titânio e alumínio", "correct": false},
+            {"text": "Uma liga de titânio e níquel", "correct": false},
+            {"text": "Uma liga de titânio e cobre", "correct": false},
+            {"text": "Uma liga composta principalmente de titânio com adições de outros elementos", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual das seguintes ligas é conhecida por sua resistência à corrosão e é frequentemente usada em aplicações marítimas?",
+        "answers": [
+            {"text": "Latão", "correct": false},
+            {"text": "Alumínio", "correct": false},
+            {"text": "Aço inoxidável", "correct": true},
+            {"text": "Titânio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal benefício da adição de elementos de liga ao ferro para criar aço?",
+        "answers": [
+            {"text": "Aumento da densidade", "correct": false},
+            {"text": "Redução da condutividade elétrica", "correct": false},
+            {"text": "Melhoria da resistência e da dureza", "correct": true},
+            {"text": "Diminuição da maleabilidade", "correct": false}
+        ]
+    },
+    {
+        "question": "O que são ligas de níquel?",
+        "answers": [
+            {"text": "Ligas compostas de níquel e cobre", "correct": false},
+            {"text": "Ligas de níquel e ferro", "correct": true},
+            {"text": "Ligas de níquel e zinco", "correct": false},
+            {"text": "Ligas de níquel e alumínio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da liga metálica composta principalmente de cobre e estanho, frequentemente usada na fabricação de utensílios de cozinha e moedas?",
+        "answers": [
+            {"text": "Latão", "correct": false},
+            {"text": "Bronze", "correct": true},
+            {"text": "Alumínio", "correct": false},
+            {"text": "Ferro fundido", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal componente estrutural encontrado na madeira?",
+        "answers": [
+            {"text": "Queratina", "correct": false},
+            {"text": "Lignina", "correct": true},
+            {"text": "Hemoglobina", "correct": false},
+            {"text": "Quitina", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o processo de remover a umidade da madeira para aumentar sua durabilidade e resistência?",
+        "answers": [
+            {"text": "Polimento", "correct": false},
+            {"text": "Secagem", "correct": true},
+            {"text": "Envernizamento", "correct": false},
+            {"text": "Enceramento", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o tipo de madeira conhecido por sua resistência e durabilidade, muitas vezes utilizada em móveis e pisos?",
+        "answers": [
+            {"text": "Pinho", "correct": false},
+            {"text": "Bambu", "correct": false},
+            {"text": "Carvalho", "correct": true},
+            {"text": "Cedro", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal ameaça à integridade da madeira, causando deterioração e decomposição ao longo do tempo?",
+        "answers": [
+            {"text": "Fungos", "correct": true},
+            {"text": "Bactérias", "correct": false},
+            {"text": "Insetos", "correct": false},
+            {"text": "Radiação ultravioleta", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o processo de cortar e moldar a madeira para criar objetos ou estruturas?",
+        "answers": [
+            {"text": "Tecelagem", "correct": false},
+            {"text": "Carpintaria", "correct": true},
+            {"text": "Escultura", "correct": false},
+            {"text": "Fundição", "correct": false}
+        ]
+    },
     {
         question: 'Qual é a medida de uma jarda?',
         answers: [
@@ -4125,6 +4369,87 @@ const qentre=[
             { text: 'Transformers', correct: false },
             { text: 'Os Caça-Fantasmas', correct: true },
             { text: 'ThunderCats', correct: false }
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme estrelado por Clint Eastwood, que é frequentemente considerado um dos melhores filmes de faroeste de todos os tempos?",
+        "answers": [
+            {"text": "A Morte Anda a Cavalo", "correct": false},
+            {"text": "Onde Começa o Inferno", "correct": false},
+            {"text": "Por um Punhado de Dólares", "correct": true},
+            {"text": "Os Imperdoáveis", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do personagem principal de 'Django Livre', dirigido por Quentin Tarantino e estrelado por Jamie Foxx?",
+        "answers": [
+            {"text": "Django", "correct": true},
+            {"text": "Billy the Kid", "correct": false},
+            {"text": "Wyatt Earp", "correct": false},
+            {"text": "Doc Holliday", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual filme de faroeste John Wayne ganhou seu único Oscar de Melhor Ator?",
+        "answers": [
+            {"text": "Bravura Indômita", "correct": false},
+            {"text": "O Homem que Matou o Facínora", "correct": true},
+            {"text": "Rio Vermelho", "correct": false},
+            {"text": "Rastros de Ódio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de faroeste que apresenta uma batalha épica no clímax, conhecida como 'o tiroteio no OK Corral'?",
+        "answers": [
+            {"text": "O Último Pistoleiro", "correct": false},
+            {"text": "Tombstone", "correct": true},
+            {"text": "Os Imperdoáveis", "correct": false},
+            {"text": "Gunfight at the O.K. Corral", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de faroeste dirigido por Sergio Leone e estrelado por Henry Fonda, que é conhecido por seu desfecho chocante?",
+        "answers": [
+            {"text": "Por um Punhado de Dólares", "correct": false},
+            {"text": "Três Homens em Conflito", "correct": false},
+            {"text": "Era Uma Vez no Oeste", "correct": true},
+            {"text": "Era Uma Vez na América", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de faroeste de 1992, dirigido por Clint Eastwood, que conta a história de um pistoleiro aposentado que aceita um último trabalho?",
+        "answers": [
+            {"text": "Impiedoso", "correct": false},
+            {"text": "O Fora da Lei", "correct": false},
+            {"text": "Os Imperdoáveis", "correct": true},
+            {"text": "Um Mundo Perfeito", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de faroeste que conta a história de um grupo de pistoleiros contratados para proteger uma vila mexicana de bandidos?",
+        "answers": [
+            {"text": "Sete Homens e um Destino", "correct": true},
+            {"text": "Os Oito Odiados", "correct": false},
+            {"text": "Rastros de Ódio", "correct": false},
+            {"text": "Tombstone", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem dirigiu o filme 'Rastros de Ódio', estrelado por John Wayne, que é frequentemente citado como um dos maiores filmes de faroeste já feitos?",
+        "answers": [
+            {"text": "Sergio Leone", "correct": false},
+            {"text": "John Ford", "correct": true},
+            {"text": "Sam Peckinpah", "correct": false},
+            {"text": "Howard Hawks", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de faroeste que se passa durante a Guerra Civil Americana e é centrado em torno de uma missão para resgatar uma garota sequestrada?",
+        "answers": [
+            {"text": "Django Livre", "correct": false},
+            {"text": "Bravura Indômita", "correct": true},
+            {"text": "Onde Começa o Inferno", "correct": false},
+            {"text": "Os Imperdoáveis", "correct": false}
         ]
     },
     {
@@ -5406,6 +5731,168 @@ const qgeek=[
         ]
     },
     {
+        question: 'Qual é o título do jogo point-and-click lançado pela LucasArts em 1990, que se passa em uma ilha com piratas e apresenta o personagem Guybrush Threepwood?',
+        answers: [
+            { text: 'Monkey Island', correct: true },
+            { text: 'Grim Fandango', correct: false },
+            { text: 'Day of the Tentacle', correct: false },
+            { text: 'Full Throttle', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do protagonista do jogo "Sam & Max Hit the Road", um famoso jogo point-and-click de aventura lançado em 1993 pela LucasArts?',
+        answers: [
+            { text: 'Max Payne', correct: false },
+            { text: 'Sam & Max', correct: true },
+            { text: 'Guybrush Threepwood', correct: false },
+            { text: 'Manny Calavera', correct: false }
+        ]
+    },
+    {
+        question: 'O que o jogador controla em um jogo point-and-click?',
+        answers: [
+            { text: 'Um personagem principal', correct: false },
+            { text: 'Um cursor', correct: true },
+            { text: 'Uma nave espacial', correct: false },
+            { text: 'Um veículo terrestre', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogo point-and-click apresenta uma história de mistério e investigação, com o jogador assumindo o papel de detetive particular na cidade de Paris?',
+        answers: [
+            { text: 'Broken Sword', correct: true },
+            { text: 'The Secret of Monkey Island', correct: false },
+            { text: 'Grim Fandango', correct: false },
+            { text: 'Day of the Tentacle', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o objetivo principal em muitos jogos point-and-click?',
+        answers: [
+            { text: 'Resolver quebra-cabeças e enigmas', correct: true },
+            { text: 'Derrotar chefes e inimigos', correct: false },
+            { text: 'Explorar mundos abertos', correct: false },
+            { text: 'Construir e administrar cidades', correct: false }
+        ]
+    },
+    {
+        question: 'Qual jogo point-and-click apresenta um ambiente surreal e sombrio, onde o jogador controla um esqueleto chamado Manny Calavera?',
+        answers: [
+            { text: 'Monkey Island', correct: false },
+            { text: 'Grim Fandango', correct: true },
+            { text: 'Day of the Tentacle', correct: false },
+            { text: 'Full Throttle', correct: false }
+        ]
+    },
+    {
+        question: 'Em qual jogo point-and-click o jogador controla um personagem chamado Bernard, que vive uma aventura no tempo para salvar o mundo?',
+        answers: [
+            { text: 'Monkey Island', correct: false },
+            { text: 'Grim Fandango', correct: false },
+            { text: 'Day of the Tentacle', correct: true },
+            { text: 'Full Throttle', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do estúdio de desenvolvimento conhecido por criar clássicos jogos point-and-click, como "Monkey Island" e "Day of the Tentacle"?',
+        answers: [
+            { text: 'Bethesda Game Studios', correct: false },
+            { text: 'Blizzard Entertainment', correct: false },
+            { text: 'LucasArts', correct: true },
+            { text: 'CD Projekt Red', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do recurso mineral mais raro em Minecraft, usado para criar equipamentos e blocos especiais?',
+        answers: [
+            { text: 'Diamante', correct: true },
+            { text: 'Ouro', correct: false },
+            { text: 'Ferro', correct: false },
+            { text: 'Esmeralda', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do mundo principal onde os jogadores começam em Minecraft?',
+        answers: [
+            { text: 'Mundo Superior', correct: true },
+            { text: 'Nether', correct: false },
+            { text: 'The End', correct: false },
+            { text: 'Overworld', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o objetivo principal do modo de jogo "Sobrevivência" em Minecraft?',
+        answers: [
+            { text: 'Construir estruturas', correct: false },
+            { text: 'Explorar mundos', correct: false },
+            { text: 'Sobreviver e prosperar', correct: true },
+            { text: 'Criar artefatos mágicos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do monstro hostil que aparece apenas à noite em Minecraft?',
+        answers: [
+            { text: 'Zumbi', correct: true },
+            { text: 'Creeper', correct: false },
+            { text: 'Esqueleto', correct: false },
+            { text: 'Aranha', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o bloco mais comum encontrado no mundo superior em Minecraft?',
+        answers: [
+            { text: 'Pedra', correct: true },
+            { text: 'Terra', correct: false },
+            { text: 'Areia', correct: false },
+            { text: 'Grama', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do monstro hostil que adora pregar peças "explosivas" nos jogadores mais distraídos de Minecraft?',
+        answers: [
+            { text: 'Zumbi', correct: false },
+            { text: 'Creeper', correct: true },
+            { text: 'Esqueleto', correct: false },
+            { text: 'Aranha', correct: false }
+        ]
+    },
+    {
+        question: 'O que os jogadores podem encontrar no mundo do Nether em Minecraft?',
+        answers: [
+            { text: 'Vilas de aldeões', correct: false },
+            { text: 'Porcos hostis', correct: true },
+            { text: 'Cavalos selvagens', correct: false },
+            { text: 'Animais pacíficos', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o objetivo do jogo no modo "Criativo" de Minecraft?',
+        answers: [
+            { text: 'Construir estruturas e sobreviver', correct: false },
+            { text: 'Explorar mundos e derrotar monstros', correct: false },
+            { text: 'Criar livremente sem limitações de recursos', correct: true },
+            { text: 'Completar missões e desafios', correct: false }
+        ]
+    },
+    {
+        question: 'Como os jogadores podem obter comida em Minecraft?',
+        answers: [
+            { text: 'Derrotando monstros', correct: false },
+            { text: 'Explorando masmorras', correct: false },
+            { text: 'Cultivando plantas e criando fazendas', correct: true },
+            { text: 'Negociando com aldeões', correct: false }
+        ]
+    },
+    {
+        question: 'Qual é o nome do mundo alternativo e perigoso em Minecraft, acessível por um portal especial?',
+        answers: [
+            { text: 'The End', correct: false },
+            { text: 'Overworld', correct: false },
+            { text: 'Nether', correct: true },
+            { text: 'Dimension Zero', correct: false }
+        ]
+    },
+    {
         question: 'Qual empresa de software tem a sede em Redmond, Washington?',
         answers: [
             { text: 'Apple', correct: false },
@@ -6672,6 +7159,51 @@ const qesporte=[
         ]
     },
     {
+        "question": "Qual dos seguintes esportes radicais envolve saltar de uma ponte, edifício ou outro ponto alto com uma corda elástica presa ao corpo?",
+        "answers": [
+            {"text": "Paraquedismo", "correct": false},
+            {"text": "Bungee Jumping", "correct": true},
+            {"text": "Wingsuit Flying", "correct": false},
+            {"text": "Escalada em Rocha", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do esporte radical que consiste em descer rapidamente uma montanha usando uma bicicleta especializada?",
+        "answers": [
+            {"text": "Mountain Biking", "correct": false},
+            {"text": "Downhill Mountain Biking", "correct": true},
+            {"text": "Freestyle BMX", "correct": false},
+            {"text": "Cross-country Biking", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual dos seguintes esportes radicais é praticado em um ambiente aquático e envolve ser puxado por uma lancha enquanto está em uma prancha?",
+        "answers": [
+            {"text": "Surf", "correct": false},
+            {"text": "Wakeboarding", "correct": true},
+            {"text": "Kitesurfing", "correct": false},
+            {"text": "Windsurfing", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do esporte radical que envolve descer um rio com corredeiras em um bote inflável?",
+        "answers": [
+            {"text": "Canoagem", "correct": false},
+            {"text": "Rafting", "correct": true},
+            {"text": "Kayaking", "correct": false},
+            {"text": "Hydrospeed", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do esporte radical que combina pára-quedismo com voo em um traje especial que permite ao praticante planar através do ar antes de abrir o paraquedas?",
+        "answers": [
+            {"text": "BASE Jumping", "correct": false},
+            {"text": "Wingsuit Flying", "correct": true},
+            {"text": "Hang Gliding", "correct": false},
+            {"text": "Paragliding", "correct": false}
+        ]
+    },
+    {
         question: 'Em que ano o tenista brasileiro Gustavo Kuerten foi campeão pela primeira vez do Grand Slam de Roland Garros?',
         answers: [
             { text: '1997', correct: true },
@@ -7931,6 +8463,15 @@ const qgeo=[
         ]
     },
     {
+        "question": "Qual país construiu o submarino de propulsão não nuclear mais avançado, conhecido como Tipo 212?",
+        "answers": [
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Alemanha", "correct": true},
+            {"text": "Rússia", "correct": false},
+            {"text": "China", "correct": false}
+        ]
+    },
+    {
         question: 'O prédio mais alto do mundo (até 2024), tem 828m e 163 andares. Qual é o seu nome?',
         answers: [
             { text: 'Empire State Building', correct: false },
@@ -9124,6 +9665,60 @@ const qhisto=[
             { text: 'Aníbal Barca', correct: true },
             { text: 'Júlio César', correct: false },
             { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        "question": "Qual foi o nome do primeiro submarino nuclear do mundo, lançado pela Marinha dos Estados Unidos em 1954?",
+        "answers": [
+            {"text": "USS Triton", "correct": false},
+            {"text": "USS Nautilus", "correct": true},
+            {"text": "USS Seawolf", "correct": false},
+            {"text": "USS Ohio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o primeiro tanque de guerra usado em combate pela Grã-Bretanha durante a Primeira Guerra Mundial?",
+        "answers": [
+            {"text": "Mark I", "correct": true},
+            {"text": "Sherman", "correct": false},
+            {"text": "Tiger I", "correct": false},
+            {"text": "Panzer IV", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal tanque de batalha da Rússia, famoso por sua utilização durante a Segunda Guerra Mundial?",
+        "answers": [
+            {"text": "T-34", "correct": true},
+            {"text": "T-90", "correct": false},
+            {"text": "Panzer III", "correct": false},
+            {"text": "Abrams", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual tanque americano é conhecido como o principal tanque de batalha utilizado desde a Guerra do Golfo?",
+        "answers": [
+            {"text": "M1 Abrams", "correct": true},
+            {"text": "M60 Patton", "correct": false},
+            {"text": "Leopard 2", "correct": false},
+            {"text": "Challenger 2", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual tanque alemão, famoso durante a Segunda Guerra Mundial, era conhecido por seu poder de fogo e blindagem pesada?",
+        "answers": [
+            {"text": "Tiger I", "correct": true},
+            {"text": "Leopard 1", "correct": false},
+            {"text": "Sherman", "correct": false},
+            {"text": "T-55", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do tanque de batalha principal do Reino Unido, introduzido em 1998, que é conhecido por sua excelente proteção e poder de fogo?",
+        "answers": [
+            {"text": "Challenger 2", "correct": true},
+            {"text": "Leclerc", "correct": false},
+            {"text": "Merkava IV", "correct": false},
+            {"text": "Type 99", "correct": false}
         ]
     },
     {
