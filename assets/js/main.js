@@ -483,6 +483,24 @@ const qarte=[
         ]
     },
     {
+        "question": "Qual é o nome da flor que é um símbolo comum de luto e tristeza?",
+        "answers": [
+            {"text": "Orquídea", "correct": false},
+            {"text": "Lírio", "correct": true},
+            {"text": "Margarida", "correct": false},
+            {"text": "Violeta", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da flor que é um símbolo da primavera e é conhecida por suas cores vibrantes?",
+        "answers": [
+            {"text": "Tulipa", "correct": true},
+            {"text": "Girassol", "correct": false},
+            {"text": "Cravo", "correct": false},
+            {"text": "Rosa", "correct": false}
+        ]
+    },
+    {
         "question": "Qual foi o papel de Moisés na narrativa bíblica do Êxodo?",
         "answers": [
             {"text": "Ele foi o rei de Israel", "correct": false},
@@ -1850,6 +1868,42 @@ const qbio=[
         ]
     },
     {
+        "question": "Qual é a cor típica das gramas saudáveis?",
+        "answers": [
+            {"text": "Vermelho", "correct": false},
+            {"text": "Amarelo", "correct": false},
+            {"text": "Verde", "correct": true},
+            {"text": "Azul", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a parte da grama responsável pela absorção de água e nutrientes do solo?",
+        "answers": [
+            {"text": "Raiz", "correct": true},
+            {"text": "Haste", "correct": false},
+            {"text": "Folha", "correct": false},
+            {"text": "Flor", "correct": false}
+        ]
+    },
+    {
+        "question": "Que tipo de clima é ideal para o cultivo de gramas?",
+        "answers": [
+            {"text": "Árido", "correct": false},
+            {"text": "Tropical", "correct": false},
+            {"text": "Temperado", "correct": true},
+            {"text": "Polar", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o método mais comum de propagação das gramas em gramados?",
+        "answers": [
+            {"text": "Sementes", "correct": true},
+            {"text": "Estacas", "correct": false},
+            {"text": "Bulbos", "correct": false},
+            {"text": "Divisão de touceiras", "correct": false}
+        ]
+    },
+    {
         question: 'Qual é a teoria mais aceita sobre a origem da vida na Terra?',
         answers: [
             { text: 'Criacionismo', correct: false },
@@ -2045,15 +2099,6 @@ const qbio=[
             { text: '8', correct: true },
             { text: '10', correct: false },
             { text: '12', correct: false }
-        ]
-    },
-    {
-        question: 'Qual parte da planta é responsável pela fotossíntese?',
-        answers: [
-            { text: 'Raiz', correct: false },
-            { text: 'Folha', correct: true },
-            { text: 'Caule', correct: false },
-            { text: 'Flor', correct: false }
         ]
     },
     {
@@ -3292,7 +3337,195 @@ const qciencia=[
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
         ]
     },
-    
+    {
+        "question": "Qual é a unidade de medida da corrente elétrica?",
+        "answers": [
+            {"text": "Volt", "correct": false},
+            {"text": "Ampère", "correct": true},
+            {"text": "Watt", "correct": false},
+            {"text": "Ohm", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do dispositivo usado para interromper o fluxo de corrente elétrica em um circuito?",
+        "answers": [
+            {"text": "Transistor", "correct": false},
+            {"text": "Resistor", "correct": false},
+            {"text": "Interruptor", "correct": true},
+            {"text": "Condensador", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a lei que afirma que a corrente que passa por um condutor é diretamente proporcional à tensão aplicada a ele?",
+        "answers": [
+            {"text": "Lei de Faraday", "correct": false},
+            {"text": "Lei de Coulomb", "correct": false},
+            {"text": "Lei de Ohm", "correct": true},
+            {"text": "Lei de Kirchhoff", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do componente eletrônico que armazena carga elétrica?",
+        "answers": [
+            {"text": "Transistor", "correct": false},
+            {"text": "Resistor", "correct": false},
+            {"text": "Capacitor", "correct": true},
+            {"text": "Indutor", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a unidade de medida da resistência elétrica?",
+        "answers": [
+            {"text": "Ampère", "correct": false},
+            {"text": "Ohm", "correct": true},
+            {"text": "Watt", "correct": false},
+            {"text": "Volt", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal componente venenoso encontrado em aranhas da família Latrodectus, como a viúva-negra?",
+        "answers": [
+            {"text": "Ácido clorídrico", "correct": false},
+            {"text": "Veneno de cobra", "correct": false},
+            {"text": "Toxina botulínica", "correct": false},
+            {"text": "Latrotoxina", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do veneno encontrado na pele de sapos de algumas espécies, como o sapo-boi?",
+        "answers": [
+            {"text": "Arsênico", "correct": false},
+            {"text": "Bufotoxina", "correct": true},
+            {"text": "Cianeto", "correct": false},
+            {"text": "Estricnina", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do veneno produzido por certas plantas, como a mamona?",
+        "answers": [
+            {"text": "Veneno de cobra", "correct": false},
+            {"text": "Ricina", "correct": true},
+            {"text": "Curare", "correct": false},
+            {"text": "Cianeto", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do veneno usado comumente em assassínios históricos, derivado de folhas de plantas de Digitalis?",
+        "answers": [
+            {"text": "Arsênico", "correct": false},
+            {"text": "Cianeto", "correct": false},
+            {"text": "Digitalina", "correct": true},
+            {"text": "Estricnina", "correct": false}
+        ]
+    },
+    {
+        "question": "Que tipo de tinta é conhecida por seu acabamento brilhante e resistência à umidade?",
+        "answers": [
+            {"text": "Tinta a óleo", "correct": false},
+            {"text": "Tinta acrílica", "correct": false},
+            {"text": "Tinta esmalte", "correct": true},
+            {"text": "Tinta látex", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal diferença entre tintas à base de água e tintas à base de solvente?",
+        "answers": [
+            {"text": "A cor", "correct": false},
+            {"text": "O preço", "correct": false},
+            {"text": "O odor", "correct": true},
+            {"text": "A durabilidade", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da tinta que muda de cor em resposta a estímulos externos, como luz UV?",
+        "answers": [
+            {"text": "Tinta fluorescente", "correct": false},
+            {"text": "Tinta térmica", "correct": false},
+            {"text": "Tinta termocrômica", "correct": true},
+            {"text": "Tinta magnética", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da tinta que brilha no escuro após ser exposta à luz?",
+        "answers": [
+            {"text": "Tinta metálica", "correct": false},
+            {"text": "Tinta de acabamento fosco", "correct": false},
+            {"text": "Tinta fosforescente", "correct": true},
+            {"text": "Tinta de textura", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a profundidade padrão de uma piscina olímpica?",
+        "answers": [
+          {"text": "2 metros", "correct": false},
+          {"text": "3 metros", "correct": false},
+          {"text": "5 metros", "correct": false},
+          {"text": "2 metros nas extremidades e 3 metros no meio", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do dispositivo giratório no topo de um helicóptero que permite o voo?",
+        "answers": [
+            {"text": "Asa fixa", "correct": false},
+            {"text": "Rotor principal", "correct": true},
+            {"text": "Estabilizador horizontal", "correct": false},
+            {"text": "Propulsor", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o primeiro helicóptero de produção em massa, criado pelo ucraniano Igor Sikorsky em 1942?",
+        "answers": [
+            {"text": "Bell UH-1 Iroquois", "correct": false},
+            {"text": "Sikorsky R-4", "correct": true},
+            {"text": "Boeing CH-47 Chinook", "correct": false},
+            {"text": "Robinson R22", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal vantagem de um helicóptero sobre um avião?",
+        "answers": [
+            {"text": "Maior velocidade", "correct": false},
+            {"text": "Capacidade de pairar no ar", "correct": true},
+            {"text": "Maior capacidade de carga", "correct": false},
+            {"text": "Maior altitude de voo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do rotor pequeno na cauda de um helicóptero que impede a rotação descontrolada da fuselagem?",
+        "answers": [
+            {"text": "Rotor principal", "correct": false},
+            {"text": "Rotor de cauda", "correct": true},
+            {"text": "Estabilizador vertical", "correct": false},
+            {"text": "Propulsor", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual helicóptero é conhecido por seu uso extensivo durante a Guerra do Vietnã?",
+        "answers": [
+            {"text": "Sikorsky S-76", "correct": false},
+            {"text": "Bell UH-1 Iroquois", "correct": true},
+            {"text": "Eurocopter AS365 Dauphin", "correct": false},
+            {"text": "Boeing AH-64 Apache", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome completo do helicóptero Havoc?",
+        "answers": [
+            {"text": "Mil Mi-24 Havoc", "correct": true},
+            {"text": "Sikorsky UH-60 Havoc", "correct": false},
+            {"text": "Boeing AH-64 Havoc", "correct": false},
+            {"text": "Bell AH-1 Havoc", "correct": false}
+        ]
+    },
+    {
+        "question": "De qual país é originário o helicóptero Havoc?",
+        "answers": [
+            {"text": "Rússia", "correct": true},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Alemanha", "correct": false},
+            {"text": "França", "correct": false}
+        ]
+    },  
     {
         "question": "Qual é a principal função dos submarinos de ataque rápido (SSN) na marinha?",
         "answers": [
@@ -8607,6 +8840,69 @@ const qgeo=[
         ]
     },
     {
+        "question": "Qual foi o primeiro trem a vapor de passageiros do mundo?",
+        "answers": [
+            {"text": "Puffing Billy", "correct": false},
+            {"text": "Tom Thumb", "correct": false},
+            {"text": "Rocket", "correct": true},
+            {"text": "The Best Friend of Charleston", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da locomotiva a vapor mais famosa do mundo, atualmente em exibição no Museu Nacional Ferroviário em York, Inglaterra?",
+        "answers": [
+            {"text": "Mallard", "correct": true},
+            {"text": "Flying Scotsman", "correct": false},
+            {"text": "The Royal Scot", "correct": false},
+            {"text": "Evening Star", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do sistema ferroviário de alta velocidade que conecta várias cidades na Europa?",
+        "answers": [
+            {"text": "TGV", "correct": true},
+            {"text": "Shinkansen", "correct": false},
+            {"text": "Eurostar", "correct": false},
+            {"text": "ICE", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que país está localizado o Glacier Express, um famoso trem panorâmico que viaja pelos Alpes suíços?",
+        "answers": [
+            {"text": "Suíça", "correct": true},
+            {"text": "Áustria", "correct": false},
+            {"text": "França", "correct": false},
+            {"text": "Itália", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do famoso trem de luxo que viaja pela Ásia, conectando várias cidades importantes como Cingapura, Bangcoc e Kuala Lumpur?",
+        "answers": [
+            {"text": "Trans-Siberian Express", "correct": false},
+            {"text": "Orient Express", "correct": false},
+            {"text": "Eastern & Oriental Express", "correct": true},
+            {"text": "Shanghai Maglev", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a flor nacional do Japão?",
+        "answers": [
+            {"text": "Cerejeira", "correct": true},
+            {"text": "Rosa", "correct": false},
+            {"text": "Orquídea", "correct": false},
+            {"text": "Girassol", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a flor que simboliza a pureza e a beleza na cultura ocidental?",
+        "answers": [
+            {"text": "Orquídea", "correct": false},
+            {"text": "Rosa", "correct": true},
+            {"text": "Tulipa", "correct": false},
+            {"text": "Íris", "correct": false}
+        ]
+    },
+    {
         "question": "Qual país construiu o submarino de propulsão não nuclear mais avançado, conhecido como Tipo 212?",
         "answers": [
             {"text": "Estados Unidos", "correct": false},
@@ -9809,6 +10105,177 @@ const qhisto=[
             { text: 'Aníbal Barca', correct: true },
             { text: 'Júlio César', correct: false },
             { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        "question": "Quem é frequentemente creditado como o inventor do carimbo de borracha moderno?",
+        "answers": [
+            {"text": "Isaac Newton", "correct": false},
+            {"text": "Alexander Graham Bell", "correct": false},
+            {"text": "Charles Goodyear", "correct": true},
+            {"text": "Thomas Edison", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual partido político Hitler liderou na Alemanha?",
+        "answers": [
+            {"text": "Partido Comunista Alemão", "correct": false},
+            {"text": "Partido Nazista", "correct": true},
+            {"text": "Partido Social-Democrata", "correct": false},
+            {"text": "Partido Conservador Alemão", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual livro escrito por Hitler delineou suas crenças políticas e ideológicas?",
+        "answers": [
+            {"text": "O Manifesto Comunista", "correct": false},
+            {"text": "Minha Luta", "correct": true},
+            {"text": "O Príncipe", "correct": false},
+            {"text": "A Origem das Espécies", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o evento que marcou o início da Segunda Guerra Mundial, desencadeado pela invasão da Polônia pelas forças alemãs?",
+        "answers": [
+            {"text": "Invasão da França", "correct": false},
+            {"text": "Ataque a Pearl Harbor", "correct": false},
+            {"text": "Operação Barbarossa", "correct": false},
+            {"text": "Invasão da Polônia", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual era o título oficial de Hitler na Alemanha nazista?",
+        "answers": [
+            {"text": "Kaiser", "correct": false},
+            {"text": "Chanceler", "correct": true},
+            {"text": "Presidente", "correct": false},
+            {"text": "Führer", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o destino final de Hitler durante a Segunda Guerra Mundial?",
+        "answers": [
+            {"text": "Prisão", "correct": false},
+            {"text": "Exílio na Argentina", "correct": false},
+            {"text": "Suicídio em um bunker em Berlim", "correct": true},
+            {"text": "Julgamento em Nuremberg", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual era o nome completo de Alexandre, o Grande?",
+        "answers": [
+            {"text": "Alexandre III da Macedônia", "correct": true},
+            {"text": "Alexandre II da Grécia", "correct": false},
+            {"text": "Alexandre I do Egito", "correct": false},
+            {"text": "Alexandre IV da Pérsia", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual era o pai de Alexandre, o Grande?",
+        "answers": [
+            {"text": "Filipe II da Macedônia", "correct": true},
+            {"text": "Aristóteles", "correct": false},
+            {"text": "Dario III", "correct": false},
+            {"text": "Leônidas I de Esparta", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual era o nome do cavalo de Alexandre, que se tornou famoso por sua bravura?",
+        "answers": [
+            {"text": "Falcão", "correct": false},
+            {"text": "Bucéfalo", "correct": true},
+            {"text": "Tróia", "correct": false},
+            {"text": "Pégaso", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o mentor e tutor de Alexandre durante sua juventude?",
+        "answers": [
+            {"text": "Aristóteles", "correct": true},
+            {"text": "Platão", "correct": false},
+            {"text": "Sócrates", "correct": false},
+            {"text": "Heródoto", "correct": false}
+        ]
+    },
+    {
+        "question": "Quanto tempo durou o reinado de Alexandre, o Grande, como rei da Macedônia?",
+        "answers": [
+            {"text": "10 anos", "correct": false},
+            {"text": "12 anos", "correct": false},
+            {"text": "13 anos", "correct": false},
+            {"text": "15 anos", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual era a cidade-estado de Aníbal?",
+        "answers": [
+            {"text": "Cartago", "correct": true},
+            {"text": "Roma", "correct": false},
+            {"text": "Atenas", "correct": false},
+            {"text": "Esparta", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual batalha ficou famosa pela estratégia de Aníbal, usando elefantes?",
+        "answers": [
+            {"text": "Batalha de Salamina", "correct": false},
+            {"text": "Batalha de Canas", "correct": true},
+            {"text": "Batalha de Gaugamela", "correct": false},
+            {"text": "Batalha de Zama", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual general romano foi derrotado por Aníbal na Batalha de Canas?",
+        "answers": [
+            {"text": "Júlio César", "correct": false},
+            {"text": "Scipio Africanus", "correct": false},
+            {"text": "Lucius Aemilius Paullus", "correct": false},
+            {"text": "Lucius Cornelius Scipio", "correct": true}
+        ]
+    },
+    {
+        "question": "Quem é frequentemente creditado como o inventor da cadeira moderna?",
+        "answers": [
+          {"text": "Leonardo da Vinci", "correct": false},
+          {"text": "Michael Thonet", "correct": false},
+          {"text": "Thomas Jefferson", "correct": false},
+          {"text": "Thomas Warren", "correct": true}
+        ]
+    },
+    {
+        "question": "Quais são algumas características comuns de uma ditadura?",
+        "answers": [
+          {"text": "Respeito aos direitos humanos e liberdades individuais", "correct": false},
+          {"text": "Múltiplos partidos políticos e eleições livres", "correct": false},
+          {"text": "Censura da mídia e repressão da oposição", "correct": true},
+          {"text": "Separação efetiva de poderes e sistema judicial independente", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é uma das principais críticas às ditaduras?",
+        "answers": [
+          {"text": "Estabilidade política", "correct": false},
+          {"text": "Desenvolvimento econômico acelerado", "correct": false},
+          {"text": "Violações dos direitos humanos", "correct": true},
+          {"text": "Alta participação cívica", "correct": false}
+        ]
+    },
+    {
+        "question": "O que costuma acontecer com a liberdade de expressão em uma ditadura?",
+        "answers": [
+          {"text": "É amplamente protegida e incentivada", "correct": false},
+          {"text": "É restrita e controlada pelo governo", "correct": true},
+          {"text": "É garantida apenas para membros do partido governante", "correct": false},
+          {"text": "Não é afetada de forma significativa", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem geralmente detém o poder em um governo ditatorial?",
+        "answers": [
+          {"text": "O povo, por meio de eleições democráticas", "correct": false},
+          {"text": "Um líder único ou um pequeno grupo", "correct": true},
+          {"text": "O parlamento e seus representantes eleitos", "correct": false},
+          {"text": "Organizações não governamentais e sociedade civil", "correct": false}
         ]
     },
     {
