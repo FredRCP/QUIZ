@@ -483,6 +483,69 @@ const qarte=[
         ]
     },
     {
+        "question": "Qual tenor italiano é conhecido como 'Il Maestro' e ficou famoso por suas performances em óperas como 'La Traviata' e 'Rigoletto'?",
+        "answers": [
+            {"text": "Luciano Pavarotti", "correct": true},
+            {"text": "Andrea Bocelli", "correct": false},
+            {"text": "Plácido Domingo", "correct": false},
+            {"text": "Enrico Caruso", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual tenor espanhol foi um dos membros originais dos 'Três Tenores', juntamente com Luciano Pavarotti e José Carreras?",
+        "answers": [
+            {"text": "José Carreras", "correct": false},
+            {"text": "Plácido Domingo", "correct": true},
+            {"text": "Andrea Bocelli", "correct": false},
+            {"text": "Luciano Pavarotti", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual tenor conhecido por sua poderosa voz e técnica vocal excepcional é frequentemente chamado de 'Rei dos Tenores'?",
+        "answers": [
+            {"text": "Plácido Domingo", "correct": false},
+            {"text": "Enrico Caruso", "correct": true},
+            {"text": "José Carreras", "correct": false},
+            {"text": "Luciano Pavarotti", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual tenor italiano ficou famoso por suas interpretações de óperas como 'Tosca', 'La Bohème' e 'Madama Butterfly'?",
+        "answers": [
+            {"text": "Luciano Pavarotti", "correct": false},
+            {"text": "Andrea Bocelli", "correct": false},
+            {"text": "Enrico Caruso", "correct": false},
+            {"text": "Giacomo Puccini", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual tenor espanhol é conhecido por sua voz potente e apaixonada e é amplamente considerado um dos maiores tenores de todos os tempos?",
+        "answers": [
+            {"text": "José Carreras", "correct": false},
+            {"text": "Plácido Domingo", "correct": true},
+            {"text": "Luciano Pavarotti", "correct": false},
+            {"text": "Andrea Bocelli", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem é conhecido como 'O Pai da Ópera'?",
+        "answers": [
+            {"text": "Giuseppe Verdi", "correct": false},
+            {"text": "Wolfgang Amadeus Mozart", "correct": false},
+            {"text": "Claudio Monteverdi", "correct": true},
+            {"text": "Richard Wagner", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a marca de relógio suíça conhecida por seu emblema de uma coroa?",
+        "answers": [
+            {"text": "Omega", "correct": false},
+            {"text": "Tag Heuer", "correct": false},
+            {"text": "Rolex", "correct": true},
+            {"text": "Patek Philippe", "correct": false}
+        ]
+    },
+    {
         "question": "Qual é o nome da flor que é um símbolo comum de luto e tristeza?",
         "answers": [
             {"text": "Orquídea", "correct": false},
@@ -3338,6 +3401,159 @@ const qciencia=[
         ]
     },
     {
+        "question": "Qual é o material mais comum usado para fazer o corpo de uma pipa?",
+        "answers": [
+            {"text": "Alumínio", "correct": false},
+            {"text": "Bambu", "correct": true},
+            {"text": "Plástico", "correct": false},
+            {"text": "Aço", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome dado à linha usada para voar pipas?",
+        "answers": [
+            {"text": "Fio dental", "correct": false},
+            {"text": "Fio de nylon", "correct": false},
+            {"text": "Fio de papagaio", "correct": true},
+            {"text": "Fio de pesca", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a proteína principal que compõe as unhas?",
+        "answers": [
+            {"text": "Queratina", "correct": true},
+            {"text": "Colágeno", "correct": false},
+            {"text": "Melanina", "correct": false},
+            {"text": "Elastina", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da condição em que as unhas se tornam amareladas devido ao uso excessivo de esmaltes escuros?",
+        "answers": [
+            {"text": "Onicomicose", "correct": false},
+            {"text": "Leuconíquia", "correct": false},
+            {"text": "Melanoníquia", "correct": false},
+            {"text": "Lentiginose", "correct": true}
+        ]
+    },
+    {
+        "question": "O que é a cutícula da unha?",
+        "answers": [
+            {"text": "A parte externa da unha", "correct": false},
+            {"text": "A camada de queratina da unha", "correct": false},
+            {"text": "A pele morta ao redor da unha", "correct": false},
+            {"text": "A pele que se sobrepõe à base da unha", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do instrumento usado para empurrar as cutículas durante uma manicure?",
+        "answers": [
+            {"text": "Pinça", "correct": false},
+            {"text": "Alicate", "correct": false},
+            {"text": "Espátula", "correct": true},
+            {"text": "Tesoura", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a função da matriz da unha?",
+        "answers": [
+            {"text": "Produzir queratina", "correct": true},
+            {"text": "Fornecer nutrientes para as unhas", "correct": false},
+            {"text": "Regular a temperatura das unhas", "correct": false},
+            {"text": "Controlar o crescimento das unhas", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem é creditado como o inventor do primeiro sistema de televisão totalmente eletrônico?",
+        "answers": [
+            {"text": "Thomas Edison", "correct": false},
+            {"text": "John Logie Baird", "correct": false},
+            {"text": "Philo Farnsworth", "correct": true},
+            {"text": "Guglielmo Marconi", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da tecnologia de tela que é frequentemente usada em televisores modernos e consiste em pequenos pontos de luz que compõem a imagem?",
+        "answers": [
+            {"text": "CRT", "correct": false},
+            {"text": "LCD", "correct": false},
+            {"text": "LED", "correct": true},
+            {"text": "Plasma", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a resolução de tela mais alta entre as opções abaixo?",
+        "answers": [
+            {"text": "720p", "correct": false},
+            {"text": "1080p", "correct": false},
+            {"text": "4K", "correct": true},
+            {"text": "480p", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual empresa é conhecida por sua linha de televisores Bravia?",
+        "answers": [
+            {"text": "Samsung", "correct": false},
+            {"text": "LG", "correct": false},
+            {"text": "Sony", "correct": true},
+            {"text": "Panasonic", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do mecanismo que alimenta um relógio mecânico, permitindo que ele funcione sem baterias?",
+        "answers": [
+            {"text": "Movimento de quartzo", "correct": false},
+            {"text": "Ressort", "correct": false},
+            {"text": "Corda manual", "correct": true},
+            {"text": "Cronógrafo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da parte do relógio que cobre o mostrador e o protege de danos?",
+        "answers": [
+            {"text": "Bisel", "correct": false},
+            {"text": "Cristal", "correct": true},
+            {"text": "Luneta", "correct": false},
+            {"text": "Ponteiro", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a função de um cronógrafo em um relógio?",
+        "answers": [
+            {"text": "Mostrar a hora mundial", "correct": false},
+            {"text": "Medir intervalos de tempo", "correct": true},
+            {"text": "Mostrar a data", "correct": false},
+            {"text": "Resistir à água", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal ingrediente usado na fabricação de sabonete?",
+        "answers": [
+            {"text": "Ácido sulfúrico", "correct": false},
+            {"text": "Glicerina", "correct": true},
+            {"text": "Acetona", "correct": false},
+            {"text": "Água oxigenada", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual processo é utilizado para fazer sabonetes artesanais e envolve a reação de gorduras ou óleos com uma base?",
+        "answers": [
+            {"text": "Saponificação", "correct": true},
+            {"text": "Fermentação", "correct": false},
+            {"text": "Polimerização", "correct": false},
+            {"text": "Sublimação", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o pH típico de um sabonete neutro?",
+        "answers": [
+            {"text": "Menos de 5", "correct": false},
+            {"text": "Entre 5 e 6", "correct": false},
+            {"text": "7", "correct": true},
+            {"text": "Mais de 8", "correct": false}
+        ]
+    },
+    {
         "question": "Qual é a unidade de medida da corrente elétrica?",
         "answers": [
             {"text": "Volt", "correct": false},
@@ -4749,6 +4965,24 @@ const qentre=[
         ]
     },
     {
+        "question": "Qual é a parte do corpo que os zumbis geralmente tentam morder em muitas histórias de zumbis?",
+        "answers": [
+            {"text": "Perna", "correct": false},
+            {"text": "Braço", "correct": false},
+            {"text": "Pescoço", "correct": false},
+            {"text": "Cérebro", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual famoso diretor de filmes de terror é conhecido por popularizar o conceito moderno de zumbis em seu filme 'A Noite dos Mortos-Vivos'?",
+        "answers": [
+            {"text": "Alfred Hitchcock", "correct": false},
+            {"text": "Wes Craven", "correct": false},
+            {"text": "Tobe Hooper", "correct": false},
+            {"text": "George A. Romero", "correct": true}
+        ]
+    },
+    {
         "question": "Qual é o nome do filme estrelado por Clint Eastwood, que é frequentemente considerado um dos melhores filmes de faroeste de todos os tempos?",
         "answers": [
             {"text": "A Morte Anda a Cavalo", "correct": false},
@@ -6105,6 +6339,51 @@ const qgeek=[
             { text: 'Cubo Mágico', correct: true },
             { text: 'Tamagotchi', correct: false },
             { text: 'Bop It', correct: false }
+        ]
+    },
+    {
+        "question": "Qual é o nome do dispositivo que permite aos jogadores inserir moedas nos fliperamas para começar a jogar?",
+        "answers": [
+            {"text": "Joystick", "correct": false},
+            {"text": "Slot", "correct": false},
+            {"text": "Moedeiro", "correct": true},
+            {"text": "Botão de Iniciar", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o primeiro jogo de fliperama a apresentar gráficos em cores, lançado pela Namco em 1980?",
+        "answers": [
+            {"text": "Donkey Kong", "correct": false},
+            {"text": "Space Invaders", "correct": false},
+            {"text": "Pac-Man", "correct": true},
+            {"text": "Galaga", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do personagem principal do jogo de fliperama clássico 'Pac-Man'?",
+        "answers": [
+            {"text": "Mario", "correct": false},
+            {"text": "Sonic", "correct": false},
+            {"text": "Pac-Man", "correct": true},
+            {"text": "Donkey Kong", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da empresa japonesa que é uma das mais conhecidas por criar jogos de fliperama, incluindo 'Street Fighter' e 'Resident Evil'?",
+        "answers": [
+            {"text": "Atari", "correct": false},
+            {"text": "Sega", "correct": false},
+            {"text": "Namco", "correct": false},
+            {"text": "Capcom", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome de um dos vírus que infecta as pessoas e as transforma em zumbis em 'Resident Evil'?",
+        "answers": [
+            {"text": "Cordyceps", "correct": false},
+            {"text": "Zombrex", "correct": false},
+            {"text": "T-Virus", "correct": true},
+            {"text": "Vírus Wildfire", "correct": false}
         ]
     },
     {
@@ -8840,6 +9119,78 @@ const qgeo=[
         ]
     },
     {
+        "question": "Qual é o nome tradicional japonês para pipas?",
+        "answers": [
+            {"text": "Hinomaru", "correct": false},
+            {"text": "Kamikaze", "correct": false},
+            {"text": "Tako", "correct": true},
+            {"text": "Samurai", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o maior vulcão ativo do mundo, localizado no Havaí?",
+        "answers": [
+            {"text": "Monte Santa Helena", "correct": false},
+            {"text": "Monte Vesúvio", "correct": false},
+            {"text": "Mauna Loa", "correct": true},
+            {"text": "Krakatoa", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da caldeira vulcânica localizada em Wyoming, EUA, que é um dos maiores sistemas vulcânicos do mundo?",
+        "answers": [
+            {"text": "Caldeira de Long Valley", "correct": false},
+            {"text": "Caldeira de Yellowstone", "correct": true},
+            {"text": "Caldeira de Crater Lake", "correct": false},
+            {"text": "Caldeira de Valles", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a ponte mais longa do mundo em termos de extensão total? Tem 164,8km.",
+        "answers": [
+            {"text": "Ponte da Baía de Hangzhou", "correct": false},
+            {"text": "Ponte do Lago Pontchartrain", "correct": false},
+            {"text": "Ponte Danyang–Kunshan Grand", "correct": true},
+            {"text": "Ponte da Baía de Chesapeake", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual ponte conecta São Francisco a Marin County na Califórnia, EUA?",
+        "answers": [
+            {"text": "Ponte Golden Gate", "correct": true},
+            {"text": "Ponte Brooklyn", "correct": false},
+            {"text": "Ponte de Sydney", "correct": false},
+            {"text": "Ponte de Londres", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a ponte levadiça mais famosa de Londres?",
+        "answers": [
+            {"text": "Ponte de Londres", "correct": false},
+            {"text": "Ponte de Westminster", "correct": false},
+            {"text": "Ponte da Torre", "correct": true},
+            {"text": "Ponte de Blackfriars", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a característica distintiva da Ponte Rialto em Veneza, Itália?",
+        "answers": [
+            {"text": "É uma ponte levadiça", "correct": false},
+            {"text": "Tem lojas em ambos os lados", "correct": true},
+            {"text": "É feita de metal", "correct": false},
+            {"text": "É a ponte mais longa do mundo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a ponte de pedestres e ciclistas que atravessa o Rio Sena em Paris?",
+        "answers": [
+            {"text": "Ponte Neuf", "correct": false},
+            {"text": "Ponte Alexandre III", "correct": false},
+            {"text": "Ponte das Artes", "correct": true},
+            {"text": "Ponte Mirabeau", "correct": false}
+        ]
+    },
+    {
         "question": "Qual foi o primeiro trem a vapor de passageiros do mundo?",
         "answers": [
             {"text": "Puffing Billy", "correct": false},
@@ -10105,6 +10456,195 @@ const qhisto=[
             { text: 'Aníbal Barca', correct: true },
             { text: 'Júlio César', correct: false },
             { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        "question": "Qual foi o nome de nascimento do Papa João Paulo II?",
+        "answers": [
+            {"text": "Karol Wojtyła", "correct": true},
+            {"text": "Giovanni Battista Enrico Antonio Maria Montini", "correct": false},
+            {"text": "Joseph Aloisius Ratzinger", "correct": false},
+            {"text": "Jorge Mario Bergoglio", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que ano João Paulo II foi eleito Papa?",
+        "answers": [
+            {"text": "1978", "correct": true},
+            {"text": "1981", "correct": false},
+            {"text": "1985", "correct": false},
+            {"text": "1973", "correct": false}
+        ]
+    },
+    {
+        "question": "De qual país João Paulo II era natural?",
+        "answers": [
+            {"text": "Polônia", "correct": true},
+            {"text": "Itália", "correct": false},
+            {"text": "Alemanha", "correct": false},
+            {"text": "Argentina", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi a encíclica escrita por João Paulo II que abordou questões sociais e econômicas?",
+        "answers": [
+            {"text": "Fides et Ratio", "correct": false},
+            {"text": "Redemptor Hominis", "correct": false},
+            {"text": "Evangelium Vitae", "correct": false},
+            {"text": "Laborem Exercens", "correct": true}
+        ]
+    },
+    {
+        "question": "João Paulo II foi o Papa por quanto tempo?",
+        "answers": [
+            {"text": "26 anos", "correct": true},
+            {"text": "15 anos", "correct": false},
+            {"text": "20 anos", "correct": false},
+            {"text": "30 anos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome de nascimento do Papa Francisco?",
+        "answers": [
+            {"text": "Jorge Mario Bergoglio", "correct": true},
+            {"text": "Karol Wojtyła", "correct": false},
+            {"text": "Joseph Ratzinger", "correct": false},
+            {"text": "Giovanni Battista Enrico Antonio Maria Montini", "correct": false}
+        ]
+    },
+    {
+        "question": "De qual país o Papa Francisco é natural?",
+        "answers": [
+            {"text": "Argentina", "correct": true},
+            {"text": "Itália", "correct": false},
+            {"text": "Polônia", "correct": false},
+            {"text": "Alemanha", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que ano o Papa Francisco foi eleito Papa?",
+        "answers": [
+            {"text": "2013", "correct": true},
+            {"text": "2005", "correct": false},
+            {"text": "2017", "correct": false},
+            {"text": "2008", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do primeiro documento publicado pelo Papa Francisco após sua eleição?",
+        "answers": [
+            {"text": "Evangelii Gaudium", "correct": true},
+            {"text": "Laudato Si'", "correct": false},
+            {"text": "Amoris Laetitia", "correct": false},
+            {"text": "Veritatis Splendor", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do santo padroeiro da Itália ao qual o Papa Francisco tem uma forte devoção?",
+        "answers": [
+            {"text": "São Francisco de Assis", "correct": true},
+            {"text": "Santo Agostinho", "correct": false},
+            {"text": "São Tomás de Aquino", "correct": false},
+            {"text": "São Pedro", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome de nascimento do Papa Bento XVI?",
+        "answers": [
+            {"text": "Joseph Aloisius Ratzinger", "correct": true},
+            {"text": "Karol Wojtyła", "correct": false},
+            {"text": "Jorge Mario Bergoglio", "correct": false},
+            {"text": "Giovanni Battista Enrico Antonio Maria Montini", "correct": false}
+        ]
+    },
+    {
+        "question": "De qual país o Papa Bento XVI é natural?",
+        "answers": [
+            {"text": "Alemanha", "correct": true},
+            {"text": "Itália", "correct": false},
+            {"text": "Polônia", "correct": false},
+            {"text": "Argentina", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que ano o Papa Bento XVI foi eleito Papa?",
+        "answers": [
+            {"text": "2005", "correct": true},
+            {"text": "2013", "correct": false},
+            {"text": "2000", "correct": false},
+            {"text": "2010", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da primeira encíclica escrita pelo Papa Bento XVI, publicada em 2005?",
+        "answers": [
+            {"text": "Deus Caritas Est", "correct": true},
+            {"text": "Laudato Si'", "correct": false},
+            {"text": "Evangelii Gaudium", "correct": false},
+            {"text": "Fides et Ratio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o motivo declarado para a renúncia do Papa Bento XVI em 2013?",
+        "answers": [
+            {"text": "Problemas de saúde", "correct": true},
+            {"text": "Pressão política", "correct": false},
+            {"text": "Escândalos financeiros", "correct": false},
+            {"text": "Desejo de aposentadoria", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o primeiro rei da Prússia, frequentemente referido como 'Frederico, o Grande'?",
+        "answers": [
+            {"text": "Frederico Guilherme I", "correct": false},
+            {"text": "Frederico II", "correct": true},
+            {"text": "Frederico III", "correct": false},
+            {"text": "Frederico IV", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual vulcão italiano entrou em erupção em 79 d.C., destruindo as cidades de Pompeia e Herculano?",
+        "answers": [
+            {"text": "Monte Etna", "correct": false},
+            {"text": "Monte Vesúvio", "correct": true},
+            {"text": "Stromboli", "correct": false},
+            {"text": "Monte Subasio", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do vulcão que entrou em erupção em 1883, causando uma das maiores explosões vulcânicas registradas na história?",
+        "answers": [
+            {"text": "Kilauea", "correct": false},
+            {"text": "Krakatoa", "correct": true},
+            {"text": "Eyjafjallajökull", "correct": false},
+            {"text": "Monte Pelée", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual vulcão na Islândia causou uma grande interrupção no tráfego aéreo europeu em 2010?",
+        "answers": [
+            {"text": "Hekla", "correct": false},
+            {"text": "Katla", "correct": false},
+            {"text": "Eyjafjallajökull", "correct": true},
+            {"text": "Askja", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o primeiro relógio de pulso do mundo a ser produzido em massa?",
+        "answers": [
+            {"text": "Omega Speedmaster", "correct": false},
+            {"text": "Rolex Submariner", "correct": false},
+            {"text": "Cartier Santos", "correct": true},
+            {"text": "Tag Heuer Monaco", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual foi o primeiro país a desenvolver o sabonete, de acordo com registros históricos?",
+        "answers": [
+            {"text": "Grécia", "correct": false},
+            {"text": "Egito", "correct": false},
+            {"text": "Babilônia", "correct": true},
+            {"text": "Índia", "correct": false}
         ]
     },
     {
