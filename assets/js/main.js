@@ -537,6 +537,114 @@ const qarte=[
         ]
     },
     {
+        "question": "Qual é a obra mais famosa de São Tomás de Aquino?",
+        "answers": [
+            {"text": "Confissões", "correct": false},
+            {"text": "Suma Teológica", "correct": true},
+            {"text": "Cidade de Deus", "correct": false},
+            {"text": "Ética a Nicômaco", "correct": false}
+        ]
+    },
+    {
+        "question": "São Tomás de Aquino é conhecido por combinar a filosofia de qual antigo filósofo grego com a teologia cristã?",
+        "answers": [
+            {"text": "Platão", "correct": false},
+            {"text": "Sócrates", "correct": false},
+            {"text": "Aristóteles", "correct": true},
+            {"text": "Heráclito", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é uma das obras mais famosas de Friedrich Nietzsche?",
+        "answers": [
+            {"text": "Além do Bem e do Mal", "correct": true},
+            {"text": "Crítica da Razão Pura", "correct": false},
+            {"text": "O Ser e o Nada", "correct": false},
+            {"text": "A República", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal função de uma lupa?",
+        "answers": [
+            {"text": "Medir a temperatura", "correct": false},
+            {"text": "Ampliar objetos pequenos", "correct": true},
+            {"text": "Emitir luz", "correct": false},
+            {"text": "Medir a pressão atmosférica", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o tipo de lente utilizado em uma lupa?",
+        "answers": [
+            {"text": "Lente côncava", "correct": false},
+            {"text": "Lente convexa", "correct": true},
+            {"text": "Lente cilíndrica", "correct": false},
+            {"text": "Lente bifocal", "correct": false}
+        ]
+    },
+    {
+        "question": "O que determina a potência de ampliação de uma lupa?",
+        "answers": [
+            {"text": "O material da lente", "correct": false},
+            {"text": "O diâmetro da lente", "correct": false},
+            {"text": "O foco da lente", "correct": true},
+            {"text": "O formato do cabo", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual área científica as lupas são frequentemente utilizadas?",
+        "answers": [
+            {"text": "Astronomia", "correct": false},
+            {"text": "Microscopia", "correct": false},
+            {"text": "Biologia", "correct": true},
+            {"text": "Geologia", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a parte de uma lupa que permite segurá-la confortavelmente?",
+        "answers": [
+            {"text": "Lente", "correct": false},
+            {"text": "Cabo", "correct": true},
+            {"text": "Foco", "correct": false},
+            {"text": "Bisel", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o conceito de Nietzsche que se refere à ideia de um ciclo infinito de repetição de todos os eventos da vida?",
+        "answers": [
+            {"text": "Vontade de Potência", "correct": false},
+            {"text": "Eterno Retorno", "correct": true},
+            {"text": "Apolo e Dionísio", "correct": false},
+            {"text": "Perspectivismo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual era a profissão de Nietzsche antes de se dedicar completamente à filosofia?",
+        "answers": [
+            {"text": "Médico", "correct": false},
+            {"text": "Professor de Filologia", "correct": true},
+            {"text": "Advogado", "correct": false},
+            {"text": "Matemático", "correct": false}
+        ]
+    },
+    {
+        "question": "São Tomás de Aquino é frequentemente associado a qual ordem religiosa?",
+        "answers": [
+            {"text": "Franciscanos", "correct": false},
+            {"text": "Dominicanos", "correct": true},
+            {"text": "Beneditinos", "correct": false},
+            {"text": "Carmelitas", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o conceito filosófico central desenvolvido por São Tomás de Aquino que busca explicar a coexistência de fé e razão?",
+        "answers": [
+            {"text": "Teoria da Iluminação", "correct": false},
+            {"text": "Ontologia", "correct": false},
+            {"text": "Hilemorfismo", "correct": false},
+            {"text": "Teologia Natural", "correct": true}
+        ]
+    },
+    {
         "question": "Quem é conhecido como 'O Pai da Ópera'?",
         "answers": [
             {"text": "Giuseppe Verdi", "correct": false},
@@ -2129,6 +2237,78 @@ const qbio=[
         ]
     },
     {
+        "question": "Qual é o nome da serpente mais venenosa do mundo, encontrada na Austrália e no Sudeste Asiático?",
+        "answers": [
+            {"text": "Cobra Coral", "correct": false},
+            {"text": "Mamba Negra", "correct": false},
+            {"text": "Tetraodontidae", "correct": false},
+            {"text": "Taipan", "correct": true}
+        ]
+    },
+    {
+        "question": "Quais destes animais não são considerados peçonhentos?",
+        "answers": [
+            {"text": "Cobra Coral", "correct": false},
+            {"text": "Escorpião", "correct": false},
+            {"text": "Polvo", "correct": true},
+            {"text": "Aranha-marrom", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal componente do veneno das abelhas?",
+        "answers": [
+            {"text": "Neurotoxinas", "correct": false},
+            {"text": "Hemotoxinas", "correct": false},
+            {"text": "Melitotoxinas", "correct": true},
+            {"text": "Cytotoxinas", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome dado ao grupo de águas-vivas cujo veneno pode ser fatal para humanos?",
+        "answers": [
+            {"text": "Cubozoa", "correct": true},
+            {"text": "Scyphozoa", "correct": false},
+            {"text": "Hydrozoa", "correct": false},
+            {"text": "Anthozoa", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da aranha conhecida por sua mordida altamente venenosa e encontrada em regiões do Brasil?",
+        "answers": [
+            {"text": "Viúva Negra", "correct": false},
+            {"text": "Aranha-marrom", "correct": true},
+            {"text": "Tarântula", "correct": false},
+            {"text": "Ariranha", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome dado ao fenômeno da migração vertical diária de muitos organismos marinhos em direção à superfície durante a noite e ao fundo durante o dia?",
+        "answers": [
+            {"text": "Hibernação", "correct": false},
+            {"text": "Migração Horizontal", "correct": false},
+            {"text": "Migração Diurna", "correct": false},
+            {"text": "Migração Vertical", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do ecossistema marinho encontrado em águas costeiras rasas, caracterizado por uma grande diversidade biológica?",
+        "answers": [
+            {"text": "Recife de Coral", "correct": true},
+            {"text": "Estuário", "correct": false},
+            {"text": "Plâncton", "correct": false},
+            {"text": "Abismo Marinho", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da substância oleosa produzida por baleias e usada em perfumaria e cosméticos?",
+        "answers": [
+            {"text": "Cera de Abelha", "correct": false},
+            {"text": "Âmbar", "correct": false},
+            {"text": "Mel", "correct": false},
+            {"text": "Âmbar Cinzento", "correct": true}
+        ]
+    },
+    {
         "question": "Qual é a cor típica das gramas saudáveis?",
         "answers": [
             {"text": "Vermelho", "correct": false},
@@ -3154,15 +3334,6 @@ const qbio=[
         ]
     },
     {
-        question: "O que é a desertificação?",
-        answers: [
-            { text: "Expansão de áreas florestais", correct: false },
-            { text: "Processo de aumento da umidade no solo", correct: false },
-            { text: "Degradamento de áreas inicialmente produtivas, tornando-as semelhantes a desertos", correct: true },
-            { text: "Processo de formação de desertos", correct: false }
-        ]
-    },
-    {
         question: "Qual é a importância das áreas de proteção ambiental para a conservação da biodiversidade?",
         answers: [
             { text: "Promoção do desmatamento e expansão agrícola", correct: false },
@@ -3724,7 +3895,87 @@ const qciencia=[
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
         ]
     },
-    
+    {
+        "question": "Qual é o nome da área da matemática que estuda as propriedades das figuras geométricas em um plano, como pontos, linhas, ângulos, polígonos e círculos?",
+        "answers": [
+            {"text": "Trigonometria", "correct": false},
+            {"text": "Álgebra Linear", "correct": false},
+            {"text": "Geometria Plana", "correct": true},
+            {"text": "Cálculo Diferencial", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da constante matemática que representa a razão entre a circunferência de um círculo e seu diâmetro, aproximadamente igual a 3.14159?",
+        "answers": [
+            {"text": "Euler", "correct": false},
+            {"text": "Fibonacci", "correct": false},
+            {"text": "Phi", "correct": false},
+            {"text": "Pi", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome da ciência que estuda a composição, estrutura, propriedades e transformações da matéria?",
+        "answers": [
+            {"text": "Biologia", "correct": false},
+            {"text": "Química", "correct": true},
+            {"text": "Física", "correct": false},
+            {"text": "Astronomia", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da lei da física que afirma que 'a pressão de um gás é inversamente proporcional ao seu volume, mantendo a temperatura constante'?",
+        "answers": [
+            {"text": "Lei de Boyle", "correct": true},
+            {"text": "Lei de Avogadro", "correct": false},
+            {"text": "Lei de Dalton", "correct": false},
+            {"text": "Lei de Charles", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o método de mineração mais comum para a extração de carvão e minerais sedimentares?",
+        "answers": [
+            {"text": "Mineração a céu aberto", "correct": true},
+            {"text": "Mineração subterrânea", "correct": false},
+            {"text": "Mineração hidráulica", "correct": false},
+            {"text": "Mineração de poços", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do processo utilizado para separar um metal de seu minério por meio da utilização de calor?",
+        "answers": [
+            {"text": "Refino", "correct": false},
+            {"text": "Fundição", "correct": true},
+            {"text": "Solidificação", "correct": false},
+            {"text": "Dissolução", "correct": false}
+        ]
+    },
+    {
+        "question": "O que é uma jazida mineral?",
+        "answers": [
+            {"text": "Um local onde os minerais são extraídos", "correct": false},
+            {"text": "Uma formação rochosa que contém minerais valiosos", "correct": true},
+            {"text": "Um depósito de água subterrânea", "correct": false},
+            {"text": "Uma estrutura para acomodar trabalhadores de mineração", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal componente do aço, uma liga metálica amplamente utilizada na indústria?",
+        "answers": [
+            {"text": "Ferro", "correct": true},
+            {"text": "Cobre", "correct": false},
+            {"text": "Zinco", "correct": false},
+            {"text": "Níquel", "correct": false}
+        ]
+    },
+    {
+        "question": "O que é a lixiviação em mineração?",
+        "answers": [
+            {"text": "Um método de transporte de minérios", "correct": false},
+            {"text": "Um processo de separação de minerais", "correct": false},
+            {"text": "Um método de refino de metais", "correct": false},
+            {"text": "Um processo de extração de substâncias solúveis de minérios", "correct": true}
+        ]
+    },
     {
         "question": "Qual é o material mais comum usado para fazer o corpo de uma pipa?",
         "answers": [
@@ -5290,6 +5541,321 @@ const qentre=[
         ]
     },
     {
+        "question": "Qual é o título do filme de comédia de 2009 estrelado por Sandra Bullock e Ryan Reynolds, que segue uma chefe que força seu assistente a se casar com ela para evitar a deportação?",
+        "answers": [
+            {"text": "Se Beber, Não Case!", "correct": false},
+            {"text": "O Lado Bom da Vida", "correct": false},
+            {"text": "A Proposta", "correct": true},
+            {"text": "Superbad: É Hoje", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de comédia de 2004 que segue um grupo de amigos que se reúnem para uma viagem rodoviária para assistir a um casamento?",
+        "answers": [
+            {"text": "Entrando Numa Fria", "correct": false},
+            {"text": "American Pie: A Primeira Vez é Inesquecível", "correct": false},
+            {"text": "Se Beber, Não Case!", "correct": false},
+            {"text": "Quatro Amigas e um Jeans Viajante", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de comédia de 2011 dirigido por Paul Feig, que segue as desventuras de duas mulheres desempregadas que decidem abrir um serviço de limpeza de crimes?",
+        "answers": [
+            {"text": "Missão Madrinha de Casamento", "correct": false},
+            {"text": "As Bem-Armadas", "correct": false},
+            {"text": "Mulheres ao Ataque", "correct": false},
+            {"text": "A Escolha Perfeita", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de comédia de 2005 estrelado por Steve Carell, que segue um homem de meia-idade que nunca teve relações sexuais tentando perder a virgindade?",
+        "answers": [
+            {"text": "Quem Vai Ficar com Mary?", "correct": false},
+            {"text": "O Virgem de 40 Anos", "correct": true},
+            {"text": "Quatro Amigas e um Jeans Viajante", "correct": false},
+            {"text": "Superbad: É Hoje", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de comédia de 2009 que segue um grupo de amigos em uma viagem de despedida de solteiro em Las Vegas?",
+        "answers": [
+            {"text": "Se Beber, Não Case!", "correct": true},
+            {"text": "Entrando Numa Fria", "correct": false},
+            {"text": "Quem Vai Ficar com Mary?", "correct": false},
+            {"text": "Apenas Uma Noite", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de 2013 dirigido por Steve McQueen, que narra a história de um homem livre que é sequestrado e vendido como escravo nos Estados Unidos?",
+        "answers": [
+            {"text": "12 Anos de Escravidão", "correct": true},
+            {"text": "A Lista de Schindler", "correct": false},
+            {"text": "O Jogo da Imitação", "correct": false},
+            {"text": "O Discurso do Rei", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de 2014 que segue a história real de um sniper do exército americano destacado no Iraque?",
+        "answers": [
+            {"text": "Clube de Compras Dallas", "correct": false},
+            {"text": "Sniper Americano", "correct": true},
+            {"text": "A Grande Aposta", "correct": false},
+            {"text": "Histórias Cruzadas", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de 2010 que conta a história real de um homem que fica preso em uma caverna por mais de 60 dias e sobrevive bebendo sua própria urina?",
+        "answers": [
+            {"text": "127 Horas", "correct": true},
+            {"text": "Em Busca da Terra do Nunca", "correct": false},
+            {"text": "O Discurso do Rei", "correct": false},
+            {"text": "O Jogo da Imitação", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de 2009 que narra a história de um grupo de judeus que escapam de um campo de concentração nazista durante a Segunda Guerra Mundial?",
+        "answers": [
+            {"text": "O Leitor", "correct": false},
+            {"text": "A Troca", "correct": false},
+            {"text": "O Menino do Pijama Listrado", "correct": false},
+            {"text": "Fuga de Sobibor", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de 2016 que segue a história real de uma equipe de jornalistas investigativos que expõe escândalos de abuso sexual na Igreja Católica?",
+        "answers": [
+            {"text": "O Grande Truque", "correct": false},
+            {"text": "O Jornal", "correct": false},
+            {"text": "Spotlight - Segredos Revelados", "correct": true},
+            {"text": "A Queda de Wall Street", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do palhaço assassino no filme 'It: A Coisa'?",
+        "answers": [
+            {"text": "Pennywise", "correct": true},
+            {"text": "Bozo", "correct": false},
+            {"text": "Krampus", "correct": false},
+            {"text": "Chucky", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da família perturbadora que protagoniza o filme 'O Iluminado'?",
+        "answers": [
+            {"text": "Os Bates", "correct": false},
+            {"text": "Os Torrance", "correct": true},
+            {"text": "Os Sawyer", "correct": false},
+            {"text": "Os Myers", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do demônio que assombra a protagonista no filme 'O Exorcista'?",
+        "answers": [
+            {"text": "Samara", "correct": false},
+            {"text": "Valak", "correct": false},
+            {"text": "Pazuzu", "correct": true},
+            {"text": "Bughuul", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do diretor de cinema conhecido como 'Mestre do Terror', responsável por clássicos como 'Halloween' e 'Sexta-Feira 13'?",
+        "answers": [
+            {"text": "Wes Craven", "correct": false},
+            {"text": "Dario Argento", "correct": false},
+            {"text": "George A. Romero", "correct": false},
+            {"text": "John Carpenter", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme dirigido por Darren Aronofsky, que retrata a obsessão de uma bailarina por alcançar a perfeição?",
+        "answers": [
+            {"text": "Cisne Negro", "correct": true},
+            {"text": "O Lutador", "correct": false},
+            {"text": "Réquiem para um Sonho", "correct": false},
+            {"text": "Noé", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o filme de ação dirigido por James Cameron, que apresenta a batalha entre humanos e uma raça alienígena chamada Na'vi?",
+        "answers": [
+            {"text": "Avatar", "correct": true},
+            {"text": "Transformers", "correct": false},
+            {"text": "Guardiões da Galáxia", "correct": false},
+            {"text": "Jurassic Park", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da série de filmes de ação estrelada por Keanu Reeves, que segue um ex-assassino em busca de vingança?",
+        "answers": [
+            {"text": "Velozes & Furiosos", "correct": false},
+            {"text": "Missão Impossível", "correct": false},
+            {"text": "John Wick", "correct": true},
+            {"text": "Duro de Matar", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de ação de 1988 estrelado por Bruce Willis, que se passa em um prédio invadido por terroristas?",
+        "answers": [
+            {"text": "O Resgate do Soldado Ryan", "correct": false},
+            {"text": "O Vingador do Futuro", "correct": false},
+            {"text": "Duro de Matar", "correct": false},
+            {"text": "Duro de Matar", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de ação que apresenta um grupo de mercenários de elite liderados por Sylvester Stallone?",
+        "answers": [
+            {"text": "Os Mercenários", "correct": true},
+            {"text": "Rambo: A Última Batalha", "correct": false},
+            {"text": "Creed: Nascido para Lutar", "correct": false},
+            {"text": "Cobra", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de ação estrelado por Tom Cruise, que segue um piloto de caça da Marinha dos EUA?",
+        "answers": [
+            {"text": "Top Gun: Ases Indomáveis", "correct": true},
+            {"text": "O Último Samurai", "correct": false},
+            {"text": "Missão: Impossível", "correct": false},
+            {"text": "Código de Conduta", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de fantasia de 2001 dirigido por Peter Jackson, que adapta o livro de J.R.R. Tolkien?",
+        "answers": [
+            {"text": "A Bússola de Ouro", "correct": false},
+            {"text": "Harry Potter e a Pedra Filosofal", "correct": false},
+            {"text": "O Senhor dos Anéis: A Sociedade do Anel", "correct": true},
+            {"text": "Stardust - O Mistério da Estrela", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de fantasia que segue um jovem órfão que descobre ser um feiticeiro e é levado para uma escola de magia?",
+        "answers": [
+            {"text": "Percy Jackson e o Ladrão de Raios", "correct": false},
+            {"text": "O Mundo Mágico de Harry Potter", "correct": false},
+            {"text": "Harry Potter e a Pedra Filosofal", "correct": true},
+            {"text": "O Último Mago", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de fantasia de 1986 dirigido por Jim Henson, que segue uma jovem em uma jornada para salvar seu irmão de um rei tirano?",
+        "answers": [
+            {"text": "O Labirinto", "correct": true},
+            {"text": "A História Sem Fim", "correct": false},
+            {"text": "O Cristal Encantado", "correct": false},
+            {"text": "A Princesa Prometida", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de fantasia de 2005 que segue quatro irmãos que descobrem um mundo mágico além de um guarda-roupa?",
+        "answers": [
+            {"text": "O Senhor dos Anéis: As Duas Torres", "correct": false},
+            {"text": "Percy Jackson e o Ladrão de Raios", "correct": false},
+            {"text": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa", "correct": true},
+            {"text": "Harry Potter e o Cálice de Fogo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de romance de 1990 estrelado por Patrick Swayze e Demi Moore, que apresenta a famosa cena de cerâmica ao som da música 'Unchained Melody'?",
+        "answers": [
+            {"text": "Titanic", "correct": false},
+            {"text": "Dirty Dancing - Ritmo Quente", "correct": true},
+            {"text": "Um Amor para Recordar", "correct": false},
+            {"text": "Sintonia de Amor", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de romance dirigido por Baz Luhrmann, que adapta a tragédia de William Shakespeare com um toque moderno?",
+        "answers": [
+            {"text": "Romeu + Julieta", "correct": true},
+            {"text": "Crepúsculo", "correct": false},
+            {"text": "De Repente é Amor", "correct": false},
+            {"text": "P.S. Eu Te Amo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de romance de 2004 que segue um casal que se apaixona em um cruzeiro, mas enfrenta dificuldades quando a mulher perde a memória em um acidente?",
+        "answers": [
+            {"text": "Diário de uma Paixão", "correct": false},
+            {"text": "Antes do Amanhecer", "correct": false},
+            {"text": "Para Sempre", "correct": false},
+            {"text": "Como Se Fosse a Primeira Vez", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme de romance de 2001 dirigido por Richard Curtis, que segue as vidas interligadas de diferentes personagens durante o mês de dezembro em Londres?",
+        "answers": [
+            {"text": "Simplesmente Acontece", "correct": false},
+            {"text": "Um Lugar Chamado Notting Hill", "correct": false},
+            {"text": "O Diário de Bridget Jones", "correct": false},
+            {"text": "Simplesmente Amor", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de romance de 2008 que segue o relacionamento turbulento de um casal que se conhece em um hospital psiquiátrico?",
+        "answers": [
+            {"text": "Querido John", "correct": false},
+            {"text": "500 Dias com Ela", "correct": false},
+            {"text": "Louca Obsessão", "correct": false},
+            {"text": "E Se Fosse Verdade", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do filme baseado no romance de F. Scott Fitzgerald, que retrata a decadência da alta sociedade americana na década de 1920?",
+        "answers": [
+            {"text": "O Grande Gatsby", "correct": true},
+            {"text": "Cidade dos Sonhos", "correct": false},
+            {"text": "Gangues de Nova York", "correct": false},
+            {"text": "O Artista", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do filme de 2017 que apresenta uma família sendo aterrorizada por entidades paranormais após se mudarem para uma nova casa?",
+        "answers": [
+            {"text": "A Bruxa", "correct": false},
+            {"text": "Hereditário", "correct": false},
+            {"text": "Invocação do Mal 2", "correct": false},
+            {"text": "Sobrenatural: A Última Chave", "correct": true}
+        ]
+    },
+    {
+        "question": "Em qual filme clássico Humphrey Bogart diz a famosa frase 'Acho que este é o começo de uma bela amizade'?",
+        "answers": [
+            {"text": "Casablanca", "correct": true},
+            {"text": "O Falcão Maltês", "correct": false},
+            {"text": "Uma Aventura na África", "correct": false},
+            {"text": "À Beira do Abismo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o filme clássico de Charles Chaplin que retrata a vida durante a Grande Depressão e apresenta a icônica cena em que Chaplin dança com dois pãezinhos?",
+        "answers": [
+            {"text": "Tempos Modernos", "correct": true},
+            {"text": "O Grande Ditador", "correct": false},
+            {"text": "Luzes da Cidade", "correct": false},
+            {"text": "O Garoto", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual filme clássico Marlon Brando interpreta o personagem Vito Corleone?",
+        "answers": [
+            {"text": "Cidadão Kane", "correct": false},
+            {"text": "O Poderoso Chefão", "correct": true},
+            {"text": "Apocalypse Now", "correct": false},
+            {"text": "Um Bonde Chamado Desejo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o filme clássico de Stanley Kubrick que apresenta a famosa sequência de abertura ao som de 'Also Sprach Zarathustra' de Richard Strauss?",
+        "answers": [
+            {"text": "Laranja Mecânica", "correct": false},
+            {"text": "2001: Uma Odisseia no Espaço", "correct": true},
+            {"text": "O Iluminado", "correct": false},
+            {"text": "De Olhos Bem Fechados", "correct": false}
+        ]
+    },
+    {
         "question": "Qual é a parte do corpo que os zumbis geralmente tentam morder em muitas histórias de zumbis?",
         "answers": [
             {"text": "Perna", "correct": false},
@@ -6386,15 +6952,6 @@ const qentre=[
             { text: "Alfred Hitchcock", correct: false },
             { text: "Orson Welles", correct: true },
             { text: "Martin Scorsese", correct: false }
-        ]
-    },
-    {
-        question: "Quem interpretou o papel principal no filme 'O Poderoso Chefão'?",
-        answers: [
-            { text: "Robert De Niro", correct: false },
-            { text: "Al Pacino", correct: false },
-            { text: "Marlon Brando", correct: true },
-            { text: "Joe Pesci", correct: false }
         ]
     },
     {
@@ -8185,6 +8742,321 @@ const qesporte=[
         ]
     },
     {
+        "question": "Qual é o estilo de natação mais rápido?",
+        "answers": [
+            {"text": "Peito", "correct": false},
+            {"text": "Costas", "correct": false},
+            {"text": "Borboleta", "correct": false},
+            {"text": "Crawl", "correct": true}
+        ]
+    },
+    {
+        "question": "Quantos estilos de natação existem nas competições olímpicas?",
+        "answers": [
+            {"text": "Dois", "correct": false},
+            {"text": "Três", "correct": false},
+            {"text": "Quatro", "correct": true},
+            {"text": "Cinco", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem é o nadador mais condecorado da história das Olimpíadas?",
+        "answers": [
+            {"text": "Mark Spitz", "correct": false},
+            {"text": "Ian Thorpe", "correct": false},
+            {"text": "Michael Phelps", "correct": true},
+            {"text": "Ryan Lochte", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a distância de uma piscina olímpica?",
+        "answers": [
+            {"text": "25 metros", "correct": false},
+            {"text": "50 metros", "correct": true},
+            {"text": "100 metros", "correct": false},
+            {"text": "200 metros", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da prova que inclui todos os quatro estilos de natação?",
+        "answers": [
+            {"text": "Medley", "correct": true},
+            {"text": "Freestyle", "correct": false},
+            {"text": "Relay", "correct": false},
+            {"text": "Sprint", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos pontos são necessários para vencer um jogo de squash?",
+        "answers": [
+            {"text": "11 pontos", "correct": true},
+            {"text": "15 pontos", "correct": false},
+            {"text": "21 pontos", "correct": false},
+            {"text": "25 pontos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o material tradicionalmente usado para fabricar bolas de squash?",
+        "answers": [
+            {"text": "Plástico", "correct": false},
+            {"text": "Borracha", "correct": true},
+            {"text": "Couro", "correct": false},
+            {"text": "Madeira", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do golpe no squash onde a bola é jogada diretamente para a parede frontal sem tocar nas laterais?",
+        "answers": [
+            {"text": "Drive", "correct": true},
+            {"text": "Drop", "correct": false},
+            {"text": "Boast", "correct": false},
+            {"text": "Lob", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantas paredes podem ser usadas para jogar a bola em uma quadra de squash?",
+        "answers": [
+            {"text": "Uma", "correct": false},
+            {"text": "Duas", "correct": false},
+            {"text": "Três", "correct": false},
+            {"text": "Quatro", "correct": true}
+        ]
+    },
+    {
+        "question": "Quantos pinos são utilizados em uma pista de boliche padrão?",
+        "answers": [
+            {"text": "8 pinos", "correct": false},
+            {"text": "9 pinos", "correct": false},
+            {"text": "10 pinos", "correct": true},
+            {"text": "12 pinos", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos pontos são possíveis em um jogo perfeito de boliche?",
+        "answers": [
+            {"text": "200 pontos", "correct": false},
+            {"text": "250 pontos", "correct": false},
+            {"text": "300 pontos", "correct": true},
+            {"text": "350 pontos", "correct": false}
+        ]
+    },
+    {
+        "question": "Como é chamado o termo usado quando um jogador derruba todos os pinos em duas jogadas consecutivas?",
+        "answers": [
+            {"text": "Strike", "correct": false},
+            {"text": "Spare", "correct": true},
+            {"text": "Split", "correct": false},
+            {"text": "Gutter", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a distância do início da pista até os pinos no boliche?",
+        "answers": [
+            {"text": "12 metros", "correct": false},
+            {"text": "15 metros", "correct": false},
+            {"text": "18 metros", "correct": false},
+            {"text": "19,2 metros", "correct": true}
+        ]
+    },
+    {
+        "question": "Quantos pontos vale o centro do alvo em uma competição de tiro ao alvo com rifle?",
+        "answers": [
+            {"text": "5 pontos", "correct": false},
+            {"text": "7 pontos", "correct": false},
+            {"text": "9 pontos", "correct": false},
+            {"text": "10 pontos", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é a distância padrão para o tiro ao alvo com pistola em competições olímpicas?",
+        "answers": [
+            {"text": "10 metros", "correct": true},
+            {"text": "20 metros", "correct": false},
+            {"text": "30 metros", "correct": false},
+            {"text": "50 metros", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o diâmetro do alvo usado em competições de tiro ao alvo de 10 metros com rifle?",
+        "answers": [
+            {"text": "5 cm", "correct": false},
+            {"text": "10 cm", "correct": false},
+            {"text": "15 cm", "correct": true},
+            {"text": "20 cm", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual ano o tiro ao alvo foi introduzido como esporte olímpico?",
+        "answers": [
+            {"text": "1896", "correct": true},
+            {"text": "1900", "correct": false},
+            {"text": "1920", "correct": false},
+            {"text": "1948", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos dardos cada jogador arremessa por rodada em um jogo padrão de dardos?",
+        "answers": [
+            {"text": "1", "correct": false},
+            {"text": "2", "correct": false},
+            {"text": "3", "correct": true},
+            {"text": "4", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual país o jogo de dardos se originou?",
+        "answers": [
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Alemanha", "correct": false},
+            {"text": "França", "correct": false},
+            {"text": "Inglaterra", "correct": true}
+        ]
+    },
+    {
+        "question": "Quantos pontos vale o centro do alvo em um jogo de dardos tradicional?",
+        "answers": [
+            {"text": "25 pontos", "correct": false},
+            {"text": "50 pontos", "correct": true},
+            {"text": "75 pontos", "correct": false},
+            {"text": "100 pontos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o peso da bola usada no arremesso de peso masculino em competições oficiais?",
+        "answers": [
+            {"text": "5 kg", "correct": false},
+            {"text": "6 kg", "correct": false},
+            {"text": "7,26 kg", "correct": true},
+            {"text": "8 kg", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o peso da bola usada no arremesso de peso feminino em competições oficiais?",
+        "answers": [
+            {"text": "3 kg", "correct": false},
+            {"text": "4 kg", "correct": true},
+            {"text": "5 kg", "correct": false},
+            {"text": "6 kg", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos pontos são necessários para vencer um set no tênis de mesa?",
+        "answers": [
+            {"text": "11 pontos", "correct": true},
+            {"text": "15 pontos", "correct": false},
+            {"text": "21 pontos", "correct": false},
+            {"text": "25 pontos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a altura oficial da rede no tênis de mesa?",
+        "answers": [
+            {"text": "12 cm", "correct": false},
+            {"text": "15 cm", "correct": false},
+            {"text": "18 cm", "correct": false},
+            {"text": "15,25 cm", "correct": true}
+        ]
+    },
+    {
+        "question": "Quantos sets são necessários para vencer uma partida oficial de tênis de mesa?",
+        "answers": [
+            {"text": "2 sets", "correct": false},
+            {"text": "3 sets", "correct": false},
+            {"text": "4 sets", "correct": false},
+            {"text": "5 sets", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual material é tradicionalmente usado para fabricar bolas de tênis de mesa?",
+        "answers": [
+            {"text": "Borracha", "correct": false},
+            {"text": "Plástico", "correct": true},
+            {"text": "Madeira", "correct": false},
+            {"text": "Metal", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que país o tênis de mesa foi originado?",
+        "answers": [
+            {"text": "China", "correct": false},
+            {"text": "Japão", "correct": false},
+            {"text": "Alemanha", "correct": false},
+            {"text": "Inglaterra", "correct": true}
+        ]
+    },
+    {
+        "question": "Em qual país o pebolim foi inventado?",
+        "answers": [
+            {"text": "Brasil", "correct": false},
+            {"text": "Espanha", "correct": true},
+            {"text": "Itália", "correct": false},
+            {"text": "Estados Unidos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o objetivo principal do jogo de pebolim?",
+        "answers": [
+            {"text": "Fazer o maior número de passes", "correct": false},
+            {"text": "Fazer o maior número de gols", "correct": true},
+            {"text": "Defender o gol", "correct": false},
+            {"text": "Evitar faltas", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantas barras de controle cada jogador manipula em uma partida de pebolim?",
+        "answers": [
+            {"text": "1 barra", "correct": false},
+            {"text": "2 barras", "correct": false},
+            {"text": "3 barras", "correct": false},
+            {"text": "4 barras", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é a arte marcial japonesa que se concentra no uso de quedas e técnicas de projeção?",
+        "answers": [
+            {"text": "Karate", "correct": false},
+            {"text": "Judo", "correct": true},
+            {"text": "Aikido", "correct": false},
+            {"text": "Taekwondo", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem é considerado o fundador do Aikido?",
+        "answers": [
+            {"text": "Morihei Ueshiba", "correct": true},
+            {"text": "Gichin Funakoshi", "correct": false},
+            {"text": "Masutatsu Oyama", "correct": false},
+            {"text": "Jigoro Kano", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual arte marcial brasileira combina técnicas de luta e movimentos acrobáticos com música?",
+        "answers": [
+            {"text": "Jiu-Jitsu Brasileiro", "correct": false},
+            {"text": "Capoeira", "correct": true},
+            {"text": "Luta Livre", "correct": false},
+            {"text": "Muay Thai", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a faixa de graduação mais alta no Karate tradicional?",
+        "answers": [
+            {"text": "Faixa Preta", "correct": false},
+            {"text": "Faixa Branca", "correct": false},
+            {"text": "Faixa Vermelha", "correct": false},
+            {"text": "Faixa Preta 10º Dan", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual arte marcial é conhecida como 'a arte dos oito membros' devido ao uso de punhos, cotovelos, joelhos e canelas?",
+        "answers": [
+            {"text": "Krav Maga", "correct": false},
+            {"text": "Kickboxing", "correct": false},
+            {"text": "Muay Thai", "correct": true},
+            {"text": "Jiu-Jitsu", "correct": false}
+        ]
+    },
+    {
         "question": "Qual dos seguintes esportes radicais envolve saltar de uma ponte, edifício ou outro ponto alto com uma corda elástica presa ao corpo?",
         "answers": [
             {"text": "Paraquedismo", "correct": false},
@@ -9486,6 +10358,276 @@ const qgeo=[
             { text: 'Um rio na França', correct: false },
             { text: 'Um deserto na França', correct: false },
             { text: 'Uma cidade na França', correct: false }
+        ]
+    },
+    {
+        "question": "Qual é o nome do tratado que dividiu a Alemanha em duas partes após a Segunda Guerra Mundial?",
+        "answers": [
+            {"text": "Tratado de Versalhes", "correct": false},
+            {"text": "Tratado de Yalta", "correct": false},
+            {"text": "Tratado de Potsdam", "correct": true},
+            {"text": "Tratado de Paris", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da organização fundada em 1949 para promover a cooperação econômica entre os países europeus ocidentais e fornecer uma defesa coletiva contra a União Soviética?",
+        "answers": [
+            {"text": "ONU", "correct": false},
+            {"text": "NATO", "correct": true},
+            {"text": "G7", "correct": false},
+            {"text": "UE", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual país é considerado o maior exportador de petróleo do mundo?",
+        "answers": [
+            {"text": "Rússia", "correct": false},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Arábia Saudita", "correct": true},
+            {"text": "China", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do conceito político e militar desenvolvido durante a Guerra Fria que descreve a política de prevenção da expansão comunista?",
+        "answers": [
+            {"text": "Doutrina Monroe", "correct": false},
+            {"text": "Doutrina Truman", "correct": true},
+            {"text": "Doutrina Brezhnev", "correct": false},
+            {"text": "Doutrina Eisenhower", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual país europeu é conhecido por sua política de neutralidade armada?",
+        "answers": [
+            {"text": "Suíça", "correct": true},
+            {"text": "Suécia", "correct": false},
+            {"text": "Áustria", "correct": false},
+            {"text": "Noruega", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do maior atlas do mundo, que pesa aproximadamente 150 kg e possui páginas que medem 1,8 metros de altura por 2,7 metros de largura?",
+        "answers": [
+            {"text": "Atlas Maior", "correct": false},
+            {"text": "Atlas Mundial", "correct": false},
+            {"text": "Klencke Atlas", "correct": true},
+            {"text": "Theatrum Orbis Terrarum", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do famoso atlas que foi publicado pela primeira vez em 1579 por Gerardus Mercator e é conhecido por sua projeção cartográfica?",
+        "answers": [
+            {"text": "Atlas Universal", "correct": false},
+            {"text": "Atlas Geográfico", "correct": false},
+            {"text": "Theatrum Orbis Terrarum", "correct": false},
+            {"text": "Atlas Mercator", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o nome do atlas que apresenta mapas detalhados de regiões específicas e é frequentemente usado por geólogos, geógrafos e planejadores urbanos?",
+        "answers": [
+            {"text": "Atlas Mundial", "correct": false},
+            {"text": "Atlas de Estradas", "correct": false},
+            {"text": "Atlas Topográfico", "correct": true},
+            {"text": "Atlas Histórico", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos fusos horários existem no total?",
+        "answers": [
+            {"text": "12", "correct": false},
+            {"text": "24", "correct": true},
+            {"text": "36", "correct": false},
+            {"text": "48", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a diferença de tempo entre dois fusos horários adjacentes?",
+        "answers": [
+            {"text": "30 minutos", "correct": false},
+            {"text": "45 minutos", "correct": false},
+            {"text": "1 hora", "correct": true},
+            {"text": "2 horas", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o fuso horário de referência utilizado como base para todos os outros?",
+        "answers": [
+            {"text": "UTC", "correct": true},
+            {"text": "EST", "correct": false},
+            {"text": "GMT", "correct": false},
+            {"text": "CET", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que direção você deve viajar para ganhar uma hora de tempo?",
+        "answers": [
+            {"text": "Leste", "correct": true},
+            {"text": "Oeste", "correct": false},
+            {"text": "Norte", "correct": false},
+            {"text": "Sul", "correct": false}
+        ]
+    },
+    {
+        question: "O que é a desertificação?",
+        answers: [
+            { text: "Expansão de áreas florestais", correct: false },
+            { text: "Processo de aumento da umidade no solo", correct: false },
+            { text: "Degradamento de áreas inicialmente produtivas, tornando-as semelhantes a desertos", correct: true },
+            { text: "Processo de formação de desertos", correct: false }
+        ]
+    },
+    {
+        "question": "Qual é o maior deserto quente do mundo?",
+        "answers": [
+            {"text": "Deserto do Saara", "correct": true},
+            {"text": "Deserto da Arábia", "correct": false},
+            {"text": "Deserto do Kalahari", "correct": false},
+            {"text": "Deserto de Sonora", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual deserto está localizado na China e na Mongólia?",
+        "answers": [
+            {"text": "Deserto de Gobi", "correct": true},
+            {"text": "Deserto do Thar", "correct": false},
+            {"text": "Deserto de Atacama", "correct": false},
+            {"text": "Deserto do Kalahari", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual deserto é conhecido por ser o lugar mais seco da Terra?",
+        "answers": [
+            {"text": "Deserto do Saara", "correct": false},
+            {"text": "Deserto de Atacama", "correct": true},
+            {"text": "Deserto de Gobi", "correct": false},
+            {"text": "Deserto do Kalahari", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do deserto que cobre grande parte do sudoeste dos Estados Unidos?",
+        "answers": [
+            {"text": "Deserto de Sonora", "correct": true},
+            {"text": "Deserto de Mojave", "correct": false},
+            {"text": "Deserto de Chihuahua", "correct": false},
+            {"text": "Deserto de Great Basin", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o principal fator que contribui para a formação de falésias?",
+        "answers": [
+            {"text": "Atividade vulcânica", "correct": false},
+            {"text": "Erosão costeira", "correct": true},
+            {"text": "Movimentos tectônicos", "correct": false},
+            {"text": "Acumulação de sedimentos", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da famosa falésia na Irlanda, conhecida por suas vistas impressionantes e por ser um local turístico popular?",
+        "answers": [
+            {"text": "Falésias de Moher", "correct": true},
+            {"text": "Falésias Brancas de Dover", "correct": false},
+            {"text": "Falésia de Preikestolen", "correct": false},
+            {"text": "Falésia de Étretat", "correct": false}
+        ]
+    },
+    {
+        "question": "Em qual país estão localizadas as Falésias Brancas de Dover?",
+        "answers": [
+            {"text": "França", "correct": false},
+            {"text": "Irlanda", "correct": false},
+            {"text": "Inglaterra", "correct": true},
+            {"text": "Escócia", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a definição mais precisa de um riacho?",
+        "answers": [
+            {"text": "Um grande corpo de água salgada", "correct": false},
+            {"text": "Um corpo de água doce que flui continuamente", "correct": true},
+            {"text": "Um lago pequeno", "correct": false},
+            {"text": "Um corpo de água parada", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a diferença principal entre um riacho e um rio?",
+        "answers": [
+            {"text": "Os rios são sempre mais curtos", "correct": false},
+            {"text": "Os riachos são menores e mais estreitos", "correct": true},
+            {"text": "Os riachos têm água salgada", "correct": false},
+            {"text": "Os rios não têm correnteza", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual termo descreve o habitat aquático formado pela interação de um riacho com a vegetação circundante?",
+        "answers": [
+            {"text": "Zona ripária", "correct": true},
+            {"text": "Zona abissal", "correct": false},
+            {"text": "Zona pelágica", "correct": false},
+            {"text": "Zona bentônica", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é um dos principais fatores que influenciam a temperatura da água em um riacho?",
+        "answers": [
+            {"text": "A profundidade do riacho", "correct": false},
+            {"text": "A quantidade de luz solar recebida", "correct": true},
+            {"text": "A quantidade de sal na água", "correct": false},
+            {"text": "A largura do riacho", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal função dos riachos em um ecossistema?",
+        "answers": [
+            {"text": "Fornecer água salgada", "correct": false},
+            {"text": "Servir como corredores para a migração de peixes e outras espécies", "correct": true},
+            {"text": "Actuar como uma barreira para animais terrestres", "correct": false},
+            {"text": "Aumentar a salinidade do solo", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o cânion mais famoso dos Estados Unidos, conhecido por suas impressionantes formações geológicas e pelo rio Colorado que o atravessa?",
+        "answers": [
+            {"text": "Cânion de Bryce", "correct": false},
+            {"text": "Cânion de Zion", "correct": false},
+            {"text": "Cânion de Antelope", "correct": false},
+            {"text": "Grand Canyon", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é o maior cânion do mundo em termos de volume?",
+        "answers": [
+            {"text": "Cânion de Colca", "correct": false},
+            {"text": "Cânion de Copper", "correct": false},
+            {"text": "Cânion de Yarlung Tsangpo", "correct": true},
+            {"text": "Cânion de Fish River", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual fenômeno natural é principalmente responsável pela formação de cânions?",
+        "answers": [
+            {"text": "Atividade vulcânica", "correct": false},
+            {"text": "Erosão pela água", "correct": true},
+            {"text": "Movimentos tectônicos", "correct": false},
+            {"text": "Erosão pelo vento", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual cânion está localizado no estado de Utah e é conhecido por suas impressionantes cores vermelhas e laranjas?",
+        "answers": [
+            {"text": "Cânion de Bryce", "correct": true},
+            {"text": "Cânion de Zion", "correct": false},
+            {"text": "Cânion de Antelope", "correct": false},
+            {"text": "Cânion do Rio Blyde", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do cânion submerso mais profundo do mundo, localizado no oceano Pacífico?",
+        "answers": [
+            {"text": "Cânion de Monterey", "correct": true},
+            {"text": "Cânion de Kaikoura", "correct": false},
+            {"text": "Cânion de Zhemchug", "correct": false},
+            {"text": "Cânion de Perth", "correct": false}
         ]
     },
     {
