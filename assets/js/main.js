@@ -483,6 +483,15 @@ const qarte=[
         ]
     },
     {
+        "question": "Qual escritora britânica é famosa por criar a série Harry Potter?",
+        "answers": [
+            {"text": "Agatha Christie", "correct": false},
+            {"text": "J.K. Rowling", "correct": true},
+            {"text": "Virginia Woolf", "correct": false},
+            {"text": "Jane Austen", "correct": false}
+        ]
+    },
+    {
         "question": "Qual tenor italiano é conhecido como 'Il Maestro' e ficou famoso por suas performances em óperas como 'La Traviata' e 'Rigoletto'?",
         "answers": [
             {"text": "Luciano Pavarotti", "correct": true},
@@ -1460,6 +1469,159 @@ const qarte=[
         ]
     },
     {
+        "question": "Em que país nasceu Confúcio?",
+        "answers": [
+            {"text": "Japão", "correct": false},
+            {"text": "China", "correct": true},
+            {"text": "Coreia", "correct": false},
+            {"text": "Índia", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a obra mais famosa atribuída a Confúcio?",
+        "answers": [
+            {"text": "O Livro das Mutações", "correct": false},
+            {"text": "Os Analectos", "correct": true},
+            {"text": "O Livro dos Ritos", "correct": false},
+            {"text": "O Livro da Piedade Filial", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual conceito central do pensamento de Confúcio enfatiza a importância das relações familiares e sociais?",
+        "answers": [
+            {"text": "Mandato do Céu", "correct": false},
+            {"text": "Ren", "correct": true},
+            {"text": "Tao", "correct": false},
+            {"text": "Chi", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do livro atribuído a Laozi (Lao Tsé) que é considerado uma das obras fundamentais do taoísmo?",
+        "answers": [
+            {"text": "O Livro dos Mortos", "correct": false},
+            {"text": "O Livro das Mutações", "correct": false},
+            {"text": "Tao Te Ching", "correct": true},
+            {"text": "O Tao da Física", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o conceito central ensinado por Laozi (ou Lao Tsé) no Tao Te Ching?",
+        "answers": [
+            {"text": "Ren", "correct": false},
+            {"text": "Wu Wei", "correct": true},
+            {"text": "Chi", "correct": false},
+            {"text": "Yin e Yang", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o significado do termo 'Tao' na filosofia de Lao Tsé?",
+        "answers": [
+            {"text": "Caminho", "correct": true},
+            {"text": "Sabedoria", "correct": false},
+            {"text": "Paz", "correct": false},
+            {"text": "Força", "correct": false}
+        ]
+    },
+    {
+        "question": "Segundo a lenda, como Lao Tsé (ou Laozi) deixou o mundo mortal?",
+        "answers": [
+            {"text": "Morreu de doença", "correct": false},
+            {"text": "Desapareceu montado em um cavalo", "correct": false},
+            {"text": "Caminhou para o oeste em direção ao horizonte", "correct": true},
+            {"text": "Foi assassinado", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual era a principal ocupação de Confúcio antes de se tornar um filósofo?",
+        "answers": [
+            {"text": "Guerreiro", "correct": false},
+            {"text": "Agricultor", "correct": false},
+            {"text": "Professor", "correct": true},
+            {"text": "Médico", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome de nascimento de Buda?",
+        "answers": [
+            {"text": "Siddhartha Gautama", "correct": true},
+            {"text": "Mahatma Gandhi", "correct": false},
+            {"text": "Muhammad Ali", "correct": false},
+            {"text": "Dalai Lama", "correct": false}
+        ]
+    },
+    {
+        "question": "Onde Buda alcançou a iluminação?",
+        "answers": [
+            {"text": "Sob uma figueira Bodhi", "correct": true},
+            {"text": "No topo de uma montanha", "correct": false},
+            {"text": "No fundo de um vale", "correct": false},
+            {"text": "Em um templo sagrado", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do primeiro ser que Buda iluminado ensinou após sua iluminação?",
+        "answers": [
+            {"text": "Brahma", "correct": false},
+            {"text": "Yama", "correct": false},
+            {"text": "Alara Kalama", "correct": false},
+            {"text": "Assaji", "correct": true}
+        ]
+    },
+    {
+        "question": "O que é o Nirvana no budismo?",
+        "answers": [
+            {"text": "O ciclo interminável de renascimento", "correct": false},
+            {"text": "O estado de completa libertação e felicidade", "correct": true},
+            {"text": "Um tipo de meditação profunda", "correct": false},
+            {"text": "Um lugar sagrado de peregrinação", "correct": false}
+        ]
+    },
+    {
+        "question": "Quais são as Quatro Nobres Verdades ensinadas por Buda?",
+        "answers": [
+            {"text": "Dharma, Karma, Samsara, Nirvana", "correct": false},
+            {"text": "Sofrimento, Origem do Sofrimento, Cessação do Sofrimento, Caminho para a Cessação do Sofrimento", "correct": true},
+            {"text": "Amor, Compaixão, Alegria, Equanimidade", "correct": false},
+            {"text": "Iluminação, Compaixão, Sabedoria, Generosidade", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome de uma das obras mais famosas de Santo Agostinho, que é uma autobiografia espiritual?",
+        "answers": [
+            {"text": "Summa Theologica", "correct": false},
+            {"text": "Confissões", "correct": true},
+            {"text": "Cidade de Deus", "correct": false},
+            {"text": "Sermões", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual conceito teológico desenvolvido por Santo Agostinho afirma que Deus é a origem de todo o bem e que o mal é simplesmente a ausência de Deus?",
+        "answers": [
+            {"text": "Pecado original", "correct": false},
+            {"text": "Predestinação", "correct": false},
+            {"text": "Providência Divina", "correct": false},
+            {"text": "Teoria da Iluminação", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual cidade é conhecida como o local de nascimento de Santo Agostinho?",
+        "answers": [
+            {"text": "Jerusalém", "correct": false},
+            {"text": "Cartago", "correct": true},
+            {"text": "Roma", "correct": false},
+            {"text": "Atenas", "correct": false}
+        ]
+    },
+    {
+        "question": "Santo Agostinho é considerado um dos pais da igreja e uma das figuras mais influentes na teologia cristã. Qual é o seu título mais comum na Igreja Católica?",
+        "answers": [
+            {"text": "Doutor da Igreja", "correct": true},
+            {"text": "Santo Patrono", "correct": false},
+            {"text": "Apóstolo", "correct": false},
+            {"text": "Papa", "correct": false}
+        ]
+    },
+    {
         question: "Quem é conhecido como o 'Rei do Pop'?",
         answers: [
             { text: "Elvis Presley", correct: false },
@@ -1496,21 +1658,57 @@ const qarte=[
         ]
     },
     {
+        "question": "Quem escreveu 'Cem Anos de Solidão'?",
+        "answers": [
+            {"text": "Gabriel García Márquez", "correct": true},
+            {"text": "Mario Vargas Llosa", "correct": false},
+            {"text": "Isabel Allende", "correct": false},
+            {"text": "Jorge Luis Borges", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome do autor da série 'As Crônicas de Gelo e Fogo'?",
+        "answers": [
+            {"text": "J.R.R. Tolkien", "correct": false},
+            {"text": "George R.R. Martin", "correct": true},
+            {"text": "Robert Jordan", "correct": false},
+            {"text": "Terry Pratchett", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que livro se encontra o personagem Jay Gatsby?",
+        "answers": [
+            {"text": "O Morro dos Ventos Uivantes", "correct": false},
+            {"text": "O Grande Gatsby", "correct": true},
+            {"text": "Orgulho e Preconceito", "correct": false},
+            {"text": "Mataram a Cotovia", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o título do primeiro livro da série Harry Potter?",
+        "answers": [
+            {"text": "Harry Potter e a Câmara Secreta", "correct": false},
+            {"text": "Harry Potter e o Prisioneiro de Azkaban", "correct": false},
+            {"text": "Harry Potter e a Pedra Filosofal", "correct": true},
+            {"text": "Harry Potter e o Cálice de Fogo", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem é o autor de '1984' e 'A Revolução dos Bichos'?",
+        "answers": [
+            {"text": "Aldous Huxley", "correct": false},
+            {"text": "George Orwell", "correct": true},
+            {"text": "Ray Bradbury", "correct": false},
+            {"text": "H.G. Wells", "correct": false}
+        ]
+    },
+    {
         question: "Em que livro de George Orwell o governo é representado por um líder chamado Big Brother?",
         answers: [
             { text: "1984", correct: true },
             { text: "A Revolução dos Bichos", correct: false },
             { text: "O Triunfo dos Porcos", correct: false },
             { text: "A Filha do Reverendo", correct: false }
-        ]
-    },
-    {
-        question: "Qual é o romance escrito por J.K. Rowling que introduziu o mundo ao jovem bruxo Harry Potter?",
-        answers: [
-            { text: "Harry Potter e o Prisioneiro de Azkaban", correct: false },
-            { text: "Harry Potter e o Cálice de Fogo", correct: false },
-            { text: "Harry Potter e a Pedra Filosofal", correct: true },
-            { text: "Harry Potter e as Relíquias da Morte", correct: false }
         ]
     },
     {
@@ -3378,6 +3576,132 @@ const qbio=[
             { text: "Oxalato de cálcio", correct: true }
         ]
     },
+    {
+        "question": "Qual é a principal função das abelhas operárias na colmeia?",
+        "answers": [
+            {"text": "Reproduzir", "correct": false},
+            {"text": "Coletar néctar e pólen", "correct": true},
+            {"text": "Defender a colmeia", "correct": false},
+            {"text": "Cuidar da rainha", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da substância doce que as abelhas produzem a partir do néctar das flores?",
+        "answers": [
+            {"text": "Cera de abelha", "correct": false},
+            {"text": "Própolis", "correct": false},
+            {"text": "Geleia real", "correct": false},
+            {"text": "Mel", "correct": true}
+        ]
+    },
+    {
+        "question": "Quantas asas têm as abelhas?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome dado ao fenômeno do desaparecimento das abelhas operárias de uma colmeia, um problema que tem preocupado os apicultores?",
+        "answers": [
+            {"text": "Síndrome do Colapso das Colmeias", "correct": true},
+            {"text": "Desordem da Colmeia Vazia", "correct": false},
+            {"text": "Enjambreamento", "correct": false},
+            {"text": "Despopulação Apícola", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o papel da abelha rainha na colmeia?",
+        "answers": [
+            {"text": "Produzir mel", "correct": false},
+            {"text": "Defender a colmeia", "correct": false},
+            {"text": "Botar ovos", "correct": true},
+            {"text": "Coletar néctar", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a característica física mais distintiva das girafas?",
+        "answers": [
+            {"text": "Patas curtas", "correct": false},
+            {"text": "Pescoço longo", "correct": true},
+            {"text": "Cauda curta", "correct": false},
+            {"text": "Orelhas grandes", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a principal fonte de alimento das girafas?",
+        "answers": [
+            {"text": "Grama", "correct": false},
+            {"text": "Frutas", "correct": false},
+            {"text": "Folhas de árvores", "correct": true},
+            {"text": "Insetos", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantas vértebras cervicais (no pescoço) tem uma girafa?",
+        "answers": [
+            {"text": "7", "correct": true},
+            {"text": "12", "correct": false},
+            {"text": "15", "correct": false},
+            {"text": "20", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que continente as girafas são encontradas na natureza?",
+        "answers": [
+            {"text": "América do Sul", "correct": false},
+            {"text": "Ásia", "correct": false},
+            {"text": "África", "correct": true},
+            {"text": "Austrália", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a média de altura de uma girafa adulta?",
+        "answers": [
+            {"text": "2 metros", "correct": false},
+            {"text": "4 metros", "correct": false},
+            {"text": "5,5 metros", "correct": true},
+            {"text": "7 metros", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual condição médica é caracterizada pela formação de pedras nos rins, que podem causar dor ao passar pela urina?",
+        "answers": [
+            {"text": "Cistite", "correct": false},
+            {"text": "Pielonefrite", "correct": false},
+            {"text": "Nefrolitíase", "correct": true},
+            {"text": "Glomerulonefrite", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual substância é liberada pelo corpo em resposta a um alérgeno, causando sintomas de alergia?",
+        "answers": [
+            {"text": "Insulina", "correct": false},
+            {"text": "Adrenalina", "correct": false},
+            {"text": "Histamina", "correct": true},
+            {"text": "Serotonina", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o nome da condição alérgica caracterizada por inflamação e estreitamento das vias aéreas, causando dificuldade para respirar?",
+        "answers": [
+            {"text": "Diabetes", "correct": false},
+            {"text": "Asma", "correct": true},
+            {"text": "Hipertensão", "correct": false},
+            {"text": "Artrite", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o termo usado para descrever uma reação alérgica grave e potencialmente fatal que pode causar choque anafilático?",
+        "answers": [
+            {"text": "Anafilaxia", "correct": true},
+            {"text": "Bronquite", "correct": false},
+            {"text": "Dermatite", "correct": false},
+            {"text": "Rinite", "correct": false}
+        ]
+    }
     
 
 ]
@@ -3400,6 +3724,7 @@ const qciencia=[
             { text: 'Um objeto celeste de rotação rápida emitindo pulsos de radiação', correct: true }
         ]
     },
+    
     {
         "question": "Qual é o material mais comum usado para fazer o corpo de uma pipa?",
         "answers": [
@@ -6339,6 +6664,51 @@ const qgeek=[
             { text: 'Cubo Mágico', correct: true },
             { text: 'Tamagotchi', correct: false },
             { text: 'Bop It', correct: false }
+        ]
+    },
+    {
+        "question": "Qual é o nome da popular fantasia de super-herói da DC Comics, conhecida por seu escudo com um 'S'?",
+        "answers": [
+            {"text": "Batman", "correct": false},
+            {"text": "Superman", "correct": true},
+            {"text": "Homem de Ferro", "correct": false},
+            {"text": "Capitão América", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a fantasia tradicionalmente usada durante o Halloween, representando um monstro clássico que precisa de sangue para sobreviver?",
+        "answers": [
+            {"text": "Lobisomem", "correct": false},
+            {"text": "Zumbi", "correct": false},
+            {"text": "Vampiro", "correct": true},
+            {"text": "Frankenstein", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual personagem é conhecido por sua fantasia de chapéu pontudo e vassoura, e é popular em festas de Halloween?",
+        "answers": [
+            {"text": "Múmia", "correct": false},
+            {"text": "Bruxa", "correct": true},
+            {"text": "Fantasma", "correct": false},
+            {"text": "Esqueleto", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a popular fantasia de Star Wars que envolve um traje branco e um capacete icônico?",
+        "answers": [
+            {"text": "Darth Vader", "correct": false},
+            {"text": "Yoda", "correct": false},
+            {"text": "Stormtrooper", "correct": true},
+            {"text": "Chewbacca", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a fantasia clássica associada a um personagem literário que vive em um castelo e é conhecido por transformar-se em um morcego?",
+        "answers": [
+            {"text": "O Fantasma da Ópera", "correct": false},
+            {"text": "O Médico e o Monstro", "correct": false},
+            {"text": "Drácula", "correct": true},
+            {"text": "Frankenstein", "correct": false}
         ]
     },
     {
@@ -10456,6 +10826,42 @@ const qhisto=[
             { text: 'Aníbal Barca', correct: true },
             { text: 'Júlio César', correct: false },
             { text: 'Xerxes I', correct: false }
+        ]
+    },
+    {
+        "question": "Quem foi a primeira mulher a ganhar um Prêmio Nobel?",
+        "answers": [
+            {"text": "Rosalind Franklin", "correct": false},
+            {"text": "Marie Curie", "correct": true},
+            {"text": "Ada Lovelace", "correct": false},
+            {"text": "Jane Goodall", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que ano as mulheres ganharam o direito ao voto no Brasil?",
+        "answers": [
+            {"text": "1928", "correct": false},
+            {"text": "1932", "correct": true},
+            {"text": "1945", "correct": false},
+            {"text": "1960", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi a primeira mulher a viajar para o espaço?",
+        "answers": [
+            {"text": "Sally Ride", "correct": false},
+            {"text": "Valentina Tereshkova", "correct": true},
+            {"text": "Mae Jemison", "correct": false},
+            {"text": "Eileen Collins", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual ativista paquistanesa ganhou o Prêmio Nobel da Paz em 2014 por sua luta pelo direito à educação das meninas?",
+        "answers": [
+            {"text": "Malala Yousafzai", "correct": true},
+            {"text": "Greta Thunberg", "correct": false},
+            {"text": "Emma Watson", "correct": false},
+            {"text": "Shirin Ebadi", "correct": false}
         ]
     },
     {
